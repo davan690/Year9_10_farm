@@ -1,0 +1,134 @@
+---
+title: "Mission 5: Organisation & Inventory"
+format: html
+---
+
+## Overview
+
+Your mission is to maintain an organized, safe, and efficient farm workspace. A tidy farm is a safe farm and makes everyone's work easier.
+
+---
+
+## The Great Tidy-Up
+
+![Farm Barn](../../images/farm_barn.jpg){width=60%}
+
+### Barn & Shed Organisation:
+
+- [ ] Sweep the floors and clear any debris
+- [ ] Return all tools to their specific hooks or racks
+- [ ] Check that all tools are accounted for
+- [ ] Wipe down work surfaces
+- [ ] Organize shelves and storage areas
+- [ ] Stack bags and containers neatly
+- [ ] Remove any rubbish to appropriate bins
+
+**Organisation Principles:**
+- A place for everything, everything in its place
+- Most-used items should be easiest to access
+- Heavy items stored low, light items stored high
+- Label storage areas clearly
+- Keep walkways clear and safe
+
+---
+
+### Wood Pile Management:
+
+- [ ] Re-stack the wood pile behind the 'toilet' area so it is neat and safe
+- [ ] Stack wood in stable rows
+- [ ] Keep wood off the ground (use pallets if available)
+- [ ] Arrange with bark side up to shed water
+- [ ] Remove any rotten or unsafe pieces
+- [ ] Ensure pile won't topple over
+
+**Wood Stacking Tips:**
+- Crisscross ends for stability
+- Lean slightly back against support
+- Leave air gaps for drying and ventilation
+- Stack away from buildings (fire safety)
+
+---
+
+![Farm Shed](../../images/farm_shed.jpg){width=60%}
+
+### Pot Sort & Storage:
+
+- [ ] Head behind the barn to the pot storage area
+- [ ] Sort pots by size (small, medium, large)
+- [ ] Stack pots of same size inside each other
+- [ ] Remove any broken or damaged pots to recycling
+- [ ] Clean pots if needed (remove old soil/debris)
+- [ ] Store in a location that won't block access
+- [ ] Keep different materials separate (plastic, terracotta, etc.)
+
+**Storage Guidelines:**
+- Nest pots to save space
+- Store upside down to prevent water collection
+- Keep in shaded area to prevent UV damage
+- Maintain tidy stacks that won't topple
+
+---
+
+## Tool Audit
+
+Proper tool maintenance extends their life and ensures safety:
+
+### Cleaning Protocol:
+- [ ] Clean all dirt off tools used today
+- [ ] Remove mud, sap, and plant material
+- [ ] Wipe metal parts with oily rag if rusty
+- [ ] Check wooden handles for splinters
+- [ ] Sharpen blades if necessary (ask supervisor)
+
+### Storage Protocol:
+- [ ] Ensure all watering cans and buckets are stored upside down (to prevent mosquito breeding)
+- [ ] Return all equipment to proper storage locations
+- [ ] Hang tools on designated hooks/racks
+- [ ] Coil hoses neatly
+- [ ] Store small tools in labeled containers
+- [ ] Place sharp tools safely (blades away from reach)
+
+**Tool Maintenance Tips:**
+- Clean tools after each use - dried mud is harder to remove
+- Oil metal parts occasionally to prevent rust
+- Tighten loose handles before they break
+- Report damaged tools immediately
+- Don't put tools away dirty or wet
+
+---
+
+## Security Check
+
+Before leaving the area:
+
+- [ ] Lock shed and secure gates
+- [ ] Close all doors and windows
+- [ ] Check nothing is left outside that shouldn't be
+- [ ] Ensure no tools are laying around as trip hazards
+- [ ] Turn off any water taps
+- [ ] Check no electrical equipment left on
+- [ ] Do a final visual sweep of the area
+
+---
+
+## Inventory Notes
+
+Help maintain farm equipment:
+
+- [ ] Note any missing tools
+- [ ] Report any broken or damaged equipment
+- [ ] Suggest items that need replacing
+- [ ] Record any safety concerns
+- [ ] Update equipment log if maintained
+
+---
+
+## Completion
+
+Once all tasks are completed:
+- [ ] Take a photo of tidy work area (optional)
+- [ ] Record completion in farm log
+- [ ] Report any issues to supervisor
+- [ ] Leave the farm better than you found it!
+
+**Mission Status: Complete!** 🧹🔧

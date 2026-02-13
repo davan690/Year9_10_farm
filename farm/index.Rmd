@@ -46,15 +46,33 @@ Focus on hazards, tool safety, and practical preparation of the potato patch.
 
 ---
 
-## Friday Close-Down Checklist
+## Farm Operations
 
-A practical ticklist for Friday afternoon to ensure the farm is secure, clean, and ready for the weekend.
+### Farm Missions
+
+Regular maintenance and care tasks that anyone can undertake. Each mission focuses on a specific area of farm management with detailed instructions and ticklists.
+
+**Available Missions:**
+
+- Mission 1: Animal Care & Observation
+- Mission 2: Garden & Berry House Maintenance
+- Mission 3: Restoration & Tree Health
+- Mission 4: Environmental Observation
+- Mission 5: Organisation & Inventory
+
+- Go to: [Farm Missions Overview](missions/index.qmd)
+
+---
+
+### Friday Close-Down Checklist
+
+A quick final check for Friday afternoon to ensure the farm is secure, clean, and ready for the weekend.
 
 **What you'll do**
 
-- Complete animal care and feeding checks.
-- Tidy and secure all tools and equipment.
-- Check environmental observations.
-- Ensure the farm is ready for Monday.
+- Verify all animals have weekend supplies
+- Confirm tools and equipment are secured
+- Check gates, doors, and utilities
+- Ensure the farm is ready for Monday
 
 - Go to: [Friday Close-Down Checklist](friday-closedown.qmd)

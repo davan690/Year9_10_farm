@@ -1,0 +1,59 @@
+---
+title: "Mission 1: Animal Care & Observation"
+format: html
+---
+
+## Overview
+
+Your mission is to ensure the health and wellbeing of our farm animals. Complete these tasks to provide proper care for the chickens and paddock animals.
+
+---
+
+## The Chicken Visit
+
+![Chicken Area](../../images/chickens_water_food.jpg){width=60%}
+
+Follow these steps carefully when visiting the hen house:
+
+- [ ] Move quietly and slowly into the hen house
+- [ ] Top up the water container using the fresh water at the barn (if needed)
+- [ ] Fill the feeder using the grain from the outside bin
+- [ ] Optional: Gently pat a chicken
+- [ ] Check for any signs of illness or injury
+- [ ] Observe chicken behavior - are they active and alert?
+
+**Safety Tips:**
+- Move slowly to avoid startling the birds
+- Wash hands before and after handling
+- Report any unusual behavior to farm supervisor
+
+---
+
+## Paddock Animal Check
+
+![Paddock Animals](../../images/sheep_water.jpg){width=60%}
+
+Ensure paddock animals have clean water, fresh bedding, and food:
+
+- [ ] Scrub out the water trough and refill with clean water
+- [ ] Spread fresh wood shavings in the shelter bedding area
+- [ ] Place a scoop of nuts in the wooden trough for a snack
+- [ ] Check all animals are healthy and safe
+- [ ] Observe animal behavior and movement
+- [ ] Check fencing is secure
+
+**Important:**
+- Always approach animals calmly
+- Never corner or chase animals
+- Report any injuries or concerns immediately
+
+---
+
+## Completion
+
+Once all tasks are completed:
+- [ ] Return all equipment to proper storage
+- [ ] Record any observations in the farm log
+- [ ] Report any concerns to the farm supervisor
+
+**Mission Status: Complete!** 🐔🐑

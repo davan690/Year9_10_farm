@@ -10,6 +10,8 @@ website:
         href: index.qmd
       - text: "Farm Units"
         href: farm/index.Rmd
+      - text: "Farm Missions"
+        href: farm/missions/index.qmd
       - text: "Mapping Unit"
         href: farm/mapping.qmd
       - text: "Potato Patch Unit"

@@ -1,0 +1,109 @@
+---
+title: "Mission 4: Environmental Observation"
+format: html
+---
+
+## Overview
+
+Your mission is to observe and document environmental conditions on the farm. These observations help us understand ecosystem health and biodiversity.
+
+---
+
+## The Stream Study
+
+Water quality and flow are indicators of ecosystem health:
+
+### Observe and Record:
+
+**Visual Assessment:**
+- [ ] Look: Is the water clear or murky? Is it flowing fast or slow?
+- [ ] Check water level - high, normal, or low?
+- [ ] Look for signs of erosion along banks
+- [ ] Note any debris or pollution
+- [ ] Observe aquatic life (insects, fish, etc.)
+
+**Auditory Assessment:**
+- [ ] Listen: Can you hear the water? Describe the sound
+- [ ] Can you identify any bird calls nearby?
+- [ ] What other sounds do you notice in this area?
+- [ ] Is it quieter or noisier than other parts of the farm?
+
+**Sensory Assessment:**
+- [ ] Smell & Feel: Does the air smell damp?
+- [ ] Is it cooler here than in the open paddock?
+- [ ] Is there a breeze? From which direction?
+- [ ] How does the vegetation differ near the stream?
+
+**Water Quality Indicators:**
+- Clear water = healthy stream
+- Murky water = recent rain, erosion, or pollution
+- Presence of aquatic insects = good water quality
+- Variety of bird species = healthy ecosystem
+
+**Recording Tips:**
+- Take photos at the same spot each visit
+- Note the date, time, and weather conditions
+- Compare your observations to previous visits
+- Report any concerns (pollution, dead fish, etc.)
+
+---
+
+## Bee Watch
+
+Monitor bee activity to understand colony health:
+
+### The Observation Protocol:
+
+**Safety First:**
+- [ ] Stand to the side of the hive (stay out of the flight path!)
+- [ ] Maintain at least 2 meters distance
+- [ ] Move slowly and calmly
+- [ ] Don't wear strong perfumes or dark colors
+- [ ] Never tap or disturb the hive
+
+**The Minute Count:**
+- [ ] Position yourself safely to the side of the entrance
+- [ ] Set a timer for 60 seconds
+- [ ] Count: How many bees leave the hive in 60 seconds?
+- [ ] Count: How many bees return in the same period?
+- [ ] Note the weather conditions during your count
+- [ ] Record your observations for next week's comparison
+
+**What the Numbers Mean:**
+- High activity (50+ bees/minute) = healthy, active colony
+- Medium activity (20-50 bees/minute) = normal for cooler weather
+- Low activity (<20 bees/minute) = cold weather or potential problem
+- More leaving than returning = foraging mission
+- More returning than leaving = bringing in resources
+
+**Additional Observations:**
+- [ ] Are bees carrying pollen? (Look for yellow/orange on legs)
+- [ ] Do bees appear healthy and active?
+- [ ] Are there dead bees around the entrance?
+- [ ] Is the entrance clear of debris?
+- [ ] Any unusual sounds from inside?
+
+---
+
+## General Environmental Notes
+
+Observe the bigger picture:
+
+- [ ] Note the weather: temperature, wind, cloud cover
+- [ ] What wildlife did you see today? (birds, insects, mammals)
+- [ ] Are any plants flowering?
+- [ ] Any seasonal changes observed?
+- [ ] Overall impression of farm ecosystem health
+
+---
+
+## Completion
+
+Once all observations are recorded:
+- [ ] Write up your findings in the observation log
+- [ ] Date and sign your entry
+- [ ] Compare with previous observations
+- [ ] Report any urgent concerns to farm supervisor
+- [ ] Discuss interesting findings with classmates
+
+**Mission Status: Complete!** 🐝🏞️
