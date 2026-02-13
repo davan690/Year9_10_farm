@@ -1,0 +1,16 @@
+# Quarto
+/.quarto/
+/_freeze/
+
+# R
+*.Rhistory
+*.RData
+*.Rproj.user/
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db

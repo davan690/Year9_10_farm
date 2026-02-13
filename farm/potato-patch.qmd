@@ -1,0 +1,66 @@
+---
+title: "Unit 2: Potato Patch Prep (3 lessons)"
+author: "Urban Farm 2026"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+## Purpose
+
+This short unit links practical work to risk management by preparing the potato patch. Students identify hazards, use tools safely, and complete the prep steps.
+
+---
+
+## Lesson structure (3 lessons)
+
+| Lesson | Focus | Outcome |
+|---|---|---|
+| Lesson 1 | Hazards and safe tool use | Students can name hazards and apply controls. |
+| Lesson 2 | Turn over and prep the patch | Soil is loosened and turf is removed. |
+| Lesson 3 | Compost, break up soil, level | Patch is composted and ready for planting. |
+
+---
+
+## Practical session: Potato patch prep (40 min)
+
+**Goal:** Turn over and prepare the potato patch for planting by removing grass, loosening soil, and mixing compost.
+
+### Group tasks (20 students total)
+
+| Group | Students | Task focus | Key actions |
+|---|---|---|---|
+| Group A | 7 | Remove top grass | Lift turf, stack it in a designated pile, clear roots. |
+| Group B | 7 | Turn over soil | Use forks/spades to loosen and flip soil to one spade depth. |
+| Group C | 6 | Compost and break up soil | Spread compost, break clods, rake level. |
+
+### Timing (40 min)
+
+- 0-5 min: Safety briefing, tool allocation, demo of safe spade/fork use.
+- 5-30 min: Group work on tasks.
+- 30-35 min: Rotate quick checks, finish edges, tidy stacks.
+- 35-40 min: Tool clean-up, wash hands, quick reflection.
+
+### Tools and materials
+
+- Spades (for turf lifting)
+- Garden forks (for turning soil)
+- Rakes (for leveling)
+- Buckets or barrow (for compost)
+- Gloves (one pair per student)
+- Water bottle and sunscreen (if required)
+
+### Risks and controls
+
+| Risk | Control |
+|---|---|
+| Blisters or cuts | Gloves required, correct tool grip demo. |
+| Tool injuries (spade/fork) | Spacing rule: arm's length plus tool length; tools down when not in use. |
+| Trips on uneven ground | Clear walkways; keep tools flat on ground when resting. |
+| Manual handling strain | Use knees when lifting turf; share heavy loads. |
+| Sun exposure | Hats, sunscreen, water breaks. |
+
+### Extra process ideas
+
+- Mark the patch boundary with string before starting.
+- Assign a student as timekeeper for mid-lesson check-in.
+- Photograph before/after for reflection or mapping updates.

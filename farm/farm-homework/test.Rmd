@@ -1,0 +1,306 @@
+---
+title: "Year 9 Mathematics: Basics Consolidation"
+author: "Mr. Davidson"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+
+# Instructions
+Complete the following sets to consolidate your understanding of key mathematical terms. Read the **Worked Example** carefully before starting the questions.
+
+## Glossary of Terms
+
+| Term | Definition | Picture/Example |
+| :--- | :--- | :--- |
+| **BEDMAS** | The order of operations used to solve equations. | **B**rackets, **E**xponents, **D**ivision, **M**ultiplication, **A**ddition, **S**ubtraction. |
+| **Integers** | All whole numbers, including positive, negative, and zero. | $... -3, -2, -1, 0, 1, 2, 3 ...$ |
+| **Multiple** | The result of multiplying a number by an integer. | Multiples of **5**: $5, 10, 15, 20...$ |
+| **Factor** | A number that divides into another number exactly (without a remainder). | Factors of **10**: $1, 2, 5, 10$. |
+| **Power** | The product of multiplying a number by itself several times. | $2^3$ (which is $2 \times 2 \times 2 = 8$). |
+| **Exponent** | The small number written above a base that tells you how many times to use the base in a multiplication. | In $5^2$, the **2** is the exponent. |
+| **Index** | Another name for an exponent or power. (The plural is "Indices"). | $x^4$ — the **4** is the index. |
+| **Square root** | A number that, when multiplied by itself, gives the original number. | $\sqrt{25} = 5$ (because $5 \times 5 = 25$). |
+| **Numerator** | The top number in a fraction. It shows how many parts you have. | In $\frac{3}{4}$, the **3** is the numerator. |
+| **Denominator** | The bottom number in a fraction. It shows how many equal parts the whole is divided into. | In $\frac{3}{4}$, the **4** is the denominator. |
+| **Mixed fraction** | A number consisting of an integer and a proper fraction. | $2\frac{1}{2}$ |
+| **Improper fraction** | A fraction where the numerator is larger than (or equal to) the denominator. | $\frac{5}{2}$ |
+| **Equivalent fraction** | Fractions that look different but have the same value. | $\frac{1}{2} = \frac{2}{4} = \frac{4}{8}$ |
+| **Place value** | The value of a digit based on its position in a number. | In $3\mathbf{4}2$, the **4** is in the 'tens' place (value = 40). |
+| **Decimal place** | The position of a digit to the right of a decimal point. | In $3.1\mathbf{4}$, the **4** is in the second decimal place (hundredths). |
+| **Scientific Notation** | A way of writing very large or very small numbers using a number between 1 and 10 multiplied by a power of 10. | $3 \times 10^8$ |
+| **Recurring Decimal** | A decimal number that has digits that repeat forever. | $0.333...$ or $0.\dot{3}$ |
+
+---
+
+## Set 1: Decimal Places
+**Concept:** A **Decimal place** refers to the position of a digit to the right of the decimal point.
+
+### Worked Example
+**Question:** How many **decimal places** are in the number $3.14$?
+**Answer:** There are two digits after the point (1 and 4), so there are **2 decimal places**.
+
+### Questions
+1. How many **decimal places** are in the number $4.5$?
+2. How many **decimal places** are in the number $10.123$?
+3. Identify the digit in the first **decimal place** in $0.75$.
+4. Identify the digit in the second **decimal place** in $12.89$.
+5. Round $4.56$ to one **decimal place**.
+6. Round $3.333$ to two **decimal places**.
+7. Which number has more **decimal places**: $5.1$ or $5.01$?
+8. Write the number $\frac{1}{2}$ as a number with one **decimal place**.
+9. Write the number $\frac{1}{4}$ as a number with two **decimal places**.
+10. If you add $1.2$ and $0.05$, how many **decimal places** will the answer have?
+
+---
+
+## Set 2: Integers
+**Concept:** **Integers** are whole numbers. They can be positive, negative, or zero. When ordering them, remember that larger negative numbers are "colder" (further to the left on the number line).
+
+### Worked Example
+**Question:** Arrange the following **integers** from smallest to largest: $3, -5, 0, -2, 7$
+**Answer:** $-5, -2, 0, 3, 7$
+
+### Questions
+1. List the **integers** in this set: $\{ 4.5, -2, 10, \frac{1}{2}, 0 \}$
+2. Arrange these **integers** from smallest to largest: $-7, 4, -1, 0, 9$
+3. Arrange these **integers** from smallest to largest: $-10, -15, 2, -2, 5$
+4. Write the **integer** that is 5 less than 2.
+5. Write the **integer** that is 3 more than -5.
+6. Which **integer** represents a colder temperature: $-4^\circ\text{C}$ or $-12^\circ\text{C}$?
+7. Calculate the new **integer**: $5 - 8$
+8. Calculate the new **integer**: $-3 + 7$
+9. Insert $<$ or $>$ between these **integers**: $-5$ ___ $-2$
+10. Insert $<$ or $>$ between these **integers**: $0$ ___ $-8$
+
+---
+
+## Set 3: Place Value
+**Concept:** The **Place value** of a digit tells you its value based on its position (e.g., Hundreds, Tens, Units).
+
+### Worked Example
+**Question:** What is the **place value** of the digit **6** in the number $462$?
+**Answer:** The 6 is in the **Tens** column. Its **place value** is **60**.
+
+### Questions
+1. What is the **place value** of the 7 in $725$?
+2. What is the **place value** of the 3 in $139$?
+3. What is the **place value** of the 1 in $1,200$?
+4. Which digit has a **place value** of 40 in $445$?
+5. Write the number: Five hundreds, zero tens, and six units.
+6. What is the **place value** of the 9 in $90$?
+7. In the number $3,456$, which digit is in the thousands place?
+8. Multiply $45$ by $10$. How does the **place value** of the 4 change?
+9. Divide $320$ by $10$.
+10. How many tens are there in the number $140$?
+
+---
+
+## Set 4: Factors
+**Concept:** **Factors** are **Few**. They are whole numbers that fit exactly *inside* another number (no remainder).
+
+### Worked Example
+**Question:** List all **factors** of 12.
+**Answer:** $1 \times 12 = 12$, $2 \times 6 = 12$, $3 \times 4 = 12$.
+**Factors:** $1, 2, 3, 4, 6, 12$
+
+### Questions
+1. List all **factors** of 6.
+2. List all **factors** of 10.
+3. List all **factors** of 15.
+4. List all **factors** of 20.
+5. Is 5 a **factor** of 25?
+6. Is 4 a **factor** of 14?
+7. What is the largest **factor** of 8 (excluding 8 itself)?
+8. True or False: 1 is a **factor** of every number.
+9. Find a number that has exactly two **factors** (a prime number) between 1 and 10.
+10. Circle the **factors** of 18 in this list: $2, 4, 6, 8, 9, 10$.
+
+---
+
+## Set 5: Multiples
+**Concept:** **Multiples** are **Many**. They are the result of multiplying a number by an integer. They go up like times tables.
+
+### Worked Example
+**Question:** List the first four **multiples** of 5.
+**Answer:** $5 \times 1 = 5$, $5 \times 2 = 10$, $5 \times 3 = 15$, $5 \times 4 = 20$.
+**Multiples:** $5, 10, 15, 20$
+
+### Questions
+1. List the first four **multiples** of 2.
+2. List the first four **multiples** of 3.
+3. List the first four **multiples** of 10.
+4. What is the 5th **multiple** of 4?
+5. Is 24 a **multiple** of 6?
+6. Is 25 a **multiple** of 4?
+7. List a common **multiple** of 2 and 3.
+8. True or False: **Multiples** can be smaller than the original number.
+9. What is the **multiple** of 7 that comes after 21?
+10. Circle the **multiples** of 8 in this list: $4, 8, 12, 16, 20, 24$.
+
+---
+
+## Set 6: Powers, Exponents & Indices
+**Concept:** An **Exponent** (or **Index**) tells you how many times to multiply the base by itself to create a **Power**.
+
+### Worked Example
+**Question:** Identify the **exponent** in $4^3$ and calculate the **power**.
+**Answer:** The **exponent** (or **index**) is 3. Expanded: $4 \times 4 \times 4 = 64$.
+
+### Questions
+1. Write $2^3$ in expanded form. What is the **exponent**?
+2. Write $5 \times 5$ as a **power** using an **index**.
+3. Calculate the value of the **power** $3^2$.
+4. What is the **index** in the expression $y^4$?
+5. Calculate the value of $10^2$.
+6. Calculate the value of $1^5$.
+7. In the expression $x^6$, what is the base and what is the **exponent**?
+8. Write "six to the **power** of two" in math notation.
+9. Calculate $5^2 + 2^2$.
+10. If the **index** is 1, what does the number equal?
+
+---
+
+## Set 7: Square Roots
+**Concept:** The **Square root** asks "Which number times itself equals this?" It is the opposite of squaring a number.
+
+### Worked Example
+**Question:** Find the **square root** of 49 ($\sqrt{49}$).
+**Answer:** Since $7 \times 7 = 49$, the **square root** is **7**.
+
+### Questions
+1. Find the **square root** of 9.
+2. Find the **square root** of 16.
+3. Find the **square root** of 25.
+4. Find the **square root** of 64.
+5. Find the **square root** of 81.
+6. Find the **square root** of 100.
+7. Find the **square root** of 1.
+8. Find the **square root** of 144.
+9. True or False: The **square root** of 36 is 18.
+10. Calculate $\sqrt{4} + \sqrt{9}$.
+
+---
+
+## Set 8: BEDMAS
+**Concept:** **BEDMAS** is the order of operations: **B**rackets, **E**xponents, **D**ivision/**M**ultiplication, **A**ddition/**S**ubtraction.
+
+### Worked Example
+**Question:** Use **BEDMAS** to solve $3 + 4 \times 2$.
+**Answer:** Multiplication first ($4 \times 2 = 8$). Then Addition ($3 + 8 = 11$). **Answer: 11**.
+
+### Questions
+1. Using **BEDMAS**, solve: $2 + 3 \times 4$
+2. Using **BEDMAS**, solve: $10 - 2 \times 3$
+3. Solve: $(5 + 5) \times 2$
+4. Solve: $20 \div 2 + 3$
+5. Solve: $3 \times 3 + 2 \times 4$
+6. Solve: $10 - 3^2$
+7. Solve: $2 \times (10 - 5)$
+8. Solve: $4 + 4 \div 4$
+9. Solve: $5^2 - 10$
+10. Solve: $(2 + 3)^2$
+
+---
+
+## Set 9: Numerator & Denominator
+**Concept:** **Numerator** is **N**orth (Up). **Denominator** is **D**own.
+
+### Worked Example
+**Question:** Identify the **numerator** and **denominator** in $\frac{3}{5}$.
+**Answer:** **Numerator** = 3, **Denominator** = 5.
+
+### Questions
+1. What is the **numerator** in $\frac{1}{2}$?
+2. What is the **denominator** in $\frac{4}{9}$?
+3. Which number is the **denominator** in $\frac{7}{8}$?
+4. Which number is the **numerator** in $\frac{2}{3}$?
+5. Write a fraction with **numerator** 2 and **denominator** 3.
+6. Write the fraction: Three quarters. Identify the **denominator**.
+7. In $\frac{1}{4}$, does the **denominator** tell you the number of parts shaded or the total parts?
+8. If the **denominator** is 10 and the **numerator** is 7, write the fraction.
+9. What fraction of a shape is shaded if 2 out of 5 pieces are colored?
+10. True or False: The **denominator** can never be 0.
+
+---
+
+## Set 10: Improper & Mixed Fractions
+**Concept:** An **Improper fraction** is "top-heavy". A **Mixed fraction** has a whole number part and a fraction part.
+
+### Worked Example
+**Question:** Convert the **improper fraction** $\frac{5}{2}$ to a **mixed fraction**.
+**Answer:** How many 2s go into 5? (2 whole times, remainder 1). Answer: $2\frac{1}{2}$.
+
+### Questions
+1. Is $\frac{4}{3}$ an **improper fraction** or a **mixed fraction**?
+2. Is $1\frac{1}{2}$ an **improper fraction** or a **mixed fraction**?
+3. Convert $\frac{3}{2}$ to a **mixed fraction**.
+4. Convert $\frac{5}{3}$ to a **mixed fraction**.
+5. Convert $\frac{7}{4}$ to a **mixed fraction**.
+6. Convert the **mixed fraction** $1\frac{1}{4}$ to an **improper fraction**.
+7. Convert the **mixed fraction** $2\frac{1}{2}$ to an **improper fraction**.
+8. Which is larger: the **improper fraction** $\frac{3}{2}$ or the number $1$?
+9. Write "two and a half" as a **mixed fraction**.
+10. Write "three halves" as an **improper fraction**.
+
+---
+
+## Set 11: Equivalent Fractions
+**Concept:** **Equivalent fractions** have the same value but different numbers. Multiply or divide the top and bottom by the same number.
+
+### Worked Example
+**Question:** Find the **equivalent fraction**: $\frac{1}{2} = \frac{?}{8}$
+**Answer:** To get from 2 to 8, we multiply by 4. So we multiply the top by 4 as well. $1 \times 4 = 4$. Answer: $\frac{4}{8}$.
+
+### Questions
+1. Find the **equivalent fraction**: $\frac{1}{2} = \frac{?}{4}$
+2. Find the **equivalent fraction**: $\frac{1}{3} = \frac{?}{6}$
+3. Find the **equivalent fraction**: $\frac{2}{5} = \frac{4}{?}$
+4. Find the **equivalent fraction**: $\frac{3}{4} = \frac{?}{8}$
+5. Simplify $\frac{2}{4}$ to find the simplest **equivalent fraction**.
+6. Simplify $\frac{5}{10}$ to find the simplest **equivalent fraction**.
+7. Find an **equivalent fraction** for $\frac{6}{8}$ by dividing top and bottom by 2.
+8. Are $\frac{1}{2}$ and $\frac{5}{10}$ **equivalent fractions**?
+9. Are $\frac{2}{3}$ and $\frac{4}{5}$ **equivalent fractions**?
+10. Fill in the blank: $\frac{10}{20} = \frac{1}{?}$
+
+---
+
+## Set 12: Scientific Notation
+**Concept:** **Scientific Notation** is a way to write numbers as $a \times 10^n$, where $1 \le a < 10$ and $n$ is an **integer**.
+
+### Worked Example
+**Question:** Write 4500 in **scientific notation**.
+**Answer:** Move the decimal point to get a number between 1 and 10 (4.5). Count how many places it moved (3 places). Answer: $4.5 \times 10^3$.
+
+### Questions
+1. Write 3000 in **scientific notation**.
+2. Write 2,500,000 in **scientific notation**.
+3. Write $5 \times 10^2$ as a standard number.
+4. Write $1.2 \times 10^3$ as a standard number.
+5. In $3.4 \times 10^5$, which number is the base?
+6. In $3.4 \times 10^5$, which number is the **exponent**?
+7. Write 0.004 in **scientific notation** (remember negative **exponents** for small numbers).
+8. Write $2 \times 10^{-2}$ as a decimal.
+9. Which is larger: $1 \times 10^4$ or $9 \times 10^3$?
+10. True or False: In **scientific notation**, the first number must be between 1 and 10.
+
+---
+
+## Set 13: Recurring Decimals
+**Concept:** A **Recurring decimal** has a digit (or group of digits) that repeats forever. We use a dot (or a bar) over the repeating part.
+
+### Worked Example
+**Question:** Write the fraction $\frac{1}{3}$ as a **recurring decimal**.
+**Answer:** $1 \div 3 = 0.3333...$ which is written as $0.\dot{3}$.
+
+### Questions
+1. What does the dot in $0.\dot{5}$ mean?
+2. Write $0.666...$ using dot notation.
+3. Write the fraction $\frac{2}{3}$ as a **recurring decimal**.
+4. Is $0.5$ a **recurring decimal**?
+5. Write $0.\dot{1}$ as a decimal with three digits showing.
+6. Convert $\frac{1}{9}$ to a **recurring decimal** ($1 \div 9$).
+7. True or False: $0.\dot{9}$ is equal to 1.
+8. Which notation represents $0.121212...$? (A) $0.\dot{1}\dot{2}$ or (B) $0.1\dot{2}$?
+9. Does $\frac{1}{2}$ result in a **recurring decimal**?
+10. Write the number that is exactly double $0.\dot{3}$.

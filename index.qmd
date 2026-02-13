@@ -1,0 +1,13 @@
+---
+title: "Urban Farm Applied Mathematics"
+---
+
+## Welcome
+
+This standalone site contains the Urban Farm applied mathematics units, separated from the Year 9 Mathematics project.
+
+### Units
+
+- [Farm Units overview](farm/index.Rmd)
+- [Unit 1: Mapping the School Farm](farm/mapping.qmd)
+- [Unit 2: Potato Patch Prep](farm/potato-patch.qmd)

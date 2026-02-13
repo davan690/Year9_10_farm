@@ -1,0 +1,45 @@
+---
+title: "Farm Mapping Homework"
+author: "Urban Farm 2026"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+
+## Homework Assignment: Mapping the School Farm
+
+### Objective
+
+In this homework assignment, you will create a PDF map of the school farm using Google My Maps. You will learn how to add important features to your map, including an arrow, scale, and legend.
+
+### Instructions
+
+1. **Create Your Map:**
+   - Follow the instructions provided in the `index.Rmd` file to create your farm map using Google My Maps.
+
+2. **Add Features:**
+   - Once your map is created, you need to add the following features:
+     - **Arrow:** Indicate a specific direction on your map.
+     - **Scale:** Show the scale of your map to help viewers understand distances.
+     - **Legend:** Create a legend that explains the symbols and colors used on your map.
+
+3. **Export Your Map:**
+   - After adding the features, export your map as a PDF. Make sure the arrow, scale, and legend are clearly visible in the exported document.
+
+### Questions
+
+1. Explain why it is important to include a scale on your map. How does it help the viewer?
+   
+2. Describe the purpose of a legend in a map. What information should be included in your legend for the school farm map?
+
+### Curriculum Links
+
+This homework aligns with the following areas of the New Zealand Curriculum:
+
+- **Geography:** Understand how to represent geographical information using maps.
+- **Mathematics:** Apply measurement concepts in real-world contexts.
+
+For more information, visit the New Zealand Curriculum website: [New Zealand Curriculum](https://curriculum.govt.nz/)
+
+--- 
+
+**Note:** Ensure you follow the guidelines and submit your homework by the due date. Happy mapping!

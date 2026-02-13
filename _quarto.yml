@@ -1,0 +1,26 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Urban Farm Applied Mathematics"
+  navbar:
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Farm Units"
+        href: farm/index.Rmd
+      - text: "Mapping Unit"
+        href: farm/mapping.qmd
+      - text: "Potato Patch Unit"
+        href: farm/potato-patch.qmd
+  sidebar: false
+  page-footer:
+    center: "Urban Farm Applied Mathematics"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    toc-depth: 3

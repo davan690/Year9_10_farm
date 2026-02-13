@@ -1,0 +1,282 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Urban Farm Applied Mathematics",
+    "section": "",
+    "text": "This standalone site contains the Urban Farm applied mathematics units, separated from the Year 9 Mathematics project.\n\n\n\nFarm Units overview\nUnit 1: Mapping the School Farm\nUnit 2: Potato Patch Prep"
+  },
+  {
+    "objectID": "index.html#welcome",
+    "href": "index.html#welcome",
+    "title": "Urban Farm Applied Mathematics",
+    "section": "",
+    "text": "This standalone site contains the Urban Farm applied mathematics units, separated from the Year 9 Mathematics project.\n\n\n\nFarm Units overview\nUnit 1: Mapping the School Farm\nUnit 2: Potato Patch Prep"
+  },
+  {
+    "objectID": "farm/mapping.html",
+    "href": "farm/mapping.html",
+    "title": "Unit 1: Mapping the School Farm (3 weeks)",
+    "section": "",
+    "text": "Google My Maps is a free tool for creating a farm plan, measuring distances and areas, and recording work done on the property. This guide helps you map our school farm features and plan future work."
+  },
+  {
+    "objectID": "farm/mapping.html#introduction",
+    "href": "farm/mapping.html#introduction",
+    "title": "Unit 1: Mapping the School Farm (3 weeks)",
+    "section": "",
+    "text": "Google My Maps is a free tool for creating a farm plan, measuring distances and areas, and recording work done on the property. This guide helps you map our school farm features and plan future work."
+  },
+  {
+    "objectID": "farm/mapping.html#learning-goals",
+    "href": "farm/mapping.html#learning-goals",
+    "title": "Unit 1: Mapping the School Farm (3 weeks)",
+    "section": "Learning Goals",
+    "text": "Learning Goals\n\nCreate a digital farm map using layers.\nAdd points, lines, and areas with clear labels.\nMeasure distances and paddock areas accurately.\nExport or print a clean map for your workbook."
+  },
+  {
+    "objectID": "farm/mapping.html#getting-started",
+    "href": "farm/mapping.html#getting-started",
+    "title": "Unit 1: Mapping the School Farm (3 weeks)",
+    "section": "1. Getting Started",
+    "text": "1. Getting Started\n\nGo to https://www.google.co.nz/mymaps and sign in to your Google account. If you do not have an account, create one.\nClick “Create a new map”.\nClick “Untitled map” to rename your map (for example, “Kaikorai Valley College School Farm”)."
+  },
+  {
+    "objectID": "farm/mapping.html#set-up-layers",
+    "href": "farm/mapping.html#set-up-layers",
+    "title": "Unit 1: Mapping the School Farm (3 weeks)",
+    "section": "2. Set Up Layers",
+    "text": "2. Set Up Layers\nLayers let you separate existing features from proposed work. You can turn layers on or off using the checkbox next to each layer.\n\nRename the first layer to Existing. Use this for current paddocks, dams, fences, buildings, and water points.\nClick “Add layer” and name it Proposed for future work such as new planting or fencing."
+  },
+  {
+    "objectID": "farm/mapping.html#locate-the-farm",
+    "href": "farm/mapping.html#locate-the-farm",
+    "title": "Unit 1: Mapping the School Farm (3 weeks)",
+    "section": "3. Locate the Farm",
+    "text": "3. Locate the Farm\n\nUse the search bar to type in the school address, or zoom using the mouse wheel and the + / - buttons.\nClick the arrow next to Base map and choose Satellite for a clear aerial view."
+  },
+  {
+    "objectID": "farm/mapping.html#add-farm-features",
+    "href": "farm/mapping.html#add-farm-features",
+    "title": "Unit 1: Mapping the School Farm (3 weeks)",
+    "section": "4. Add Farm Features",
+    "text": "4. Add Farm Features\n\nA. Markers (Point Features)\nUse markers for water tanks, sheds, gates, troughs, or trees.\n\nClick the Marker icon under the search bar.\nClick the exact spot on the map.\nGive the marker a clear title, then save.\n\n\n\n\nB. Lines (Fences, Tracks, Waterways)\n\nClick the Line icon (right of the marker icon) and choose “Add line or shape”.\nClick along the path of the fence or creek.\nPress Enter to finish the line and add a title.\n\n\n\n\nC. Areas (Paddocks, Orchards, Bush)\n\nStart the same way as a line.\nClick around the boundary and then click the starting point to close the shape.\nAdd a title and save.\n\n\n\nD. Edit or Delete Features\nAfter saving a feature, a popup lets you edit color, line width, transparency, and description. You can also attach a photo or delete the feature using the trash bin icon."
+  },
+  {
+    "objectID": "farm/mapping.html#measure-distances-and-areas",
+    "href": "farm/mapping.html#measure-distances-and-areas",
+    "title": "Unit 1: Mapping the School Farm (3 weeks)",
+    "section": "5. Measure Distances and Areas",
+    "text": "5. Measure Distances and Areas\nThe Measurement tool (ruler icon) helps you check distances or paddock sizes.\n\nClick the ruler icon on the far right of the toolbar.\nClick a starting point, then add points to measure a path.\nFor a polygon, close the shape to see both perimeter and area (in hectares).\nPress Enter to finish a straight line measurement.\nTo stop measuring, click the hand icon or click anywhere on the screen."
+  },
+  {
+    "objectID": "farm/mapping.html#export-or-print-your-map",
+    "href": "farm/mapping.html#export-or-print-your-map",
+    "title": "Unit 1: Mapping the School Farm (3 weeks)",
+    "section": "6. Export or Print Your Map",
+    "text": "6. Export or Print Your Map\n\nOption A: Print Map (Recommended)\n\nClick the three vertical dots next to your map name.\nChoose “Print map”.\nPick paper size, orientation, and output type, then click Print.\nA new PDF preview opens in your browser. Use the print icon to save as PDF or print.\n\n\n\n\nOption B: Screenshot (Snipping Tool)\nWindows\n\nOpen Snipping Tool from the Start menu search.\nClick New, then drag to select the area.\nSave the image and insert it into your workbook.\n\nMac\n\nPress Shift + Command + 4.\nDrag to select the area.\nThe screenshot saves to the desktop for inserting into your workbook."
+  },
+  {
+    "objectID": "farm/mapping.html#map-checklist",
+    "href": "farm/mapping.html#map-checklist",
+    "title": "Unit 1: Mapping the School Farm (3 weeks)",
+    "section": "Map Checklist",
+    "text": "Map Checklist\n\nYour map has a clear title.\nLayers include Existing and Proposed.\nFeatures are labeled with correct names.\nAt least one line and one area are mapped.\nMeasurements are used to check a distance or area.\nExport is clean and readable."
+  },
+  {
+    "objectID": "farm/mapping.html#source-and-further-help",
+    "href": "farm/mapping.html#source-and-further-help",
+    "title": "Unit 1: Mapping the School Farm (3 weeks)",
+    "section": "Source and Further Help",
+    "text": "Source and Further Help\n\nAdapted from Beef + Lamb New Zealand User Guide (July 2021). PDF: resources/use-google-my-maps-map-your-farm.pdf. Site: https://www.beeflambnz.com\nExtra help video: https://www.landcare.org.nz/resource-item/mapping\nGoogle My Maps support: https://support.google.com/mymaps"
+  },
+  {
+    "objectID": "farm/farm-homework/test.html",
+    "href": "farm/farm-homework/test.html",
+    "title": "Year 9 Mathematics: Basics Consolidation",
+    "section": "",
+    "text": "Complete the following sets to consolidate your understanding of key mathematical terms. Read the Worked Example carefully before starting the questions.\n\n\n\n\n\n\n\n\n\n\nTerm\nDefinition\nPicture/Example\n\n\n\n\nBEDMAS\nThe order of operations used to solve equations.\nBrackets, Exponents, Division, Multiplication, Addition, Subtraction.\n\n\nIntegers\nAll whole numbers, including positive, negative, and zero.\n\\(... -3, -2, -1, 0, 1, 2, 3 ...\\)\n\n\nMultiple\nThe result of multiplying a number by an integer.\nMultiples of 5: \\(5, 10, 15, 20...\\)\n\n\nFactor\nA number that divides into another number exactly (without a remainder).\nFactors of 10: \\(1, 2, 5, 10\\).\n\n\nPower\nThe product of multiplying a number by itself several times.\n\\(2^3\\) (which is \\(2 \\times 2 \\times 2 = 8\\)).\n\n\nExponent\nThe small number written above a base that tells you how many times to use the base in a multiplication.\nIn \\(5^2\\), the 2 is the exponent.\n\n\nIndex\nAnother name for an exponent or power. (The plural is “Indices”).\n\\(x^4\\) — the 4 is the index.\n\n\nSquare root\nA number that, when multiplied by itself, gives the original number.\n\\(\\sqrt{25} = 5\\) (because \\(5 \\times 5 = 25\\)).\n\n\nNumerator\nThe top number in a fraction. It shows how many parts you have.\nIn \\(\\frac{3}{4}\\), the 3 is the numerator.\n\n\nDenominator\nThe bottom number in a fraction. It shows how many equal parts the whole is divided into.\nIn \\(\\frac{3}{4}\\), the 4 is the denominator.\n\n\nMixed fraction\nA number consisting of an integer and a proper fraction.\n\\(2\\frac{1}{2}\\)\n\n\nImproper fraction\nA fraction where the numerator is larger than (or equal to) the denominator.\n\\(\\frac{5}{2}\\)\n\n\nEquivalent fraction\nFractions that look different but have the same value.\n\\(\\frac{1}{2} = \\frac{2}{4} = \\frac{4}{8}\\)\n\n\nPlace value\nThe value of a digit based on its position in a number.\nIn \\(3\\mathbf{4}2\\), the 4 is in the ‘tens’ place (value = 40).\n\n\nDecimal place\nThe position of a digit to the right of a decimal point.\nIn \\(3.1\\mathbf{4}\\), the 4 is in the second decimal place (hundredths).\n\n\nScientific Notation\nA way of writing very large or very small numbers using a number between 1 and 10 multiplied by a power of 10.\n\\(3 \\times 10^8\\)\n\n\nRecurring Decimal\nA decimal number that has digits that repeat forever.\n\\(0.333...\\) or \\(0.\\dot{3}\\)\n\n\n\n\n\n\n\nConcept: A Decimal place refers to the position of a digit to the right of the decimal point.\n\n\nQuestion: How many decimal places are in the number \\(3.14\\)? Answer: There are two digits after the point (1 and 4), so there are 2 decimal places.\n\n\n\n\nHow many decimal places are in the number \\(4.5\\)?\nHow many decimal places are in the number \\(10.123\\)?\nIdentify the digit in the first decimal place in \\(0.75\\).\nIdentify the digit in the second decimal place in \\(12.89\\).\nRound \\(4.56\\) to one decimal place.\nRound \\(3.333\\) to two decimal places.\nWhich number has more decimal places: \\(5.1\\) or \\(5.01\\)?\nWrite the number \\(\\frac{1}{2}\\) as a number with one decimal place.\nWrite the number \\(\\frac{1}{4}\\) as a number with two decimal places.\nIf you add \\(1.2\\) and \\(0.05\\), how many decimal places will the answer have?\n\n\n\n\n\n\nConcept: Integers are whole numbers. They can be positive, negative, or zero. When ordering them, remember that larger negative numbers are “colder” (further to the left on the number line).\n\n\nQuestion: Arrange the following integers from smallest to largest: \\(3, -5, 0, -2, 7\\) Answer: \\(-5, -2, 0, 3, 7\\)\n\n\n\n\nList the integers in this set: \\(\\{ 4.5, -2, 10, \\frac{1}{2}, 0 \\}\\)\nArrange these integers from smallest to largest: \\(-7, 4, -1, 0, 9\\)\nArrange these integers from smallest to largest: \\(-10, -15, 2, -2, 5\\)\nWrite the integer that is 5 less than 2.\nWrite the integer that is 3 more than -5.\nWhich integer represents a colder temperature: \\(-4^\\circ\\text{C}\\) or \\(-12^\\circ\\text{C}\\)?\nCalculate the new integer: \\(5 - 8\\)\nCalculate the new integer: \\(-3 + 7\\)\nInsert \\(&lt;\\) or \\(&gt;\\) between these integers: \\(-5\\) ___ \\(-2\\)\nInsert \\(&lt;\\) or \\(&gt;\\) between these integers: \\(0\\) ___ \\(-8\\)\n\n\n\n\n\n\nConcept: The Place value of a digit tells you its value based on its position (e.g., Hundreds, Tens, Units).\n\n\nQuestion: What is the place value of the digit 6 in the number \\(462\\)? Answer: The 6 is in the Tens column. Its place value is 60.\n\n\n\n\nWhat is the place value of the 7 in \\(725\\)?\nWhat is the place value of the 3 in \\(139\\)?\nWhat is the place value of the 1 in \\(1,200\\)?\nWhich digit has a place value of 40 in \\(445\\)?\nWrite the number: Five hundreds, zero tens, and six units.\nWhat is the place value of the 9 in \\(90\\)?\nIn the number \\(3,456\\), which digit is in the thousands place?\nMultiply \\(45\\) by \\(10\\). How does the place value of the 4 change?\nDivide \\(320\\) by \\(10\\).\nHow many tens are there in the number \\(140\\)?\n\n\n\n\n\n\nConcept: Factors are Few. They are whole numbers that fit exactly inside another number (no remainder).\n\n\nQuestion: List all factors of 12. Answer: \\(1 \\times 12 = 12\\), \\(2 \\times 6 = 12\\), \\(3 \\times 4 = 12\\). Factors: \\(1, 2, 3, 4, 6, 12\\)\n\n\n\n\nList all factors of 6.\nList all factors of 10.\nList all factors of 15.\nList all factors of 20.\nIs 5 a factor of 25?\nIs 4 a factor of 14?\nWhat is the largest factor of 8 (excluding 8 itself)?\nTrue or False: 1 is a factor of every number.\nFind a number that has exactly two factors (a prime number) between 1 and 10.\nCircle the factors of 18 in this list: \\(2, 4, 6, 8, 9, 10\\).\n\n\n\n\n\n\nConcept: Multiples are Many. They are the result of multiplying a number by an integer. They go up like times tables.\n\n\nQuestion: List the first four multiples of 5. Answer: \\(5 \\times 1 = 5\\), \\(5 \\times 2 = 10\\), \\(5 \\times 3 = 15\\), \\(5 \\times 4 = 20\\). Multiples: \\(5, 10, 15, 20\\)\n\n\n\n\nList the first four multiples of 2.\nList the first four multiples of 3.\nList the first four multiples of 10.\nWhat is the 5th multiple of 4?\nIs 24 a multiple of 6?\nIs 25 a multiple of 4?\nList a common multiple of 2 and 3.\nTrue or False: Multiples can be smaller than the original number.\nWhat is the multiple of 7 that comes after 21?\nCircle the multiples of 8 in this list: \\(4, 8, 12, 16, 20, 24\\).\n\n\n\n\n\n\nConcept: An Exponent (or Index) tells you how many times to multiply the base by itself to create a Power.\n\n\nQuestion: Identify the exponent in \\(4^3\\) and calculate the power. Answer: The exponent (or index) is 3. Expanded: \\(4 \\times 4 \\times 4 = 64\\).\n\n\n\n\nWrite \\(2^3\\) in expanded form. What is the exponent?\nWrite \\(5 \\times 5\\) as a power using an index.\nCalculate the value of the power \\(3^2\\).\nWhat is the index in the expression \\(y^4\\)?\nCalculate the value of \\(10^2\\).\nCalculate the value of \\(1^5\\).\nIn the expression \\(x^6\\), what is the base and what is the exponent?\nWrite “six to the power of two” in math notation.\nCalculate \\(5^2 + 2^2\\).\nIf the index is 1, what does the number equal?\n\n\n\n\n\n\nConcept: The Square root asks “Which number times itself equals this?” It is the opposite of squaring a number.\n\n\nQuestion: Find the square root of 49 (\\(\\sqrt{49}\\)). Answer: Since \\(7 \\times 7 = 49\\), the square root is 7.\n\n\n\n\nFind the square root of 9.\nFind the square root of 16.\nFind the square root of 25.\nFind the square root of 64.\nFind the square root of 81.\nFind the square root of 100.\nFind the square root of 1.\nFind the square root of 144.\nTrue or False: The square root of 36 is 18.\nCalculate \\(\\sqrt{4} + \\sqrt{9}\\).\n\n\n\n\n\n\nConcept: BEDMAS is the order of operations: Brackets, Exponents, Division/Multiplication, Addition/Subtraction.\n\n\nQuestion: Use BEDMAS to solve \\(3 + 4 \\times 2\\). Answer: Multiplication first (\\(4 \\times 2 = 8\\)). Then Addition (\\(3 + 8 = 11\\)). Answer: 11.\n\n\n\n\nUsing BEDMAS, solve: \\(2 + 3 \\times 4\\)\nUsing BEDMAS, solve: \\(10 - 2 \\times 3\\)\nSolve: \\((5 + 5) \\times 2\\)\nSolve: \\(20 \\div 2 + 3\\)\nSolve: \\(3 \\times 3 + 2 \\times 4\\)\nSolve: \\(10 - 3^2\\)\nSolve: \\(2 \\times (10 - 5)\\)\nSolve: \\(4 + 4 \\div 4\\)\nSolve: \\(5^2 - 10\\)\nSolve: \\((2 + 3)^2\\)\n\n\n\n\n\n\nConcept: Numerator is North (Up). Denominator is Down.\n\n\nQuestion: Identify the numerator and denominator in \\(\\frac{3}{5}\\). Answer: Numerator = 3, Denominator = 5.\n\n\n\n\nWhat is the numerator in \\(\\frac{1}{2}\\)?\nWhat is the denominator in \\(\\frac{4}{9}\\)?\nWhich number is the denominator in \\(\\frac{7}{8}\\)?\nWhich number is the numerator in \\(\\frac{2}{3}\\)?\nWrite a fraction with numerator 2 and denominator 3.\nWrite the fraction: Three quarters. Identify the denominator.\nIn \\(\\frac{1}{4}\\), does the denominator tell you the number of parts shaded or the total parts?\nIf the denominator is 10 and the numerator is 7, write the fraction.\nWhat fraction of a shape is shaded if 2 out of 5 pieces are colored?\nTrue or False: The denominator can never be 0.\n\n\n\n\n\n\nConcept: An Improper fraction is “top-heavy”. A Mixed fraction has a whole number part and a fraction part.\n\n\nQuestion: Convert the improper fraction \\(\\frac{5}{2}\\) to a mixed fraction. Answer: How many 2s go into 5? (2 whole times, remainder 1). Answer: \\(2\\frac{1}{2}\\).\n\n\n\n\nIs \\(\\frac{4}{3}\\) an improper fraction or a mixed fraction?\nIs \\(1\\frac{1}{2}\\) an improper fraction or a mixed fraction?\nConvert \\(\\frac{3}{2}\\) to a mixed fraction.\nConvert \\(\\frac{5}{3}\\) to a mixed fraction.\nConvert \\(\\frac{7}{4}\\) to a mixed fraction.\nConvert the mixed fraction \\(1\\frac{1}{4}\\) to an improper fraction.\nConvert the mixed fraction \\(2\\frac{1}{2}\\) to an improper fraction.\nWhich is larger: the improper fraction \\(\\frac{3}{2}\\) or the number \\(1\\)?\nWrite “two and a half” as a mixed fraction.\nWrite “three halves” as an improper fraction.\n\n\n\n\n\n\nConcept: Equivalent fractions have the same value but different numbers. Multiply or divide the top and bottom by the same number.\n\n\nQuestion: Find the equivalent fraction: \\(\\frac{1}{2} = \\frac{?}{8}\\) Answer: To get from 2 to 8, we multiply by 4. So we multiply the top by 4 as well. \\(1 \\times 4 = 4\\). Answer: \\(\\frac{4}{8}\\).\n\n\n\n\nFind the equivalent fraction: \\(\\frac{1}{2} = \\frac{?}{4}\\)\nFind the equivalent fraction: \\(\\frac{1}{3} = \\frac{?}{6}\\)\nFind the equivalent fraction: \\(\\frac{2}{5} = \\frac{4}{?}\\)\nFind the equivalent fraction: \\(\\frac{3}{4} = \\frac{?}{8}\\)\nSimplify \\(\\frac{2}{4}\\) to find the simplest equivalent fraction.\nSimplify \\(\\frac{5}{10}\\) to find the simplest equivalent fraction.\nFind an equivalent fraction for \\(\\frac{6}{8}\\) by dividing top and bottom by 2.\nAre \\(\\frac{1}{2}\\) and \\(\\frac{5}{10}\\) equivalent fractions?\nAre \\(\\frac{2}{3}\\) and \\(\\frac{4}{5}\\) equivalent fractions?\nFill in the blank: \\(\\frac{10}{20} = \\frac{1}{?}\\)\n\n\n\n\n\n\nConcept: Scientific Notation is a way to write numbers as \\(a \\times 10^n\\), where \\(1 \\le a &lt; 10\\) and \\(n\\) is an integer.\n\n\nQuestion: Write 4500 in scientific notation. Answer: Move the decimal point to get a number between 1 and 10 (4.5). Count how many places it moved (3 places). Answer: \\(4.5 \\times 10^3\\).\n\n\n\n\nWrite 3000 in scientific notation.\nWrite 2,500,000 in scientific notation.\nWrite \\(5 \\times 10^2\\) as a standard number.\nWrite \\(1.2 \\times 10^3\\) as a standard number.\nIn \\(3.4 \\times 10^5\\), which number is the base?\nIn \\(3.4 \\times 10^5\\), which number is the exponent?\nWrite 0.004 in scientific notation (remember negative exponents for small numbers).\nWrite \\(2 \\times 10^{-2}\\) as a decimal.\nWhich is larger: \\(1 \\times 10^4\\) or \\(9 \\times 10^3\\)?\nTrue or False: In scientific notation, the first number must be between 1 and 10.\n\n\n\n\n\n\nConcept: A Recurring decimal has a digit (or group of digits) that repeats forever. We use a dot (or a bar) over the repeating part.\n\n\nQuestion: Write the fraction \\(\\frac{1}{3}\\) as a recurring decimal. Answer: \\(1 \\div 3 = 0.3333...\\) which is written as \\(0.\\dot{3}\\).\n\n\n\n\nWhat does the dot in \\(0.\\dot{5}\\) mean?\nWrite \\(0.666...\\) using dot notation.\nWrite the fraction \\(\\frac{2}{3}\\) as a recurring decimal.\nIs \\(0.5\\) a recurring decimal?\nWrite \\(0.\\dot{1}\\) as a decimal with three digits showing.\nConvert \\(\\frac{1}{9}\\) to a recurring decimal (\\(1 \\div 9\\)).\nTrue or False: \\(0.\\dot{9}\\) is equal to 1.\nWhich notation represents \\(0.121212...\\)? (A) \\(0.\\dot{1}\\dot{2}\\) or (B) \\(0.1\\dot{2}\\)?\nDoes \\(\\frac{1}{2}\\) result in a recurring decimal?\nWrite the number that is exactly double \\(0.\\dot{3}\\)."
+  },
+  {
+    "objectID": "farm/farm-homework/test.html#glossary-of-terms",
+    "href": "farm/farm-homework/test.html#glossary-of-terms",
+    "title": "Year 9 Mathematics: Basics Consolidation",
+    "section": "",
+    "text": "Term\nDefinition\nPicture/Example\n\n\n\n\nBEDMAS\nThe order of operations used to solve equations.\nBrackets, Exponents, Division, Multiplication, Addition, Subtraction.\n\n\nIntegers\nAll whole numbers, including positive, negative, and zero.\n\\(... -3, -2, -1, 0, 1, 2, 3 ...\\)\n\n\nMultiple\nThe result of multiplying a number by an integer.\nMultiples of 5: \\(5, 10, 15, 20...\\)\n\n\nFactor\nA number that divides into another number exactly (without a remainder).\nFactors of 10: \\(1, 2, 5, 10\\).\n\n\nPower\nThe product of multiplying a number by itself several times.\n\\(2^3\\) (which is \\(2 \\times 2 \\times 2 = 8\\)).\n\n\nExponent\nThe small number written above a base that tells you how many times to use the base in a multiplication.\nIn \\(5^2\\), the 2 is the exponent.\n\n\nIndex\nAnother name for an exponent or power. (The plural is “Indices”).\n\\(x^4\\) — the 4 is the index.\n\n\nSquare root\nA number that, when multiplied by itself, gives the original number.\n\\(\\sqrt{25} = 5\\) (because \\(5 \\times 5 = 25\\)).\n\n\nNumerator\nThe top number in a fraction. It shows how many parts you have.\nIn \\(\\frac{3}{4}\\), the 3 is the numerator.\n\n\nDenominator\nThe bottom number in a fraction. It shows how many equal parts the whole is divided into.\nIn \\(\\frac{3}{4}\\), the 4 is the denominator.\n\n\nMixed fraction\nA number consisting of an integer and a proper fraction.\n\\(2\\frac{1}{2}\\)\n\n\nImproper fraction\nA fraction where the numerator is larger than (or equal to) the denominator.\n\\(\\frac{5}{2}\\)\n\n\nEquivalent fraction\nFractions that look different but have the same value.\n\\(\\frac{1}{2} = \\frac{2}{4} = \\frac{4}{8}\\)\n\n\nPlace value\nThe value of a digit based on its position in a number.\nIn \\(3\\mathbf{4}2\\), the 4 is in the ‘tens’ place (value = 40).\n\n\nDecimal place\nThe position of a digit to the right of a decimal point.\nIn \\(3.1\\mathbf{4}\\), the 4 is in the second decimal place (hundredths).\n\n\nScientific Notation\nA way of writing very large or very small numbers using a number between 1 and 10 multiplied by a power of 10.\n\\(3 \\times 10^8\\)\n\n\nRecurring Decimal\nA decimal number that has digits that repeat forever.\n\\(0.333...\\) or \\(0.\\dot{3}\\)"
+  },
+  {
+    "objectID": "farm/farm-homework/test.html#set-1-decimal-places",
+    "href": "farm/farm-homework/test.html#set-1-decimal-places",
+    "title": "Year 9 Mathematics: Basics Consolidation",
+    "section": "",
+    "text": "Concept: A Decimal place refers to the position of a digit to the right of the decimal point.\n\n\nQuestion: How many decimal places are in the number \\(3.14\\)? Answer: There are two digits after the point (1 and 4), so there are 2 decimal places.\n\n\n\n\nHow many decimal places are in the number \\(4.5\\)?\nHow many decimal places are in the number \\(10.123\\)?\nIdentify the digit in the first decimal place in \\(0.75\\).\nIdentify the digit in the second decimal place in \\(12.89\\).\nRound \\(4.56\\) to one decimal place.\nRound \\(3.333\\) to two decimal places.\nWhich number has more decimal places: \\(5.1\\) or \\(5.01\\)?\nWrite the number \\(\\frac{1}{2}\\) as a number with one decimal place.\nWrite the number \\(\\frac{1}{4}\\) as a number with two decimal places.\nIf you add \\(1.2\\) and \\(0.05\\), how many decimal places will the answer have?"
+  },
+  {
+    "objectID": "farm/farm-homework/test.html#set-2-integers",
+    "href": "farm/farm-homework/test.html#set-2-integers",
+    "title": "Year 9 Mathematics: Basics Consolidation",
+    "section": "",
+    "text": "Concept: Integers are whole numbers. They can be positive, negative, or zero. When ordering them, remember that larger negative numbers are “colder” (further to the left on the number line).\n\n\nQuestion: Arrange the following integers from smallest to largest: \\(3, -5, 0, -2, 7\\) Answer: \\(-5, -2, 0, 3, 7\\)\n\n\n\n\nList the integers in this set: \\(\\{ 4.5, -2, 10, \\frac{1}{2}, 0 \\}\\)\nArrange these integers from smallest to largest: \\(-7, 4, -1, 0, 9\\)\nArrange these integers from smallest to largest: \\(-10, -15, 2, -2, 5\\)\nWrite the integer that is 5 less than 2.\nWrite the integer that is 3 more than -5.\nWhich integer represents a colder temperature: \\(-4^\\circ\\text{C}\\) or \\(-12^\\circ\\text{C}\\)?\nCalculate the new integer: \\(5 - 8\\)\nCalculate the new integer: \\(-3 + 7\\)\nInsert \\(&lt;\\) or \\(&gt;\\) between these integers: \\(-5\\) ___ \\(-2\\)\nInsert \\(&lt;\\) or \\(&gt;\\) between these integers: \\(0\\) ___ \\(-8\\)"
+  },
+  {
+    "objectID": "farm/farm-homework/test.html#set-3-place-value",
+    "href": "farm/farm-homework/test.html#set-3-place-value",
+    "title": "Year 9 Mathematics: Basics Consolidation",
+    "section": "",
+    "text": "Concept: The Place value of a digit tells you its value based on its position (e.g., Hundreds, Tens, Units).\n\n\nQuestion: What is the place value of the digit 6 in the number \\(462\\)? Answer: The 6 is in the Tens column. Its place value is 60.\n\n\n\n\nWhat is the place value of the 7 in \\(725\\)?\nWhat is the place value of the 3 in \\(139\\)?\nWhat is the place value of the 1 in \\(1,200\\)?\nWhich digit has a place value of 40 in \\(445\\)?\nWrite the number: Five hundreds, zero tens, and six units.\nWhat is the place value of the 9 in \\(90\\)?\nIn the number \\(3,456\\), which digit is in the thousands place?\nMultiply \\(45\\) by \\(10\\). How does the place value of the 4 change?\nDivide \\(320\\) by \\(10\\).\nHow many tens are there in the number \\(140\\)?"
+  },
+  {
+    "objectID": "farm/farm-homework/test.html#set-4-factors",
+    "href": "farm/farm-homework/test.html#set-4-factors",
+    "title": "Year 9 Mathematics: Basics Consolidation",
+    "section": "",
+    "text": "Concept: Factors are Few. They are whole numbers that fit exactly inside another number (no remainder).\n\n\nQuestion: List all factors of 12. Answer: \\(1 \\times 12 = 12\\), \\(2 \\times 6 = 12\\), \\(3 \\times 4 = 12\\). Factors: \\(1, 2, 3, 4, 6, 12\\)\n\n\n\n\nList all factors of 6.\nList all factors of 10.\nList all factors of 15.\nList all factors of 20.\nIs 5 a factor of 25?\nIs 4 a factor of 14?\nWhat is the largest factor of 8 (excluding 8 itself)?\nTrue or False: 1 is a factor of every number.\nFind a number that has exactly two factors (a prime number) between 1 and 10.\nCircle the factors of 18 in this list: \\(2, 4, 6, 8, 9, 10\\)."
+  },
+  {
+    "objectID": "farm/farm-homework/test.html#set-5-multiples",
+    "href": "farm/farm-homework/test.html#set-5-multiples",
+    "title": "Year 9 Mathematics: Basics Consolidation",
+    "section": "",
+    "text": "Concept: Multiples are Many. They are the result of multiplying a number by an integer. They go up like times tables.\n\n\nQuestion: List the first four multiples of 5. Answer: \\(5 \\times 1 = 5\\), \\(5 \\times 2 = 10\\), \\(5 \\times 3 = 15\\), \\(5 \\times 4 = 20\\). Multiples: \\(5, 10, 15, 20\\)\n\n\n\n\nList the first four multiples of 2.\nList the first four multiples of 3.\nList the first four multiples of 10.\nWhat is the 5th multiple of 4?\nIs 24 a multiple of 6?\nIs 25 a multiple of 4?\nList a common multiple of 2 and 3.\nTrue or False: Multiples can be smaller than the original number.\nWhat is the multiple of 7 that comes after 21?\nCircle the multiples of 8 in this list: \\(4, 8, 12, 16, 20, 24\\)."
+  },
+  {
+    "objectID": "farm/farm-homework/test.html#set-6-powers-exponents-indices",
+    "href": "farm/farm-homework/test.html#set-6-powers-exponents-indices",
+    "title": "Year 9 Mathematics: Basics Consolidation",
+    "section": "",
+    "text": "Concept: An Exponent (or Index) tells you how many times to multiply the base by itself to create a Power.\n\n\nQuestion: Identify the exponent in \\(4^3\\) and calculate the power. Answer: The exponent (or index) is 3. Expanded: \\(4 \\times 4 \\times 4 = 64\\).\n\n\n\n\nWrite \\(2^3\\) in expanded form. What is the exponent?\nWrite \\(5 \\times 5\\) as a power using an index.\nCalculate the value of the power \\(3^2\\).\nWhat is the index in the expression \\(y^4\\)?\nCalculate the value of \\(10^2\\).\nCalculate the value of \\(1^5\\).\nIn the expression \\(x^6\\), what is the base and what is the exponent?\nWrite “six to the power of two” in math notation.\nCalculate \\(5^2 + 2^2\\).\nIf the index is 1, what does the number equal?"
+  },
+  {
+    "objectID": "farm/farm-homework/test.html#set-7-square-roots",
+    "href": "farm/farm-homework/test.html#set-7-square-roots",
+    "title": "Year 9 Mathematics: Basics Consolidation",
+    "section": "",
+    "text": "Concept: The Square root asks “Which number times itself equals this?” It is the opposite of squaring a number.\n\n\nQuestion: Find the square root of 49 (\\(\\sqrt{49}\\)). Answer: Since \\(7 \\times 7 = 49\\), the square root is 7.\n\n\n\n\nFind the square root of 9.\nFind the square root of 16.\nFind the square root of 25.\nFind the square root of 64.\nFind the square root of 81.\nFind the square root of 100.\nFind the square root of 1.\nFind the square root of 144.\nTrue or False: The square root of 36 is 18.\nCalculate \\(\\sqrt{4} + \\sqrt{9}\\)."
+  },
+  {
+    "objectID": "farm/farm-homework/test.html#set-8-bedmas",
+    "href": "farm/farm-homework/test.html#set-8-bedmas",
+    "title": "Year 9 Mathematics: Basics Consolidation",
+    "section": "",
+    "text": "Concept: BEDMAS is the order of operations: Brackets, Exponents, Division/Multiplication, Addition/Subtraction.\n\n\nQuestion: Use BEDMAS to solve \\(3 + 4 \\times 2\\). Answer: Multiplication first (\\(4 \\times 2 = 8\\)). Then Addition (\\(3 + 8 = 11\\)). Answer: 11.\n\n\n\n\nUsing BEDMAS, solve: \\(2 + 3 \\times 4\\)\nUsing BEDMAS, solve: \\(10 - 2 \\times 3\\)\nSolve: \\((5 + 5) \\times 2\\)\nSolve: \\(20 \\div 2 + 3\\)\nSolve: \\(3 \\times 3 + 2 \\times 4\\)\nSolve: \\(10 - 3^2\\)\nSolve: \\(2 \\times (10 - 5)\\)\nSolve: \\(4 + 4 \\div 4\\)\nSolve: \\(5^2 - 10\\)\nSolve: \\((2 + 3)^2\\)"
+  },
+  {
+    "objectID": "farm/farm-homework/test.html#set-9-numerator-denominator",
+    "href": "farm/farm-homework/test.html#set-9-numerator-denominator",
+    "title": "Year 9 Mathematics: Basics Consolidation",
+    "section": "",
+    "text": "Concept: Numerator is North (Up). Denominator is Down.\n\n\nQuestion: Identify the numerator and denominator in \\(\\frac{3}{5}\\). Answer: Numerator = 3, Denominator = 5.\n\n\n\n\nWhat is the numerator in \\(\\frac{1}{2}\\)?\nWhat is the denominator in \\(\\frac{4}{9}\\)?\nWhich number is the denominator in \\(\\frac{7}{8}\\)?\nWhich number is the numerator in \\(\\frac{2}{3}\\)?\nWrite a fraction with numerator 2 and denominator 3.\nWrite the fraction: Three quarters. Identify the denominator.\nIn \\(\\frac{1}{4}\\), does the denominator tell you the number of parts shaded or the total parts?\nIf the denominator is 10 and the numerator is 7, write the fraction.\nWhat fraction of a shape is shaded if 2 out of 5 pieces are colored?\nTrue or False: The denominator can never be 0."
+  },
+  {
+    "objectID": "farm/farm-homework/test.html#set-10-improper-mixed-fractions",
+    "href": "farm/farm-homework/test.html#set-10-improper-mixed-fractions",
+    "title": "Year 9 Mathematics: Basics Consolidation",
+    "section": "",
+    "text": "Concept: An Improper fraction is “top-heavy”. A Mixed fraction has a whole number part and a fraction part.\n\n\nQuestion: Convert the improper fraction \\(\\frac{5}{2}\\) to a mixed fraction. Answer: How many 2s go into 5? (2 whole times, remainder 1). Answer: \\(2\\frac{1}{2}\\).\n\n\n\n\nIs \\(\\frac{4}{3}\\) an improper fraction or a mixed fraction?\nIs \\(1\\frac{1}{2}\\) an improper fraction or a mixed fraction?\nConvert \\(\\frac{3}{2}\\) to a mixed fraction.\nConvert \\(\\frac{5}{3}\\) to a mixed fraction.\nConvert \\(\\frac{7}{4}\\) to a mixed fraction.\nConvert the mixed fraction \\(1\\frac{1}{4}\\) to an improper fraction.\nConvert the mixed fraction \\(2\\frac{1}{2}\\) to an improper fraction.\nWhich is larger: the improper fraction \\(\\frac{3}{2}\\) or the number \\(1\\)?\nWrite “two and a half” as a mixed fraction.\nWrite “three halves” as an improper fraction."
+  },
+  {
+    "objectID": "farm/farm-homework/test.html#set-11-equivalent-fractions",
+    "href": "farm/farm-homework/test.html#set-11-equivalent-fractions",
+    "title": "Year 9 Mathematics: Basics Consolidation",
+    "section": "",
+    "text": "Concept: Equivalent fractions have the same value but different numbers. Multiply or divide the top and bottom by the same number.\n\n\nQuestion: Find the equivalent fraction: \\(\\frac{1}{2} = \\frac{?}{8}\\) Answer: To get from 2 to 8, we multiply by 4. So we multiply the top by 4 as well. \\(1 \\times 4 = 4\\). Answer: \\(\\frac{4}{8}\\).\n\n\n\n\nFind the equivalent fraction: \\(\\frac{1}{2} = \\frac{?}{4}\\)\nFind the equivalent fraction: \\(\\frac{1}{3} = \\frac{?}{6}\\)\nFind the equivalent fraction: \\(\\frac{2}{5} = \\frac{4}{?}\\)\nFind the equivalent fraction: \\(\\frac{3}{4} = \\frac{?}{8}\\)\nSimplify \\(\\frac{2}{4}\\) to find the simplest equivalent fraction.\nSimplify \\(\\frac{5}{10}\\) to find the simplest equivalent fraction.\nFind an equivalent fraction for \\(\\frac{6}{8}\\) by dividing top and bottom by 2.\nAre \\(\\frac{1}{2}\\) and \\(\\frac{5}{10}\\) equivalent fractions?\nAre \\(\\frac{2}{3}\\) and \\(\\frac{4}{5}\\) equivalent fractions?\nFill in the blank: \\(\\frac{10}{20} = \\frac{1}{?}\\)"
+  },
+  {
+    "objectID": "farm/farm-homework/test.html#set-12-scientific-notation",
+    "href": "farm/farm-homework/test.html#set-12-scientific-notation",
+    "title": "Year 9 Mathematics: Basics Consolidation",
+    "section": "",
+    "text": "Concept: Scientific Notation is a way to write numbers as \\(a \\times 10^n\\), where \\(1 \\le a &lt; 10\\) and \\(n\\) is an integer.\n\n\nQuestion: Write 4500 in scientific notation. Answer: Move the decimal point to get a number between 1 and 10 (4.5). Count how many places it moved (3 places). Answer: \\(4.5 \\times 10^3\\).\n\n\n\n\nWrite 3000 in scientific notation.\nWrite 2,500,000 in scientific notation.\nWrite \\(5 \\times 10^2\\) as a standard number.\nWrite \\(1.2 \\times 10^3\\) as a standard number.\nIn \\(3.4 \\times 10^5\\), which number is the base?\nIn \\(3.4 \\times 10^5\\), which number is the exponent?\nWrite 0.004 in scientific notation (remember negative exponents for small numbers).\nWrite \\(2 \\times 10^{-2}\\) as a decimal.\nWhich is larger: \\(1 \\times 10^4\\) or \\(9 \\times 10^3\\)?\nTrue or False: In scientific notation, the first number must be between 1 and 10."
+  },
+  {
+    "objectID": "farm/farm-homework/test.html#set-13-recurring-decimals",
+    "href": "farm/farm-homework/test.html#set-13-recurring-decimals",
+    "title": "Year 9 Mathematics: Basics Consolidation",
+    "section": "",
+    "text": "Concept: A Recurring decimal has a digit (or group of digits) that repeats forever. We use a dot (or a bar) over the repeating part.\n\n\nQuestion: Write the fraction \\(\\frac{1}{3}\\) as a recurring decimal. Answer: \\(1 \\div 3 = 0.3333...\\) which is written as \\(0.\\dot{3}\\).\n\n\n\n\nWhat does the dot in \\(0.\\dot{5}\\) mean?\nWrite \\(0.666...\\) using dot notation.\nWrite the fraction \\(\\frac{2}{3}\\) as a recurring decimal.\nIs \\(0.5\\) a recurring decimal?\nWrite \\(0.\\dot{1}\\) as a decimal with three digits showing.\nConvert \\(\\frac{1}{9}\\) to a recurring decimal (\\(1 \\div 9\\)).\nTrue or False: \\(0.\\dot{9}\\) is equal to 1.\nWhich notation represents \\(0.121212...\\)? (A) \\(0.\\dot{1}\\dot{2}\\) or (B) \\(0.1\\dot{2}\\)?\nDoes \\(\\frac{1}{2}\\) result in a recurring decimal?\nWrite the number that is exactly double \\(0.\\dot{3}\\)."
+  },
+  {
+    "objectID": "farm/farm-homework/homework.html",
+    "href": "farm/farm-homework/homework.html",
+    "title": "Farm Mapping Homework",
+    "section": "",
+    "text": "In this homework assignment, you will create a PDF map of the school farm using Google My Maps. Use the class guide in farm/index.Rmd for full instructions. Follow the steps below to complete your task.\n\n\n\nGo to https://www.google.co.nz/mymaps and sign in to your Google account.\nCreate a new map and name it “Kaikorai Valley College School Farm”.\nSet up two layers:\n\nExisting for current features (paddocks, dams, fences, buildings, water points).\nProposed for planned work (new planting, new fencing, new water lines).\n\nAdd features using the toolbar:\n\nMarkers for points (sheds, tanks, troughs, gates).\nLines for fences, tracks, or waterways.\nAreas for paddocks or blocks.\n\nUse the Measurement tool (ruler icon) to check at least one distance and one paddock area.\nAdd these map elements:\n\nArrow (north) for direction.\nScale to show distances.\nLegend that explains your symbols and colors.\n\n\n\n\n\nOnce you have completed your map, export it as a PDF. To do this: 1. Click the three vertical dots next to the map name. 2. Select “Print map” and choose the PDF option.\n\n\n\nUse these images as a guide while you work.\nLayers and map setup\n\nAdd markers and lines\n\n\nMeasurement tool\n\nPrint map to PDF\n\n\n\n\nAfter completing your map, please answer the following questions:\n\nWhat features did you include on your map, and why did you choose them?\nHow does adding a scale and legend enhance the usability of your map?\n\n\n\n\nThis homework aligns with the following New Zealand Curriculum areas:\n\nGeography: Understand how people interact with their environment.\nMathematics: Use measurement and scale in practical contexts.\n\nFor more information, visit the New Zealand Curriculum website: New Zealand Curriculum.\n\nMake sure to submit your completed homework by the due date. Happy mapping!"
+  },
+  {
+    "objectID": "farm/farm-homework/homework.html#homework-instructions",
+    "href": "farm/farm-homework/homework.html#homework-instructions",
+    "title": "Farm Mapping Homework",
+    "section": "",
+    "text": "In this homework assignment, you will create a PDF map of the school farm using Google My Maps. Use the class guide in farm/index.Rmd for full instructions. Follow the steps below to complete your task.\n\n\n\nGo to https://www.google.co.nz/mymaps and sign in to your Google account.\nCreate a new map and name it “Kaikorai Valley College School Farm”.\nSet up two layers:\n\nExisting for current features (paddocks, dams, fences, buildings, water points).\nProposed for planned work (new planting, new fencing, new water lines).\n\nAdd features using the toolbar:\n\nMarkers for points (sheds, tanks, troughs, gates).\nLines for fences, tracks, or waterways.\nAreas for paddocks or blocks.\n\nUse the Measurement tool (ruler icon) to check at least one distance and one paddock area.\nAdd these map elements:\n\nArrow (north) for direction.\nScale to show distances.\nLegend that explains your symbols and colors.\n\n\n\n\n\nOnce you have completed your map, export it as a PDF. To do this: 1. Click the three vertical dots next to the map name. 2. Select “Print map” and choose the PDF option.\n\n\n\nUse these images as a guide while you work.\nLayers and map setup\n\nAdd markers and lines\n\n\nMeasurement tool\n\nPrint map to PDF\n\n\n\n\nAfter completing your map, please answer the following questions:\n\nWhat features did you include on your map, and why did you choose them?\nHow does adding a scale and legend enhance the usability of your map?\n\n\n\n\nThis homework aligns with the following New Zealand Curriculum areas:\n\nGeography: Understand how people interact with their environment.\nMathematics: Use measurement and scale in practical contexts.\n\nFor more information, visit the New Zealand Curriculum website: New Zealand Curriculum.\n\nMake sure to submit your completed homework by the due date. Happy mapping!"
+  },
+  {
+    "objectID": "farm/farm-homework/index.html",
+    "href": "farm/farm-homework/index.html",
+    "title": "Farm Mapping Homework",
+    "section": "",
+    "text": "In this homework assignment, you will create a PDF map of the school farm using Google My Maps. You will learn how to add important features to your map, including an arrow, scale, and legend.\n\n\n\n\nCreate Your Map:\n\nFollow the instructions provided in the index.Rmd file to create your farm map using Google My Maps.\n\nAdd Features:\n\nOnce your map is created, you need to add the following features:\n\nArrow: Indicate a specific direction on your map.\nScale: Show the scale of your map to help viewers understand distances.\nLegend: Create a legend that explains the symbols and colors used on your map.\n\n\nExport Your Map:\n\nAfter adding the features, export your map as a PDF. Make sure the arrow, scale, and legend are clearly visible in the exported document.\n\n\n\n\n\n\nExplain why it is important to include a scale on your map. How does it help the viewer?\nDescribe the purpose of a legend in a map. What information should be included in your legend for the school farm map?\n\n\n\n\nThis homework aligns with the following areas of the New Zealand Curriculum:\n\nGeography: Understand how to represent geographical information using maps.\nMathematics: Apply measurement concepts in real-world contexts.\n\nFor more information, visit the New Zealand Curriculum website: New Zealand Curriculum\n\nNote: Ensure you follow the guidelines and submit your homework by the due date. Happy mapping!"
+  },
+  {
+    "objectID": "farm/farm-homework/index.html#homework-assignment-mapping-the-school-farm",
+    "href": "farm/farm-homework/index.html#homework-assignment-mapping-the-school-farm",
+    "title": "Farm Mapping Homework",
+    "section": "",
+    "text": "In this homework assignment, you will create a PDF map of the school farm using Google My Maps. You will learn how to add important features to your map, including an arrow, scale, and legend.\n\n\n\n\nCreate Your Map:\n\nFollow the instructions provided in the index.Rmd file to create your farm map using Google My Maps.\n\nAdd Features:\n\nOnce your map is created, you need to add the following features:\n\nArrow: Indicate a specific direction on your map.\nScale: Show the scale of your map to help viewers understand distances.\nLegend: Create a legend that explains the symbols and colors used on your map.\n\n\nExport Your Map:\n\nAfter adding the features, export your map as a PDF. Make sure the arrow, scale, and legend are clearly visible in the exported document.\n\n\n\n\n\n\nExplain why it is important to include a scale on your map. How does it help the viewer?\nDescribe the purpose of a legend in a map. What information should be included in your legend for the school farm map?\n\n\n\n\nThis homework aligns with the following areas of the New Zealand Curriculum:\n\nGeography: Understand how to represent geographical information using maps.\nMathematics: Apply measurement concepts in real-world contexts.\n\nFor more information, visit the New Zealand Curriculum website: New Zealand Curriculum\n\nNote: Ensure you follow the guidelines and submit your homework by the due date. Happy mapping!"
+  },
+  {
+    "objectID": "farm/index.html",
+    "href": "farm/index.html",
+    "title": "Applied Mathematics: Farm Units",
+    "section": "",
+    "text": "This section contains two short units of applied mathematics on the school farm. The mapping unit comes first, followed by a short, practical unit on the potato patch and hazard management."
+  },
+  {
+    "objectID": "farm/index.html#overview",
+    "href": "farm/index.html#overview",
+    "title": "Applied Mathematics: Farm Units",
+    "section": "",
+    "text": "This section contains two short units of applied mathematics on the school farm. The mapping unit comes first, followed by a short, practical unit on the potato patch and hazard management."
+  },
+  {
+    "objectID": "farm/index.html#unit-1-mapping-the-school-farm-3-weeks",
+    "href": "farm/index.html#unit-1-mapping-the-school-farm-3-weeks",
+    "title": "Applied Mathematics: Farm Units",
+    "section": "Unit 1: Mapping the School Farm (3 weeks)",
+    "text": "Unit 1: Mapping the School Farm (3 weeks)\nFocus on mapping the farm, measuring areas and distances, and producing a final map for the workbook.\n\nWhat you’ll do\n\nBuild layers for existing and proposed features.\nMeasure paddocks and distances.\nExport a clean PDF map for your workbook.\nGo to: Unit 1: Mapping the School Farm"
+  },
+  {
+    "objectID": "farm/index.html#unit-2-potato-patch-prep-3-lessons",
+    "href": "farm/index.html#unit-2-potato-patch-prep-3-lessons",
+    "title": "Applied Mathematics: Farm Units",
+    "section": "Unit 2: Potato Patch Prep (3 lessons)",
+    "text": "Unit 2: Potato Patch Prep (3 lessons)\nFocus on hazards, tool safety, and practical preparation of the potato patch.\nWhat you’ll do\n\nIdentify hazards and agree on controls.\nTurn over soil and remove turf.\nCompost and level the patch for planting.\nGo to: Unit 2: Potato Patch Prep"
+  },
+  {
+    "objectID": "farm/potato-patch.html",
+    "href": "farm/potato-patch.html",
+    "title": "Unit 2: Potato Patch Prep (3 lessons)",
+    "section": "",
+    "text": "This short unit links practical work to risk management by preparing the potato patch. Students identify hazards, use tools safely, and complete the prep steps."
+  },
+  {
+    "objectID": "farm/potato-patch.html#purpose",
+    "href": "farm/potato-patch.html#purpose",
+    "title": "Unit 2: Potato Patch Prep (3 lessons)",
+    "section": "",
+    "text": "This short unit links practical work to risk management by preparing the potato patch. Students identify hazards, use tools safely, and complete the prep steps."
+  },
+  {
+    "objectID": "farm/potato-patch.html#lesson-structure-3-lessons",
+    "href": "farm/potato-patch.html#lesson-structure-3-lessons",
+    "title": "Unit 2: Potato Patch Prep (3 lessons)",
+    "section": "Lesson structure (3 lessons)",
+    "text": "Lesson structure (3 lessons)\n\n\n\n\n\n\n\n\nLesson\nFocus\nOutcome\n\n\n\n\nLesson 1\nHazards and safe tool use\nStudents can name hazards and apply controls.\n\n\nLesson 2\nTurn over and prep the patch\nSoil is loosened and turf is removed.\n\n\nLesson 3\nCompost, break up soil, level\nPatch is composted and ready for planting."
+  },
+  {
+    "objectID": "farm/potato-patch.html#practical-session-potato-patch-prep-40-min",
+    "href": "farm/potato-patch.html#practical-session-potato-patch-prep-40-min",
+    "title": "Unit 2: Potato Patch Prep (3 lessons)",
+    "section": "Practical session: Potato patch prep (40 min)",
+    "text": "Practical session: Potato patch prep (40 min)\nGoal: Turn over and prepare the potato patch for planting by removing grass, loosening soil, and mixing compost.\n\nGroup tasks (20 students total)\n\n\n\n\n\n\n\n\n\nGroup\nStudents\nTask focus\nKey actions\n\n\n\n\nGroup A\n7\nRemove top grass\nLift turf, stack it in a designated pile, clear roots.\n\n\nGroup B\n7\nTurn over soil\nUse forks/spades to loosen and flip soil to one spade depth.\n\n\nGroup C\n6\nCompost and break up soil\nSpread compost, break clods, rake level.\n\n\n\n\n\nTiming (40 min)\n\n0-5 min: Safety briefing, tool allocation, demo of safe spade/fork use.\n5-30 min: Group work on tasks.\n30-35 min: Rotate quick checks, finish edges, tidy stacks.\n35-40 min: Tool clean-up, wash hands, quick reflection.\n\n\n\nTools and materials\n\nSpades (for turf lifting)\nGarden forks (for turning soil)\nRakes (for leveling)\nBuckets or barrow (for compost)\nGloves (one pair per student)\nWater bottle and sunscreen (if required)\n\n\n\nRisks and controls\n\n\n\n\n\n\n\nRisk\nControl\n\n\n\n\nBlisters or cuts\nGloves required, correct tool grip demo.\n\n\nTool injuries (spade/fork)\nSpacing rule: arm’s length plus tool length; tools down when not in use.\n\n\nTrips on uneven ground\nClear walkways; keep tools flat on ground when resting.\n\n\nManual handling strain\nUse knees when lifting turf; share heavy loads.\n\n\nSun exposure\nHats, sunscreen, water breaks.\n\n\n\n\n\nExtra process ideas\n\nMark the patch boundary with string before starting.\nAssign a student as timekeeper for mid-lesson check-in.\nPhotograph before/after for reflection or mapping updates."
+  }
+]

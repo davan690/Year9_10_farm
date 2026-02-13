@@ -1,0 +1,45 @@
+---
+title: "Applied Mathematics: Farm Units"
+author: "Urban Farm 2026"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+```
+
+## Overview
+
+This section contains two short units of applied mathematics on the school farm. The mapping unit comes first, followed by a short, practical unit on the potato patch and hazard management.
+
+---
+
+## Unit 1: Mapping the School Farm (3 weeks)
+
+Focus on mapping the farm, measuring areas and distances, and producing a final map for the workbook.
+
+![](resources/use-google-my-maps-map-your-farm_assets/page1_img1.png){width=70%}
+
+**What you'll do**
+
+- Build layers for existing and proposed features.
+- Measure paddocks and distances.
+- Export a clean PDF map for your workbook.
+
+- Go to: [Unit 1: Mapping the School Farm](mapping.qmd)
+
+---
+
+## Unit 2: Potato Patch Prep (3 lessons)
+
+Focus on hazards, tool safety, and practical preparation of the potato patch.
+
+**What you'll do**
+
+- Identify hazards and agree on controls.
+- Turn over soil and remove turf.
+- Compost and level the patch for planting.
+
+- Go to: [Unit 2: Potato Patch Prep](potato-patch.qmd)
