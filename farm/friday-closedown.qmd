@@ -102,6 +102,7 @@ Welcome to the Friday close-down routine! Complete these tasks to ensure the far
 ## Final Check
 
 Before you leave:
+
 - [ ] All animals have food and water for the weekend
 - [ ] All tools are cleaned and stored properly  
 - [ ] All gates and doors are secured
