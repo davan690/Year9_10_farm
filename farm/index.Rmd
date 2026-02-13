@@ -43,3 +43,18 @@ Focus on hazards, tool safety, and practical preparation of the potato patch.
 - Compost and level the patch for planting.
 
 - Go to: [Unit 2: Potato Patch Prep](potato-patch.qmd)
+
+---
+
+## Friday Close-Down Checklist
+
+A practical ticklist for Friday afternoon to ensure the farm is secure, clean, and ready for the weekend.
+
+**What you'll do**
+
+- Complete animal care and feeding checks.
+- Tidy and secure all tools and equipment.
+- Check environmental observations.
+- Ensure the farm is ready for Monday.
+
+- Go to: [Friday Close-Down Checklist](friday-closedown.qmd)

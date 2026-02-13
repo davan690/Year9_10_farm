@@ -1,94 +1,136 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Urban Farm Applied Mathematics",
+    "objectID": "SECURITY_AUDIT.html",
+    "href": "SECURITY_AUDIT.html",
+    "title": "Security Audit",
     "section": "",
-    "text": "This standalone site contains the Urban Farm applied mathematics units, separated from the Year 9 Mathematics project.\n\n\n\nFarm Units overview\nUnit 1: Mapping the School Farm\nUnit 2: Potato Patch Prep"
+    "text": "Date: 2026-02-13\n\n\n\nAudit status: setup complete\nFindings: not yet run in this repo\nReport: security_audit_report.json\n\n\n\n\n\nWorking tree files (excluding common binary formats and very large files)\nFull git history (all blobs)\n\n\n\n\n\nBinary formats (images, PDFs, archives, etc.) are not scanned.\nFiles over 2 MB are skipped to keep the scan fast.\nIf you need deeper binary scanning, use a specialized tool and update the script accordingly.\n\n\n\n\n\nAutomated scan script at scripts/security_audit.py\nPre-commit hook at .githooks/pre-commit\nGitHub Actions workflow at .github/workflows/security_scan.yml\n\n\n\n\nEnable the repo hook path so the pre-commit scan runs locally:\n\ngit config core.hooksPath .githooks\n\n\n\n\nThis repo includes .github/workflows/publish.yml to deploy the site to GitHub Pages using GitHub Actions.\nIn GitHub:\n\nGo to Settings &gt; Pages.\nUnder Build and deployment, select GitHub Actions.\nSave the settings.\n\n\n\n\n\nProtect the main branch:\n\nRequire pull request reviews\nRequire status checks to pass (Security Scan, Publish Site)\nRequire signed commits\nRequire linear history\n\nRequire signed commits locally:\n\ngit config commit.gpgsign true\nUse either GPG or SSH signing (GitHub supports both)\n\n\n\n\n\n\nRotate or revoke the credential immediately.\nRemove the secret from the repository.\nPurge it from history using git filter-repo:\n\nhttps://github.com/newren/git-filter-repo\n\nForce-push the cleaned history and notify collaborators.\n\n\n\n\n\nFull scan (worktree + history):\n\npython scripts/security_audit.py\n\nStaged-only scan (pre-commit mode):\n\npython scripts/security_audit.py –staged –no-history"
   },
   {
-    "objectID": "index.html#welcome",
-    "href": "index.html#welcome",
-    "title": "Urban Farm Applied Mathematics",
+    "objectID": "SECURITY_AUDIT.html#summary",
+    "href": "SECURITY_AUDIT.html#summary",
+    "title": "Security Audit",
     "section": "",
-    "text": "This standalone site contains the Urban Farm applied mathematics units, separated from the Year 9 Mathematics project.\n\n\n\nFarm Units overview\nUnit 1: Mapping the School Farm\nUnit 2: Potato Patch Prep"
+    "text": "Audit status: setup complete\nFindings: not yet run in this repo\nReport: security_audit_report.json"
   },
   {
-    "objectID": "farm/mapping.html",
-    "href": "farm/mapping.html",
-    "title": "Unit 1: Mapping the School Farm (3 weeks)",
+    "objectID": "SECURITY_AUDIT.html#scope",
+    "href": "SECURITY_AUDIT.html#scope",
+    "title": "Security Audit",
     "section": "",
-    "text": "Google My Maps is a free tool for creating a farm plan, measuring distances and areas, and recording work done on the property. This guide helps you map our school farm features and plan future work."
+    "text": "Working tree files (excluding common binary formats and very large files)\nFull git history (all blobs)"
   },
   {
-    "objectID": "farm/mapping.html#introduction",
-    "href": "farm/mapping.html#introduction",
-    "title": "Unit 1: Mapping the School Farm (3 weeks)",
+    "objectID": "SECURITY_AUDIT.html#limitations",
+    "href": "SECURITY_AUDIT.html#limitations",
+    "title": "Security Audit",
     "section": "",
-    "text": "Google My Maps is a free tool for creating a farm plan, measuring distances and areas, and recording work done on the property. This guide helps you map our school farm features and plan future work."
+    "text": "Binary formats (images, PDFs, archives, etc.) are not scanned.\nFiles over 2 MB are skipped to keep the scan fast.\nIf you need deeper binary scanning, use a specialized tool and update the script accordingly."
   },
   {
-    "objectID": "farm/mapping.html#learning-goals",
-    "href": "farm/mapping.html#learning-goals",
-    "title": "Unit 1: Mapping the School Farm (3 weeks)",
-    "section": "Learning Goals",
-    "text": "Learning Goals\n\nCreate a digital farm map using layers.\nAdd points, lines, and areas with clear labels.\nMeasure distances and paddock areas accurately.\nExport or print a clean map for your workbook."
+    "objectID": "SECURITY_AUDIT.html#solutions-implemented",
+    "href": "SECURITY_AUDIT.html#solutions-implemented",
+    "title": "Security Audit",
+    "section": "",
+    "text": "Automated scan script at scripts/security_audit.py\nPre-commit hook at .githooks/pre-commit\nGitHub Actions workflow at .github/workflows/security_scan.yml"
   },
   {
-    "objectID": "farm/mapping.html#getting-started",
-    "href": "farm/mapping.html#getting-started",
-    "title": "Unit 1: Mapping the School Farm (3 weeks)",
-    "section": "1. Getting Started",
-    "text": "1. Getting Started\n\nGo to https://www.google.co.nz/mymaps and sign in to your Google account. If you do not have an account, create one.\nClick “Create a new map”.\nClick “Untitled map” to rename your map (for example, “Kaikorai Valley College School Farm”)."
+    "objectID": "SECURITY_AUDIT.html#required-setup-one-time",
+    "href": "SECURITY_AUDIT.html#required-setup-one-time",
+    "title": "Security Audit",
+    "section": "",
+    "text": "Enable the repo hook path so the pre-commit scan runs locally:\n\ngit config core.hooksPath .githooks"
   },
   {
-    "objectID": "farm/mapping.html#set-up-layers",
-    "href": "farm/mapping.html#set-up-layers",
-    "title": "Unit 1: Mapping the School Farm (3 weeks)",
-    "section": "2. Set Up Layers",
-    "text": "2. Set Up Layers\nLayers let you separate existing features from proposed work. You can turn layers on or off using the checkbox next to each layer.\n\nRename the first layer to Existing. Use this for current paddocks, dams, fences, buildings, and water points.\nClick “Add layer” and name it Proposed for future work such as new planting or fencing."
+    "objectID": "SECURITY_AUDIT.html#github-pages-setup",
+    "href": "SECURITY_AUDIT.html#github-pages-setup",
+    "title": "Security Audit",
+    "section": "",
+    "text": "This repo includes .github/workflows/publish.yml to deploy the site to GitHub Pages using GitHub Actions.\nIn GitHub:\n\nGo to Settings &gt; Pages.\nUnder Build and deployment, select GitHub Actions.\nSave the settings."
   },
   {
-    "objectID": "farm/mapping.html#locate-the-farm",
-    "href": "farm/mapping.html#locate-the-farm",
-    "title": "Unit 1: Mapping the School Farm (3 weeks)",
-    "section": "3. Locate the Farm",
-    "text": "3. Locate the Farm\n\nUse the search bar to type in the school address, or zoom using the mouse wheel and the + / - buttons.\nClick the arrow next to Base map and choose Satellite for a clear aerial view."
+    "objectID": "SECURITY_AUDIT.html#recommended-repo-protections-github-settings",
+    "href": "SECURITY_AUDIT.html#recommended-repo-protections-github-settings",
+    "title": "Security Audit",
+    "section": "",
+    "text": "Protect the main branch:\n\nRequire pull request reviews\nRequire status checks to pass (Security Scan, Publish Site)\nRequire signed commits\nRequire linear history\n\nRequire signed commits locally:\n\ngit config commit.gpgsign true\nUse either GPG or SSH signing (GitHub supports both)"
   },
   {
-    "objectID": "farm/mapping.html#add-farm-features",
-    "href": "farm/mapping.html#add-farm-features",
-    "title": "Unit 1: Mapping the School Farm (3 weeks)",
-    "section": "4. Add Farm Features",
-    "text": "4. Add Farm Features\n\nA. Markers (Point Features)\nUse markers for water tanks, sheds, gates, troughs, or trees.\n\nClick the Marker icon under the search bar.\nClick the exact spot on the map.\nGive the marker a clear title, then save.\n\n\n\n\nB. Lines (Fences, Tracks, Waterways)\n\nClick the Line icon (right of the marker icon) and choose “Add line or shape”.\nClick along the path of the fence or creek.\nPress Enter to finish the line and add a title.\n\n\n\n\nC. Areas (Paddocks, Orchards, Bush)\n\nStart the same way as a line.\nClick around the boundary and then click the starting point to close the shape.\nAdd a title and save.\n\n\n\nD. Edit or Delete Features\nAfter saving a feature, a popup lets you edit color, line width, transparency, and description. You can also attach a photo or delete the feature using the trash bin icon."
+    "objectID": "SECURITY_AUDIT.html#if-a-secret-is-found",
+    "href": "SECURITY_AUDIT.html#if-a-secret-is-found",
+    "title": "Security Audit",
+    "section": "",
+    "text": "Rotate or revoke the credential immediately.\nRemove the secret from the repository.\nPurge it from history using git filter-repo:\n\nhttps://github.com/newren/git-filter-repo\n\nForce-push the cleaned history and notify collaborators."
   },
   {
-    "objectID": "farm/mapping.html#measure-distances-and-areas",
-    "href": "farm/mapping.html#measure-distances-and-areas",
-    "title": "Unit 1: Mapping the School Farm (3 weeks)",
-    "section": "5. Measure Distances and Areas",
-    "text": "5. Measure Distances and Areas\nThe Measurement tool (ruler icon) helps you check distances or paddock sizes.\n\nClick the ruler icon on the far right of the toolbar.\nClick a starting point, then add points to measure a path.\nFor a polygon, close the shape to see both perimeter and area (in hectares).\nPress Enter to finish a straight line measurement.\nTo stop measuring, click the hand icon or click anywhere on the screen."
+    "objectID": "SECURITY_AUDIT.html#how-to-run-the-scan",
+    "href": "SECURITY_AUDIT.html#how-to-run-the-scan",
+    "title": "Security Audit",
+    "section": "",
+    "text": "Full scan (worktree + history):\n\npython scripts/security_audit.py\n\nStaged-only scan (pre-commit mode):\n\npython scripts/security_audit.py –staged –no-history"
   },
   {
-    "objectID": "farm/mapping.html#export-or-print-your-map",
-    "href": "farm/mapping.html#export-or-print-your-map",
-    "title": "Unit 1: Mapping the School Farm (3 weeks)",
-    "section": "6. Export or Print Your Map",
-    "text": "6. Export or Print Your Map\n\nOption A: Print Map (Recommended)\n\nClick the three vertical dots next to your map name.\nChoose “Print map”.\nPick paper size, orientation, and output type, then click Print.\nA new PDF preview opens in your browser. Use the print icon to save as PDF or print.\n\n\n\n\nOption B: Screenshot (Snipping Tool)\nWindows\n\nOpen Snipping Tool from the Start menu search.\nClick New, then drag to select the area.\nSave the image and insert it into your workbook.\n\nMac\n\nPress Shift + Command + 4.\nDrag to select the area.\nThe screenshot saves to the desktop for inserting into your workbook."
+    "objectID": "farm/potato-patch.html",
+    "href": "farm/potato-patch.html",
+    "title": "Unit 2: Potato Patch Prep (3 lessons)",
+    "section": "",
+    "text": "This short unit links practical work to risk management by preparing the potato patch. Students identify hazards, use tools safely, and complete the prep steps."
   },
   {
-    "objectID": "farm/mapping.html#map-checklist",
-    "href": "farm/mapping.html#map-checklist",
-    "title": "Unit 1: Mapping the School Farm (3 weeks)",
-    "section": "Map Checklist",
-    "text": "Map Checklist\n\nYour map has a clear title.\nLayers include Existing and Proposed.\nFeatures are labeled with correct names.\nAt least one line and one area are mapped.\nMeasurements are used to check a distance or area.\nExport is clean and readable."
+    "objectID": "farm/potato-patch.html#purpose",
+    "href": "farm/potato-patch.html#purpose",
+    "title": "Unit 2: Potato Patch Prep (3 lessons)",
+    "section": "",
+    "text": "This short unit links practical work to risk management by preparing the potato patch. Students identify hazards, use tools safely, and complete the prep steps."
   },
   {
-    "objectID": "farm/mapping.html#source-and-further-help",
-    "href": "farm/mapping.html#source-and-further-help",
-    "title": "Unit 1: Mapping the School Farm (3 weeks)",
-    "section": "Source and Further Help",
-    "text": "Source and Further Help\n\nAdapted from Beef + Lamb New Zealand User Guide (July 2021). PDF: resources/use-google-my-maps-map-your-farm.pdf. Site: https://www.beeflambnz.com\nExtra help video: https://www.landcare.org.nz/resource-item/mapping\nGoogle My Maps support: https://support.google.com/mymaps"
+    "objectID": "farm/potato-patch.html#lesson-structure-3-lessons",
+    "href": "farm/potato-patch.html#lesson-structure-3-lessons",
+    "title": "Unit 2: Potato Patch Prep (3 lessons)",
+    "section": "Lesson structure (3 lessons)",
+    "text": "Lesson structure (3 lessons)\n\n\n\n\n\n\n\n\nLesson\nFocus\nOutcome\n\n\n\n\nLesson 1\nHazards and safe tool use\nStudents can name hazards and apply controls.\n\n\nLesson 2\nTurn over and prep the patch\nSoil is loosened and turf is removed.\n\n\nLesson 3\nCompost, break up soil, level\nPatch is composted and ready for planting."
+  },
+  {
+    "objectID": "farm/potato-patch.html#practical-session-potato-patch-prep-40-min",
+    "href": "farm/potato-patch.html#practical-session-potato-patch-prep-40-min",
+    "title": "Unit 2: Potato Patch Prep (3 lessons)",
+    "section": "Practical session: Potato patch prep (40 min)",
+    "text": "Practical session: Potato patch prep (40 min)\nGoal: Turn over and prepare the potato patch for planting by removing grass, loosening soil, and mixing compost.\n\nGroup tasks (20 students total)\n\n\n\n\n\n\n\n\n\nGroup\nStudents\nTask focus\nKey actions\n\n\n\n\nGroup A\n7\nRemove top grass\nLift turf, stack it in a designated pile, clear roots.\n\n\nGroup B\n7\nTurn over soil\nUse forks/spades to loosen and flip soil to one spade depth.\n\n\nGroup C\n6\nCompost and break up soil\nSpread compost, break clods, rake level.\n\n\n\n\n\nTiming (40 min)\n\n0-5 min: Safety briefing, tool allocation, demo of safe spade/fork use.\n5-30 min: Group work on tasks.\n30-35 min: Rotate quick checks, finish edges, tidy stacks.\n35-40 min: Tool clean-up, wash hands, quick reflection.\n\n\n\nTools and materials\n\nSpades (for turf lifting)\nGarden forks (for turning soil)\nRakes (for leveling)\nBuckets or barrow (for compost)\nGloves (one pair per student)\nWater bottle and sunscreen (if required)\n\n\n\nRisks and controls\n\n\n\n\n\n\n\nRisk\nControl\n\n\n\n\nBlisters or cuts\nGloves required, correct tool grip demo.\n\n\nTool injuries (spade/fork)\nSpacing rule: arm’s length plus tool length; tools down when not in use.\n\n\nTrips on uneven ground\nClear walkways; keep tools flat on ground when resting.\n\n\nManual handling strain\nUse knees when lifting turf; share heavy loads.\n\n\nSun exposure\nHats, sunscreen, water breaks.\n\n\n\n\n\nExtra process ideas\n\nMark the patch boundary with string before starting.\nAssign a student as timekeeper for mid-lesson check-in.\nPhotograph before/after for reflection or mapping updates."
+  },
+  {
+    "objectID": "farm/index.html",
+    "href": "farm/index.html",
+    "title": "Applied Mathematics: Farm Units",
+    "section": "",
+    "text": "This section contains two short units of applied mathematics on the school farm. The mapping unit comes first, followed by a short, practical unit on the potato patch and hazard management."
+  },
+  {
+    "objectID": "farm/index.html#overview",
+    "href": "farm/index.html#overview",
+    "title": "Applied Mathematics: Farm Units",
+    "section": "",
+    "text": "This section contains two short units of applied mathematics on the school farm. The mapping unit comes first, followed by a short, practical unit on the potato patch and hazard management."
+  },
+  {
+    "objectID": "farm/index.html#unit-1-mapping-the-school-farm-3-weeks",
+    "href": "farm/index.html#unit-1-mapping-the-school-farm-3-weeks",
+    "title": "Applied Mathematics: Farm Units",
+    "section": "Unit 1: Mapping the School Farm (3 weeks)",
+    "text": "Unit 1: Mapping the School Farm (3 weeks)\nFocus on mapping the farm, measuring areas and distances, and producing a final map for the workbook.\n\nWhat you’ll do\n\nBuild layers for existing and proposed features.\nMeasure paddocks and distances.\nExport a clean PDF map for your workbook.\nGo to: Unit 1: Mapping the School Farm"
+  },
+  {
+    "objectID": "farm/index.html#unit-2-potato-patch-prep-3-lessons",
+    "href": "farm/index.html#unit-2-potato-patch-prep-3-lessons",
+    "title": "Applied Mathematics: Farm Units",
+    "section": "Unit 2: Potato Patch Prep (3 lessons)",
+    "text": "Unit 2: Potato Patch Prep (3 lessons)\nFocus on hazards, tool safety, and practical preparation of the potato patch.\nWhat you’ll do\n\nIdentify hazards and agree on controls.\nTurn over soil and remove turf.\nCompost and level the patch for planting.\nGo to: Unit 2: Potato Patch Prep"
+  },
+  {
+    "objectID": "farm/index.html#friday-close-down-checklist",
+    "href": "farm/index.html#friday-close-down-checklist",
+    "title": "Applied Mathematics: Farm Units",
+    "section": "Friday Close-Down Checklist",
+    "text": "Friday Close-Down Checklist\nA practical ticklist for Friday afternoon to ensure the farm is secure, clean, and ready for the weekend.\nWhat you’ll do\n\nComplete animal care and feeding checks.\nTidy and secure all tools and equipment.\nCheck environmental observations.\nEnsure the farm is ready for Monday.\nGo to: Friday Close-Down Checklist"
   },
   {
     "objectID": "farm/farm-homework/test.html",
@@ -224,59 +266,150 @@
     "text": "In this homework assignment, you will create a PDF map of the school farm using Google My Maps. You will learn how to add important features to your map, including an arrow, scale, and legend.\n\n\n\n\nCreate Your Map:\n\nFollow the instructions provided in the index.Rmd file to create your farm map using Google My Maps.\n\nAdd Features:\n\nOnce your map is created, you need to add the following features:\n\nArrow: Indicate a specific direction on your map.\nScale: Show the scale of your map to help viewers understand distances.\nLegend: Create a legend that explains the symbols and colors used on your map.\n\n\nExport Your Map:\n\nAfter adding the features, export your map as a PDF. Make sure the arrow, scale, and legend are clearly visible in the exported document.\n\n\n\n\n\n\nExplain why it is important to include a scale on your map. How does it help the viewer?\nDescribe the purpose of a legend in a map. What information should be included in your legend for the school farm map?\n\n\n\n\nThis homework aligns with the following areas of the New Zealand Curriculum:\n\nGeography: Understand how to represent geographical information using maps.\nMathematics: Apply measurement concepts in real-world contexts.\n\nFor more information, visit the New Zealand Curriculum website: New Zealand Curriculum\n\nNote: Ensure you follow the guidelines and submit your homework by the due date. Happy mapping!"
   },
   {
-    "objectID": "farm/index.html",
-    "href": "farm/index.html",
-    "title": "Applied Mathematics: Farm Units",
+    "objectID": "farm/friday-closedown.html",
+    "href": "farm/friday-closedown.html",
+    "title": "Friday Farm Close-Down Checklist",
     "section": "",
-    "text": "This section contains two short units of applied mathematics on the school farm. The mapping unit comes first, followed by a short, practical unit on the potato patch and hazard management."
+    "text": "Welcome to the Friday close-down routine! Complete these tasks to ensure the farm is secure, clean, and ready for the weekend. Work through each mission area systematically."
   },
   {
-    "objectID": "farm/index.html#overview",
-    "href": "farm/index.html#overview",
-    "title": "Applied Mathematics: Farm Units",
+    "objectID": "farm/friday-closedown.html#friday-close-down-mission",
+    "href": "farm/friday-closedown.html#friday-close-down-mission",
+    "title": "Friday Farm Close-Down Checklist",
     "section": "",
-    "text": "This section contains two short units of applied mathematics on the school farm. The mapping unit comes first, followed by a short, practical unit on the potato patch and hazard management."
+    "text": "Welcome to the Friday close-down routine! Complete these tasks to ensure the farm is secure, clean, and ready for the weekend. Work through each mission area systematically."
   },
   {
-    "objectID": "farm/index.html#unit-1-mapping-the-school-farm-3-weeks",
-    "href": "farm/index.html#unit-1-mapping-the-school-farm-3-weeks",
-    "title": "Applied Mathematics: Farm Units",
-    "section": "Unit 1: Mapping the School Farm (3 weeks)",
-    "text": "Unit 1: Mapping the School Farm (3 weeks)\nFocus on mapping the farm, measuring areas and distances, and producing a final map for the workbook.\n\nWhat you’ll do\n\nBuild layers for existing and proposed features.\nMeasure paddocks and distances.\nExport a clean PDF map for your workbook.\nGo to: Unit 1: Mapping the School Farm"
+    "objectID": "farm/friday-closedown.html#mission-area-1-animal-care-observation",
+    "href": "farm/friday-closedown.html#mission-area-1-animal-care-observation",
+    "title": "Friday Farm Close-Down Checklist",
+    "section": "Mission Area 1: Animal Care & Observation",
+    "text": "Mission Area 1: Animal Care & Observation\n\n\n\nChicken Area\n\n\n\nThe Chicken Visit:\n\nMove quietly and slowly into the hen house\nTop up the water container using the fresh water at the barn (if needed)\nFill the feeder using the grain from the outside bin\nOptional: Gently pat a chicken\nSecure the chicken door for the weekend\n\n\n\n\nPaddock Animals\n\n\n\n\nPaddock Animal Check:\n\nScrub out the water trough and refill with clean water\nSpread fresh wood shavings in the shelter bedding area\nPlace a scoop of nuts in the wooden trough for a snack\nCheck all animals are healthy and safe"
   },
   {
-    "objectID": "farm/index.html#unit-2-potato-patch-prep-3-lessons",
-    "href": "farm/index.html#unit-2-potato-patch-prep-3-lessons",
-    "title": "Applied Mathematics: Farm Units",
-    "section": "Unit 2: Potato Patch Prep (3 lessons)",
-    "text": "Unit 2: Potato Patch Prep (3 lessons)\nFocus on hazards, tool safety, and practical preparation of the potato patch.\nWhat you’ll do\n\nIdentify hazards and agree on controls.\nTurn over soil and remove turf.\nCompost and level the patch for planting.\nGo to: Unit 2: Potato Patch Prep"
+    "objectID": "farm/friday-closedown.html#mission-area-2-garden-berry-house-maintenance",
+    "href": "farm/friday-closedown.html#mission-area-2-garden-berry-house-maintenance",
+    "title": "Friday Farm Close-Down Checklist",
+    "section": "Mission Area 2: Garden & Berry House Maintenance",
+    "text": "Mission Area 2: Garden & Berry House Maintenance\n\nThe Watering Run:\n\nUse the blue bin supply to fill watering cans\nDeliver at least 2 full cans per raised bed\nBonus: Water the herb boxes by the barn\n\n\n\nWeed & Tend:\n\nCollect gloves, a fork, and a wheelbarrow\nIdentify and remove weeds from the vegetable and “no-dig” beds\nGently turn the topsoil to aerate it for new growth\n\n\n\nThe Berry House Mission:\n\nWeed around the base of the berry plants\nApply a fresh layer of wood chips to suppress future weeds and hold moisture\n\n\n\nPlanting & Propagation:\n\nCheck the seed raising tray in the tunnel house\nUse a spray bottle to dampen the soil of any emerging seedlings"
   },
   {
-    "objectID": "farm/potato-patch.html",
-    "href": "farm/potato-patch.html",
-    "title": "Unit 2: Potato Patch Prep (3 lessons)",
+    "objectID": "farm/friday-closedown.html#mission-area-3-restoration-tree-health",
+    "href": "farm/friday-closedown.html#mission-area-3-restoration-tree-health",
+    "title": "Friday Farm Close-Down Checklist",
+    "section": "Mission Area 3: Restoration & Tree Health",
+    "text": "Mission Area 3: Restoration & Tree Health\n\nGorse Removal:\n\nGear up: Wear heavy-duty gloves and grab the loppers\nHead to the hillside behind the poplars at the top of the farm\nCut gorse back to the base and pile it neatly for disposal\n\n\n\nYoung Tree Audit:\n\nWalk the farm perimeter and check all newly planted trees\nCheck: Are they still alive? Are the protective covers/guards secure?\nPull any grass or weeds growing inside the tree guards"
+  },
+  {
+    "objectID": "farm/friday-closedown.html#mission-area-4-environmental-observation",
+    "href": "farm/friday-closedown.html#mission-area-4-environmental-observation",
+    "title": "Friday Farm Close-Down Checklist",
+    "section": "Mission Area 4: Environmental Observation",
+    "text": "Mission Area 4: Environmental Observation\n\nThe Stream Study:\n\nLook: Is the water clear or murky? Is it flowing fast or slow?\nListen: Can you hear the water? Can you identify any bird calls nearby?\nSmell & Feel: Does the air smell damp? Is it cooler here than in the open paddock?\n\n\n\nBee Watch:\n\nStand to the side of the hive (stay out of the flight path!)\nThe Minute Count: How many bees leave the hive in 60 seconds? How many return?\nRecord your observations for next week’s comparison"
+  },
+  {
+    "objectID": "farm/friday-closedown.html#mission-area-5-organisation-inventory",
+    "href": "farm/friday-closedown.html#mission-area-5-organisation-inventory",
+    "title": "Friday Farm Close-Down Checklist",
+    "section": "Mission Area 5: Organisation & Inventory",
+    "text": "Mission Area 5: Organisation & Inventory\n\n\n\nFarm Barn\n\n\n\nThe Great Tidy-Up:\n\nBarn & Shed: Sweep the floors and return all tools to their specific hooks or racks\nWood Pile: Re-stack the wood pile behind the ‘toilet’ area so it is neat and safe\nPot Sort: Head behind the barn. Organise the pots by size and stack them neatly\n\n\n\n\nFarm Shed\n\n\n\n\nTool Audit:\n\nClean all dirt off tools used today\nEnsure all watering cans and buckets are stored upside down (to prevent mosquito breeding)\nReturn all equipment to proper storage locations\nLock shed and secure gates"
+  },
+  {
+    "objectID": "farm/friday-closedown.html#final-check",
+    "href": "farm/friday-closedown.html#final-check",
+    "title": "Friday Farm Close-Down Checklist",
+    "section": "Final Check",
+    "text": "Final Check\nBefore you leave: - [ ] All animals have food and water for the weekend - [ ] All tools are cleaned and stored properly\n- [ ] All gates and doors are secured - [ ] No hoses or watering equipment left running - [ ] Farm is ready for Monday!\nWell done, Farm Steward! Have a great weekend! 🌾"
+  },
+  {
+    "objectID": "farm/mapping.html",
+    "href": "farm/mapping.html",
+    "title": "Unit 1: Mapping the School Farm (3 weeks)",
     "section": "",
-    "text": "This short unit links practical work to risk management by preparing the potato patch. Students identify hazards, use tools safely, and complete the prep steps."
+    "text": "Google My Maps is a free tool for creating a farm plan, measuring distances and areas, and recording work done on the property. This guide helps you map our school farm features and plan future work."
   },
   {
-    "objectID": "farm/potato-patch.html#purpose",
-    "href": "farm/potato-patch.html#purpose",
-    "title": "Unit 2: Potato Patch Prep (3 lessons)",
+    "objectID": "farm/mapping.html#introduction",
+    "href": "farm/mapping.html#introduction",
+    "title": "Unit 1: Mapping the School Farm (3 weeks)",
     "section": "",
-    "text": "This short unit links practical work to risk management by preparing the potato patch. Students identify hazards, use tools safely, and complete the prep steps."
+    "text": "Google My Maps is a free tool for creating a farm plan, measuring distances and areas, and recording work done on the property. This guide helps you map our school farm features and plan future work."
   },
   {
-    "objectID": "farm/potato-patch.html#lesson-structure-3-lessons",
-    "href": "farm/potato-patch.html#lesson-structure-3-lessons",
-    "title": "Unit 2: Potato Patch Prep (3 lessons)",
-    "section": "Lesson structure (3 lessons)",
-    "text": "Lesson structure (3 lessons)\n\n\n\n\n\n\n\n\nLesson\nFocus\nOutcome\n\n\n\n\nLesson 1\nHazards and safe tool use\nStudents can name hazards and apply controls.\n\n\nLesson 2\nTurn over and prep the patch\nSoil is loosened and turf is removed.\n\n\nLesson 3\nCompost, break up soil, level\nPatch is composted and ready for planting."
+    "objectID": "farm/mapping.html#learning-goals",
+    "href": "farm/mapping.html#learning-goals",
+    "title": "Unit 1: Mapping the School Farm (3 weeks)",
+    "section": "Learning Goals",
+    "text": "Learning Goals\n\nCreate a digital farm map using layers.\nAdd points, lines, and areas with clear labels.\nMeasure distances and paddock areas accurately.\nExport or print a clean map for your workbook."
   },
   {
-    "objectID": "farm/potato-patch.html#practical-session-potato-patch-prep-40-min",
-    "href": "farm/potato-patch.html#practical-session-potato-patch-prep-40-min",
-    "title": "Unit 2: Potato Patch Prep (3 lessons)",
-    "section": "Practical session: Potato patch prep (40 min)",
-    "text": "Practical session: Potato patch prep (40 min)\nGoal: Turn over and prepare the potato patch for planting by removing grass, loosening soil, and mixing compost.\n\nGroup tasks (20 students total)\n\n\n\n\n\n\n\n\n\nGroup\nStudents\nTask focus\nKey actions\n\n\n\n\nGroup A\n7\nRemove top grass\nLift turf, stack it in a designated pile, clear roots.\n\n\nGroup B\n7\nTurn over soil\nUse forks/spades to loosen and flip soil to one spade depth.\n\n\nGroup C\n6\nCompost and break up soil\nSpread compost, break clods, rake level.\n\n\n\n\n\nTiming (40 min)\n\n0-5 min: Safety briefing, tool allocation, demo of safe spade/fork use.\n5-30 min: Group work on tasks.\n30-35 min: Rotate quick checks, finish edges, tidy stacks.\n35-40 min: Tool clean-up, wash hands, quick reflection.\n\n\n\nTools and materials\n\nSpades (for turf lifting)\nGarden forks (for turning soil)\nRakes (for leveling)\nBuckets or barrow (for compost)\nGloves (one pair per student)\nWater bottle and sunscreen (if required)\n\n\n\nRisks and controls\n\n\n\n\n\n\n\nRisk\nControl\n\n\n\n\nBlisters or cuts\nGloves required, correct tool grip demo.\n\n\nTool injuries (spade/fork)\nSpacing rule: arm’s length plus tool length; tools down when not in use.\n\n\nTrips on uneven ground\nClear walkways; keep tools flat on ground when resting.\n\n\nManual handling strain\nUse knees when lifting turf; share heavy loads.\n\n\nSun exposure\nHats, sunscreen, water breaks.\n\n\n\n\n\nExtra process ideas\n\nMark the patch boundary with string before starting.\nAssign a student as timekeeper for mid-lesson check-in.\nPhotograph before/after for reflection or mapping updates."
+    "objectID": "farm/mapping.html#getting-started",
+    "href": "farm/mapping.html#getting-started",
+    "title": "Unit 1: Mapping the School Farm (3 weeks)",
+    "section": "1. Getting Started",
+    "text": "1. Getting Started\n\nGo to https://www.google.co.nz/mymaps and sign in to your Google account. If you do not have an account, create one.\nClick “Create a new map”.\nClick “Untitled map” to rename your map (for example, “Kaikorai Valley College School Farm”)."
+  },
+  {
+    "objectID": "farm/mapping.html#set-up-layers",
+    "href": "farm/mapping.html#set-up-layers",
+    "title": "Unit 1: Mapping the School Farm (3 weeks)",
+    "section": "2. Set Up Layers",
+    "text": "2. Set Up Layers\nLayers let you separate existing features from proposed work. You can turn layers on or off using the checkbox next to each layer.\n\nRename the first layer to Existing. Use this for current paddocks, dams, fences, buildings, and water points.\nClick “Add layer” and name it Proposed for future work such as new planting or fencing."
+  },
+  {
+    "objectID": "farm/mapping.html#locate-the-farm",
+    "href": "farm/mapping.html#locate-the-farm",
+    "title": "Unit 1: Mapping the School Farm (3 weeks)",
+    "section": "3. Locate the Farm",
+    "text": "3. Locate the Farm\n\nUse the search bar to type in the school address, or zoom using the mouse wheel and the + / - buttons.\nClick the arrow next to Base map and choose Satellite for a clear aerial view."
+  },
+  {
+    "objectID": "farm/mapping.html#add-farm-features",
+    "href": "farm/mapping.html#add-farm-features",
+    "title": "Unit 1: Mapping the School Farm (3 weeks)",
+    "section": "4. Add Farm Features",
+    "text": "4. Add Farm Features\n\nA. Markers (Point Features)\nUse markers for water tanks, sheds, gates, troughs, or trees.\n\nClick the Marker icon under the search bar.\nClick the exact spot on the map.\nGive the marker a clear title, then save.\n\n\n\n\nB. Lines (Fences, Tracks, Waterways)\n\nClick the Line icon (right of the marker icon) and choose “Add line or shape”.\nClick along the path of the fence or creek.\nPress Enter to finish the line and add a title.\n\n\n\n\nC. Areas (Paddocks, Orchards, Bush)\n\nStart the same way as a line.\nClick around the boundary and then click the starting point to close the shape.\nAdd a title and save.\n\n\n\nD. Edit or Delete Features\nAfter saving a feature, a popup lets you edit color, line width, transparency, and description. You can also attach a photo or delete the feature using the trash bin icon."
+  },
+  {
+    "objectID": "farm/mapping.html#measure-distances-and-areas",
+    "href": "farm/mapping.html#measure-distances-and-areas",
+    "title": "Unit 1: Mapping the School Farm (3 weeks)",
+    "section": "5. Measure Distances and Areas",
+    "text": "5. Measure Distances and Areas\nThe Measurement tool (ruler icon) helps you check distances or paddock sizes.\n\nClick the ruler icon on the far right of the toolbar.\nClick a starting point, then add points to measure a path.\nFor a polygon, close the shape to see both perimeter and area (in hectares).\nPress Enter to finish a straight line measurement.\nTo stop measuring, click the hand icon or click anywhere on the screen."
+  },
+  {
+    "objectID": "farm/mapping.html#export-or-print-your-map",
+    "href": "farm/mapping.html#export-or-print-your-map",
+    "title": "Unit 1: Mapping the School Farm (3 weeks)",
+    "section": "6. Export or Print Your Map",
+    "text": "6. Export or Print Your Map\n\nOption A: Print Map (Recommended)\n\nClick the three vertical dots next to your map name.\nChoose “Print map”.\nPick paper size, orientation, and output type, then click Print.\nA new PDF preview opens in your browser. Use the print icon to save as PDF or print.\n\n\n\n\nOption B: Screenshot (Snipping Tool)\nWindows\n\nOpen Snipping Tool from the Start menu search.\nClick New, then drag to select the area.\nSave the image and insert it into your workbook.\n\nMac\n\nPress Shift + Command + 4.\nDrag to select the area.\nThe screenshot saves to the desktop for inserting into your workbook."
+  },
+  {
+    "objectID": "farm/mapping.html#map-checklist",
+    "href": "farm/mapping.html#map-checklist",
+    "title": "Unit 1: Mapping the School Farm (3 weeks)",
+    "section": "Map Checklist",
+    "text": "Map Checklist\n\nYour map has a clear title.\nLayers include Existing and Proposed.\nFeatures are labeled with correct names.\nAt least one line and one area are mapped.\nMeasurements are used to check a distance or area.\nExport is clean and readable."
+  },
+  {
+    "objectID": "farm/mapping.html#source-and-further-help",
+    "href": "farm/mapping.html#source-and-further-help",
+    "title": "Unit 1: Mapping the School Farm (3 weeks)",
+    "section": "Source and Further Help",
+    "text": "Source and Further Help\n\nAdapted from Beef + Lamb New Zealand User Guide (July 2021). PDF: resources/use-google-my-maps-map-your-farm.pdf. Site: https://www.beeflambnz.com\nExtra help video: https://www.landcare.org.nz/resource-item/mapping\nGoogle My Maps support: https://support.google.com/mymaps"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Urban Farm Applied Mathematics",
+    "section": "",
+    "text": "This standalone site contains the Urban Farm applied mathematics units, separated from the Year 9 Mathematics project.\n\n\n\nFarm Units overview\nUnit 1: Mapping the School Farm\nUnit 2: Potato Patch Prep\nFriday Close-Down Checklist"
+  },
+  {
+    "objectID": "index.html#welcome",
+    "href": "index.html#welcome",
+    "title": "Urban Farm Applied Mathematics",
+    "section": "",
+    "text": "This standalone site contains the Urban Farm applied mathematics units, separated from the Year 9 Mathematics project.\n\n\n\nFarm Units overview\nUnit 1: Mapping the School Farm\nUnit 2: Potato Patch Prep\nFriday Close-Down Checklist"
   }
 ]

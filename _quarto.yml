@@ -14,6 +14,8 @@ website:
         href: farm/mapping.qmd
       - text: "Potato Patch Unit"
         href: farm/potato-patch.qmd
+      - text: "Friday Close-Down"
+        href: farm/friday-closedown.qmd
   sidebar: false
   page-footer:
     center: "Urban Farm Applied Mathematics"
