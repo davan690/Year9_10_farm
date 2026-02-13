@@ -1,0 +1,10 @@
+#!/bin/sh
+# Blocks commits that include likely secrets.
+if command -v python >/dev/null 2>&1; then
+  python scripts/security_audit.py --staged --no-history
+elif command -v py >/dev/null 2>&1; then
+  py -3 scripts/security_audit.py --staged --no-history
+else
+  echo "ERROR: Python not found. Install Python or update PATH." >&2
+  exit 1
+fi
