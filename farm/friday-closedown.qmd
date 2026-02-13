@@ -9,6 +9,8 @@ Welcome to the Friday close-down routine! Before leaving for the weekend, comple
 
 **Note:** If you haven't already completed the regular farm missions this week, visit the [Farm Missions](missions/index.qmd) page to see what needs to be done. The Friday close-down assumes all regular maintenance has been completed.
 
+**📄 Download:** [Friday Ticklist PDF](../resources/Friday_tickList.pdf) - Print this checklist for easy reference on the farm!
+
 ---
 
 ## Final Check
