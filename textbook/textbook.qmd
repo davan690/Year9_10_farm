@@ -1,0 +1,49 @@
+---
+title: "Textbook"
+author: "Your Name"
+date: today
+format:
+  html:
+    toc: true
+    toc-location: left
+---
+
+# Introduction
+
+Welcome to the textbook section for Urban Farm Applied Mathematics.
+
+# Chapter 1: Introduction to Farming
+
+## Overview
+
+This chapter introduces core farming ideas, agriculture systems, and practical farm contexts.
+
+## Key Concepts
+
+- Types of Farming
+- Sustainable Practices
+- Technology in Farming
+
+# Chapter 2: Daily Challenges in Farming
+
+## Overview
+
+This chapter covers weather, market factors, and pest management in day-to-day farm decision-making.
+
+## Key Concepts
+
+- Weather Impact
+- Economic Factors
+- Pest Control Strategies
+
+# Interactive Components
+
+This section will include interactive elements that allow students to engage with the material actively. These components will be developed in the `interactive` folder and linked here.
+
+# Conclusion
+
+This textbook provides a foundational overview and supports the practical farm units in this site.
+
+# References
+
+For a complete list of references used in this textbook, please see the `references.bib` file in this directory.

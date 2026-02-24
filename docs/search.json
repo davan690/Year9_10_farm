@@ -1,269 +1,402 @@
 [
   {
-    "objectID": "SECURITY_AUDIT.html",
-    "href": "SECURITY_AUDIT.html",
-    "title": "Security Audit",
+    "objectID": "textbook/textbook.html",
+    "href": "textbook/textbook.html",
+    "title": "Textbook",
     "section": "",
-    "text": "Date: 2026-02-13\n\n\n\nAudit status: setup complete\nFindings: not yet run in this repo\nReport: security_audit_report.json\n\n\n\n\n\nWorking tree files (excluding common binary formats and very large files)\nFull git history (all blobs)\n\n\n\n\n\nBinary formats (images, PDFs, archives, etc.) are not scanned.\nFiles over 2 MB are skipped to keep the scan fast.\nIf you need deeper binary scanning, use a specialized tool and update the script accordingly.\n\n\n\n\n\nAutomated scan script at scripts/security_audit.py\nPre-commit hook at .githooks/pre-commit\nGitHub Actions workflow at .github/workflows/security_scan.yml\n\n\n\n\nEnable the repo hook path so the pre-commit scan runs locally:\n\ngit config core.hooksPath .githooks\n\n\n\n\nThis repo includes .github/workflows/publish.yml to deploy the site to GitHub Pages using GitHub Actions.\nIn GitHub:\n\nGo to Settings &gt; Pages.\nUnder Build and deployment, select GitHub Actions.\nSave the settings.\n\n\n\n\n\nProtect the main branch:\n\nRequire pull request reviews\nRequire status checks to pass (Security Scan, Publish Site)\nRequire signed commits\nRequire linear history\n\nRequire signed commits locally:\n\ngit config commit.gpgsign true\nUse either GPG or SSH signing (GitHub supports both)\n\n\n\n\n\n\nRotate or revoke the credential immediately.\nRemove the secret from the repository.\nPurge it from history using git filter-repo:\n\nhttps://github.com/newren/git-filter-repo\n\nForce-push the cleaned history and notify collaborators.\n\n\n\n\n\nFull scan (worktree + history):\n\npython scripts/security_audit.py\n\nStaged-only scan (pre-commit mode):\n\npython scripts/security_audit.py –staged –no-history"
+    "text": "Welcome to the textbook section for Urban Farm Applied Mathematics."
   },
   {
-    "objectID": "SECURITY_AUDIT.html#summary",
-    "href": "SECURITY_AUDIT.html#summary",
-    "title": "Security Audit",
+    "objectID": "textbook/textbook.html#overview",
+    "href": "textbook/textbook.html#overview",
+    "title": "Textbook",
+    "section": "Overview",
+    "text": "Overview\nThis chapter introduces core farming ideas, agriculture systems, and practical farm contexts."
+  },
+  {
+    "objectID": "textbook/textbook.html#key-concepts",
+    "href": "textbook/textbook.html#key-concepts",
+    "title": "Textbook",
+    "section": "Key Concepts",
+    "text": "Key Concepts\n\nTypes of Farming\nSustainable Practices\nTechnology in Farming"
+  },
+  {
+    "objectID": "textbook/textbook.html#overview-1",
+    "href": "textbook/textbook.html#overview-1",
+    "title": "Textbook",
+    "section": "Overview",
+    "text": "Overview\nThis chapter covers weather, market factors, and pest management in day-to-day farm decision-making."
+  },
+  {
+    "objectID": "textbook/textbook.html#key-concepts-1",
+    "href": "textbook/textbook.html#key-concepts-1",
+    "title": "Textbook",
+    "section": "Key Concepts",
+    "text": "Key Concepts\n\nWeather Impact\nEconomic Factors\nPest Control Strategies"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Urban Farm Applied Mathematics",
     "section": "",
-    "text": "Audit status: setup complete\nFindings: not yet run in this repo\nReport: security_audit_report.json"
+    "text": "This standalone site contains the Urban Farm applied mathematics units, separated from the Year 9 Mathematics project.\n\n\n\nFarm Units overview\nUnit 1: Mapping the School Farm\nUnit 2: Potato Patch Prep\n\n\n\n\n\nFarm Missions - Regular maintenance tasks\nFriday Close-Down Checklist"
   },
   {
-    "objectID": "SECURITY_AUDIT.html#scope",
-    "href": "SECURITY_AUDIT.html#scope",
-    "title": "Security Audit",
+    "objectID": "index.html#welcome",
+    "href": "index.html#welcome",
+    "title": "Urban Farm Applied Mathematics",
     "section": "",
-    "text": "Working tree files (excluding common binary formats and very large files)\nFull git history (all blobs)"
+    "text": "This standalone site contains the Urban Farm applied mathematics units, separated from the Year 9 Mathematics project.\n\n\n\nFarm Units overview\nUnit 1: Mapping the School Farm\nUnit 2: Potato Patch Prep\n\n\n\n\n\nFarm Missions - Regular maintenance tasks\nFriday Close-Down Checklist"
   },
   {
-    "objectID": "SECURITY_AUDIT.html#limitations",
-    "href": "SECURITY_AUDIT.html#limitations",
-    "title": "Security Audit",
+    "objectID": "farm/missions/mission5-organisation.html",
+    "href": "farm/missions/mission5-organisation.html",
+    "title": "Mission 5: Organisation & Inventory",
     "section": "",
-    "text": "Binary formats (images, PDFs, archives, etc.) are not scanned.\nFiles over 2 MB are skipped to keep the scan fast.\nIf you need deeper binary scanning, use a specialized tool and update the script accordingly."
+    "text": "Your mission is to maintain an organized, safe, and efficient farm workspace. A tidy farm is a safe farm and makes everyone’s work easier."
   },
   {
-    "objectID": "SECURITY_AUDIT.html#solutions-implemented",
-    "href": "SECURITY_AUDIT.html#solutions-implemented",
-    "title": "Security Audit",
+    "objectID": "farm/missions/mission5-organisation.html#overview",
+    "href": "farm/missions/mission5-organisation.html#overview",
+    "title": "Mission 5: Organisation & Inventory",
     "section": "",
-    "text": "Automated scan script at scripts/security_audit.py\nPre-commit hook at .githooks/pre-commit\nGitHub Actions workflow at .github/workflows/security_scan.yml"
+    "text": "Your mission is to maintain an organized, safe, and efficient farm workspace. A tidy farm is a safe farm and makes everyone’s work easier."
   },
   {
-    "objectID": "SECURITY_AUDIT.html#required-setup-one-time",
-    "href": "SECURITY_AUDIT.html#required-setup-one-time",
-    "title": "Security Audit",
-    "section": "",
-    "text": "Enable the repo hook path so the pre-commit scan runs locally:\n\ngit config core.hooksPath .githooks"
+    "objectID": "farm/missions/mission5-organisation.html#the-great-tidy-up",
+    "href": "farm/missions/mission5-organisation.html#the-great-tidy-up",
+    "title": "Mission 5: Organisation & Inventory",
+    "section": "The Great Tidy-Up",
+    "text": "The Great Tidy-Up\n\n\n\nFarm Barn\n\n\n\nBarn & Shed Organisation:\n\nSweep the floors and clear any debris\nReturn all tools to their specific hooks or racks\nCheck that all tools are accounted for\nWipe down work surfaces\nOrganize shelves and storage areas\nStack bags and containers neatly\nRemove any rubbish to appropriate bins\n\nOrganisation Principles: - A place for everything, everything in its place - Most-used items should be easiest to access - Heavy items stored low, light items stored high - Label storage areas clearly - Keep walkways clear and safe\n\n\n\nWood Pile Management:\n\nRe-stack the wood pile behind the ‘toilet’ area so it is neat and safe\nStack wood in stable rows\nKeep wood off the ground (use pallets if available)\nArrange with bark side up to shed water\nRemove any rotten or unsafe pieces\nEnsure pile won’t topple over\n\nWood Stacking Tips: - Crisscross ends for stability - Lean slightly back against support - Leave air gaps for drying and ventilation - Stack away from buildings (fire safety)\n\n\n\n\nFarm Shed\n\n\n\n\nPot Sort & Storage:\n\nHead behind the barn to the pot storage area\nSort pots by size (small, medium, large)\nStack pots of same size inside each other\nRemove any broken or damaged pots to recycling\nClean pots if needed (remove old soil/debris)\nStore in a location that won’t block access\nKeep different materials separate (plastic, terracotta, etc.)\n\nStorage Guidelines: - Nest pots to save space - Store upside down to prevent water collection - Keep in shaded area to prevent UV damage - Maintain tidy stacks that won’t topple"
   },
   {
-    "objectID": "SECURITY_AUDIT.html#github-pages-setup",
-    "href": "SECURITY_AUDIT.html#github-pages-setup",
-    "title": "Security Audit",
-    "section": "",
-    "text": "This repo includes .github/workflows/publish.yml to deploy the site to GitHub Pages using GitHub Actions.\nIn GitHub:\n\nGo to Settings &gt; Pages.\nUnder Build and deployment, select GitHub Actions.\nSave the settings."
+    "objectID": "farm/missions/mission5-organisation.html#tool-audit",
+    "href": "farm/missions/mission5-organisation.html#tool-audit",
+    "title": "Mission 5: Organisation & Inventory",
+    "section": "Tool Audit",
+    "text": "Tool Audit\nProper tool maintenance extends their life and ensures safety:\n\nCleaning Protocol:\n\nClean all dirt off tools used today\nRemove mud, sap, and plant material\nWipe metal parts with oily rag if rusty\nCheck wooden handles for splinters\nSharpen blades if necessary (ask supervisor)\n\n\n\nStorage Protocol:\n\nEnsure all watering cans and buckets are stored upside down (to prevent mosquito breeding)\nReturn all equipment to proper storage locations\nHang tools on designated hooks/racks\nCoil hoses neatly\nStore small tools in labeled containers\nPlace sharp tools safely (blades away from reach)\n\nTool Maintenance Tips: - Clean tools after each use - dried mud is harder to remove - Oil metal parts occasionally to prevent rust - Tighten loose handles before they break - Report damaged tools immediately - Don’t put tools away dirty or wet"
   },
   {
-    "objectID": "SECURITY_AUDIT.html#recommended-repo-protections-github-settings",
-    "href": "SECURITY_AUDIT.html#recommended-repo-protections-github-settings",
-    "title": "Security Audit",
-    "section": "",
-    "text": "Protect the main branch:\n\nRequire pull request reviews\nRequire status checks to pass (Security Scan, Publish Site)\nRequire signed commits\nRequire linear history\n\nRequire signed commits locally:\n\ngit config commit.gpgsign true\nUse either GPG or SSH signing (GitHub supports both)"
+    "objectID": "farm/missions/mission5-organisation.html#security-check",
+    "href": "farm/missions/mission5-organisation.html#security-check",
+    "title": "Mission 5: Organisation & Inventory",
+    "section": "Security Check",
+    "text": "Security Check\nBefore leaving the area:\n\nLock shed and secure gates\nClose all doors and windows\nCheck nothing is left outside that shouldn’t be\nEnsure no tools are laying around as trip hazards\nTurn off any water taps\nCheck no electrical equipment left on\nDo a final visual sweep of the area"
   },
   {
-    "objectID": "SECURITY_AUDIT.html#if-a-secret-is-found",
-    "href": "SECURITY_AUDIT.html#if-a-secret-is-found",
-    "title": "Security Audit",
-    "section": "",
-    "text": "Rotate or revoke the credential immediately.\nRemove the secret from the repository.\nPurge it from history using git filter-repo:\n\nhttps://github.com/newren/git-filter-repo\n\nForce-push the cleaned history and notify collaborators."
+    "objectID": "farm/missions/mission5-organisation.html#inventory-notes",
+    "href": "farm/missions/mission5-organisation.html#inventory-notes",
+    "title": "Mission 5: Organisation & Inventory",
+    "section": "Inventory Notes",
+    "text": "Inventory Notes\nHelp maintain farm equipment:\n\nNote any missing tools\nReport any broken or damaged equipment\nSuggest items that need replacing\nRecord any safety concerns\nUpdate equipment log if maintained"
   },
   {
-    "objectID": "SECURITY_AUDIT.html#how-to-run-the-scan",
-    "href": "SECURITY_AUDIT.html#how-to-run-the-scan",
-    "title": "Security Audit",
-    "section": "",
-    "text": "Full scan (worktree + history):\n\npython scripts/security_audit.py\n\nStaged-only scan (pre-commit mode):\n\npython scripts/security_audit.py –staged –no-history"
-  },
-  {
-    "objectID": "farm/potato-patch.html",
-    "href": "farm/potato-patch.html",
-    "title": "Unit 2: Potato Patch Prep (3 lessons)",
-    "section": "",
-    "text": "This short unit links practical work to risk management by preparing the potato patch. Students identify hazards, use tools safely, and complete the prep steps."
-  },
-  {
-    "objectID": "farm/potato-patch.html#purpose",
-    "href": "farm/potato-patch.html#purpose",
-    "title": "Unit 2: Potato Patch Prep (3 lessons)",
-    "section": "",
-    "text": "This short unit links practical work to risk management by preparing the potato patch. Students identify hazards, use tools safely, and complete the prep steps."
-  },
-  {
-    "objectID": "farm/potato-patch.html#lesson-structure-3-lessons",
-    "href": "farm/potato-patch.html#lesson-structure-3-lessons",
-    "title": "Unit 2: Potato Patch Prep (3 lessons)",
-    "section": "Lesson structure (3 lessons)",
-    "text": "Lesson structure (3 lessons)\n\n\n\n\n\n\n\n\nLesson\nFocus\nOutcome\n\n\n\n\nLesson 1\nHazards and safe tool use\nStudents can name hazards and apply controls.\n\n\nLesson 2\nTurn over and prep the patch\nSoil is loosened and turf is removed.\n\n\nLesson 3\nCompost, break up soil, level\nPatch is composted and ready for planting."
-  },
-  {
-    "objectID": "farm/potato-patch.html#practical-session-potato-patch-prep-40-min",
-    "href": "farm/potato-patch.html#practical-session-potato-patch-prep-40-min",
-    "title": "Unit 2: Potato Patch Prep (3 lessons)",
-    "section": "Practical session: Potato patch prep (40 min)",
-    "text": "Practical session: Potato patch prep (40 min)\nGoal: Turn over and prepare the potato patch for planting by removing grass, loosening soil, and mixing compost.\n\nGroup tasks (20 students total)\n\n\n\n\n\n\n\n\n\nGroup\nStudents\nTask focus\nKey actions\n\n\n\n\nGroup A\n7\nRemove top grass\nLift turf, stack it in a designated pile, clear roots.\n\n\nGroup B\n7\nTurn over soil\nUse forks/spades to loosen and flip soil to one spade depth.\n\n\nGroup C\n6\nCompost and break up soil\nSpread compost, break clods, rake level.\n\n\n\n\n\nTiming (40 min)\n\n0-5 min: Safety briefing, tool allocation, demo of safe spade/fork use.\n5-30 min: Group work on tasks.\n30-35 min: Rotate quick checks, finish edges, tidy stacks.\n35-40 min: Tool clean-up, wash hands, quick reflection.\n\n\n\nTools and materials\n\nSpades (for turf lifting)\nGarden forks (for turning soil)\nRakes (for leveling)\nBuckets or barrow (for compost)\nGloves (one pair per student)\nWater bottle and sunscreen (if required)\n\n\n\nRisks and controls\n\n\n\n\n\n\n\nRisk\nControl\n\n\n\n\nBlisters or cuts\nGloves required, correct tool grip demo.\n\n\nTool injuries (spade/fork)\nSpacing rule: arm’s length plus tool length; tools down when not in use.\n\n\nTrips on uneven ground\nClear walkways; keep tools flat on ground when resting.\n\n\nManual handling strain\nUse knees when lifting turf; share heavy loads.\n\n\nSun exposure\nHats, sunscreen, water breaks.\n\n\n\n\n\nExtra process ideas\n\nMark the patch boundary with string before starting.\nAssign a student as timekeeper for mid-lesson check-in.\nPhotograph before/after for reflection or mapping updates."
-  },
-  {
-    "objectID": "farm/missions/mission4-environmental-observation.html",
-    "href": "farm/missions/mission4-environmental-observation.html",
-    "title": "Mission 4: Environmental Observation",
-    "section": "",
-    "text": "Your mission is to observe and document environmental conditions on the farm. These observations help us understand ecosystem health and biodiversity."
-  },
-  {
-    "objectID": "farm/missions/mission4-environmental-observation.html#overview",
-    "href": "farm/missions/mission4-environmental-observation.html#overview",
-    "title": "Mission 4: Environmental Observation",
-    "section": "",
-    "text": "Your mission is to observe and document environmental conditions on the farm. These observations help us understand ecosystem health and biodiversity."
-  },
-  {
-    "objectID": "farm/missions/mission4-environmental-observation.html#the-stream-study",
-    "href": "farm/missions/mission4-environmental-observation.html#the-stream-study",
-    "title": "Mission 4: Environmental Observation",
-    "section": "The Stream Study",
-    "text": "The Stream Study\nWater quality and flow are indicators of ecosystem health:\n\nObserve and Record:\nVisual Assessment: - [ ] Look: Is the water clear or murky? Is it flowing fast or slow? - [ ] Check water level - high, normal, or low? - [ ] Look for signs of erosion along banks - [ ] Note any debris or pollution - [ ] Observe aquatic life (insects, fish, etc.)\nAuditory Assessment: - [ ] Listen: Can you hear the water? Describe the sound - [ ] Can you identify any bird calls nearby? - [ ] What other sounds do you notice in this area? - [ ] Is it quieter or noisier than other parts of the farm?\nSensory Assessment: - [ ] Smell & Feel: Does the air smell damp? - [ ] Is it cooler here than in the open paddock? - [ ] Is there a breeze? From which direction? - [ ] How does the vegetation differ near the stream?\nWater Quality Indicators: - Clear water = healthy stream - Murky water = recent rain, erosion, or pollution - Presence of aquatic insects = good water quality - Variety of bird species = healthy ecosystem\nRecording Tips: - Take photos at the same spot each visit - Note the date, time, and weather conditions - Compare your observations to previous visits - Report any concerns (pollution, dead fish, etc.)"
-  },
-  {
-    "objectID": "farm/missions/mission4-environmental-observation.html#bee-watch",
-    "href": "farm/missions/mission4-environmental-observation.html#bee-watch",
-    "title": "Mission 4: Environmental Observation",
-    "section": "Bee Watch",
-    "text": "Bee Watch\nMonitor bee activity to understand colony health:\n\nThe Observation Protocol:\nSafety First: - [ ] Stand to the side of the hive (stay out of the flight path!) - [ ] Maintain at least 2 meters distance - [ ] Move slowly and calmly - [ ] Don’t wear strong perfumes or dark colors - [ ] Never tap or disturb the hive\nThe Minute Count: - [ ] Position yourself safely to the side of the entrance - [ ] Set a timer for 60 seconds - [ ] Count: How many bees leave the hive in 60 seconds? - [ ] Count: How many bees return in the same period? - [ ] Note the weather conditions during your count - [ ] Record your observations for next week’s comparison\nWhat the Numbers Mean: - High activity (50+ bees/minute) = healthy, active colony - Medium activity (20-50 bees/minute) = normal for cooler weather - Low activity (&lt;20 bees/minute) = cold weather or potential problem - More leaving than returning = foraging mission - More returning than leaving = bringing in resources\nAdditional Observations: - [ ] Are bees carrying pollen? (Look for yellow/orange on legs) - [ ] Do bees appear healthy and active? - [ ] Are there dead bees around the entrance? - [ ] Is the entrance clear of debris? - [ ] Any unusual sounds from inside?"
-  },
-  {
-    "objectID": "farm/missions/mission4-environmental-observation.html#general-environmental-notes",
-    "href": "farm/missions/mission4-environmental-observation.html#general-environmental-notes",
-    "title": "Mission 4: Environmental Observation",
-    "section": "General Environmental Notes",
-    "text": "General Environmental Notes\nObserve the bigger picture:\n\nNote the weather: temperature, wind, cloud cover\nWhat wildlife did you see today? (birds, insects, mammals)\nAre any plants flowering?\nAny seasonal changes observed?\nOverall impression of farm ecosystem health"
-  },
-  {
-    "objectID": "farm/missions/mission4-environmental-observation.html#completion",
-    "href": "farm/missions/mission4-environmental-observation.html#completion",
-    "title": "Mission 4: Environmental Observation",
+    "objectID": "farm/missions/mission5-organisation.html#completion",
+    "href": "farm/missions/mission5-organisation.html#completion",
+    "title": "Mission 5: Organisation & Inventory",
     "section": "Completion",
-    "text": "Completion\nOnce all observations are recorded: - [ ] Write up your findings in the observation log - [ ] Date and sign your entry - [ ] Compare with previous observations - [ ] Report any urgent concerns to farm supervisor - [ ] Discuss interesting findings with classmates\nMission Status: Complete! 🐝🏞️"
+    "text": "Completion\nOnce all tasks are completed: - [ ] Take a photo of tidy work area (optional) - [ ] Record completion in farm log - [ ] Report any issues to supervisor - [ ] Leave the farm better than you found it!\nMission Status: Complete! 🧹🔧"
   },
   {
-    "objectID": "farm/missions/mission2-garden-maintenance.html",
-    "href": "farm/missions/mission2-garden-maintenance.html",
-    "title": "Mission 2: Garden & Berry House Maintenance",
+    "objectID": "farm/missions/mission3-restoration.html",
+    "href": "farm/missions/mission3-restoration.html",
+    "title": "Mission 3: Restoration & Tree Health",
     "section": "",
-    "text": "Your mission is to maintain the health and productivity of our garden beds, berry house, and seedlings. Complete these tasks to ensure our crops thrive."
+    "text": "Your mission is to protect and maintain the farm’s restoration areas. This includes controlling invasive species and ensuring young trees establish successfully."
   },
   {
-    "objectID": "farm/missions/mission2-garden-maintenance.html#overview",
-    "href": "farm/missions/mission2-garden-maintenance.html#overview",
-    "title": "Mission 2: Garden & Berry House Maintenance",
+    "objectID": "farm/missions/mission3-restoration.html#overview",
+    "href": "farm/missions/mission3-restoration.html#overview",
+    "title": "Mission 3: Restoration & Tree Health",
     "section": "",
-    "text": "Your mission is to maintain the health and productivity of our garden beds, berry house, and seedlings. Complete these tasks to ensure our crops thrive."
+    "text": "Your mission is to protect and maintain the farm’s restoration areas. This includes controlling invasive species and ensuring young trees establish successfully."
   },
   {
-    "objectID": "farm/missions/mission2-garden-maintenance.html#the-watering-run",
-    "href": "farm/missions/mission2-garden-maintenance.html#the-watering-run",
-    "title": "Mission 2: Garden & Berry House Maintenance",
-    "section": "The Watering Run",
-    "text": "The Watering Run\nProper watering is essential for plant health:\n\nUse the blue bin supply to fill watering cans\nDeliver at least 2 full cans per raised bed\nBonus: Water the herb boxes by the barn\nWater at the base of plants, avoiding leaves when possible\nCheck soil moisture before watering - should be damp but not soggy\n\nWatering Tips: - Water in early morning or late afternoon to minimize evaporation - Different plants need different amounts - observe and adjust - Seedlings need gentle watering to avoid displacement"
+    "objectID": "farm/missions/mission3-restoration.html#gorse-removal",
+    "href": "farm/missions/mission3-restoration.html#gorse-removal",
+    "title": "Mission 3: Restoration & Tree Health",
+    "section": "Gorse Removal",
+    "text": "Gorse Removal\nControl invasive gorse to protect native plantings:\n\nGear up: Wear heavy-duty gloves and grab the loppers\nHead to the hillside behind the poplars at the top of the farm\nCut gorse back to the base and pile it neatly for disposal\nWork systematically across the designated area\nFocus on gorse near young trees first\nStack cut material away from tree guards\n\nSafety First: - Wear thick gloves - gorse is extremely spiky! - Use sharp, clean loppers for efficient cutting - Watch your footing on slopes - Take regular breaks - it’s hard work! - Never work alone in remote areas\nGorse Management Tips: - Cut as close to ground level as possible - Mark treated areas to track progress - Some regrowth is normal - repeat treatments needed - Pile cut material for later removal/burning"
   },
   {
-    "objectID": "farm/missions/mission2-garden-maintenance.html#weed-tend",
-    "href": "farm/missions/mission2-garden-maintenance.html#weed-tend",
-    "title": "Mission 2: Garden & Berry House Maintenance",
-    "section": "Weed & Tend",
-    "text": "Weed & Tend\nKeep garden beds healthy and productive:\n\nCollect gloves, a fork, and a wheelbarrow\nIdentify and remove weeds from the vegetable and “no-dig” beds\nGently turn the topsoil to aerate it for new growth\nRemove any dead or diseased plant material\nCheck plants for pests or disease\n\nWeeding Guidance: - Pull weeds from the root to prevent regrowth - Be careful not to disturb crop roots - Add weeds to compost pile (if not seeding)"
+    "objectID": "farm/missions/mission3-restoration.html#young-tree-audit",
+    "href": "farm/missions/mission3-restoration.html#young-tree-audit",
+    "title": "Mission 3: Restoration & Tree Health",
+    "section": "Young Tree Audit",
+    "text": "Young Tree Audit\nCheck on newly planted trees to ensure their survival:\n\nWalk the farm perimeter and check all newly planted trees\nCheck: Are they still alive? Are the protective covers/guards secure?\nPull any grass or weeds growing inside the tree guards\nStraighten any leaning stakes\nTighten any loose tree ties\nNote any trees that need replacement\n\nWhat to Look For: - Alive: Green leaves/buds, flexible branches, healthy bark - Dead/Dying: Brown leaves, brittle branches, damaged bark - Guards: Should be secure, upright, and properly ventilated - Weeds: Competition for water and nutrients - remove completely\nTree Care Tips: - Remove weeds within 50cm radius of each tree - Ensure guards don’t rub against tree bark - Tree ties should be secure but not too tight - Water young trees during dry periods if possible"
   },
   {
-    "objectID": "farm/missions/mission2-garden-maintenance.html#the-berry-house-mission",
-    "href": "farm/missions/mission2-garden-maintenance.html#the-berry-house-mission",
-    "title": "Mission 2: Garden & Berry House Maintenance",
-    "section": "The Berry House Mission",
-    "text": "The Berry House Mission\nMaintain the berry house for optimal fruit production:\n\nWeed around the base of the berry plants\nApply a fresh layer of wood chips to suppress future weeds and hold moisture\nCheck berry plants for fruit development\nRemove any dead canes or leaves\nEnsure plants are properly supported\n\nBerry Care Notes: - Wood chip mulch helps retain moisture - Keep 5cm space between mulch and plant stems - Monitor for signs of disease or pest damage"
+    "objectID": "farm/missions/mission3-restoration.html#recording-observations",
+    "href": "farm/missions/mission3-restoration.html#recording-observations",
+    "title": "Mission 3: Restoration & Tree Health",
+    "section": "Recording Observations",
+    "text": "Recording Observations\nHelp track restoration progress:\n\nCount total number of trees checked\nRecord how many trees are thriving/struggling/dead\nNote locations of problem areas\nTake photos if significant changes observed\nReport findings to farm supervisor"
   },
   {
-    "objectID": "farm/missions/mission2-garden-maintenance.html#planting-propagation",
-    "href": "farm/missions/mission2-garden-maintenance.html#planting-propagation",
-    "title": "Mission 2: Garden & Berry House Maintenance",
-    "section": "Planting & Propagation",
-    "text": "Planting & Propagation\nCare for the next generation of plants:\n\nCheck the seed raising tray in the tunnel house\nUse a spray bottle to dampen the soil of any emerging seedlings\nRemove any failed seedlings\nTransplant any seedlings ready for the next stage\nLabel all trays clearly\n\nSeedling Care: - Keep soil consistently moist but not waterlogged - Provide adequate light and ventilation - Watch for signs of damping off disease"
-  },
-  {
-    "objectID": "farm/missions/mission2-garden-maintenance.html#completion",
-    "href": "farm/missions/mission2-garden-maintenance.html#completion",
-    "title": "Mission 2: Garden & Berry House Maintenance",
+    "objectID": "farm/missions/mission3-restoration.html#completion",
+    "href": "farm/missions/mission3-restoration.html#completion",
+    "title": "Mission 3: Restoration & Tree Health",
     "section": "Completion",
-    "text": "Completion\nOnce all tasks are completed: - [ ] Clean and return all tools to storage - [ ] Empty and store watering cans properly - [ ] Record observations in the garden log - [ ] Note any issues for follow-up\nMission Status: Complete! 🌱🫐"
+    "text": "Completion\nOnce all tasks are completed: - [ ] Return all tools to proper storage - [ ] Record work completed in the farm log - [ ] Report any urgent issues (e.g., many dead trees) - [ ] Clean gloves and boots\nMission Status: Complete! 🌳"
   },
   {
-    "objectID": "farm/missions/index.html",
-    "href": "farm/missions/index.html",
-    "title": "Farm Missions",
+    "objectID": "farm/missions/mission1-animal-care.html",
+    "href": "farm/missions/mission1-animal-care.html",
+    "title": "Mission 1: Animal Care & Observation",
     "section": "",
-    "text": "Farm Missions are regular maintenance and care tasks that anyone can undertake once they have read and followed the instructions on each mission ticklist. Each mission focuses on a specific area of farm management and can be completed independently.\nThese missions help ensure the ongoing health and productivity of our urban farm while providing hands-on learning opportunities for students."
+    "text": "Your mission is to ensure the health and wellbeing of our farm animals. Complete these tasks to provide proper care for the chickens and paddock animals."
   },
   {
-    "objectID": "farm/missions/index.html#about-farm-missions",
-    "href": "farm/missions/index.html#about-farm-missions",
-    "title": "Farm Missions",
+    "objectID": "farm/missions/mission1-animal-care.html#overview",
+    "href": "farm/missions/mission1-animal-care.html#overview",
+    "title": "Mission 1: Animal Care & Observation",
     "section": "",
-    "text": "Farm Missions are regular maintenance and care tasks that anyone can undertake once they have read and followed the instructions on each mission ticklist. Each mission focuses on a specific area of farm management and can be completed independently.\nThese missions help ensure the ongoing health and productivity of our urban farm while providing hands-on learning opportunities for students."
+    "text": "Your mission is to ensure the health and wellbeing of our farm animals. Complete these tasks to provide proper care for the chickens and paddock animals."
   },
   {
-    "objectID": "farm/missions/index.html#available-missions",
-    "href": "farm/missions/index.html#available-missions",
-    "title": "Farm Missions",
-    "section": "Available Missions",
-    "text": "Available Missions\n\nMission 1: Animal Care & Observation\nFocus: Chickens and paddock animals\nEnsure the health and wellbeing of our farm animals through proper feeding, watering, and observation.\n\nCheck and refill water containers\nProvide feed and treats\nObserve animal health and behavior\nMaintain clean bedding\n\nGo to Mission 1: Animal Care & Observation\n\n\n\nMission 2: Garden & Berry House Maintenance\nFocus: Vegetables, berries, and seedlings\nMaintain the health and productivity of our garden beds, berry house, and young plants.\n\nWater raised beds and herb boxes\nWeed and aerate garden beds\nMaintain berry house mulching\nCare for seedlings in tunnel house\n\nGo to Mission 2: Garden & Berry House Maintenance\n\n\n\nMission 3: Restoration & Tree Health\nFocus: Native plantings and invasive species control\nProtect and maintain the farm’s restoration areas through weed control and tree monitoring.\n\nRemove invasive gorse\nCheck young tree health\nMaintain tree guards and stakes\nMonitor restoration progress\n\nGo to Mission 3: Restoration & Tree Health\n\n\n\nMission 4: Environmental Observation\nFocus: Ecosystem monitoring and biodiversity\nObserve and document environmental conditions to understand ecosystem health.\n\nStudy stream water quality and flow\nMonitor bee hive activity\nRecord wildlife observations\nTrack seasonal changes\n\nGo to Mission 4: Environmental Observation\n\n\n\nMission 5: Organisation & Inventory\nFocus: Workspace maintenance and tool care\nMaintain an organized, safe, and efficient farm workspace.\n\nTidy barn and shed areas\nOrganize wood pile and pots\nClean and maintain tools\nConduct security checks\n\nGo to Mission 5: Organisation & Inventory"
+    "objectID": "farm/missions/mission1-animal-care.html#the-chicken-visit",
+    "href": "farm/missions/mission1-animal-care.html#the-chicken-visit",
+    "title": "Mission 1: Animal Care & Observation",
+    "section": "The Chicken Visit",
+    "text": "The Chicken Visit\n\n\n\nChicken Area\n\n\nFollow these steps carefully when visiting the hen house:\n\nMove quietly and slowly into the hen house\nTop up the water container using the fresh water at the barn (if needed)\nFill the feeder using the grain from the outside bin\nOptional: Gently pat a chicken\nCheck for any signs of illness or injury\nObserve chicken behavior - are they active and alert?\n\nSafety Tips: - Move slowly to avoid startling the birds - Wash hands before and after handling - Report any unusual behavior to farm supervisor"
   },
   {
-    "objectID": "farm/missions/index.html#how-to-complete-a-mission",
-    "href": "farm/missions/index.html#how-to-complete-a-mission",
-    "title": "Farm Missions",
-    "section": "How to Complete a Mission",
-    "text": "How to Complete a Mission\n\nRead the entire mission before starting any tasks\nGather required equipment as listed in the mission\nFollow safety guidelines specific to each mission\nComplete tasks systematically using the ticklist\nRecord your observations in the farm log\nReport any issues to the farm supervisor\nClean up and secure tools and areas when finished"
+    "objectID": "farm/missions/mission1-animal-care.html#paddock-animal-check",
+    "href": "farm/missions/mission1-animal-care.html#paddock-animal-check",
+    "title": "Mission 1: Animal Care & Observation",
+    "section": "Paddock Animal Check",
+    "text": "Paddock Animal Check\n\n\n\nPaddock Animals\n\n\nEnsure paddock animals have clean water, fresh bedding, and food:\n\nScrub out the water trough and refill with clean water\nSpread fresh wood shavings in the shelter bedding area\nPlace a scoop of nuts in the wooden trough for a snack\nCheck all animals are healthy and safe\nObserve animal behavior and movement\nCheck fencing is secure\n\nImportant: - Always approach animals calmly - Never corner or chase animals - Report any injuries or concerns immediately"
   },
   {
-    "objectID": "farm/missions/index.html#mission-philosophy",
-    "href": "farm/missions/index.html#mission-philosophy",
-    "title": "Farm Missions",
-    "section": "Mission Philosophy",
-    "text": "Mission Philosophy\n\n“Leave the farm better than you found it”\n\nEach mission is designed to be: - Self-contained: All instructions included - Achievable: Completable in a reasonable timeframe - Educational: Learning through practical application - Valuable: Contributing to real farm management - Safe: Clear safety guidelines included"
+    "objectID": "farm/missions/mission1-animal-care.html#completion",
+    "href": "farm/missions/mission1-animal-care.html#completion",
+    "title": "Mission 1: Animal Care & Observation",
+    "section": "Completion",
+    "text": "Completion\nOnce all tasks are completed: - [ ] Return all equipment to proper storage - [ ] Record any observations in the farm log - [ ] Report any concerns to the farm supervisor\nMission Status: Complete! 🐔🐑"
   },
   {
-    "objectID": "farm/missions/index.html#ready-to-begin",
-    "href": "farm/missions/index.html#ready-to-begin",
-    "title": "Farm Missions",
-    "section": "Ready to Begin?",
-    "text": "Ready to Begin?\nChoose a mission above and start contributing to our urban farm ecosystem. Remember: careful observation and attention to detail make the best farm stewards! 🌾"
-  },
-  {
-    "objectID": "farm/index.html",
-    "href": "farm/index.html",
-    "title": "Applied Mathematics: Farm Units",
+    "objectID": "farm/mapping.html",
+    "href": "farm/mapping.html",
+    "title": "Unit 1: Mapping the School Farm (3 weeks)",
     "section": "",
-    "text": "This section contains two short units of applied mathematics on the school farm. The mapping unit comes first, followed by a short, practical unit on the potato patch and hazard management."
+    "text": "Google My Maps is a free tool for creating a farm plan, measuring distances and areas, and recording work done on the property. This guide helps you map our school farm features and plan future work."
   },
   {
-    "objectID": "farm/index.html#overview",
-    "href": "farm/index.html#overview",
-    "title": "Applied Mathematics: Farm Units",
+    "objectID": "farm/mapping.html#introduction",
+    "href": "farm/mapping.html#introduction",
+    "title": "Unit 1: Mapping the School Farm (3 weeks)",
     "section": "",
-    "text": "This section contains two short units of applied mathematics on the school farm. The mapping unit comes first, followed by a short, practical unit on the potato patch and hazard management."
+    "text": "Google My Maps is a free tool for creating a farm plan, measuring distances and areas, and recording work done on the property. This guide helps you map our school farm features and plan future work."
   },
   {
-    "objectID": "farm/index.html#unit-1-mapping-the-school-farm-3-weeks",
-    "href": "farm/index.html#unit-1-mapping-the-school-farm-3-weeks",
-    "title": "Applied Mathematics: Farm Units",
-    "section": "Unit 1: Mapping the School Farm (3 weeks)",
-    "text": "Unit 1: Mapping the School Farm (3 weeks)\nFocus on mapping the farm, measuring areas and distances, and producing a final map for the workbook.\n\nWhat you’ll do\n\nBuild layers for existing and proposed features.\nMeasure paddocks and distances.\nExport a clean PDF map for your workbook.\nGo to: Unit 1: Mapping the School Farm"
+    "objectID": "farm/mapping.html#learning-goals",
+    "href": "farm/mapping.html#learning-goals",
+    "title": "Unit 1: Mapping the School Farm (3 weeks)",
+    "section": "Learning Goals",
+    "text": "Learning Goals\n\nCreate a digital farm map using layers.\nAdd points, lines, and areas with clear labels.\nMeasure distances and paddock areas accurately.\nExport or print a clean map for your workbook."
   },
   {
-    "objectID": "farm/index.html#unit-2-potato-patch-prep-3-lessons",
-    "href": "farm/index.html#unit-2-potato-patch-prep-3-lessons",
-    "title": "Applied Mathematics: Farm Units",
-    "section": "Unit 2: Potato Patch Prep (3 lessons)",
-    "text": "Unit 2: Potato Patch Prep (3 lessons)\nFocus on hazards, tool safety, and practical preparation of the potato patch.\nWhat you’ll do\n\nIdentify hazards and agree on controls.\nTurn over soil and remove turf.\nCompost and level the patch for planting.\nGo to: Unit 2: Potato Patch Prep"
+    "objectID": "farm/mapping.html#getting-started",
+    "href": "farm/mapping.html#getting-started",
+    "title": "Unit 1: Mapping the School Farm (3 weeks)",
+    "section": "1. Getting Started",
+    "text": "1. Getting Started\n\nGo to https://www.google.co.nz/mymaps and sign in to your Google account. If you do not have an account, create one.\nClick “Create a new map”.\nClick “Untitled map” to rename your map (for example, “Kaikorai Valley College School Farm”)."
   },
   {
-    "objectID": "farm/index.html#farm-operations",
-    "href": "farm/index.html#farm-operations",
-    "title": "Applied Mathematics: Farm Units",
-    "section": "Farm Operations",
-    "text": "Farm Operations\n\nFarm Missions\nRegular maintenance and care tasks that anyone can undertake. Each mission focuses on a specific area of farm management with detailed instructions and ticklists.\nAvailable Missions:\n\nMission 1: Animal Care & Observation\nMission 2: Garden & Berry House Maintenance\nMission 3: Restoration & Tree Health\nMission 4: Environmental Observation\nMission 5: Organisation & Inventory\nGo to: Farm Missions Overview\n\n\n\n\nFriday Close-Down Checklist\nA quick final check for Friday afternoon to ensure the farm is secure, clean, and ready for the weekend.\nWhat you’ll do\n\nVerify all animals have weekend supplies\nConfirm tools and equipment are secured\nCheck gates, doors, and utilities\nEnsure the farm is ready for Monday\nGo to: Friday Close-Down Checklist"
+    "objectID": "farm/mapping.html#set-up-layers",
+    "href": "farm/mapping.html#set-up-layers",
+    "title": "Unit 1: Mapping the School Farm (3 weeks)",
+    "section": "2. Set Up Layers",
+    "text": "2. Set Up Layers\nLayers let you separate existing features from proposed work. You can turn layers on or off using the checkbox next to each layer.\n\nRename the first layer to Existing. Use this for current paddocks, dams, fences, buildings, and water points.\nClick “Add layer” and name it Proposed for future work such as new planting or fencing."
+  },
+  {
+    "objectID": "farm/mapping.html#locate-the-farm",
+    "href": "farm/mapping.html#locate-the-farm",
+    "title": "Unit 1: Mapping the School Farm (3 weeks)",
+    "section": "3. Locate the Farm",
+    "text": "3. Locate the Farm\n\nUse the search bar to type in the school address, or zoom using the mouse wheel and the + / - buttons.\nClick the arrow next to Base map and choose Satellite for a clear aerial view."
+  },
+  {
+    "objectID": "farm/mapping.html#add-farm-features",
+    "href": "farm/mapping.html#add-farm-features",
+    "title": "Unit 1: Mapping the School Farm (3 weeks)",
+    "section": "4. Add Farm Features",
+    "text": "4. Add Farm Features\n\nA. Markers (Point Features)\nUse markers for water tanks, sheds, gates, troughs, or trees.\n\nClick the Marker icon under the search bar.\nClick the exact spot on the map.\nGive the marker a clear title, then save.\n\n\n\n\nB. Lines (Fences, Tracks, Waterways)\n\nClick the Line icon (right of the marker icon) and choose “Add line or shape”.\nClick along the path of the fence or creek.\nPress Enter to finish the line and add a title.\n\n\n\n\nC. Areas (Paddocks, Orchards, Bush)\n\nStart the same way as a line.\nClick around the boundary and then click the starting point to close the shape.\nAdd a title and save.\n\n\n\nD. Edit or Delete Features\nAfter saving a feature, a popup lets you edit color, line width, transparency, and description. You can also attach a photo or delete the feature using the trash bin icon."
+  },
+  {
+    "objectID": "farm/mapping.html#measure-distances-and-areas",
+    "href": "farm/mapping.html#measure-distances-and-areas",
+    "title": "Unit 1: Mapping the School Farm (3 weeks)",
+    "section": "5. Measure Distances and Areas",
+    "text": "5. Measure Distances and Areas\nThe Measurement tool (ruler icon) helps you check distances or paddock sizes.\n\nClick the ruler icon on the far right of the toolbar.\nClick a starting point, then add points to measure a path.\nFor a polygon, close the shape to see both perimeter and area (in hectares).\nPress Enter to finish a straight line measurement.\nTo stop measuring, click the hand icon or click anywhere on the screen."
+  },
+  {
+    "objectID": "farm/mapping.html#export-or-print-your-map",
+    "href": "farm/mapping.html#export-or-print-your-map",
+    "title": "Unit 1: Mapping the School Farm (3 weeks)",
+    "section": "6. Export or Print Your Map",
+    "text": "6. Export or Print Your Map\n\nOption A: Print Map (Recommended)\n\nClick the three vertical dots next to your map name.\nChoose “Print map”.\nPick paper size, orientation, and output type, then click Print.\nA new PDF preview opens in your browser. Use the print icon to save as PDF or print.\n\n\n\n\nOption B: Screenshot (Snipping Tool)\nWindows\n\nOpen Snipping Tool from the Start menu search.\nClick New, then drag to select the area.\nSave the image and insert it into your workbook.\n\nMac\n\nPress Shift + Command + 4.\nDrag to select the area.\nThe screenshot saves to the desktop for inserting into your workbook."
+  },
+  {
+    "objectID": "farm/mapping.html#map-checklist",
+    "href": "farm/mapping.html#map-checklist",
+    "title": "Unit 1: Mapping the School Farm (3 weeks)",
+    "section": "Map Checklist",
+    "text": "Map Checklist\n\nYour map has a clear title.\nLayers include Existing and Proposed.\nFeatures are labeled with correct names.\nAt least one line and one area are mapped.\nMeasurements are used to check a distance or area.\nExport is clean and readable."
+  },
+  {
+    "objectID": "farm/mapping.html#source-and-further-help",
+    "href": "farm/mapping.html#source-and-further-help",
+    "title": "Unit 1: Mapping the School Farm (3 weeks)",
+    "section": "Source and Further Help",
+    "text": "Source and Further Help\n\nAdapted from Beef + Lamb New Zealand User Guide (July 2021). PDF: resources/use-google-my-maps-map-your-farm.pdf. Site: https://www.beeflambnz.com\nExtra help video: https://www.landcare.org.nz/resource-item/mapping\nGoogle My Maps support: https://support.google.com/mymaps"
+  },
+  {
+    "objectID": "farm/friday-closedown.html",
+    "href": "farm/friday-closedown.html",
+    "title": "Friday Farm Close-Down Checklist",
+    "section": "",
+    "text": "Welcome to the Friday close-down routine! Before leaving for the weekend, complete this final checklist to ensure the farm is secure, clean, and ready for Monday.\nNote: If you haven’t already completed the regular farm missions this week, visit the Farm Missions page to see what needs to be done. The Friday close-down assumes all regular maintenance has been completed.\n📄 Download: Friday Ticklist PDF - Print this checklist for easy reference on the farm!"
+  },
+  {
+    "objectID": "farm/friday-closedown.html#friday-close-down",
+    "href": "farm/friday-closedown.html#friday-close-down",
+    "title": "Friday Farm Close-Down Checklist",
+    "section": "",
+    "text": "Welcome to the Friday close-down routine! Before leaving for the weekend, complete this final checklist to ensure the farm is secure, clean, and ready for Monday.\nNote: If you haven’t already completed the regular farm missions this week, visit the Farm Missions page to see what needs to be done. The Friday close-down assumes all regular maintenance has been completed.\n📄 Download: Friday Ticklist PDF - Print this checklist for easy reference on the farm!"
+  },
+  {
+    "objectID": "farm/friday-closedown.html#final-check",
+    "href": "farm/friday-closedown.html#final-check",
+    "title": "Friday Farm Close-Down Checklist",
+    "section": "Final Check",
+    "text": "Final Check\nBefore you leave for the weekend:\n\nAnimal Welfare\n\nAll animals have food and water for the weekend\nChicken door is secure\nPaddock animals are safe and healthy\nAll shelter areas are accessible\n\n\n\nTools & Equipment\n\nAll tools are cleaned and stored properly\nWatering cans and buckets stored upside down (prevent mosquito breeding)\nNo equipment left outside that should be stored\nAll sharp tools safely stored\n\n\n\nSecurity & Safety\n\nAll gates and doors are secured\nShed and barn locked\nNo trip hazards left in pathways\nFire hazards cleared (wood chips, dry materials away from buildings)\n\n\n\nWater & Utilities\n\nNo hoses or watering equipment left running\nAll taps turned off completely\nCheck for leaks or running water\nGutters and drains clear\n\n\n\nGeneral Farm Readiness\n\nWork areas are tidy\nRubbish removed to appropriate bins\nFarm log completed with any observations or issues\nAny urgent issues reported to farm supervisor\nFarm is ready for Monday!"
+  },
+  {
+    "objectID": "farm/friday-closedown.html#weekend-considerations",
+    "href": "farm/friday-closedown.html#weekend-considerations",
+    "title": "Friday Farm Close-Down Checklist",
+    "section": "Weekend Considerations",
+    "text": "Weekend Considerations\nBefore you leave, consider:\n\nWeather forecast: Does anything need extra securing for wind/rain?\nAnimal needs: Is weekend feed/water supply adequate?\nUrgent issues: Has everything that needs immediate attention been reported?\nNext week: Any special tasks or events to prepare for?"
+  },
+  {
+    "objectID": "farm/friday-closedown.html#quick-mission-reference",
+    "href": "farm/friday-closedown.html#quick-mission-reference",
+    "title": "Friday Farm Close-Down Checklist",
+    "section": "Quick Mission Reference",
+    "text": "Quick Mission Reference\nIf you notice something needs attention before the weekend:\n\nAnimals need care? → Mission 1: Animal Care\nGarden needs watering/weeding? → Mission 2: Garden Maintenance\nTrees need checking? → Mission 3: Restoration\nWant to make observations? → Mission 4: Environmental Observation\nAreas need tidying? → Mission 5: Organisation\n\n\nWell done, Farm Steward! Have a great weekend! 🌾\nSee you Monday!"
+  },
+  {
+    "objectID": "farm/farm-homework/index.html",
+    "href": "farm/farm-homework/index.html",
+    "title": "Farm Mapping Homework",
+    "section": "",
+    "text": "In this homework assignment, you will create a PDF map of the school farm using Google My Maps. You will learn how to add important features to your map, including an arrow, scale, and legend.\n\n\n\n\nCreate Your Map:\n\nFollow the instructions provided in the index.Rmd file to create your farm map using Google My Maps.\n\nAdd Features:\n\nOnce your map is created, you need to add the following features:\n\nArrow: Indicate a specific direction on your map.\nScale: Show the scale of your map to help viewers understand distances.\nLegend: Create a legend that explains the symbols and colors used on your map.\n\n\nExport Your Map:\n\nAfter adding the features, export your map as a PDF. Make sure the arrow, scale, and legend are clearly visible in the exported document.\n\n\n\n\n\n\nExplain why it is important to include a scale on your map. How does it help the viewer?\nDescribe the purpose of a legend in a map. What information should be included in your legend for the school farm map?\n\n\n\n\nThis homework aligns with the following areas of the New Zealand Curriculum:\n\nGeography: Understand how to represent geographical information using maps.\nMathematics: Apply measurement concepts in real-world contexts.\n\nFor more information, visit the New Zealand Curriculum website: New Zealand Curriculum\n\nNote: Ensure you follow the guidelines and submit your homework by the due date. Happy mapping!"
+  },
+  {
+    "objectID": "farm/farm-homework/index.html#homework-assignment-mapping-the-school-farm",
+    "href": "farm/farm-homework/index.html#homework-assignment-mapping-the-school-farm",
+    "title": "Farm Mapping Homework",
+    "section": "",
+    "text": "In this homework assignment, you will create a PDF map of the school farm using Google My Maps. You will learn how to add important features to your map, including an arrow, scale, and legend.\n\n\n\n\nCreate Your Map:\n\nFollow the instructions provided in the index.Rmd file to create your farm map using Google My Maps.\n\nAdd Features:\n\nOnce your map is created, you need to add the following features:\n\nArrow: Indicate a specific direction on your map.\nScale: Show the scale of your map to help viewers understand distances.\nLegend: Create a legend that explains the symbols and colors used on your map.\n\n\nExport Your Map:\n\nAfter adding the features, export your map as a PDF. Make sure the arrow, scale, and legend are clearly visible in the exported document.\n\n\n\n\n\n\nExplain why it is important to include a scale on your map. How does it help the viewer?\nDescribe the purpose of a legend in a map. What information should be included in your legend for the school farm map?\n\n\n\n\nThis homework aligns with the following areas of the New Zealand Curriculum:\n\nGeography: Understand how to represent geographical information using maps.\nMathematics: Apply measurement concepts in real-world contexts.\n\nFor more information, visit the New Zealand Curriculum website: New Zealand Curriculum\n\nNote: Ensure you follow the guidelines and submit your homework by the due date. Happy mapping!"
+  },
+  {
+    "objectID": "farm/apple-unit.html",
+    "href": "farm/apple-unit.html",
+    "title": "Apple Unit (2 lessons)",
+    "section": "",
+    "text": "This unit links practical orchard work with measurement and money maths. Students pick apples, clean fruit, weigh accurately, and pack fruit into sale bags."
+  },
+  {
+    "objectID": "farm/apple-unit.html#purpose",
+    "href": "farm/apple-unit.html#purpose",
+    "title": "Apple Unit (2 lessons)",
+    "section": "",
+    "text": "This unit links practical orchard work with measurement and money maths. Students pick apples, clean fruit, weigh accurately, and pack fruit into sale bags."
+  },
+  {
+    "objectID": "farm/apple-unit.html#unit-target-for-this-year",
+    "href": "farm/apple-unit.html#unit-target-for-this-year",
+    "title": "Apple Unit (2 lessons)",
+    "section": "Unit target for this year",
+    "text": "Unit target for this year\n\nPack 4 x 2kg bags.\nPrice is $6 per 2kg bag.\nTotal target income: $24.\nNo 1kg bags this time (usually they are $4 per 1kg)."
+  },
+  {
+    "objectID": "farm/apple-unit.html#learning-goals",
+    "href": "farm/apple-unit.html#learning-goals",
+    "title": "Apple Unit (2 lessons)",
+    "section": "Learning goals",
+    "text": "Learning goals\nBy the end of this unit, students can:\n\npick and handle fruit safely without bruising\nclean and sort apples by quality\nweigh fruit accurately to 2kg\npack, label, and count bags ready for sale\ncalculate expected income from packed bags"
+  },
+  {
+    "objectID": "farm/apple-unit.html#lesson-structure-2-lessons",
+    "href": "farm/apple-unit.html#lesson-structure-2-lessons",
+    "title": "Apple Unit (2 lessons)",
+    "section": "Lesson structure (2 lessons)",
+    "text": "Lesson structure (2 lessons)\n\n\n\n\n\n\n\n\nLesson\nFocus\nOutcome\n\n\n\n\nLesson 1\nPick and clean fruit\nApples are safely picked, cleaned, and sorted.\n\n\nLesson 2\nWeigh, bag, and label fruit\n4 x 2kg bags are packed and ready for sale."
+  },
+  {
+    "objectID": "farm/apple-unit.html#lesson-1-picking-and-cleaning-apples-40-min",
+    "href": "farm/apple-unit.html#lesson-1-picking-and-cleaning-apples-40-min",
+    "title": "Apple Unit (2 lessons)",
+    "section": "Lesson 1: Picking and cleaning apples (40 min)",
+    "text": "Lesson 1: Picking and cleaning apples (40 min)\nGoal: Harvest apples safely and prepare clean fruit for packing.\n\nStudent activities and instructions\n\nPut on gloves and check your picking area.\nPick apples carefully (twist and lift, do not pull hard).\nPlace fruit gently into crates/buckets (do not throw fruit).\nRemove leaves and obvious dirt.\nWipe or rinse apples and place on drying trays.\nSort into:\n\n\nSale quality (good skin, good size)\nSecond quality (bruised/small; not for 2kg sale bags)\n\n\n\nGroup tasks (20 students)\n\n\n\nGroup\nStudents\nTask focus\nKey actions\n\n\n\n\nGroup A\n7\nPicking\nPick apples safely and fill crates.\n\n\nGroup B\n7\nCleaning\nWipe/rinse apples and set to dry.\n\n\nGroup C\n6\nSorting\nSort apples into sale/second quality.\n\n\n\n\n\nTiming (40 min)\n\n0-5 min: Safety briefing and tool/equipment check.\n5-25 min: Picking and crate collection.\n25-35 min: Cleaning and sorting.\n35-40 min: Clean-up and count prepared fruit."
+  },
+  {
+    "objectID": "farm/apple-unit.html#lesson-2-weighing-bagging-and-pricing-40-min",
+    "href": "farm/apple-unit.html#lesson-2-weighing-bagging-and-pricing-40-min",
+    "title": "Apple Unit (2 lessons)",
+    "section": "Lesson 2: Weighing, bagging, and pricing (40 min)",
+    "text": "Lesson 2: Weighing, bagging, and pricing (40 min)\nGoal: Produce 4 x 2kg sale bags and calculate expected income.\n\nStudent activities and instructions\n\nSet up scales on flat ground and check zero.\nFill each bag to 2.00kg (or as close as possible).\nAdjust weight by adding/removing apples.\nSeal each bag and label clearly:\n\n\n“Apple Bag - 2kg”\nPrice “$6”\n\n\nRepeat until 4 bags are complete.\nCalculate income:\n\n\n\\(4 \\times 6 = 24\\)\n\n\nRecord final numbers in class sheet.\n\n\n\nPacking table\n\n\n\nBag #\nTarget weight\nActual weight\nPrice\n\n\n\n\n1\n2.00 kg\n\n$6\n\n\n2\n2.00 kg\n\n$6\n\n\n3\n2.00 kg\n\n$6\n\n\n4\n2.00 kg\n\n$6\n\n\n\n\n\nTiming (40 min)\n\n0-5 min: Scale setup and demo.\n5-25 min: Weigh and pack 4 bags.\n25-35 min: Label, check quality, and count stock.\n35-40 min: Income calculation and tidy up."
+  },
+  {
+    "objectID": "farm/apple-unit.html#tools-and-materials",
+    "href": "farm/apple-unit.html#tools-and-materials",
+    "title": "Apple Unit (2 lessons)",
+    "section": "Tools and materials",
+    "text": "Tools and materials\n\npicking buckets/crates\ngloves\nclean cloths or rinse tubs\ndigital or kitchen scales\npacking bags\nlabels/marker pens\ncleaning spray/paper towels for workstations"
+  },
+  {
+    "objectID": "farm/apple-unit.html#health-and-safety-guidelines",
+    "href": "farm/apple-unit.html#health-and-safety-guidelines",
+    "title": "Apple Unit (2 lessons)",
+    "section": "Health and safety guidelines",
+    "text": "Health and safety guidelines\n\n\n\n\n\n\n\nRisk\nGuideline/control\n\n\n\n\nSlips/trips in orchard\nWalk, do not run; keep paths clear of crates and bags.\n\n\nLadder/fall risk\nOnly teacher-approved students use ladders; 3-point contact at all times.\n\n\nCuts/scratches\nWear gloves; handle branches carefully; report injuries immediately.\n\n\nFood hygiene risk\nClean hands before handling sale fruit; use clean cloths and clean surfaces.\n\n\nManual handling strain\nLift crates with bent knees; share heavy loads.\n\n\nBee/wasp stings\nStay calm near insects; notify teacher if allergic reaction risk.\n\n\nSun exposure/dehydration\nHats, sunscreen, and water breaks required."
+  },
+  {
+    "objectID": "farm/apple-unit.html#teacher-checks-end-of-unit",
+    "href": "farm/apple-unit.html#teacher-checks-end-of-unit",
+    "title": "Apple Unit (2 lessons)",
+    "section": "Teacher checks (end of unit)",
+    "text": "Teacher checks (end of unit)\n\n4 x 2kg bags completed\nLabels clear and correct ($6 per bag)\nWeights recorded\nHygiene and safety expectations met\nTotal income calculated ($24)"
+  },
+  {
+    "objectID": "farm/apple-unit.html#reflection",
+    "href": "farm/apple-unit.html#reflection",
+    "title": "Apple Unit (2 lessons)",
+    "section": "Reflection",
+    "text": "Reflection\n\nWhat helped your group weigh bags accurately?\nWhat quality issues did you notice most often?\nIf we used 1kg bags next time, how would sales options change?"
+  },
+  {
+    "objectID": "farm/apple-unit.html#printable-student-worksheet",
+    "href": "farm/apple-unit.html#printable-student-worksheet",
+    "title": "Apple Unit (2 lessons)",
+    "section": "Printable student worksheet",
+    "text": "Printable student worksheet\n\nStudent names\n\nName 1: ____________________\nName 2: ____________________\nName 3: ____________________\n\n\n\nLesson 1 checklist (pick, clean, sort)\n\nI wore gloves and followed safety instructions.\nI picked apples carefully without bruising fruit.\nI cleaned apples and removed dirt/leaves.\nI sorted apples into sale quality and second quality.\n\n\n\nLesson 2 checklist (weigh, bag, label)\n\nI checked the scale was at zero before weighing.\nI helped pack 2kg bags accurately.\nI checked each bag label was correct.\nI helped calculate total expected income.\n\n\n\nBag recording table\n\n\n\n\n\n\n\n\n\n\nBag #\nTarget weight\nActual weight\nLabel checked\nReady for sale\n\n\n\n\n1\n2.00 kg\n\n[ ]\n[ ]\n\n\n2\n2.00 kg\n\n[ ]\n[ ]\n\n\n3\n2.00 kg\n\n[ ]\n[ ]\n\n\n4\n2.00 kg\n\n[ ]\n[ ]\n\n\n\n\n\nIncome check\n\nNumber of 2kg bags packed: ______\nPrice per 2kg bag: $6\nTotal expected income: $______\n\n\n\nTeacher sign-off\n\nSafety expectations met\nQuality and weight checks completed\nBags ready for sale\n\nTeacher signature: ____________________ Date: ____________________"
+  },
+  {
+    "objectID": "farm/farm-homework/homework.html",
+    "href": "farm/farm-homework/homework.html",
+    "title": "Farm Mapping Homework",
+    "section": "",
+    "text": "In this homework assignment, you will create a PDF map of the school farm using Google My Maps. Use the class guide in farm/index.Rmd for full instructions. Follow the steps below to complete your task.\n\n\n\nGo to https://www.google.co.nz/mymaps and sign in to your Google account.\nCreate a new map and name it “Kaikorai Valley College School Farm”.\nSet up two layers:\n\nExisting for current features (paddocks, dams, fences, buildings, water points).\nProposed for planned work (new planting, new fencing, new water lines).\n\nAdd features using the toolbar:\n\nMarkers for points (sheds, tanks, troughs, gates).\nLines for fences, tracks, or waterways.\nAreas for paddocks or blocks.\n\nUse the Measurement tool (ruler icon) to check at least one distance and one paddock area.\nAdd these map elements:\n\nArrow (north) for direction.\nScale to show distances.\nLegend that explains your symbols and colors.\n\n\n\n\n\nOnce you have completed your map, export it as a PDF. To do this: 1. Click the three vertical dots next to the map name. 2. Select “Print map” and choose the PDF option.\n\n\n\nUse these images as a guide while you work.\nLayers and map setup\n\nAdd markers and lines\n\n\nMeasurement tool\n\nPrint map to PDF\n\n\n\n\nAfter completing your map, please answer the following questions:\n\nWhat features did you include on your map, and why did you choose them?\nHow does adding a scale and legend enhance the usability of your map?\n\n\n\n\nThis homework aligns with the following New Zealand Curriculum areas:\n\nGeography: Understand how people interact with their environment.\nMathematics: Use measurement and scale in practical contexts.\n\nFor more information, visit the New Zealand Curriculum website: New Zealand Curriculum.\n\nMake sure to submit your completed homework by the due date. Happy mapping!"
+  },
+  {
+    "objectID": "farm/farm-homework/homework.html#homework-instructions",
+    "href": "farm/farm-homework/homework.html#homework-instructions",
+    "title": "Farm Mapping Homework",
+    "section": "",
+    "text": "In this homework assignment, you will create a PDF map of the school farm using Google My Maps. Use the class guide in farm/index.Rmd for full instructions. Follow the steps below to complete your task.\n\n\n\nGo to https://www.google.co.nz/mymaps and sign in to your Google account.\nCreate a new map and name it “Kaikorai Valley College School Farm”.\nSet up two layers:\n\nExisting for current features (paddocks, dams, fences, buildings, water points).\nProposed for planned work (new planting, new fencing, new water lines).\n\nAdd features using the toolbar:\n\nMarkers for points (sheds, tanks, troughs, gates).\nLines for fences, tracks, or waterways.\nAreas for paddocks or blocks.\n\nUse the Measurement tool (ruler icon) to check at least one distance and one paddock area.\nAdd these map elements:\n\nArrow (north) for direction.\nScale to show distances.\nLegend that explains your symbols and colors.\n\n\n\n\n\nOnce you have completed your map, export it as a PDF. To do this: 1. Click the three vertical dots next to the map name. 2. Select “Print map” and choose the PDF option.\n\n\n\nUse these images as a guide while you work.\nLayers and map setup\n\nAdd markers and lines\n\n\nMeasurement tool\n\nPrint map to PDF\n\n\n\n\nAfter completing your map, please answer the following questions:\n\nWhat features did you include on your map, and why did you choose them?\nHow does adding a scale and legend enhance the usability of your map?\n\n\n\n\nThis homework aligns with the following New Zealand Curriculum areas:\n\nGeography: Understand how people interact with their environment.\nMathematics: Use measurement and scale in practical contexts.\n\nFor more information, visit the New Zealand Curriculum website: New Zealand Curriculum.\n\nMake sure to submit your completed homework by the due date. Happy mapping!"
   },
   {
     "objectID": "farm/farm-homework/test.html",
@@ -371,283 +504,269 @@
     "text": "Concept: A Recurring decimal has a digit (or group of digits) that repeats forever. We use a dot (or a bar) over the repeating part.\n\n\nQuestion: Write the fraction \\(\\frac{1}{3}\\) as a recurring decimal. Answer: \\(1 \\div 3 = 0.3333...\\) which is written as \\(0.\\dot{3}\\).\n\n\n\n\nWhat does the dot in \\(0.\\dot{5}\\) mean?\nWrite \\(0.666...\\) using dot notation.\nWrite the fraction \\(\\frac{2}{3}\\) as a recurring decimal.\nIs \\(0.5\\) a recurring decimal?\nWrite \\(0.\\dot{1}\\) as a decimal with three digits showing.\nConvert \\(\\frac{1}{9}\\) to a recurring decimal (\\(1 \\div 9\\)).\nTrue or False: \\(0.\\dot{9}\\) is equal to 1.\nWhich notation represents \\(0.121212...\\)? (A) \\(0.\\dot{1}\\dot{2}\\) or (B) \\(0.1\\dot{2}\\)?\nDoes \\(\\frac{1}{2}\\) result in a recurring decimal?\nWrite the number that is exactly double \\(0.\\dot{3}\\)."
   },
   {
-    "objectID": "farm/farm-homework/homework.html",
-    "href": "farm/farm-homework/homework.html",
-    "title": "Farm Mapping Homework",
+    "objectID": "farm/index.html",
+    "href": "farm/index.html",
+    "title": "Applied Mathematics: Farm Units",
     "section": "",
-    "text": "In this homework assignment, you will create a PDF map of the school farm using Google My Maps. Use the class guide in farm/index.Rmd for full instructions. Follow the steps below to complete your task.\n\n\n\nGo to https://www.google.co.nz/mymaps and sign in to your Google account.\nCreate a new map and name it “Kaikorai Valley College School Farm”.\nSet up two layers:\n\nExisting for current features (paddocks, dams, fences, buildings, water points).\nProposed for planned work (new planting, new fencing, new water lines).\n\nAdd features using the toolbar:\n\nMarkers for points (sheds, tanks, troughs, gates).\nLines for fences, tracks, or waterways.\nAreas for paddocks or blocks.\n\nUse the Measurement tool (ruler icon) to check at least one distance and one paddock area.\nAdd these map elements:\n\nArrow (north) for direction.\nScale to show distances.\nLegend that explains your symbols and colors.\n\n\n\n\n\nOnce you have completed your map, export it as a PDF. To do this: 1. Click the three vertical dots next to the map name. 2. Select “Print map” and choose the PDF option.\n\n\n\nUse these images as a guide while you work.\nLayers and map setup\n\nAdd markers and lines\n\n\nMeasurement tool\n\nPrint map to PDF\n\n\n\n\nAfter completing your map, please answer the following questions:\n\nWhat features did you include on your map, and why did you choose them?\nHow does adding a scale and legend enhance the usability of your map?\n\n\n\n\nThis homework aligns with the following New Zealand Curriculum areas:\n\nGeography: Understand how people interact with their environment.\nMathematics: Use measurement and scale in practical contexts.\n\nFor more information, visit the New Zealand Curriculum website: New Zealand Curriculum.\n\nMake sure to submit your completed homework by the due date. Happy mapping!"
+    "text": "This section contains two short units of applied mathematics on the school farm. The mapping unit comes first, followed by a short, practical unit on the potato patch and hazard management."
   },
   {
-    "objectID": "farm/farm-homework/homework.html#homework-instructions",
-    "href": "farm/farm-homework/homework.html#homework-instructions",
-    "title": "Farm Mapping Homework",
+    "objectID": "farm/index.html#overview",
+    "href": "farm/index.html#overview",
+    "title": "Applied Mathematics: Farm Units",
     "section": "",
-    "text": "In this homework assignment, you will create a PDF map of the school farm using Google My Maps. Use the class guide in farm/index.Rmd for full instructions. Follow the steps below to complete your task.\n\n\n\nGo to https://www.google.co.nz/mymaps and sign in to your Google account.\nCreate a new map and name it “Kaikorai Valley College School Farm”.\nSet up two layers:\n\nExisting for current features (paddocks, dams, fences, buildings, water points).\nProposed for planned work (new planting, new fencing, new water lines).\n\nAdd features using the toolbar:\n\nMarkers for points (sheds, tanks, troughs, gates).\nLines for fences, tracks, or waterways.\nAreas for paddocks or blocks.\n\nUse the Measurement tool (ruler icon) to check at least one distance and one paddock area.\nAdd these map elements:\n\nArrow (north) for direction.\nScale to show distances.\nLegend that explains your symbols and colors.\n\n\n\n\n\nOnce you have completed your map, export it as a PDF. To do this: 1. Click the three vertical dots next to the map name. 2. Select “Print map” and choose the PDF option.\n\n\n\nUse these images as a guide while you work.\nLayers and map setup\n\nAdd markers and lines\n\n\nMeasurement tool\n\nPrint map to PDF\n\n\n\n\nAfter completing your map, please answer the following questions:\n\nWhat features did you include on your map, and why did you choose them?\nHow does adding a scale and legend enhance the usability of your map?\n\n\n\n\nThis homework aligns with the following New Zealand Curriculum areas:\n\nGeography: Understand how people interact with their environment.\nMathematics: Use measurement and scale in practical contexts.\n\nFor more information, visit the New Zealand Curriculum website: New Zealand Curriculum.\n\nMake sure to submit your completed homework by the due date. Happy mapping!"
+    "text": "This section contains two short units of applied mathematics on the school farm. The mapping unit comes first, followed by a short, practical unit on the potato patch and hazard management."
   },
   {
-    "objectID": "farm/farm-homework/index.html",
-    "href": "farm/farm-homework/index.html",
-    "title": "Farm Mapping Homework",
+    "objectID": "farm/index.html#unit-1-mapping-the-school-farm-3-weeks",
+    "href": "farm/index.html#unit-1-mapping-the-school-farm-3-weeks",
+    "title": "Applied Mathematics: Farm Units",
+    "section": "Unit 1: Mapping the School Farm (3 weeks)",
+    "text": "Unit 1: Mapping the School Farm (3 weeks)\nFocus on mapping the farm, measuring areas and distances, and producing a final map for the workbook.\n\nWhat you’ll do\n\nBuild layers for existing and proposed features.\nMeasure paddocks and distances.\nExport a clean PDF map for your workbook.\nGo to: Unit 1: Mapping the School Farm"
+  },
+  {
+    "objectID": "farm/index.html#unit-2-potato-patch-prep-3-lessons",
+    "href": "farm/index.html#unit-2-potato-patch-prep-3-lessons",
+    "title": "Applied Mathematics: Farm Units",
+    "section": "Unit 2: Potato Patch Prep (3 lessons)",
+    "text": "Unit 2: Potato Patch Prep (3 lessons)\nFocus on hazards, tool safety, and practical preparation of the potato patch.\nWhat you’ll do\n\nIdentify hazards and agree on controls.\nTurn over soil and remove turf.\nCompost and level the patch for planting.\nGo to: Unit 2: Potato Patch Prep"
+  },
+  {
+    "objectID": "farm/index.html#farm-operations",
+    "href": "farm/index.html#farm-operations",
+    "title": "Applied Mathematics: Farm Units",
+    "section": "Farm Operations",
+    "text": "Farm Operations\n\nFarm Missions\nRegular maintenance and care tasks that anyone can undertake. Each mission focuses on a specific area of farm management with detailed instructions and ticklists.\nAvailable Missions:\n\nMission 1: Animal Care & Observation\nMission 2: Garden & Berry House Maintenance\nMission 3: Restoration & Tree Health\nMission 4: Environmental Observation\nMission 5: Organisation & Inventory\nGo to: Farm Missions Overview\n\n\n\n\nFriday Close-Down Checklist\nA quick final check for Friday afternoon to ensure the farm is secure, clean, and ready for the weekend.\nWhat you’ll do\n\nVerify all animals have weekend supplies\nConfirm tools and equipment are secured\nCheck gates, doors, and utilities\nEnsure the farm is ready for Monday\nGo to: Friday Close-Down Checklist"
+  },
+  {
+    "objectID": "farm/missions/index.html",
+    "href": "farm/missions/index.html",
+    "title": "Farm Missions",
     "section": "",
-    "text": "In this homework assignment, you will create a PDF map of the school farm using Google My Maps. You will learn how to add important features to your map, including an arrow, scale, and legend.\n\n\n\n\nCreate Your Map:\n\nFollow the instructions provided in the index.Rmd file to create your farm map using Google My Maps.\n\nAdd Features:\n\nOnce your map is created, you need to add the following features:\n\nArrow: Indicate a specific direction on your map.\nScale: Show the scale of your map to help viewers understand distances.\nLegend: Create a legend that explains the symbols and colors used on your map.\n\n\nExport Your Map:\n\nAfter adding the features, export your map as a PDF. Make sure the arrow, scale, and legend are clearly visible in the exported document.\n\n\n\n\n\n\nExplain why it is important to include a scale on your map. How does it help the viewer?\nDescribe the purpose of a legend in a map. What information should be included in your legend for the school farm map?\n\n\n\n\nThis homework aligns with the following areas of the New Zealand Curriculum:\n\nGeography: Understand how to represent geographical information using maps.\nMathematics: Apply measurement concepts in real-world contexts.\n\nFor more information, visit the New Zealand Curriculum website: New Zealand Curriculum\n\nNote: Ensure you follow the guidelines and submit your homework by the due date. Happy mapping!"
+    "text": "Farm Missions are regular maintenance and care tasks that anyone can undertake once they have read and followed the instructions on each mission ticklist. Each mission focuses on a specific area of farm management and can be completed independently.\nThese missions help ensure the ongoing health and productivity of our urban farm while providing hands-on learning opportunities for students."
   },
   {
-    "objectID": "farm/farm-homework/index.html#homework-assignment-mapping-the-school-farm",
-    "href": "farm/farm-homework/index.html#homework-assignment-mapping-the-school-farm",
-    "title": "Farm Mapping Homework",
+    "objectID": "farm/missions/index.html#about-farm-missions",
+    "href": "farm/missions/index.html#about-farm-missions",
+    "title": "Farm Missions",
     "section": "",
-    "text": "In this homework assignment, you will create a PDF map of the school farm using Google My Maps. You will learn how to add important features to your map, including an arrow, scale, and legend.\n\n\n\n\nCreate Your Map:\n\nFollow the instructions provided in the index.Rmd file to create your farm map using Google My Maps.\n\nAdd Features:\n\nOnce your map is created, you need to add the following features:\n\nArrow: Indicate a specific direction on your map.\nScale: Show the scale of your map to help viewers understand distances.\nLegend: Create a legend that explains the symbols and colors used on your map.\n\n\nExport Your Map:\n\nAfter adding the features, export your map as a PDF. Make sure the arrow, scale, and legend are clearly visible in the exported document.\n\n\n\n\n\n\nExplain why it is important to include a scale on your map. How does it help the viewer?\nDescribe the purpose of a legend in a map. What information should be included in your legend for the school farm map?\n\n\n\n\nThis homework aligns with the following areas of the New Zealand Curriculum:\n\nGeography: Understand how to represent geographical information using maps.\nMathematics: Apply measurement concepts in real-world contexts.\n\nFor more information, visit the New Zealand Curriculum website: New Zealand Curriculum\n\nNote: Ensure you follow the guidelines and submit your homework by the due date. Happy mapping!"
+    "text": "Farm Missions are regular maintenance and care tasks that anyone can undertake once they have read and followed the instructions on each mission ticklist. Each mission focuses on a specific area of farm management and can be completed independently.\nThese missions help ensure the ongoing health and productivity of our urban farm while providing hands-on learning opportunities for students."
   },
   {
-    "objectID": "farm/friday-closedown.html",
-    "href": "farm/friday-closedown.html",
-    "title": "Friday Farm Close-Down Checklist",
+    "objectID": "farm/missions/index.html#available-missions",
+    "href": "farm/missions/index.html#available-missions",
+    "title": "Farm Missions",
+    "section": "Available Missions",
+    "text": "Available Missions\n\nMission 1: Animal Care & Observation\nFocus: Chickens and paddock animals\nEnsure the health and wellbeing of our farm animals through proper feeding, watering, and observation.\n\nCheck and refill water containers\nProvide feed and treats\nObserve animal health and behavior\nMaintain clean bedding\n\nGo to Mission 1: Animal Care & Observation\n\n\n\nMission 2: Garden & Berry House Maintenance\nFocus: Vegetables, berries, and seedlings\nMaintain the health and productivity of our garden beds, berry house, and young plants.\n\nWater raised beds and herb boxes\nWeed and aerate garden beds\nMaintain berry house mulching\nCare for seedlings in tunnel house\n\nGo to Mission 2: Garden & Berry House Maintenance\n\n\n\nMission 3: Restoration & Tree Health\nFocus: Native plantings and invasive species control\nProtect and maintain the farm’s restoration areas through weed control and tree monitoring.\n\nRemove invasive gorse\nCheck young tree health\nMaintain tree guards and stakes\nMonitor restoration progress\n\nGo to Mission 3: Restoration & Tree Health\n\n\n\nMission 4: Environmental Observation\nFocus: Ecosystem monitoring and biodiversity\nObserve and document environmental conditions to understand ecosystem health.\n\nStudy stream water quality and flow\nMonitor bee hive activity\nRecord wildlife observations\nTrack seasonal changes\n\nGo to Mission 4: Environmental Observation\n\n\n\nMission 5: Organisation & Inventory\nFocus: Workspace maintenance and tool care\nMaintain an organized, safe, and efficient farm workspace.\n\nTidy barn and shed areas\nOrganize wood pile and pots\nClean and maintain tools\nConduct security checks\n\nGo to Mission 5: Organisation & Inventory"
+  },
+  {
+    "objectID": "farm/missions/index.html#how-to-complete-a-mission",
+    "href": "farm/missions/index.html#how-to-complete-a-mission",
+    "title": "Farm Missions",
+    "section": "How to Complete a Mission",
+    "text": "How to Complete a Mission\n\nRead the entire mission before starting any tasks\nGather required equipment as listed in the mission\nFollow safety guidelines specific to each mission\nComplete tasks systematically using the ticklist\nRecord your observations in the farm log\nReport any issues to the farm supervisor\nClean up and secure tools and areas when finished"
+  },
+  {
+    "objectID": "farm/missions/index.html#mission-philosophy",
+    "href": "farm/missions/index.html#mission-philosophy",
+    "title": "Farm Missions",
+    "section": "Mission Philosophy",
+    "text": "Mission Philosophy\n\n“Leave the farm better than you found it”\n\nEach mission is designed to be: - Self-contained: All instructions included - Achievable: Completable in a reasonable timeframe - Educational: Learning through practical application - Valuable: Contributing to real farm management - Safe: Clear safety guidelines included"
+  },
+  {
+    "objectID": "farm/missions/index.html#ready-to-begin",
+    "href": "farm/missions/index.html#ready-to-begin",
+    "title": "Farm Missions",
+    "section": "Ready to Begin?",
+    "text": "Ready to Begin?\nChoose a mission above and start contributing to our urban farm ecosystem. Remember: careful observation and attention to detail make the best farm stewards! 🌾"
+  },
+  {
+    "objectID": "farm/missions/mission2-garden-maintenance.html",
+    "href": "farm/missions/mission2-garden-maintenance.html",
+    "title": "Mission 2: Garden & Berry House Maintenance",
     "section": "",
-    "text": "Welcome to the Friday close-down routine! Before leaving for the weekend, complete this final checklist to ensure the farm is secure, clean, and ready for Monday.\nNote: If you haven’t already completed the regular farm missions this week, visit the Farm Missions page to see what needs to be done. The Friday close-down assumes all regular maintenance has been completed.\n📄 Download: Friday Ticklist PDF - Print this checklist for easy reference on the farm!"
+    "text": "Your mission is to maintain the health and productivity of our garden beds, berry house, and seedlings. Complete these tasks to ensure our crops thrive."
   },
   {
-    "objectID": "farm/friday-closedown.html#friday-close-down",
-    "href": "farm/friday-closedown.html#friday-close-down",
-    "title": "Friday Farm Close-Down Checklist",
+    "objectID": "farm/missions/mission2-garden-maintenance.html#overview",
+    "href": "farm/missions/mission2-garden-maintenance.html#overview",
+    "title": "Mission 2: Garden & Berry House Maintenance",
     "section": "",
-    "text": "Welcome to the Friday close-down routine! Before leaving for the weekend, complete this final checklist to ensure the farm is secure, clean, and ready for Monday.\nNote: If you haven’t already completed the regular farm missions this week, visit the Farm Missions page to see what needs to be done. The Friday close-down assumes all regular maintenance has been completed.\n📄 Download: Friday Ticklist PDF - Print this checklist for easy reference on the farm!"
+    "text": "Your mission is to maintain the health and productivity of our garden beds, berry house, and seedlings. Complete these tasks to ensure our crops thrive."
   },
   {
-    "objectID": "farm/friday-closedown.html#final-check",
-    "href": "farm/friday-closedown.html#final-check",
-    "title": "Friday Farm Close-Down Checklist",
-    "section": "Final Check",
-    "text": "Final Check\nBefore you leave for the weekend:\n\nAnimal Welfare\n\nAll animals have food and water for the weekend\nChicken door is secure\nPaddock animals are safe and healthy\nAll shelter areas are accessible\n\n\n\nTools & Equipment\n\nAll tools are cleaned and stored properly\nWatering cans and buckets stored upside down (prevent mosquito breeding)\nNo equipment left outside that should be stored\nAll sharp tools safely stored\n\n\n\nSecurity & Safety\n\nAll gates and doors are secured\nShed and barn locked\nNo trip hazards left in pathways\nFire hazards cleared (wood chips, dry materials away from buildings)\n\n\n\nWater & Utilities\n\nNo hoses or watering equipment left running\nAll taps turned off completely\nCheck for leaks or running water\nGutters and drains clear\n\n\n\nGeneral Farm Readiness\n\nWork areas are tidy\nRubbish removed to appropriate bins\nFarm log completed with any observations or issues\nAny urgent issues reported to farm supervisor\nFarm is ready for Monday!"
+    "objectID": "farm/missions/mission2-garden-maintenance.html#the-watering-run",
+    "href": "farm/missions/mission2-garden-maintenance.html#the-watering-run",
+    "title": "Mission 2: Garden & Berry House Maintenance",
+    "section": "The Watering Run",
+    "text": "The Watering Run\nProper watering is essential for plant health:\n\nUse the blue bin supply to fill watering cans\nDeliver at least 2 full cans per raised bed\nBonus: Water the herb boxes by the barn\nWater at the base of plants, avoiding leaves when possible\nCheck soil moisture before watering - should be damp but not soggy\n\nWatering Tips: - Water in early morning or late afternoon to minimize evaporation - Different plants need different amounts - observe and adjust - Seedlings need gentle watering to avoid displacement"
   },
   {
-    "objectID": "farm/friday-closedown.html#weekend-considerations",
-    "href": "farm/friday-closedown.html#weekend-considerations",
-    "title": "Friday Farm Close-Down Checklist",
-    "section": "Weekend Considerations",
-    "text": "Weekend Considerations\nBefore you leave, consider:\n\nWeather forecast: Does anything need extra securing for wind/rain?\nAnimal needs: Is weekend feed/water supply adequate?\nUrgent issues: Has everything that needs immediate attention been reported?\nNext week: Any special tasks or events to prepare for?"
+    "objectID": "farm/missions/mission2-garden-maintenance.html#weed-tend",
+    "href": "farm/missions/mission2-garden-maintenance.html#weed-tend",
+    "title": "Mission 2: Garden & Berry House Maintenance",
+    "section": "Weed & Tend",
+    "text": "Weed & Tend\nKeep garden beds healthy and productive:\n\nCollect gloves, a fork, and a wheelbarrow\nIdentify and remove weeds from the vegetable and “no-dig” beds\nGently turn the topsoil to aerate it for new growth\nRemove any dead or diseased plant material\nCheck plants for pests or disease\n\nWeeding Guidance: - Pull weeds from the root to prevent regrowth - Be careful not to disturb crop roots - Add weeds to compost pile (if not seeding)"
   },
   {
-    "objectID": "farm/friday-closedown.html#quick-mission-reference",
-    "href": "farm/friday-closedown.html#quick-mission-reference",
-    "title": "Friday Farm Close-Down Checklist",
-    "section": "Quick Mission Reference",
-    "text": "Quick Mission Reference\nIf you notice something needs attention before the weekend:\n\nAnimals need care? → Mission 1: Animal Care\nGarden needs watering/weeding? → Mission 2: Garden Maintenance\nTrees need checking? → Mission 3: Restoration\nWant to make observations? → Mission 4: Environmental Observation\nAreas need tidying? → Mission 5: Organisation\n\n\nWell done, Farm Steward! Have a great weekend! 🌾\nSee you Monday!"
+    "objectID": "farm/missions/mission2-garden-maintenance.html#the-berry-house-mission",
+    "href": "farm/missions/mission2-garden-maintenance.html#the-berry-house-mission",
+    "title": "Mission 2: Garden & Berry House Maintenance",
+    "section": "The Berry House Mission",
+    "text": "The Berry House Mission\nMaintain the berry house for optimal fruit production:\n\nWeed around the base of the berry plants\nApply a fresh layer of wood chips to suppress future weeds and hold moisture\nCheck berry plants for fruit development\nRemove any dead canes or leaves\nEnsure plants are properly supported\n\nBerry Care Notes: - Wood chip mulch helps retain moisture - Keep 5cm space between mulch and plant stems - Monitor for signs of disease or pest damage"
   },
   {
-    "objectID": "farm/mapping.html",
-    "href": "farm/mapping.html",
-    "title": "Unit 1: Mapping the School Farm (3 weeks)",
-    "section": "",
-    "text": "Google My Maps is a free tool for creating a farm plan, measuring distances and areas, and recording work done on the property. This guide helps you map our school farm features and plan future work."
+    "objectID": "farm/missions/mission2-garden-maintenance.html#planting-propagation",
+    "href": "farm/missions/mission2-garden-maintenance.html#planting-propagation",
+    "title": "Mission 2: Garden & Berry House Maintenance",
+    "section": "Planting & Propagation",
+    "text": "Planting & Propagation\nCare for the next generation of plants:\n\nCheck the seed raising tray in the tunnel house\nUse a spray bottle to dampen the soil of any emerging seedlings\nRemove any failed seedlings\nTransplant any seedlings ready for the next stage\nLabel all trays clearly\n\nSeedling Care: - Keep soil consistently moist but not waterlogged - Provide adequate light and ventilation - Watch for signs of damping off disease"
   },
   {
-    "objectID": "farm/mapping.html#introduction",
-    "href": "farm/mapping.html#introduction",
-    "title": "Unit 1: Mapping the School Farm (3 weeks)",
-    "section": "",
-    "text": "Google My Maps is a free tool for creating a farm plan, measuring distances and areas, and recording work done on the property. This guide helps you map our school farm features and plan future work."
-  },
-  {
-    "objectID": "farm/mapping.html#learning-goals",
-    "href": "farm/mapping.html#learning-goals",
-    "title": "Unit 1: Mapping the School Farm (3 weeks)",
-    "section": "Learning Goals",
-    "text": "Learning Goals\n\nCreate a digital farm map using layers.\nAdd points, lines, and areas with clear labels.\nMeasure distances and paddock areas accurately.\nExport or print a clean map for your workbook."
-  },
-  {
-    "objectID": "farm/mapping.html#getting-started",
-    "href": "farm/mapping.html#getting-started",
-    "title": "Unit 1: Mapping the School Farm (3 weeks)",
-    "section": "1. Getting Started",
-    "text": "1. Getting Started\n\nGo to https://www.google.co.nz/mymaps and sign in to your Google account. If you do not have an account, create one.\nClick “Create a new map”.\nClick “Untitled map” to rename your map (for example, “Kaikorai Valley College School Farm”)."
-  },
-  {
-    "objectID": "farm/mapping.html#set-up-layers",
-    "href": "farm/mapping.html#set-up-layers",
-    "title": "Unit 1: Mapping the School Farm (3 weeks)",
-    "section": "2. Set Up Layers",
-    "text": "2. Set Up Layers\nLayers let you separate existing features from proposed work. You can turn layers on or off using the checkbox next to each layer.\n\nRename the first layer to Existing. Use this for current paddocks, dams, fences, buildings, and water points.\nClick “Add layer” and name it Proposed for future work such as new planting or fencing."
-  },
-  {
-    "objectID": "farm/mapping.html#locate-the-farm",
-    "href": "farm/mapping.html#locate-the-farm",
-    "title": "Unit 1: Mapping the School Farm (3 weeks)",
-    "section": "3. Locate the Farm",
-    "text": "3. Locate the Farm\n\nUse the search bar to type in the school address, or zoom using the mouse wheel and the + / - buttons.\nClick the arrow next to Base map and choose Satellite for a clear aerial view."
-  },
-  {
-    "objectID": "farm/mapping.html#add-farm-features",
-    "href": "farm/mapping.html#add-farm-features",
-    "title": "Unit 1: Mapping the School Farm (3 weeks)",
-    "section": "4. Add Farm Features",
-    "text": "4. Add Farm Features\n\nA. Markers (Point Features)\nUse markers for water tanks, sheds, gates, troughs, or trees.\n\nClick the Marker icon under the search bar.\nClick the exact spot on the map.\nGive the marker a clear title, then save.\n\n\n\n\nB. Lines (Fences, Tracks, Waterways)\n\nClick the Line icon (right of the marker icon) and choose “Add line or shape”.\nClick along the path of the fence or creek.\nPress Enter to finish the line and add a title.\n\n\n\n\nC. Areas (Paddocks, Orchards, Bush)\n\nStart the same way as a line.\nClick around the boundary and then click the starting point to close the shape.\nAdd a title and save.\n\n\n\nD. Edit or Delete Features\nAfter saving a feature, a popup lets you edit color, line width, transparency, and description. You can also attach a photo or delete the feature using the trash bin icon."
-  },
-  {
-    "objectID": "farm/mapping.html#measure-distances-and-areas",
-    "href": "farm/mapping.html#measure-distances-and-areas",
-    "title": "Unit 1: Mapping the School Farm (3 weeks)",
-    "section": "5. Measure Distances and Areas",
-    "text": "5. Measure Distances and Areas\nThe Measurement tool (ruler icon) helps you check distances or paddock sizes.\n\nClick the ruler icon on the far right of the toolbar.\nClick a starting point, then add points to measure a path.\nFor a polygon, close the shape to see both perimeter and area (in hectares).\nPress Enter to finish a straight line measurement.\nTo stop measuring, click the hand icon or click anywhere on the screen."
-  },
-  {
-    "objectID": "farm/mapping.html#export-or-print-your-map",
-    "href": "farm/mapping.html#export-or-print-your-map",
-    "title": "Unit 1: Mapping the School Farm (3 weeks)",
-    "section": "6. Export or Print Your Map",
-    "text": "6. Export or Print Your Map\n\nOption A: Print Map (Recommended)\n\nClick the three vertical dots next to your map name.\nChoose “Print map”.\nPick paper size, orientation, and output type, then click Print.\nA new PDF preview opens in your browser. Use the print icon to save as PDF or print.\n\n\n\n\nOption B: Screenshot (Snipping Tool)\nWindows\n\nOpen Snipping Tool from the Start menu search.\nClick New, then drag to select the area.\nSave the image and insert it into your workbook.\n\nMac\n\nPress Shift + Command + 4.\nDrag to select the area.\nThe screenshot saves to the desktop for inserting into your workbook."
-  },
-  {
-    "objectID": "farm/mapping.html#map-checklist",
-    "href": "farm/mapping.html#map-checklist",
-    "title": "Unit 1: Mapping the School Farm (3 weeks)",
-    "section": "Map Checklist",
-    "text": "Map Checklist\n\nYour map has a clear title.\nLayers include Existing and Proposed.\nFeatures are labeled with correct names.\nAt least one line and one area are mapped.\nMeasurements are used to check a distance or area.\nExport is clean and readable."
-  },
-  {
-    "objectID": "farm/mapping.html#source-and-further-help",
-    "href": "farm/mapping.html#source-and-further-help",
-    "title": "Unit 1: Mapping the School Farm (3 weeks)",
-    "section": "Source and Further Help",
-    "text": "Source and Further Help\n\nAdapted from Beef + Lamb New Zealand User Guide (July 2021). PDF: resources/use-google-my-maps-map-your-farm.pdf. Site: https://www.beeflambnz.com\nExtra help video: https://www.landcare.org.nz/resource-item/mapping\nGoogle My Maps support: https://support.google.com/mymaps"
-  },
-  {
-    "objectID": "farm/missions/mission1-animal-care.html",
-    "href": "farm/missions/mission1-animal-care.html",
-    "title": "Mission 1: Animal Care & Observation",
-    "section": "",
-    "text": "Your mission is to ensure the health and wellbeing of our farm animals. Complete these tasks to provide proper care for the chickens and paddock animals."
-  },
-  {
-    "objectID": "farm/missions/mission1-animal-care.html#overview",
-    "href": "farm/missions/mission1-animal-care.html#overview",
-    "title": "Mission 1: Animal Care & Observation",
-    "section": "",
-    "text": "Your mission is to ensure the health and wellbeing of our farm animals. Complete these tasks to provide proper care for the chickens and paddock animals."
-  },
-  {
-    "objectID": "farm/missions/mission1-animal-care.html#the-chicken-visit",
-    "href": "farm/missions/mission1-animal-care.html#the-chicken-visit",
-    "title": "Mission 1: Animal Care & Observation",
-    "section": "The Chicken Visit",
-    "text": "The Chicken Visit\n\n\n\nChicken Area\n\n\nFollow these steps carefully when visiting the hen house:\n\nMove quietly and slowly into the hen house\nTop up the water container using the fresh water at the barn (if needed)\nFill the feeder using the grain from the outside bin\nOptional: Gently pat a chicken\nCheck for any signs of illness or injury\nObserve chicken behavior - are they active and alert?\n\nSafety Tips: - Move slowly to avoid startling the birds - Wash hands before and after handling - Report any unusual behavior to farm supervisor"
-  },
-  {
-    "objectID": "farm/missions/mission1-animal-care.html#paddock-animal-check",
-    "href": "farm/missions/mission1-animal-care.html#paddock-animal-check",
-    "title": "Mission 1: Animal Care & Observation",
-    "section": "Paddock Animal Check",
-    "text": "Paddock Animal Check\n\n\n\nPaddock Animals\n\n\nEnsure paddock animals have clean water, fresh bedding, and food:\n\nScrub out the water trough and refill with clean water\nSpread fresh wood shavings in the shelter bedding area\nPlace a scoop of nuts in the wooden trough for a snack\nCheck all animals are healthy and safe\nObserve animal behavior and movement\nCheck fencing is secure\n\nImportant: - Always approach animals calmly - Never corner or chase animals - Report any injuries or concerns immediately"
-  },
-  {
-    "objectID": "farm/missions/mission1-animal-care.html#completion",
-    "href": "farm/missions/mission1-animal-care.html#completion",
-    "title": "Mission 1: Animal Care & Observation",
+    "objectID": "farm/missions/mission2-garden-maintenance.html#completion",
+    "href": "farm/missions/mission2-garden-maintenance.html#completion",
+    "title": "Mission 2: Garden & Berry House Maintenance",
     "section": "Completion",
-    "text": "Completion\nOnce all tasks are completed: - [ ] Return all equipment to proper storage - [ ] Record any observations in the farm log - [ ] Report any concerns to the farm supervisor\nMission Status: Complete! 🐔🐑"
+    "text": "Completion\nOnce all tasks are completed: - [ ] Clean and return all tools to storage - [ ] Empty and store watering cans properly - [ ] Record observations in the garden log - [ ] Note any issues for follow-up\nMission Status: Complete! 🌱🫐"
   },
   {
-    "objectID": "farm/missions/mission3-restoration.html",
-    "href": "farm/missions/mission3-restoration.html",
-    "title": "Mission 3: Restoration & Tree Health",
+    "objectID": "farm/missions/mission4-environmental-observation.html",
+    "href": "farm/missions/mission4-environmental-observation.html",
+    "title": "Mission 4: Environmental Observation",
     "section": "",
-    "text": "Your mission is to protect and maintain the farm’s restoration areas. This includes controlling invasive species and ensuring young trees establish successfully."
+    "text": "Your mission is to observe and document environmental conditions on the farm. These observations help us understand ecosystem health and biodiversity."
   },
   {
-    "objectID": "farm/missions/mission3-restoration.html#overview",
-    "href": "farm/missions/mission3-restoration.html#overview",
-    "title": "Mission 3: Restoration & Tree Health",
+    "objectID": "farm/missions/mission4-environmental-observation.html#overview",
+    "href": "farm/missions/mission4-environmental-observation.html#overview",
+    "title": "Mission 4: Environmental Observation",
     "section": "",
-    "text": "Your mission is to protect and maintain the farm’s restoration areas. This includes controlling invasive species and ensuring young trees establish successfully."
+    "text": "Your mission is to observe and document environmental conditions on the farm. These observations help us understand ecosystem health and biodiversity."
   },
   {
-    "objectID": "farm/missions/mission3-restoration.html#gorse-removal",
-    "href": "farm/missions/mission3-restoration.html#gorse-removal",
-    "title": "Mission 3: Restoration & Tree Health",
-    "section": "Gorse Removal",
-    "text": "Gorse Removal\nControl invasive gorse to protect native plantings:\n\nGear up: Wear heavy-duty gloves and grab the loppers\nHead to the hillside behind the poplars at the top of the farm\nCut gorse back to the base and pile it neatly for disposal\nWork systematically across the designated area\nFocus on gorse near young trees first\nStack cut material away from tree guards\n\nSafety First: - Wear thick gloves - gorse is extremely spiky! - Use sharp, clean loppers for efficient cutting - Watch your footing on slopes - Take regular breaks - it’s hard work! - Never work alone in remote areas\nGorse Management Tips: - Cut as close to ground level as possible - Mark treated areas to track progress - Some regrowth is normal - repeat treatments needed - Pile cut material for later removal/burning"
+    "objectID": "farm/missions/mission4-environmental-observation.html#the-stream-study",
+    "href": "farm/missions/mission4-environmental-observation.html#the-stream-study",
+    "title": "Mission 4: Environmental Observation",
+    "section": "The Stream Study",
+    "text": "The Stream Study\nWater quality and flow are indicators of ecosystem health:\n\nObserve and Record:\nVisual Assessment: - [ ] Look: Is the water clear or murky? Is it flowing fast or slow? - [ ] Check water level - high, normal, or low? - [ ] Look for signs of erosion along banks - [ ] Note any debris or pollution - [ ] Observe aquatic life (insects, fish, etc.)\nAuditory Assessment: - [ ] Listen: Can you hear the water? Describe the sound - [ ] Can you identify any bird calls nearby? - [ ] What other sounds do you notice in this area? - [ ] Is it quieter or noisier than other parts of the farm?\nSensory Assessment: - [ ] Smell & Feel: Does the air smell damp? - [ ] Is it cooler here than in the open paddock? - [ ] Is there a breeze? From which direction? - [ ] How does the vegetation differ near the stream?\nWater Quality Indicators: - Clear water = healthy stream - Murky water = recent rain, erosion, or pollution - Presence of aquatic insects = good water quality - Variety of bird species = healthy ecosystem\nRecording Tips: - Take photos at the same spot each visit - Note the date, time, and weather conditions - Compare your observations to previous visits - Report any concerns (pollution, dead fish, etc.)"
   },
   {
-    "objectID": "farm/missions/mission3-restoration.html#young-tree-audit",
-    "href": "farm/missions/mission3-restoration.html#young-tree-audit",
-    "title": "Mission 3: Restoration & Tree Health",
-    "section": "Young Tree Audit",
-    "text": "Young Tree Audit\nCheck on newly planted trees to ensure their survival:\n\nWalk the farm perimeter and check all newly planted trees\nCheck: Are they still alive? Are the protective covers/guards secure?\nPull any grass or weeds growing inside the tree guards\nStraighten any leaning stakes\nTighten any loose tree ties\nNote any trees that need replacement\n\nWhat to Look For: - Alive: Green leaves/buds, flexible branches, healthy bark - Dead/Dying: Brown leaves, brittle branches, damaged bark - Guards: Should be secure, upright, and properly ventilated - Weeds: Competition for water and nutrients - remove completely\nTree Care Tips: - Remove weeds within 50cm radius of each tree - Ensure guards don’t rub against tree bark - Tree ties should be secure but not too tight - Water young trees during dry periods if possible"
+    "objectID": "farm/missions/mission4-environmental-observation.html#bee-watch",
+    "href": "farm/missions/mission4-environmental-observation.html#bee-watch",
+    "title": "Mission 4: Environmental Observation",
+    "section": "Bee Watch",
+    "text": "Bee Watch\nMonitor bee activity to understand colony health:\n\nThe Observation Protocol:\nSafety First: - [ ] Stand to the side of the hive (stay out of the flight path!) - [ ] Maintain at least 2 meters distance - [ ] Move slowly and calmly - [ ] Don’t wear strong perfumes or dark colors - [ ] Never tap or disturb the hive\nThe Minute Count: - [ ] Position yourself safely to the side of the entrance - [ ] Set a timer for 60 seconds - [ ] Count: How many bees leave the hive in 60 seconds? - [ ] Count: How many bees return in the same period? - [ ] Note the weather conditions during your count - [ ] Record your observations for next week’s comparison\nWhat the Numbers Mean: - High activity (50+ bees/minute) = healthy, active colony - Medium activity (20-50 bees/minute) = normal for cooler weather - Low activity (&lt;20 bees/minute) = cold weather or potential problem - More leaving than returning = foraging mission - More returning than leaving = bringing in resources\nAdditional Observations: - [ ] Are bees carrying pollen? (Look for yellow/orange on legs) - [ ] Do bees appear healthy and active? - [ ] Are there dead bees around the entrance? - [ ] Is the entrance clear of debris? - [ ] Any unusual sounds from inside?"
   },
   {
-    "objectID": "farm/missions/mission3-restoration.html#recording-observations",
-    "href": "farm/missions/mission3-restoration.html#recording-observations",
-    "title": "Mission 3: Restoration & Tree Health",
-    "section": "Recording Observations",
-    "text": "Recording Observations\nHelp track restoration progress:\n\nCount total number of trees checked\nRecord how many trees are thriving/struggling/dead\nNote locations of problem areas\nTake photos if significant changes observed\nReport findings to farm supervisor"
+    "objectID": "farm/missions/mission4-environmental-observation.html#general-environmental-notes",
+    "href": "farm/missions/mission4-environmental-observation.html#general-environmental-notes",
+    "title": "Mission 4: Environmental Observation",
+    "section": "General Environmental Notes",
+    "text": "General Environmental Notes\nObserve the bigger picture:\n\nNote the weather: temperature, wind, cloud cover\nWhat wildlife did you see today? (birds, insects, mammals)\nAre any plants flowering?\nAny seasonal changes observed?\nOverall impression of farm ecosystem health"
   },
   {
-    "objectID": "farm/missions/mission3-restoration.html#completion",
-    "href": "farm/missions/mission3-restoration.html#completion",
-    "title": "Mission 3: Restoration & Tree Health",
+    "objectID": "farm/missions/mission4-environmental-observation.html#completion",
+    "href": "farm/missions/mission4-environmental-observation.html#completion",
+    "title": "Mission 4: Environmental Observation",
     "section": "Completion",
-    "text": "Completion\nOnce all tasks are completed: - [ ] Return all tools to proper storage - [ ] Record work completed in the farm log - [ ] Report any urgent issues (e.g., many dead trees) - [ ] Clean gloves and boots\nMission Status: Complete! 🌳"
+    "text": "Completion\nOnce all observations are recorded: - [ ] Write up your findings in the observation log - [ ] Date and sign your entry - [ ] Compare with previous observations - [ ] Report any urgent concerns to farm supervisor - [ ] Discuss interesting findings with classmates\nMission Status: Complete! 🐝🏞️"
   },
   {
-    "objectID": "farm/missions/mission5-organisation.html",
-    "href": "farm/missions/mission5-organisation.html",
-    "title": "Mission 5: Organisation & Inventory",
+    "objectID": "farm/potato-patch.html",
+    "href": "farm/potato-patch.html",
+    "title": "Unit 2: Potato Patch Prep (3 lessons)",
     "section": "",
-    "text": "Your mission is to maintain an organized, safe, and efficient farm workspace. A tidy farm is a safe farm and makes everyone’s work easier."
+    "text": "This short unit links practical work to risk management by preparing the potato patch. Students identify hazards, use tools safely, and complete the prep steps."
   },
   {
-    "objectID": "farm/missions/mission5-organisation.html#overview",
-    "href": "farm/missions/mission5-organisation.html#overview",
-    "title": "Mission 5: Organisation & Inventory",
+    "objectID": "farm/potato-patch.html#purpose",
+    "href": "farm/potato-patch.html#purpose",
+    "title": "Unit 2: Potato Patch Prep (3 lessons)",
     "section": "",
-    "text": "Your mission is to maintain an organized, safe, and efficient farm workspace. A tidy farm is a safe farm and makes everyone’s work easier."
+    "text": "This short unit links practical work to risk management by preparing the potato patch. Students identify hazards, use tools safely, and complete the prep steps."
   },
   {
-    "objectID": "farm/missions/mission5-organisation.html#the-great-tidy-up",
-    "href": "farm/missions/mission5-organisation.html#the-great-tidy-up",
-    "title": "Mission 5: Organisation & Inventory",
-    "section": "The Great Tidy-Up",
-    "text": "The Great Tidy-Up\n\n\n\nFarm Barn\n\n\n\nBarn & Shed Organisation:\n\nSweep the floors and clear any debris\nReturn all tools to their specific hooks or racks\nCheck that all tools are accounted for\nWipe down work surfaces\nOrganize shelves and storage areas\nStack bags and containers neatly\nRemove any rubbish to appropriate bins\n\nOrganisation Principles: - A place for everything, everything in its place - Most-used items should be easiest to access - Heavy items stored low, light items stored high - Label storage areas clearly - Keep walkways clear and safe\n\n\n\nWood Pile Management:\n\nRe-stack the wood pile behind the ‘toilet’ area so it is neat and safe\nStack wood in stable rows\nKeep wood off the ground (use pallets if available)\nArrange with bark side up to shed water\nRemove any rotten or unsafe pieces\nEnsure pile won’t topple over\n\nWood Stacking Tips: - Crisscross ends for stability - Lean slightly back against support - Leave air gaps for drying and ventilation - Stack away from buildings (fire safety)\n\n\n\n\nFarm Shed\n\n\n\n\nPot Sort & Storage:\n\nHead behind the barn to the pot storage area\nSort pots by size (small, medium, large)\nStack pots of same size inside each other\nRemove any broken or damaged pots to recycling\nClean pots if needed (remove old soil/debris)\nStore in a location that won’t block access\nKeep different materials separate (plastic, terracotta, etc.)\n\nStorage Guidelines: - Nest pots to save space - Store upside down to prevent water collection - Keep in shaded area to prevent UV damage - Maintain tidy stacks that won’t topple"
+    "objectID": "farm/potato-patch.html#lesson-structure-3-lessons",
+    "href": "farm/potato-patch.html#lesson-structure-3-lessons",
+    "title": "Unit 2: Potato Patch Prep (3 lessons)",
+    "section": "Lesson structure (3 lessons)",
+    "text": "Lesson structure (3 lessons)\n\n\n\n\n\n\n\n\nLesson\nFocus\nOutcome\n\n\n\n\nLesson 1\nHazards and safe tool use\nStudents can name hazards and apply controls.\n\n\nLesson 2\nTurn over and prep the patch\nSoil is loosened and turf is removed.\n\n\nLesson 3\nCompost, break up soil, level\nPatch is composted and ready for planting."
   },
   {
-    "objectID": "farm/missions/mission5-organisation.html#tool-audit",
-    "href": "farm/missions/mission5-organisation.html#tool-audit",
-    "title": "Mission 5: Organisation & Inventory",
-    "section": "Tool Audit",
-    "text": "Tool Audit\nProper tool maintenance extends their life and ensures safety:\n\nCleaning Protocol:\n\nClean all dirt off tools used today\nRemove mud, sap, and plant material\nWipe metal parts with oily rag if rusty\nCheck wooden handles for splinters\nSharpen blades if necessary (ask supervisor)\n\n\n\nStorage Protocol:\n\nEnsure all watering cans and buckets are stored upside down (to prevent mosquito breeding)\nReturn all equipment to proper storage locations\nHang tools on designated hooks/racks\nCoil hoses neatly\nStore small tools in labeled containers\nPlace sharp tools safely (blades away from reach)\n\nTool Maintenance Tips: - Clean tools after each use - dried mud is harder to remove - Oil metal parts occasionally to prevent rust - Tighten loose handles before they break - Report damaged tools immediately - Don’t put tools away dirty or wet"
+    "objectID": "farm/potato-patch.html#practical-session-potato-patch-prep-40-min",
+    "href": "farm/potato-patch.html#practical-session-potato-patch-prep-40-min",
+    "title": "Unit 2: Potato Patch Prep (3 lessons)",
+    "section": "Practical session: Potato patch prep (40 min)",
+    "text": "Practical session: Potato patch prep (40 min)\nGoal: Turn over and prepare the potato patch for planting by removing grass, loosening soil, and mixing compost.\n\nGroup tasks (20 students total)\n\n\n\n\n\n\n\n\n\nGroup\nStudents\nTask focus\nKey actions\n\n\n\n\nGroup A\n7\nRemove top grass\nLift turf, stack it in a designated pile, clear roots.\n\n\nGroup B\n7\nTurn over soil\nUse forks/spades to loosen and flip soil to one spade depth.\n\n\nGroup C\n6\nCompost and break up soil\nSpread compost, break clods, rake level.\n\n\n\n\n\nTiming (40 min)\n\n0-5 min: Safety briefing, tool allocation, demo of safe spade/fork use.\n5-30 min: Group work on tasks.\n30-35 min: Rotate quick checks, finish edges, tidy stacks.\n35-40 min: Tool clean-up, wash hands, quick reflection.\n\n\n\nTools and materials\n\nSpades (for turf lifting)\nGarden forks (for turning soil)\nRakes (for leveling)\nBuckets or barrow (for compost)\nGloves (one pair per student)\nWater bottle and sunscreen (if required)\n\n\n\nRisks and controls\n\n\n\n\n\n\n\nRisk\nControl\n\n\n\n\nBlisters or cuts\nGloves required, correct tool grip demo.\n\n\nTool injuries (spade/fork)\nSpacing rule: arm’s length plus tool length; tools down when not in use.\n\n\nTrips on uneven ground\nClear walkways; keep tools flat on ground when resting.\n\n\nManual handling strain\nUse knees when lifting turf; share heavy loads.\n\n\nSun exposure\nHats, sunscreen, water breaks.\n\n\n\n\n\nExtra process ideas\n\nMark the patch boundary with string before starting.\nAssign a student as timekeeper for mid-lesson check-in.\nPhotograph before/after for reflection or mapping updates."
   },
   {
-    "objectID": "farm/missions/mission5-organisation.html#security-check",
-    "href": "farm/missions/mission5-organisation.html#security-check",
-    "title": "Mission 5: Organisation & Inventory",
-    "section": "Security Check",
-    "text": "Security Check\nBefore leaving the area:\n\nLock shed and secure gates\nClose all doors and windows\nCheck nothing is left outside that shouldn’t be\nEnsure no tools are laying around as trip hazards\nTurn off any water taps\nCheck no electrical equipment left on\nDo a final visual sweep of the area"
-  },
-  {
-    "objectID": "farm/missions/mission5-organisation.html#inventory-notes",
-    "href": "farm/missions/mission5-organisation.html#inventory-notes",
-    "title": "Mission 5: Organisation & Inventory",
-    "section": "Inventory Notes",
-    "text": "Inventory Notes\nHelp maintain farm equipment:\n\nNote any missing tools\nReport any broken or damaged equipment\nSuggest items that need replacing\nRecord any safety concerns\nUpdate equipment log if maintained"
-  },
-  {
-    "objectID": "farm/missions/mission5-organisation.html#completion",
-    "href": "farm/missions/mission5-organisation.html#completion",
-    "title": "Mission 5: Organisation & Inventory",
-    "section": "Completion",
-    "text": "Completion\nOnce all tasks are completed: - [ ] Take a photo of tidy work area (optional) - [ ] Record completion in farm log - [ ] Report any issues to supervisor - [ ] Leave the farm better than you found it!\nMission Status: Complete! 🧹🔧"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Urban Farm Applied Mathematics",
+    "objectID": "SECURITY_AUDIT.html",
+    "href": "SECURITY_AUDIT.html",
+    "title": "Security Audit",
     "section": "",
-    "text": "This standalone site contains the Urban Farm applied mathematics units, separated from the Year 9 Mathematics project.\n\n\n\nFarm Units overview\nUnit 1: Mapping the School Farm\nUnit 2: Potato Patch Prep\n\n\n\n\n\nFarm Missions - Regular maintenance tasks\nFriday Close-Down Checklist"
+    "text": "Date: 2026-02-13\n\n\n\nAudit status: setup complete\nFindings: not yet run in this repo\nReport: security_audit_report.json\n\n\n\n\n\nWorking tree files (excluding common binary formats and very large files)\nFull git history (all blobs)\n\n\n\n\n\nBinary formats (images, PDFs, archives, etc.) are not scanned.\nFiles over 2 MB are skipped to keep the scan fast.\nIf you need deeper binary scanning, use a specialized tool and update the script accordingly.\n\n\n\n\n\nAutomated scan script at scripts/security_audit.py\nPre-commit hook at .githooks/pre-commit\nGitHub Actions workflow at .github/workflows/security_scan.yml\n\n\n\n\nEnable the repo hook path so the pre-commit scan runs locally:\n\ngit config core.hooksPath .githooks\n\n\n\n\nThis repo includes .github/workflows/publish.yml to deploy the site to GitHub Pages using GitHub Actions.\nIn GitHub:\n\nGo to Settings &gt; Pages.\nUnder Build and deployment, select GitHub Actions.\nSave the settings.\n\n\n\n\n\nProtect the main branch:\n\nRequire pull request reviews\nRequire status checks to pass (Security Scan, Publish Site)\nRequire signed commits\nRequire linear history\n\nRequire signed commits locally:\n\ngit config commit.gpgsign true\nUse either GPG or SSH signing (GitHub supports both)\n\n\n\n\n\n\nRotate or revoke the credential immediately.\nRemove the secret from the repository.\nPurge it from history using git filter-repo:\n\nhttps://github.com/newren/git-filter-repo\n\nForce-push the cleaned history and notify collaborators.\n\n\n\n\n\nFull scan (worktree + history):\n\npython scripts/security_audit.py\n\nStaged-only scan (pre-commit mode):\n\npython scripts/security_audit.py –staged –no-history"
   },
   {
-    "objectID": "index.html#welcome",
-    "href": "index.html#welcome",
-    "title": "Urban Farm Applied Mathematics",
+    "objectID": "SECURITY_AUDIT.html#summary",
+    "href": "SECURITY_AUDIT.html#summary",
+    "title": "Security Audit",
     "section": "",
-    "text": "This standalone site contains the Urban Farm applied mathematics units, separated from the Year 9 Mathematics project.\n\n\n\nFarm Units overview\nUnit 1: Mapping the School Farm\nUnit 2: Potato Patch Prep\n\n\n\n\n\nFarm Missions - Regular maintenance tasks\nFriday Close-Down Checklist"
+    "text": "Audit status: setup complete\nFindings: not yet run in this repo\nReport: security_audit_report.json"
+  },
+  {
+    "objectID": "SECURITY_AUDIT.html#scope",
+    "href": "SECURITY_AUDIT.html#scope",
+    "title": "Security Audit",
+    "section": "",
+    "text": "Working tree files (excluding common binary formats and very large files)\nFull git history (all blobs)"
+  },
+  {
+    "objectID": "SECURITY_AUDIT.html#limitations",
+    "href": "SECURITY_AUDIT.html#limitations",
+    "title": "Security Audit",
+    "section": "",
+    "text": "Binary formats (images, PDFs, archives, etc.) are not scanned.\nFiles over 2 MB are skipped to keep the scan fast.\nIf you need deeper binary scanning, use a specialized tool and update the script accordingly."
+  },
+  {
+    "objectID": "SECURITY_AUDIT.html#solutions-implemented",
+    "href": "SECURITY_AUDIT.html#solutions-implemented",
+    "title": "Security Audit",
+    "section": "",
+    "text": "Automated scan script at scripts/security_audit.py\nPre-commit hook at .githooks/pre-commit\nGitHub Actions workflow at .github/workflows/security_scan.yml"
+  },
+  {
+    "objectID": "SECURITY_AUDIT.html#required-setup-one-time",
+    "href": "SECURITY_AUDIT.html#required-setup-one-time",
+    "title": "Security Audit",
+    "section": "",
+    "text": "Enable the repo hook path so the pre-commit scan runs locally:\n\ngit config core.hooksPath .githooks"
+  },
+  {
+    "objectID": "SECURITY_AUDIT.html#github-pages-setup",
+    "href": "SECURITY_AUDIT.html#github-pages-setup",
+    "title": "Security Audit",
+    "section": "",
+    "text": "This repo includes .github/workflows/publish.yml to deploy the site to GitHub Pages using GitHub Actions.\nIn GitHub:\n\nGo to Settings &gt; Pages.\nUnder Build and deployment, select GitHub Actions.\nSave the settings."
+  },
+  {
+    "objectID": "SECURITY_AUDIT.html#recommended-repo-protections-github-settings",
+    "href": "SECURITY_AUDIT.html#recommended-repo-protections-github-settings",
+    "title": "Security Audit",
+    "section": "",
+    "text": "Protect the main branch:\n\nRequire pull request reviews\nRequire status checks to pass (Security Scan, Publish Site)\nRequire signed commits\nRequire linear history\n\nRequire signed commits locally:\n\ngit config commit.gpgsign true\nUse either GPG or SSH signing (GitHub supports both)"
+  },
+  {
+    "objectID": "SECURITY_AUDIT.html#if-a-secret-is-found",
+    "href": "SECURITY_AUDIT.html#if-a-secret-is-found",
+    "title": "Security Audit",
+    "section": "",
+    "text": "Rotate or revoke the credential immediately.\nRemove the secret from the repository.\nPurge it from history using git filter-repo:\n\nhttps://github.com/newren/git-filter-repo\n\nForce-push the cleaned history and notify collaborators."
+  },
+  {
+    "objectID": "SECURITY_AUDIT.html#how-to-run-the-scan",
+    "href": "SECURITY_AUDIT.html#how-to-run-the-scan",
+    "title": "Security Audit",
+    "section": "",
+    "text": "Full scan (worktree + history):\n\npython scripts/security_audit.py\n\nStaged-only scan (pre-commit mode):\n\npython scripts/security_audit.py –staged –no-history"
   }
 ]

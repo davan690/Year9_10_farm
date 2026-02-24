@@ -16,8 +16,12 @@ website:
         href: farm/mapping.qmd
       - text: "Potato Patch Unit"
         href: farm/potato-patch.qmd
+      - text: "Apple Unit"
+        href: farm/apple-unit.qmd
       - text: "Friday Close-Down"
         href: farm/friday-closedown.qmd
+      - text: "Textbook"
+        href: textbook/textbook.qmd
   sidebar: false
   page-footer:
     center: "Urban Farm Applied Mathematics"
