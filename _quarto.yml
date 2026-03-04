@@ -16,6 +16,8 @@ website:
         href: farm/mapping.qmd
       - text: "Potato Patch Unit"
         href: farm/potato-patch.qmd
+      - text: "Farm Dogs Unit"
+        href: farm/farm-dogs.qmd
       - text: "Apple Unit"
         href: farm/apple-unit.qmd
       - text: "Friday Close-Down"

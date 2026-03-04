@@ -11,6 +11,7 @@ This standalone site contains the Urban Farm applied mathematics units, separate
 - [Farm Units overview](farm/index.Rmd)
 - [Unit 1: Mapping the School Farm](farm/mapping.qmd)
 - [Unit 2: Potato Patch Prep](farm/potato-patch.qmd)
+- [Unit 3: Apple Unit (2 lessons)](farm/apple-unit.qmd)
 
 ### Farm Operations
 

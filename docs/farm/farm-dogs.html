@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Urban Farm 2026">
 
-<title>Apple Unit (2 lessons) – Urban Farm Applied Mathematics</title>
+<title>Unit 3: Farm Dogs &amp; Working with Sheep – Urban Farm Applied Mathematics</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -70,35 +69,6 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
@@ -141,11 +111,11 @@ window.Quarto = {
 <span class="menu-text">Potato Patch Unit</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../farm/farm-dogs.html"> 
+    <a class="nav-link active" href="../farm/farm-dogs.html" aria-current="page"> 
 <span class="menu-text">Farm Dogs Unit</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../farm/apple-unit.html" aria-current="page"> 
+    <a class="nav-link" href="../farm/apple-unit.html"> 
 <span class="menu-text">Apple Unit</span></a>
   </li>  
   <li class="nav-item">
@@ -172,35 +142,24 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#purpose" id="toc-purpose" class="nav-link active" data-scroll-target="#purpose">Purpose</a></li>
-  <li><a href="#unit-target-for-this-year" id="toc-unit-target-for-this-year" class="nav-link" data-scroll-target="#unit-target-for-this-year">Unit target for this year</a></li>
-  <li><a href="#learning-goals" id="toc-learning-goals" class="nav-link" data-scroll-target="#learning-goals">Learning goals</a></li>
-  <li><a href="#lesson-structure-2-lessons" id="toc-lesson-structure-2-lessons" class="nav-link" data-scroll-target="#lesson-structure-2-lessons">Lesson structure (2 lessons)</a></li>
-  <li><a href="#lesson-1-picking-and-cleaning-apples-40-min" id="toc-lesson-1-picking-and-cleaning-apples-40-min" class="nav-link" data-scroll-target="#lesson-1-picking-and-cleaning-apples-40-min">Lesson 1: Picking and cleaning apples (40 min)</a>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#learning-goals" id="toc-learning-goals" class="nav-link" data-scroll-target="#learning-goals">Learning Goals</a></li>
+  <li><a href="#lesson-1-introduction-to-farm-dogs-classroomyard-50-60-min" id="toc-lesson-1-introduction-to-farm-dogs-classroomyard-50-60-min" class="nav-link" data-scroll-target="#lesson-1-introduction-to-farm-dogs-classroomyard-50-60-min">Lesson 1: Introduction to Farm Dogs (Classroom/yard, 50-60 min)</a>
   <ul class="collapse">
-  <li><a href="#student-activities-and-instructions" id="toc-student-activities-and-instructions" class="nav-link" data-scroll-target="#student-activities-and-instructions">Student activities and instructions</a></li>
-  <li><a href="#group-tasks-20-students" id="toc-group-tasks-20-students" class="nav-link" data-scroll-target="#group-tasks-20-students">Group tasks (20 students)</a></li>
-  <li><a href="#timing-40-min" id="toc-timing-40-min" class="nav-link" data-scroll-target="#timing-40-min">Timing (40 min)</a></li>
+  <li><a href="#success-criteria" id="toc-success-criteria" class="nav-link" data-scroll-target="#success-criteria">Success Criteria</a></li>
+  <li><a href="#materials" id="toc-materials" class="nav-link" data-scroll-target="#materials">Materials</a></li>
+  <li><a href="#lesson-sequence" id="toc-lesson-sequence" class="nav-link" data-scroll-target="#lesson-sequence">Lesson Sequence</a></li>
+  <li><a href="#formative-check" id="toc-formative-check" class="nav-link" data-scroll-target="#formative-check">Formative Check</a></li>
   </ul></li>
-  <li><a href="#lesson-2-weighing-bagging-and-pricing-40-min" id="toc-lesson-2-weighing-bagging-and-pricing-40-min" class="nav-link" data-scroll-target="#lesson-2-weighing-bagging-and-pricing-40-min">Lesson 2: Weighing, bagging, and pricing (40 min)</a>
+  <li><a href="#lesson-2-practical-with-jess-friday-50-60-min" id="toc-lesson-2-practical-with-jess-friday-50-60-min" class="nav-link" data-scroll-target="#lesson-2-practical-with-jess-friday-50-60-min">Lesson 2: Practical with Jess (Friday, 50-60 min)</a>
   <ul class="collapse">
-  <li><a href="#student-activities-and-instructions-1" id="toc-student-activities-and-instructions-1" class="nav-link" data-scroll-target="#student-activities-and-instructions-1">Student activities and instructions</a></li>
-  <li><a href="#packing-table" id="toc-packing-table" class="nav-link" data-scroll-target="#packing-table">Packing table</a></li>
-  <li><a href="#timing-40-min-1" id="toc-timing-40-min-1" class="nav-link" data-scroll-target="#timing-40-min-1">Timing (40 min)</a></li>
+  <li><a href="#success-criteria-1" id="toc-success-criteria-1" class="nav-link" data-scroll-target="#success-criteria-1">Success Criteria</a></li>
+  <li><a href="#safety-brief-start-of-lesson" id="toc-safety-brief-start-of-lesson" class="nav-link" data-scroll-target="#safety-brief-start-of-lesson">Safety Brief (Start of lesson)</a></li>
+  <li><a href="#practical-sequence" id="toc-practical-sequence" class="nav-link" data-scroll-target="#practical-sequence">Practical Sequence</a></li>
+  <li><a href="#quick-assessment-task" id="toc-quick-assessment-task" class="nav-link" data-scroll-target="#quick-assessment-task">Quick Assessment Task</a></li>
   </ul></li>
-  <li><a href="#tools-and-materials" id="toc-tools-and-materials" class="nav-link" data-scroll-target="#tools-and-materials">Tools and materials</a></li>
-  <li><a href="#health-and-safety-guidelines" id="toc-health-and-safety-guidelines" class="nav-link" data-scroll-target="#health-and-safety-guidelines">Health and safety guidelines</a></li>
-  <li><a href="#teacher-checks-end-of-unit" id="toc-teacher-checks-end-of-unit" class="nav-link" data-scroll-target="#teacher-checks-end-of-unit">Teacher checks (end of unit)</a></li>
-  <li><a href="#reflection" id="toc-reflection" class="nav-link" data-scroll-target="#reflection">Reflection</a></li>
-  <li><a href="#printable-student-worksheet" id="toc-printable-student-worksheet" class="nav-link" data-scroll-target="#printable-student-worksheet">Printable student worksheet</a>
-  <ul class="collapse">
-  <li><a href="#student-names" id="toc-student-names" class="nav-link" data-scroll-target="#student-names">Student names</a></li>
-  <li><a href="#lesson-1-checklist-pick-clean-sort" id="toc-lesson-1-checklist-pick-clean-sort" class="nav-link" data-scroll-target="#lesson-1-checklist-pick-clean-sort">Lesson 1 checklist (pick, clean, sort)</a></li>
-  <li><a href="#lesson-2-checklist-weigh-bag-label" id="toc-lesson-2-checklist-weigh-bag-label" class="nav-link" data-scroll-target="#lesson-2-checklist-weigh-bag-label">Lesson 2 checklist (weigh, bag, label)</a></li>
-  <li><a href="#bag-recording-table" id="toc-bag-recording-table" class="nav-link" data-scroll-target="#bag-recording-table">Bag recording table</a></li>
-  <li><a href="#income-check" id="toc-income-check" class="nav-link" data-scroll-target="#income-check">Income check</a></li>
-  <li><a href="#teacher-sign-off" id="toc-teacher-sign-off" class="nav-link" data-scroll-target="#teacher-sign-off">Teacher sign-off</a></li>
-  </ul></li>
+  <li><a href="#student-observation-table-print-or-copy" id="toc-student-observation-table-print-or-copy" class="nav-link" data-scroll-target="#student-observation-table-print-or-copy">Student Observation Table (print or copy)</a></li>
+  <li><a href="#optional-extension-homework" id="toc-optional-extension-homework" class="nav-link" data-scroll-target="#optional-extension-homework">Optional Extension / Homework</a></li>
   </ul>
 </nav>
     </div>
@@ -209,26 +168,14 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Apple Unit (2 lessons)</h1>
+<h1 class="title">Unit 3: Farm Dogs &amp; Working with Sheep</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Urban Farm 2026 </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">Invalid Date</p>
-    </div>
-  </div>
   
     
   </div>
@@ -238,378 +185,190 @@ window.Quarto = {
 </header>
 
 
-<section id="purpose" class="level2">
-<h2 class="anchored" data-anchor-id="purpose">Purpose</h2>
-<p>This unit links practical orchard work with measurement and money maths. Students pick apples, clean fruit, weigh accurately, and pack fruit into sale bags.</p>
-<hr>
-</section>
-<section id="unit-target-for-this-year" class="level2">
-<h2 class="anchored" data-anchor-id="unit-target-for-this-year">Unit target for this year</h2>
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>This two-lesson mini-unit introduces the role of farm dogs in livestock management, safety, and animal welfare.</p>
 <ul>
-<li>Pack <strong>4 x 2kg bags</strong>.</li>
-<li>Price is <strong>$6 per 2kg bag</strong>.</li>
-<li>Total target income: <strong>$24</strong>.</li>
-<li><strong>No 1kg bags this time</strong> (usually they are $4 per 1kg).</li>
+<li><strong>Lesson 1 (tomorrow):</strong> Building background knowledge and planning observations.</li>
+<li><strong>Lesson 2 (Friday):</strong> Live practical session with <strong>Jess</strong> (your sheepdog).</li>
 </ul>
 <hr>
 </section>
 <section id="learning-goals" class="level2">
-<h2 class="anchored" data-anchor-id="learning-goals">Learning goals</h2>
+<h2 class="anchored" data-anchor-id="learning-goals">Learning Goals</h2>
 <p>By the end of this unit, students can:</p>
 <ul>
-<li>pick and handle fruit safely without bruising</li>
-<li>clean and sort apples by quality</li>
-<li>weigh fruit accurately to 2kg</li>
-<li>pack, label, and count bags ready for sale</li>
-<li>calculate expected income from packed bags</li>
+<li>Explain at least three jobs farm dogs perform on working farms.</li>
+<li>Describe safe behaviour around a working dog.</li>
+<li>Record structured observations of dog behaviour using correct farm language.</li>
+<li>Connect dog actions (movement, positioning, commands) to stock movement outcomes.</li>
 </ul>
 <hr>
 </section>
-<section id="lesson-structure-2-lessons" class="level2">
-<h2 class="anchored" data-anchor-id="lesson-structure-2-lessons">Lesson structure (2 lessons)</h2>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 33%">
-<col style="width: 33%">
-<col style="width: 33%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Lesson</th>
-<th>Focus</th>
-<th>Outcome</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lesson 1</td>
-<td>Pick and clean fruit</td>
-<td>Apples are safely picked, cleaned, and sorted.</td>
-</tr>
-<tr class="even">
-<td>Lesson 2</td>
-<td>Weigh, bag, and label fruit</td>
-<td>4 x 2kg bags are packed and ready for sale.</td>
-</tr>
-</tbody>
-</table>
-<hr>
+<section id="lesson-1-introduction-to-farm-dogs-classroomyard-50-60-min" class="level2">
+<h2 class="anchored" data-anchor-id="lesson-1-introduction-to-farm-dogs-classroomyard-50-60-min">Lesson 1: Introduction to Farm Dogs (Classroom/yard, 50-60 min)</h2>
+<section id="success-criteria" class="level3">
+<h3 class="anchored" data-anchor-id="success-criteria">Success Criteria</h3>
+<p>Students can:</p>
+<ul>
+<li>Identify key traits of a working sheepdog.</li>
+<li>Match common commands to expected dog actions.</li>
+<li>Prepare an observation sheet for Friday’s practical lesson.</li>
+</ul>
 </section>
-<section id="lesson-1-picking-and-cleaning-apples-40-min" class="level2">
-<h2 class="anchored" data-anchor-id="lesson-1-picking-and-cleaning-apples-40-min">Lesson 1: Picking and cleaning apples (40 min)</h2>
-<p><strong>Goal:</strong> Harvest apples safely and prepare clean fruit for packing.</p>
-<section id="student-activities-and-instructions" class="level3">
-<h3 class="anchored" data-anchor-id="student-activities-and-instructions">Student activities and instructions</h3>
+<section id="materials" class="level3">
+<h3 class="anchored" data-anchor-id="materials">Materials</h3>
+<ul>
+<li>Whiteboard and markers</li>
+<li>Printed copy of the observation table (below)</li>
+<li>Clipboards (if heading outside for short movement demo)</li>
+</ul>
+</section>
+<section id="lesson-sequence" class="level3">
+<h3 class="anchored" data-anchor-id="lesson-sequence">Lesson Sequence</h3>
 <ol type="1">
-<li>Put on gloves and check your picking area.</li>
-<li>Pick apples carefully (twist and lift, do not pull hard).</li>
-<li>Place fruit gently into crates/buckets (do not throw fruit).</li>
-<li>Remove leaves and obvious dirt.</li>
-<li>Wipe or rinse apples and place on drying trays.</li>
-<li>Sort into:</li>
+<li><strong>Hook (5 min):</strong>
+<ul>
+<li>Ask: “What makes a farm dog different from a pet dog?”</li>
+<li>Gather ideas and sort into categories: behaviour, training, purpose.</li>
+</ul></li>
+<li><strong>Mini-teaching (10-15 min):</strong>
+<ul>
+<li>Roles of farm dogs: gathering, driving, holding, backing, and yard work.</li>
+<li>Key welfare concepts: calm pressure, no rough handling, handler responsibility.</li>
+</ul></li>
+<li><strong>Commands and communication (10 min):</strong>
+<ul>
+<li>Introduce likely commands students may hear on Friday (e.g.&nbsp;stop, lie down, walk up, come by, away, steady).</li>
+<li>Discuss why consistent commands matter for animal safety.</li>
+</ul></li>
+<li><strong>Movement mapping task (15 min):</strong>
+<ul>
+<li>In pairs, students draw a small paddock and plot where dog, sheep, and handler should stand to move sheep through a gate.</li>
+<li>Share and compare different movement plans.</li>
+</ul></li>
+<li><strong>Prepare for Friday (10 min):</strong>
+<ul>
+<li>Hand out observation sheet and explain what students must record during Jess’s session.</li>
+<li>Review class expectations for safe conduct around Jess and sheep.</li>
+</ul></li>
 </ol>
-<ul>
-<li><strong>Sale quality</strong> (good skin, good size)</li>
-<li><strong>Second quality</strong> (bruised/small; not for 2kg sale bags)</li>
-</ul>
 </section>
-<section id="group-tasks-20-students" class="level3">
-<h3 class="anchored" data-anchor-id="group-tasks-20-students">Group tasks (20 students)</h3>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Group</th>
-<th>Students</th>
-<th>Task focus</th>
-<th>Key actions</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Group A</td>
-<td>7</td>
-<td>Picking</td>
-<td>Pick apples safely and fill crates.</td>
-</tr>
-<tr class="even">
-<td>Group B</td>
-<td>7</td>
-<td>Cleaning</td>
-<td>Wipe/rinse apples and set to dry.</td>
-</tr>
-<tr class="odd">
-<td>Group C</td>
-<td>6</td>
-<td>Sorting</td>
-<td>Sort apples into sale/second quality.</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="timing-40-min" class="level3">
-<h3 class="anchored" data-anchor-id="timing-40-min">Timing (40 min)</h3>
+<section id="formative-check" class="level3">
+<h3 class="anchored" data-anchor-id="formative-check">Formative Check</h3>
 <ul>
-<li>0-5 min: Safety briefing and tool/equipment check.</li>
-<li>5-25 min: Picking and crate collection.</li>
-<li>25-35 min: Cleaning and sorting.</li>
-<li>35-40 min: Clean-up and count prepared fruit.</li>
+<li>Exit ticket: “One thing Jess will need to do on Friday” + “One safety rule I must follow.”</li>
 </ul>
 <hr>
 </section>
 </section>
-<section id="lesson-2-weighing-bagging-and-pricing-40-min" class="level2">
-<h2 class="anchored" data-anchor-id="lesson-2-weighing-bagging-and-pricing-40-min">Lesson 2: Weighing, bagging, and pricing (40 min)</h2>
-<p><strong>Goal:</strong> Produce 4 x 2kg sale bags and calculate expected income.</p>
-<section id="student-activities-and-instructions-1" class="level3">
-<h3 class="anchored" data-anchor-id="student-activities-and-instructions-1">Student activities and instructions</h3>
+<section id="lesson-2-practical-with-jess-friday-50-60-min" class="level2">
+<h2 class="anchored" data-anchor-id="lesson-2-practical-with-jess-friday-50-60-min">Lesson 2: Practical with Jess (Friday, 50-60 min)</h2>
+<section id="success-criteria-1" class="level3">
+<h3 class="anchored" data-anchor-id="success-criteria-1">Success Criteria</h3>
+<p>Students can:</p>
+<ul>
+<li>Observe and accurately describe Jess’s response to commands.</li>
+<li>Explain how Jess’s position changes sheep movement.</li>
+<li>Demonstrate safe and respectful behaviour around working animals.</li>
+</ul>
+</section>
+<section id="safety-brief-start-of-lesson" class="level3">
+<h3 class="anchored" data-anchor-id="safety-brief-start-of-lesson">Safety Brief (Start of lesson)</h3>
+<ul>
+<li>Stay behind the marked observation line unless invited forward.</li>
+<li>No sudden movements, shouting, or approaching Jess without permission.</li>
+<li>Follow teacher instructions immediately around livestock.</li>
+<li>If unsure, step back and ask.</li>
+</ul>
+</section>
+<section id="practical-sequence" class="level3">
+<h3 class="anchored" data-anchor-id="practical-sequence">Practical Sequence</h3>
 <ol type="1">
-<li>Set up scales on flat ground and check zero.</li>
-<li>Fill each bag to <strong>2.00kg</strong> (or as close as possible).</li>
-<li>Adjust weight by adding/removing apples.</li>
-<li>Seal each bag and label clearly:</li>
-</ol>
+<li><strong>Re-cap and briefing (5 min):</strong>
 <ul>
-<li>“Apple Bag - 2kg”</li>
-<li>Price “$6”</li>
-</ul>
-<ol start="5" type="1">
-<li>Repeat until <strong>4 bags</strong> are complete.</li>
-<li>Calculate income:</li>
-</ol>
+<li>Review previous lesson’s commands and safety expectations.</li>
+</ul></li>
+<li><strong>Jess introduction (5 min):</strong>
 <ul>
-<li><span class="math inline">\(4 \times 6 = 24\)</span></li>
-</ul>
-<ol start="7" type="1">
-<li>Record final numbers in class sheet.</li>
+<li>Brief profile: breed/type, age, training, daily farm roles.</li>
+</ul></li>
+<li><strong>Demonstration rounds (20-25 min):</strong>
+<ul>
+<li>Round 1: Basic control (stop/lie down/walk up).</li>
+<li>Round 2: Directional work around stock.</li>
+<li>Round 3: Moving stock toward a target point.</li>
+<li>Students complete observation table during each round.</li>
+</ul></li>
+<li><strong>Student analysis (10-15 min):</strong>
+<ul>
+<li>Pairs compare notes and identify one “effective handler move” and one “effective Jess behaviour.”</li>
+</ul></li>
+<li><strong>Debrief (5-10 min):</strong>
+<ul>
+<li>Whole-class discussion: What did Jess do that most affected sheep direction and speed?</li>
+</ul></li>
 </ol>
 </section>
-<section id="packing-table" class="level3">
-<h3 class="anchored" data-anchor-id="packing-table">Packing table</h3>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Bag #</th>
-<th style="text-align: right;">Target weight</th>
-<th style="text-align: right;">Actual weight</th>
-<th style="text-align: right;">Price</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>1</td>
-<td style="text-align: right;">2.00 kg</td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;">$6</td>
-</tr>
-<tr class="even">
-<td>2</td>
-<td style="text-align: right;">2.00 kg</td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;">$6</td>
-</tr>
-<tr class="odd">
-<td>3</td>
-<td style="text-align: right;">2.00 kg</td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;">$6</td>
-</tr>
-<tr class="even">
-<td>4</td>
-<td style="text-align: right;">2.00 kg</td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;">$6</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="timing-40-min-1" class="level3">
-<h3 class="anchored" data-anchor-id="timing-40-min-1">Timing (40 min)</h3>
-<ul>
-<li>0-5 min: Scale setup and demo.</li>
-<li>5-25 min: Weigh and pack 4 bags.</li>
-<li>25-35 min: Label, check quality, and count stock.</li>
-<li>35-40 min: Income calculation and tidy up.</li>
-</ul>
+<section id="quick-assessment-task" class="level3">
+<h3 class="anchored" data-anchor-id="quick-assessment-task">Quick Assessment Task</h3>
+<p>Students submit a short paragraph:</p>
+<p>“Describe one command, Jess’s response, and the effect on sheep movement. Include one safety behaviour you followed.”</p>
 <hr>
 </section>
 </section>
-<section id="tools-and-materials" class="level2">
-<h2 class="anchored" data-anchor-id="tools-and-materials">Tools and materials</h2>
-<ul>
-<li>picking buckets/crates</li>
-<li>gloves</li>
-<li>clean cloths or rinse tubs</li>
-<li>digital or kitchen scales</li>
-<li>packing bags</li>
-<li>labels/marker pens</li>
-<li>cleaning spray/paper towels for workstations</li>
-</ul>
-<hr>
-</section>
-<section id="health-and-safety-guidelines" class="level2">
-<h2 class="anchored" data-anchor-id="health-and-safety-guidelines">Health and safety guidelines</h2>
+<section id="student-observation-table-print-or-copy" class="level2">
+<h2 class="anchored" data-anchor-id="student-observation-table-print-or-copy">Student Observation Table (print or copy)</h2>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 50%">
-<col style="width: 50%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
 </colgroup>
 <thead>
 <tr class="header">
-<th>Risk</th>
-<th>Guideline/control</th>
+<th>Command heard</th>
+<th>Jess’s action</th>
+<th>Sheep response</th>
+<th>Why it worked (or didn’t)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Slips/trips in orchard</td>
-<td>Walk, do not run; keep paths clear of crates and bags.</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr class="even">
-<td>Ladder/fall risk</td>
-<td>Only teacher-approved students use ladders; 3-point contact at all times.</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr class="odd">
-<td>Cuts/scratches</td>
-<td>Wear gloves; handle branches carefully; report injuries immediately.</td>
-</tr>
-<tr class="even">
-<td>Food hygiene risk</td>
-<td>Clean hands before handling sale fruit; use clean cloths and clean surfaces.</td>
-</tr>
-<tr class="odd">
-<td>Manual handling strain</td>
-<td>Lift crates with bent knees; share heavy loads.</td>
-</tr>
-<tr class="even">
-<td>Bee/wasp stings</td>
-<td>Stay calm near insects; notify teacher if allergic reaction risk.</td>
-</tr>
-<tr class="odd">
-<td>Sun exposure/dehydration</td>
-<td>Hats, sunscreen, and water breaks required.</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
 <hr>
 </section>
-<section id="teacher-checks-end-of-unit" class="level2">
-<h2 class="anchored" data-anchor-id="teacher-checks-end-of-unit">Teacher checks (end of unit)</h2>
-<ul class="task-list">
-<li><label><input type="checkbox">4 x 2kg bags completed</label></li>
-<li><label><input type="checkbox">Labels clear and correct ($6 per bag)</label></li>
-<li><label><input type="checkbox">Weights recorded</label></li>
-<li><label><input type="checkbox">Hygiene and safety expectations met</label></li>
-<li><label><input type="checkbox">Total income calculated ($24)</label></li>
-</ul>
-<hr>
-</section>
-<section id="reflection" class="level2">
-<h2 class="anchored" data-anchor-id="reflection">Reflection</h2>
+<section id="optional-extension-homework" class="level2">
+<h2 class="anchored" data-anchor-id="optional-extension-homework">Optional Extension / Homework</h2>
 <ul>
-<li>What helped your group weigh bags accurately?</li>
-<li>What quality issues did you notice most often?</li>
-<li>If we used 1kg bags next time, how would sales options change?</li>
-</ul>
-<hr>
-</section>
-<section id="printable-student-worksheet" class="level2">
-<h2 class="anchored" data-anchor-id="printable-student-worksheet">Printable student worksheet</h2>
-<section id="student-names" class="level3">
-<h3 class="anchored" data-anchor-id="student-names">Student names</h3>
+<li>Create a one-page “Working Dog Guide for New Farm Students” including:
 <ul>
-<li>Name 1: ____________________</li>
-<li>Name 2: ____________________</li>
-<li>Name 3: ____________________</li>
+<li>5 safety rules</li>
+<li>5 useful commands</li>
+<li>1 diagram showing ideal handler-dog-stock positioning</li>
+</ul></li>
 </ul>
-</section>
-<section id="lesson-1-checklist-pick-clean-sort" class="level3">
-<h3 class="anchored" data-anchor-id="lesson-1-checklist-pick-clean-sort">Lesson 1 checklist (pick, clean, sort)</h3>
-<ul class="task-list">
-<li><label><input type="checkbox">I wore gloves and followed safety instructions.</label></li>
-<li><label><input type="checkbox">I picked apples carefully without bruising fruit.</label></li>
-<li><label><input type="checkbox">I cleaned apples and removed dirt/leaves.</label></li>
-<li><label><input type="checkbox">I sorted apples into sale quality and second quality.</label></li>
-</ul>
-</section>
-<section id="lesson-2-checklist-weigh-bag-label" class="level3">
-<h3 class="anchored" data-anchor-id="lesson-2-checklist-weigh-bag-label">Lesson 2 checklist (weigh, bag, label)</h3>
-<ul class="task-list">
-<li><label><input type="checkbox">I checked the scale was at zero before weighing.</label></li>
-<li><label><input type="checkbox">I helped pack 2kg bags accurately.</label></li>
-<li><label><input type="checkbox">I checked each bag label was correct.</label></li>
-<li><label><input type="checkbox">I helped calculate total expected income.</label></li>
-</ul>
-</section>
-<section id="bag-recording-table" class="level3">
-<h3 class="anchored" data-anchor-id="bag-recording-table">Bag recording table</h3>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 14%">
-<col style="width: 19%">
-<col style="width: 19%">
-<col style="width: 23%">
-<col style="width: 23%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Bag #</th>
-<th style="text-align: right;">Target weight</th>
-<th style="text-align: right;">Actual weight</th>
-<th style="text-align: center;">Label checked</th>
-<th style="text-align: center;">Ready for sale</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>1</td>
-<td style="text-align: right;">2.00 kg</td>
-<td style="text-align: right;"></td>
-<td style="text-align: center;">[ ]</td>
-<td style="text-align: center;">[ ]</td>
-</tr>
-<tr class="even">
-<td>2</td>
-<td style="text-align: right;">2.00 kg</td>
-<td style="text-align: right;"></td>
-<td style="text-align: center;">[ ]</td>
-<td style="text-align: center;">[ ]</td>
-</tr>
-<tr class="odd">
-<td>3</td>
-<td style="text-align: right;">2.00 kg</td>
-<td style="text-align: right;"></td>
-<td style="text-align: center;">[ ]</td>
-<td style="text-align: center;">[ ]</td>
-</tr>
-<tr class="even">
-<td>4</td>
-<td style="text-align: right;">2.00 kg</td>
-<td style="text-align: right;"></td>
-<td style="text-align: center;">[ ]</td>
-<td style="text-align: center;">[ ]</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="income-check" class="level3">
-<h3 class="anchored" data-anchor-id="income-check">Income check</h3>
-<ul>
-<li>Number of 2kg bags packed: ______</li>
-<li>Price per 2kg bag: $6</li>
-<li>Total expected income: $______</li>
-</ul>
-</section>
-<section id="teacher-sign-off" class="level3">
-<h3 class="anchored" data-anchor-id="teacher-sign-off">Teacher sign-off</h3>
-<ul class="task-list">
-<li><label><input type="checkbox">Safety expectations met</label></li>
-<li><label><input type="checkbox">Quality and weight checks completed</label></li>
-<li><label><input type="checkbox">Bags ready for sale</label></li>
-</ul>
-<p>Teacher signature: ____________________ Date: ____________________</p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->

@@ -39,14 +39,14 @@
     "href": "index.html",
     "title": "Urban Farm Applied Mathematics",
     "section": "",
-    "text": "This standalone site contains the Urban Farm applied mathematics units, separated from the Year 9 Mathematics project.\n\n\n\nFarm Units overview\nUnit 1: Mapping the School Farm\nUnit 2: Potato Patch Prep\n\n\n\n\n\nFarm Missions - Regular maintenance tasks\nFriday Close-Down Checklist"
+    "text": "This standalone site contains the Urban Farm applied mathematics units, separated from the Year 9 Mathematics project.\n\n\n\nFarm Units overview\nUnit 1: Mapping the School Farm\nUnit 2: Potato Patch Prep\nUnit 3: Apple Unit (2 lessons)\n\n\n\n\n\nFarm Missions - Regular maintenance tasks\nFriday Close-Down Checklist"
   },
   {
     "objectID": "index.html#welcome",
     "href": "index.html#welcome",
     "title": "Urban Farm Applied Mathematics",
     "section": "",
-    "text": "This standalone site contains the Urban Farm applied mathematics units, separated from the Year 9 Mathematics project.\n\n\n\nFarm Units overview\nUnit 1: Mapping the School Farm\nUnit 2: Potato Patch Prep\n\n\n\n\n\nFarm Missions - Regular maintenance tasks\nFriday Close-Down Checklist"
+    "text": "This standalone site contains the Urban Farm applied mathematics units, separated from the Year 9 Mathematics project.\n\n\n\nFarm Units overview\nUnit 1: Mapping the School Farm\nUnit 2: Potato Patch Prep\nUnit 3: Apple Unit (2 lessons)\n\n\n\n\n\nFarm Missions - Regular maintenance tasks\nFriday Close-Down Checklist"
   },
   {
     "objectID": "farm/missions/mission5-organisation.html",
@@ -301,6 +301,55 @@
     "text": "In this homework assignment, you will create a PDF map of the school farm using Google My Maps. You will learn how to add important features to your map, including an arrow, scale, and legend.\n\n\n\n\nCreate Your Map:\n\nFollow the instructions provided in the index.Rmd file to create your farm map using Google My Maps.\n\nAdd Features:\n\nOnce your map is created, you need to add the following features:\n\nArrow: Indicate a specific direction on your map.\nScale: Show the scale of your map to help viewers understand distances.\nLegend: Create a legend that explains the symbols and colors used on your map.\n\n\nExport Your Map:\n\nAfter adding the features, export your map as a PDF. Make sure the arrow, scale, and legend are clearly visible in the exported document.\n\n\n\n\n\n\nExplain why it is important to include a scale on your map. How does it help the viewer?\nDescribe the purpose of a legend in a map. What information should be included in your legend for the school farm map?\n\n\n\n\nThis homework aligns with the following areas of the New Zealand Curriculum:\n\nGeography: Understand how to represent geographical information using maps.\nMathematics: Apply measurement concepts in real-world contexts.\n\nFor more information, visit the New Zealand Curriculum website: New Zealand Curriculum\n\nNote: Ensure you follow the guidelines and submit your homework by the due date. Happy mapping!"
   },
   {
+    "objectID": "farm/farm-dogs.html",
+    "href": "farm/farm-dogs.html",
+    "title": "Unit 3: Farm Dogs & Working with Sheep",
+    "section": "",
+    "text": "This two-lesson mini-unit introduces the role of farm dogs in livestock management, safety, and animal welfare.\n\nLesson 1 (tomorrow): Building background knowledge and planning observations.\nLesson 2 (Friday): Live practical session with Jess (your sheepdog)."
+  },
+  {
+    "objectID": "farm/farm-dogs.html#overview",
+    "href": "farm/farm-dogs.html#overview",
+    "title": "Unit 3: Farm Dogs & Working with Sheep",
+    "section": "",
+    "text": "This two-lesson mini-unit introduces the role of farm dogs in livestock management, safety, and animal welfare.\n\nLesson 1 (tomorrow): Building background knowledge and planning observations.\nLesson 2 (Friday): Live practical session with Jess (your sheepdog)."
+  },
+  {
+    "objectID": "farm/farm-dogs.html#learning-goals",
+    "href": "farm/farm-dogs.html#learning-goals",
+    "title": "Unit 3: Farm Dogs & Working with Sheep",
+    "section": "Learning Goals",
+    "text": "Learning Goals\nBy the end of this unit, students can:\n\nExplain at least three jobs farm dogs perform on working farms.\nDescribe safe behaviour around a working dog.\nRecord structured observations of dog behaviour using correct farm language.\nConnect dog actions (movement, positioning, commands) to stock movement outcomes."
+  },
+  {
+    "objectID": "farm/farm-dogs.html#lesson-1-introduction-to-farm-dogs-classroomyard-50-60-min",
+    "href": "farm/farm-dogs.html#lesson-1-introduction-to-farm-dogs-classroomyard-50-60-min",
+    "title": "Unit 3: Farm Dogs & Working with Sheep",
+    "section": "Lesson 1: Introduction to Farm Dogs (Classroom/yard, 50-60 min)",
+    "text": "Lesson 1: Introduction to Farm Dogs (Classroom/yard, 50-60 min)\n\nSuccess Criteria\nStudents can:\n\nIdentify key traits of a working sheepdog.\nMatch common commands to expected dog actions.\nPrepare an observation sheet for Friday’s practical lesson.\n\n\n\nMaterials\n\nWhiteboard and markers\nPrinted copy of the observation table (below)\nClipboards (if heading outside for short movement demo)\n\n\n\nLesson Sequence\n\nHook (5 min):\n\nAsk: “What makes a farm dog different from a pet dog?”\nGather ideas and sort into categories: behaviour, training, purpose.\n\nMini-teaching (10-15 min):\n\nRoles of farm dogs: gathering, driving, holding, backing, and yard work.\nKey welfare concepts: calm pressure, no rough handling, handler responsibility.\n\nCommands and communication (10 min):\n\nIntroduce likely commands students may hear on Friday (e.g. stop, lie down, walk up, come by, away, steady).\nDiscuss why consistent commands matter for animal safety.\n\nMovement mapping task (15 min):\n\nIn pairs, students draw a small paddock and plot where dog, sheep, and handler should stand to move sheep through a gate.\nShare and compare different movement plans.\n\nPrepare for Friday (10 min):\n\nHand out observation sheet and explain what students must record during Jess’s session.\nReview class expectations for safe conduct around Jess and sheep.\n\n\n\n\nFormative Check\n\nExit ticket: “One thing Jess will need to do on Friday” + “One safety rule I must follow.”"
+  },
+  {
+    "objectID": "farm/farm-dogs.html#lesson-2-practical-with-jess-friday-50-60-min",
+    "href": "farm/farm-dogs.html#lesson-2-practical-with-jess-friday-50-60-min",
+    "title": "Unit 3: Farm Dogs & Working with Sheep",
+    "section": "Lesson 2: Practical with Jess (Friday, 50-60 min)",
+    "text": "Lesson 2: Practical with Jess (Friday, 50-60 min)\n\nSuccess Criteria\nStudents can:\n\nObserve and accurately describe Jess’s response to commands.\nExplain how Jess’s position changes sheep movement.\nDemonstrate safe and respectful behaviour around working animals.\n\n\n\nSafety Brief (Start of lesson)\n\nStay behind the marked observation line unless invited forward.\nNo sudden movements, shouting, or approaching Jess without permission.\nFollow teacher instructions immediately around livestock.\nIf unsure, step back and ask.\n\n\n\nPractical Sequence\n\nRe-cap and briefing (5 min):\n\nReview previous lesson’s commands and safety expectations.\n\nJess introduction (5 min):\n\nBrief profile: breed/type, age, training, daily farm roles.\n\nDemonstration rounds (20-25 min):\n\nRound 1: Basic control (stop/lie down/walk up).\nRound 2: Directional work around stock.\nRound 3: Moving stock toward a target point.\nStudents complete observation table during each round.\n\nStudent analysis (10-15 min):\n\nPairs compare notes and identify one “effective handler move” and one “effective Jess behaviour.”\n\nDebrief (5-10 min):\n\nWhole-class discussion: What did Jess do that most affected sheep direction and speed?\n\n\n\n\nQuick Assessment Task\nStudents submit a short paragraph:\n“Describe one command, Jess’s response, and the effect on sheep movement. Include one safety behaviour you followed.”"
+  },
+  {
+    "objectID": "farm/farm-dogs.html#student-observation-table-print-or-copy",
+    "href": "farm/farm-dogs.html#student-observation-table-print-or-copy",
+    "title": "Unit 3: Farm Dogs & Working with Sheep",
+    "section": "Student Observation Table (print or copy)",
+    "text": "Student Observation Table (print or copy)\n\n\n\n\n\n\n\n\n\nCommand heard\nJess’s action\nSheep response\nWhy it worked (or didn’t)"
+  },
+  {
+    "objectID": "farm/farm-dogs.html#optional-extension-homework",
+    "href": "farm/farm-dogs.html#optional-extension-homework",
+    "title": "Unit 3: Farm Dogs & Working with Sheep",
+    "section": "Optional Extension / Homework",
+    "text": "Optional Extension / Homework\n\nCreate a one-page “Working Dog Guide for New Farm Students” including:\n\n5 safety rules\n5 useful commands\n1 diagram showing ideal handler-dog-stock positioning"
+  },
+  {
     "objectID": "farm/apple-unit.html",
     "href": "farm/apple-unit.html",
     "title": "Apple Unit (2 lessons)",
@@ -530,6 +579,13 @@
     "title": "Applied Mathematics: Farm Units",
     "section": "Unit 2: Potato Patch Prep (3 lessons)",
     "text": "Unit 2: Potato Patch Prep (3 lessons)\nFocus on hazards, tool safety, and practical preparation of the potato patch.\nWhat you’ll do\n\nIdentify hazards and agree on controls.\nTurn over soil and remove turf.\nCompost and level the patch for planting.\nGo to: Unit 2: Potato Patch Prep"
+  },
+  {
+    "objectID": "farm/index.html#unit-3-farm-dogs-working-with-sheep-2-lessons",
+    "href": "farm/index.html#unit-3-farm-dogs-working-with-sheep-2-lessons",
+    "title": "Applied Mathematics: Farm Units",
+    "section": "Unit 3: Farm Dogs & Working with Sheep (2 lessons)",
+    "text": "Unit 3: Farm Dogs & Working with Sheep (2 lessons)\nFocus on the role of working dogs in livestock movement, animal welfare, and farm safety.\nWhat you’ll do\n\nLearn how farm dogs support sheep and paddock operations.\nPractise observation and command-response analysis.\nComplete a practical lesson with Jess the sheepdog.\nGo to: Unit 3: Farm Dogs & Working with Sheep"
   },
   {
     "objectID": "farm/index.html#farm-operations",
