@@ -1,0 +1,35 @@
+---
+title: "Ideas"
+output: html_document
+date: "2025-12-31"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+To build a sustainable AI system where power and water useage is minumised through...
+
+# Off the grid server
+
+- Desktop
+- 
+## Power requirements
+
+Starlink - 60 watts
+Monitor - 120 watts
+Laptop/Server - 140 watts
+
+Lights - 20 watts
+
+
+
+# Tiny studio room
+
+2.4m * 3.6m
+
+Built by EG Co
+
+## Timeline
+
+
