@@ -4,21 +4,29 @@ title: "Urban Farm Applied Mathematics"
 
 ## Welcome
 
-This standalone site contains the Urban Farm applied mathematics units, separated from the Year 9 Mathematics project.
+This standalone site contains the Kaikoria Valley College Urban Farm units 2026. The units are designed to be used in the context of the school farm, providing students with practical applications of agriculture and horticulture while exploring mathematical concepts through real-world scenarios.
+
+## Course Overview
+
+
 
 ### Units
 
+This course aligns with the Refreshed New Zealand Curriculum (2026) and is designed to provide students with practical applications of agriculture and horticulture in the context of our school farm. Each unit focuses on a specific aspect of farm operations, allowing students to real and develop new skills at the same time as they explore mathematical concepts through real-world scenarios.
+
 - [Farm Units overview](units-overview.Rmd)
 - [Unit 1: Sector and Safety](sector-and-safety.qmd)
-- [Unit 2: Mapping the School Farm](mapping.qmd)
+- [Unit 2: Mapping the School Farm (Project 1)](mapping.qmd)
 - [Unit 3: Potato Patch Prep](potato-patch.qmd)
 - [Unit 4: Farm Dogs and Working with Sheep](farm-dogs.qmd)
-- [Unit 5: Apple Unit (2 lessons)](apple-unit.qmd)
+- [Unit 5: Apples and the Orchard](apple-unit.qmd)
 - [Unit 6: Refractometer Testing](refractometer-unit.qmd)
 - [Unit 7: Weather, Forecasting, and Environmental Impacts](weather-dunedin-kaikorai.qmd)
-- [Unit 8: Autumn Planting (Seedlings)](autumn-planting-seedlings.qmd)
+- [Unit 8: Autumn Planting (Project 2)](autumn-planting-seedlings.qmd)
+- [Unit 9: Risk analysis for farm hazards (Project 3)](spring-planting-seedlings.qmd)
 
-### Farm Operations
+### Regular Farm Operations
 
 - [Farm Missions](missions/index.qmd) - Regular maintenance tasks
-- [Friday Close-Down Checklist](friday-closedown.qmd)
+- [Weekly Farm Tasks](weekly-tasks.qmd) - Routine weekly activities
+- [Friday Close-Down Checklist](friday-closedown.qmd) - Procedures for end-of-week farm maintenance
