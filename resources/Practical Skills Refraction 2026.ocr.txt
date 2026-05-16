@@ -1,0 +1,312 @@
+=== PYPDF TEXT ===
+
+--- Page 1 ---
+Practical Skills in Agriculture 
+Testing for the Sugar Content of Food Using the Physics of Light  
+ 
+Light is bent every time it comes through the lenses of our eyes; and every time it g oes 
+through one substance like water or a ir, and then goes into another substance like glass or 
+plastic. 
+ 
+ 
+ 
+ 
+ 
+ 
+The amount of dissolved substances in a solution bends light by different amounts. Sugar is a 
+specific example of this. We can test how much sugar food has in it by seeing how much light 
+can be bent by testing the juice of fruits and vegetables. 
+Farmers can work out when their fruit is ripe - so they can pick it at just the right time to eat; 
+or make wine from the fruit or preserve it in some way.  
+A very common practical skill is to do this testing with a device called a refractometer. Below 
+is a picture of one. The refractometer measures the amount of sugar in what are called Brix 
+units. Higher values mean higher nutrition value.  
+The procedure for doing the testing is shown on the right. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Above is the refractometer similar to the one we will use in class.
+
+--- Page 2 ---
+Experiment 
+Today you will measure the sugar content of dissolved substances in different fruits and 
+vegetables. First, you need to calibrate your refractometer by using distilled water . You may 
+have to zero the device by adjusting the top screw, but seek your teacher’s advice if you need 
+to do this.  
+Next, the fruits and vegetables must be juiced by using either a juice extractor of a simple fork 
+and squashing the fruit. T hen a sample of the juice is pla ced on the refractometer, the flap 
+closed and the measurement taken.  
+Between each new sample, the delicate refractometer plate must be wiped clean with 
+distilled water (that has no dissolved substances in it). 
+Record your results below – Get each member of your group to take the reading 
+Food Item Brix Reading 1 Brix Reading 2 Brix Reading 3 Average 
+Dissolved sugar     
+     
+     
+     
+     
+     
+     
+     
+     
+ 
+1. Which of your food has the highest brix measurement? ________________________________ 
+2. Compare your results for at least two food items with typical measurements taken from them 
+Food 1: __________Your Reading ______________ Poor, Average, Good, Excellent (circle) 
+Food 2: __________Your Reading ______________ Poor, Average, Good, Excellent (circle)
+
+--- Page 3 ---
+
+
+
+=== RAPIDOCR FROM RENDERED PAGES ===
+
+--- Page 1 OCR ---
+Practical Skills in Agriculture
+Testing for the Sugar Content of Food Using the Physics of Light
+Light is bent every time it comes through the lenses of our eyes; and every time it goes
+through one substance like water or air, and then goes into another substance like glass or
+plastic.
+If the light ray hits the
+block at an angle it's
+speed and direction
+changes
+Air
+Glass
+The ray is bent back into
+it's original direction as
+itleavestheblock
+The amount of dissolved substances in a solution bends light by different amounts. Sugar is a
+specific example of this. We can test how much sugar food has in it by seeing how much light
+can be bent by testing the juice of fruits and vegetables.
+Farmers can work out when their fruit is ripe - so they can pick it at just the right time to eat;
+or make wine from the fruit or preserve it in some way.
+A very common practical skill is to do this testing with a device called a refractometer. Below
+is a picture of one. The refractometer measures the amount of sugar in what are called Brix
+units. Higher values mean higher nutrition value.
+BRIXTESTINGISINCREDIBLY
+The procedure for doing the testing is shown on the right.
+SIMPLEANDTHERESULTIS
+INSTANTANEOUS!
+1. Squeeze a drop
+2. Peek at the screen
+BRIX
+Above is the refractometer similar to the one we will use in class.
+3. Check the chart
+
+--- Page 2 OCR ---
+Experiment
+Today you will measure the sugar content of dissolved substances in different fruits and
+vegetables. First, you need to calibrate your refractometer by using distilled water. You may
+have to zero the device by adjusting the top screw, but seek your teacher's advice if you need
+to do this.
+Next, the fruits and vegetables must be juiced by using either a juice extractor of a simple fork
+and squashing the fruit. Then a sample of the juice is placed on the refractometer, the flap
+closed and the measurement taken.
+Between each new sample, the delicate refractometer plate must be wiped clean with
+distilled water (that has no dissolved substances in it).
+Record your results below - Get each member of your group to take the reading
+Brix Reading 1
+Brix Reading 3
+Food Item
+Brix Reading 2
+Average
+Dissolved sugar
+1. Which of your food has the highest brix measurement?
+2. Compare your results for at least two food items with typical measurements taken from them
+Food 1:
+Your Reading
+Poor, Average, Good, Excellent (circle)
+Food 2:
+Your Reading
+Poor, Average, Good, Excellent (circle)
+
+--- Page 3 OCR ---
+Refractive Index of Crop Juices Calibrated
+in % Sucrose or Degree Brix
+Refractive Index of Crop Juices Calibrated
+in % Sucrose or Degree Brix
+VEGETABLES
+Poor
+Vegetables
+Average
+Excellent
+FRUITS - GRASSES
+Asparagus
+Poor
+Fruits
+Average
+Excellent
+Beets
+10
+12
+Apple
+10
+14
+18
+Bell Peppers
+12
+Avocadoes
+10
+Broccoli
+10
+12
+Bananas
+10
+12
+14
+Cabbage
+10
+12
+14
+Cantaloupe
+12
+16
+Carrots
+12
+18
+Casaba
+12
+10
+14
+Cauliflower
+10
+Cherries
+14
+16
+Celery
+10
+12
+Coconut
+10
+14
+14
+Corn Stalks
+20
+Grapes
+12
+14
+20
+Corn (Young)
+10
+18
+24
+Grapefruit
+10
+14
+18
+Cow Peas
+10
+12
+Honeydew
+10
+12
+14
+Endive
+10
+Kumquat
+10
+10
+12
+English Peas
+14
+Lemons
+12
+Escarole
+10
+Limes
+10
+12
+Field Peas
+10
+12
+Mangos
+10
+14
+Green Beans
+10
+Oranges
+10
+16
+20
+Hot Peppers
+10
+Papayas
+10
+18
+22
+10
+Kohlrabi
+12
+Peaches
+10
+14
+18
+Lettuce
+10
+Pears
+10
+12
+14
+Onions
+10
+Pineapple
+12
+14
+20
+22
+ Parsley
+10
+Raisins
+70
+60
+75
+80
+Peanuts
+10
+Rasberry
+12
+14
+Potatoes, Irish
+10
+14
+Strawberry
+16
+Potatoes, Red
+Tomato
+12
+Potatoes, Sweet
+10
+14
+Watermelon
+12
+Romaine
+10
+Grasses
+Rutabagas
+10
+12
+Alfalfa
+16
+22
+Squash
+12
+14
+Grains
+10
+14
+18
+Sweet Corn
+10
+18
+24
+ Sorghum
+10
+22
+30
+Turnips
+10

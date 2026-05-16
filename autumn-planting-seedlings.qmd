@@ -1,0 +1,251 @@
+---
+title: "Unit 8: Autumn Planting (Seedlings)"
+author: "Urban Farm 2026"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+## Unit overview
+
+This 3-lesson unit focuses on raising cool-season seedlings for autumn planting in Otago. Students investigate why crop choice matters, sow seeds using a controlled method, and care for seedlings so they are ready to harden off and transplant.
+
+This unit is adapted from the existing autumn planting resources in the repo and supported by new classroom-ready files in the resources folder.
+
+### Source and support resources
+
+- [Otago Autumn Planting Lessons.docx](resources/Otago%20Autumn%20Planting%20Lessons.docx)
+- [Autumn Champion Crop Profile Assignment.docx](resources/Autumn%20Champion%20Crop%20Profile%20Assignment.docx)
+- [Autumn planting seedling crop guide](resources/autumn-planting-seedling-crop-guide.md)
+- [Autumn planting student workbook](resources/autumn-planting-seedling-student-workbook.md)
+- [Autumn planting tray log](resources/autumn-planting-seedling-tray-log.csv)
+
+---
+
+## Purpose
+
+Students learn how local climate affects planting decisions and apply that knowledge in a practical seed-raising sequence. The emphasis is on choosing hardy autumn crops, using seed trays and warming mats correctly, and managing seedling health before transplanting.
+
+---
+
+## Learning goals
+
+By the end of this unit, students can:
+
+- explain why autumn planting in Otago focuses on establishment rather than fast growth
+- select suitable cool-season crops for local conditions
+- sow seeds at an appropriate depth and label trays accurately
+- describe the role of water, oxygen, and temperature in germination
+- monitor seedling health and identify common risks such as leggy growth and damping off
+- create a simple hardening-off plan before transplanting
+
+---
+
+## Lesson structure (3 lessons)
+
+| Lesson | Focus | Outcome |
+|---|---|---|
+| Lesson 1 | Crop selection and seasonality | Students choose suitable autumn crops and justify why they suit Otago conditions. |
+| Lesson 2 | Germination and sowing | Seed trays are sown correctly, labelled, and placed for germination. |
+| Lesson 3 | Seedling care and hardening off | Students inspect seedling health and produce a transplant preparation plan. |
+
+---
+
+## Lesson 1: Choosing the right autumn crop
+
+**Goal:** Understand why autumn planting in Otago requires hardy crops and realistic expectations about growth.
+
+### Key teaching idea
+
+Autumn planting in Otago is mainly about building roots and establishing plants before winter. Lower light levels, cooler air, and frost risk mean students must choose crops that can cope with slow growth and cold conditions.
+
+### Starter discussion
+
+- Why can two farms plant the same seed at different times and get different results?
+- What changes in autumn besides temperature?
+- Why might a warming mat help germination but not solve every growing problem?
+
+### Student activities
+
+1. Review the crop guide and identify crops suited to autumn sowing.
+2. Compare crop needs using germination temperature, days to germinate, and harvest window.
+3. Select one crop for the class tray or group tray.
+4. Complete a short justification using:
+   - frost tolerance
+   - expected harvest window
+   - likely success in Dunedin or Otago conditions
+
+### Suggested crops
+
+- broad beans
+- spinach
+- kale
+- silverbeet
+- winter cabbage
+- pak choy
+- garlic for a seasonal comparison discussion
+
+### Group task structure
+
+| Group | Students | Task focus | Key actions |
+|---|---|---|---|
+| Group A | 7 | Climate and seasonality | Identify local autumn limits: light, frost, and slower growth. |
+| Group B | 7 | Crop comparison | Use the crop guide to compare hardy options. |
+| Group C | 6 | Recommendation | Choose crops and report back with reasons. |
+
+### Timing (40-50 min)
+
+- 0-10 min: Intro discussion on seasonality and local conditions.
+- 10-20 min: Crop guide reading and teacher modelling.
+- 20-35 min: Group comparison and recommendation task.
+- 35-45 min: Share decisions and record chosen crops.
+- 45-50 min: Exit slip or workbook reflection.
+
+### Success criteria
+
+- I can name at least two crops suited to autumn planting.
+- I can explain why decreasing daylight matters.
+- I can justify one crop choice using evidence.
+
+---
+
+## Lesson 2: Germination and seed sowing
+
+**Goal:** Sow seeds accurately and explain how germination works.
+
+### Key teaching idea
+
+Seeds need water, oxygen, and suitable temperature to start growing. Warming mats help the soil reach a useful germination temperature, but students still need correct depth, moisture, and labelling.
+
+### Core science idea: W.O.T.
+
+- **Water:** activates the seed and starts internal processes
+- **Oxygen:** allows respiration so the embryo can release energy
+- **Temperature:** helps enzymes work efficiently so the seed can germinate
+
+### Practical instructions
+
+1. Prepare seed trays or small pots with seed-raising mix.
+2. Moisten the mix so it is damp, not saturated.
+3. Sow seeds using the rule of thumb: about $2 \times$ the seed diameter.
+4. Cover lightly and mist gently.
+5. Label each tray with crop name, date, and group.
+6. Place trays on a warming mat or in a protected germination area.
+
+### Practical roles
+
+| Role | Responsibility |
+|---|---|
+| Tray prep | Fill trays evenly and moisten seed mix. |
+| Sowing | Place seeds at correct depth and spacing. |
+| Labelling | Record crop, sowing date, and group accurately. |
+| Setup check | Confirm trays are tidy and placed correctly. |
+
+### Timing (40-50 min)
+
+- 0-10 min: Demonstration of W.O.T. and sowing depth.
+- 10-15 min: Prepare trays and equipment.
+- 15-35 min: Sow and label trays.
+- 35-45 min: Check placement, moisture, and records.
+- 45-50 min: Complete tray log and workbook notes.
+
+### Success criteria
+
+- I can explain W.O.T. in simple scientific language.
+- I can sow seeds at an appropriate depth.
+- I can label trays clearly enough for later monitoring.
+
+---
+
+## Lesson 3: Seedling care and hardening off
+
+**Goal:** Identify healthy seedling conditions and prepare a plan for moving seedlings outdoors.
+
+### Key teaching idea
+
+Warmth alone is not enough. Seedlings also need enough light, airflow, and careful watering. Before transplanting, they must be hardened off gradually so they can tolerate colder outdoor conditions.
+
+### Student activities
+
+1. Inspect trays or example seedlings for signs of success or problems.
+2. Identify risks such as:
+   - leggy seedlings
+   - overwatering
+   - dry trays
+   - poor labelling
+   - damping off
+3. Create a 5- to 7-day hardening-off schedule.
+4. Complete a crop profile or transplant plan from the workbook.
+
+### Hardening-off sequence
+
+- Day 1-2: short sheltered outdoor exposure
+- Day 3-4: longer outdoor time with some cooler air
+- Day 5-6: most of the day outside if conditions are suitable
+- Day 7: ready for transplanting if roots, moisture, and weather are appropriate
+
+### Timing (40-50 min)
+
+- 0-10 min: Review seedling care and common failure points.
+- 10-20 min: Tray inspection and discussion.
+- 20-35 min: Hardening-off plan task.
+- 35-45 min: Crop profile or transplant recommendation.
+- 45-50 min: Reflection and teacher check.
+
+### Success criteria
+
+- I can describe what a healthy seedling needs.
+- I can identify at least two common seedling risks.
+- I can make a realistic hardening-off plan.
+
+---
+
+## Tools and materials
+
+- seed trays or small pots
+- seed-raising mix
+- autumn crop seeds
+- labels and permanent marker
+- watering spray bottle or fine rose watering can
+- warming mat or sheltered propagation area
+- ruler for spacing/depth demonstration
+- class crop guide and workbook
+
+---
+
+## Health and safety guidelines
+
+| Risk | Control |
+|---|---|
+| Wet floors or spilled mix | Clean spills quickly and keep walkways clear. |
+| Cross-contamination between trays | Use labelled trays and clean tools between groups. |
+| Overwatering around electrical warming mats | Teacher manages plugs and checks safe placement. |
+| Allergies or dust from seed mix | Use ventilation and wash hands after handling mix. |
+| Poor lifting or carrying of trays | Carry trays with two hands and use benches at suitable height. |
+| Sun or cold exposure during hardening off | Move seedlings gradually and monitor weather before outdoor placement. |
+
+---
+
+## Assessment opportunities
+
+- crop selection justification in Lesson 1
+- correctly completed tray labels and tray log in Lesson 2
+- hardening-off plan or crop profile in Lesson 3
+- teacher observation of practical handling and care routines
+
+---
+
+## Teacher checks
+
+- [ ] Autumn crops chosen suit local conditions.
+- [ ] Trays are labelled with crop, date, and group.
+- [ ] Students can explain W.O.T. accurately.
+- [ ] Seedling care risks have been discussed.
+- [ ] A hardening-off plan has been completed.
+
+---
+
+## Reflection questions
+
+- Why is autumn planting in Otago more about roots than rapid leaf growth?
+- Which crop would you trust most for local autumn planting, and why?
+- What could go wrong if seedlings move from a warm tray straight into a cold garden bed?

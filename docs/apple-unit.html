@@ -6,10 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Your Name">
-<meta name="dcterms.date" content="2026-03-25">
+<meta name="author" content="Urban Farm 2026">
 
-<title>Textbook – Urban Farm Applied Mathematics</title>
+<title>Unit 5: Apple Unit (2 lessons) – Urban Farm Applied Mathematics</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -25,24 +24,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-e31584831b205ffbb2d98406f31c2a5b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-e31584831b205ffbb2d98406f31c2a5b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,18 +70,47 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="stylesheet" href="../styles.css">
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="floating nav-fixed quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Urban Farm Applied Mathematics</span>
     </a>
   </div>
@@ -93,55 +121,55 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../units-overview.html"> 
+    <a class="nav-link" href="./units-overview.html"> 
 <span class="menu-text">Farm Units</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../sector-and-safety.html"> 
+    <a class="nav-link" href="./sector-and-safety.html"> 
 <span class="menu-text">Unit 1: Sector and Safety</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../missions/index.html"> 
+    <a class="nav-link" href="./missions/index.html"> 
 <span class="menu-text">Farm Missions</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../mapping.html"> 
+    <a class="nav-link" href="./mapping.html"> 
 <span class="menu-text">Unit 2: Mapping</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../potato-patch.html"> 
+    <a class="nav-link" href="./potato-patch.html"> 
 <span class="menu-text">Unit 3: Potato Patch</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../farm-dogs.html"> 
+    <a class="nav-link" href="./farm-dogs.html"> 
 <span class="menu-text">Unit 4: Farm Dogs</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../apple-unit.html"> 
+    <a class="nav-link active" href="./apple-unit.html" aria-current="page"> 
 <span class="menu-text">Unit 5: Apple Unit</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../refractometer-unit.html"> 
+    <a class="nav-link" href="./refractometer-unit.html"> 
 <span class="menu-text">Unit 6: Refractometer</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../weather-dunedin-kaikorai.html"> 
+    <a class="nav-link" href="./weather-dunedin-kaikorai.html"> 
 <span class="menu-text">Unit 7: Weather</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../autumn-planting-seedlings.html"> 
+    <a class="nav-link" href="./autumn-planting-seedlings.html"> 
 <span class="menu-text">Unit 8: Autumn Planting</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../friday-closedown.html"> 
+    <a class="nav-link" href="./friday-closedown.html"> 
 <span class="menu-text">Friday Close-Down</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../textbook/textbook.html" aria-current="page"> 
+    <a class="nav-link" href="./textbook/textbook.html"> 
 <span class="menu-text">Textbook</span></a>
   </li>  
 </ul>
@@ -154,38 +182,50 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    <nav id="TOC" role="doc-toc" class="toc-active">
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
-  <li><a href="#chapter-1-introduction-to-farming" id="toc-chapter-1-introduction-to-farming" class="nav-link" data-scroll-target="#chapter-1-introduction-to-farming">Chapter 1: Introduction to Farming</a>
+  <li><a href="#purpose" id="toc-purpose" class="nav-link active" data-scroll-target="#purpose">Purpose</a></li>
+  <li><a href="#unit-target-for-this-year" id="toc-unit-target-for-this-year" class="nav-link" data-scroll-target="#unit-target-for-this-year">Unit target for this year</a></li>
+  <li><a href="#learning-goals" id="toc-learning-goals" class="nav-link" data-scroll-target="#learning-goals">Learning goals</a></li>
+  <li><a href="#lesson-structure-2-lessons" id="toc-lesson-structure-2-lessons" class="nav-link" data-scroll-target="#lesson-structure-2-lessons">Lesson structure (2 lessons)</a></li>
+  <li><a href="#lesson-1-picking-and-cleaning-apples-40-min" id="toc-lesson-1-picking-and-cleaning-apples-40-min" class="nav-link" data-scroll-target="#lesson-1-picking-and-cleaning-apples-40-min">Lesson 1: Picking and cleaning apples (40 min)</a>
   <ul class="collapse">
-  <li><a href="#overview" id="toc-overview" class="nav-link" data-scroll-target="#overview">Overview</a></li>
-  <li><a href="#key-concepts" id="toc-key-concepts" class="nav-link" data-scroll-target="#key-concepts">Key Concepts</a></li>
+  <li><a href="#student-activities-and-instructions" id="toc-student-activities-and-instructions" class="nav-link" data-scroll-target="#student-activities-and-instructions">Student activities and instructions</a></li>
+  <li><a href="#group-tasks-20-students" id="toc-group-tasks-20-students" class="nav-link" data-scroll-target="#group-tasks-20-students">Group tasks (20 students)</a></li>
+  <li><a href="#timing-40-min" id="toc-timing-40-min" class="nav-link" data-scroll-target="#timing-40-min">Timing (40 min)</a></li>
   </ul></li>
-  <li><a href="#chapter-2-daily-challenges-in-farming" id="toc-chapter-2-daily-challenges-in-farming" class="nav-link" data-scroll-target="#chapter-2-daily-challenges-in-farming">Chapter 2: Daily Challenges in Farming</a>
+  <li><a href="#lesson-2-weighing-bagging-and-pricing-40-min" id="toc-lesson-2-weighing-bagging-and-pricing-40-min" class="nav-link" data-scroll-target="#lesson-2-weighing-bagging-and-pricing-40-min">Lesson 2: Weighing, bagging, and pricing (40 min)</a>
   <ul class="collapse">
-  <li><a href="#overview-1" id="toc-overview-1" class="nav-link" data-scroll-target="#overview-1">Overview</a></li>
-  <li><a href="#key-concepts-1" id="toc-key-concepts-1" class="nav-link" data-scroll-target="#key-concepts-1">Key Concepts</a></li>
+  <li><a href="#student-activities-and-instructions-1" id="toc-student-activities-and-instructions-1" class="nav-link" data-scroll-target="#student-activities-and-instructions-1">Student activities and instructions</a></li>
+  <li><a href="#packing-table" id="toc-packing-table" class="nav-link" data-scroll-target="#packing-table">Packing table</a></li>
+  <li><a href="#timing-40-min-1" id="toc-timing-40-min-1" class="nav-link" data-scroll-target="#timing-40-min-1">Timing (40 min)</a></li>
   </ul></li>
-  <li><a href="#interactive-components" id="toc-interactive-components" class="nav-link" data-scroll-target="#interactive-components">Interactive Components</a></li>
-  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
-  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  <li><a href="#tools-and-materials" id="toc-tools-and-materials" class="nav-link" data-scroll-target="#tools-and-materials">Tools and materials</a></li>
+  <li><a href="#health-and-safety-guidelines" id="toc-health-and-safety-guidelines" class="nav-link" data-scroll-target="#health-and-safety-guidelines">Health and safety guidelines</a></li>
+  <li><a href="#teacher-checks-end-of-unit" id="toc-teacher-checks-end-of-unit" class="nav-link" data-scroll-target="#teacher-checks-end-of-unit">Teacher checks (end of unit)</a></li>
+  <li><a href="#reflection" id="toc-reflection" class="nav-link" data-scroll-target="#reflection">Reflection</a></li>
+  <li><a href="#printable-student-worksheet" id="toc-printable-student-worksheet" class="nav-link" data-scroll-target="#printable-student-worksheet">Printable student worksheet</a>
+  <ul class="collapse">
+  <li><a href="#student-names" id="toc-student-names" class="nav-link" data-scroll-target="#student-names">Student names</a></li>
+  <li><a href="#lesson-1-checklist-pick-clean-sort" id="toc-lesson-1-checklist-pick-clean-sort" class="nav-link" data-scroll-target="#lesson-1-checklist-pick-clean-sort">Lesson 1 checklist (pick, clean, sort)</a></li>
+  <li><a href="#lesson-2-checklist-weigh-bag-label" id="toc-lesson-2-checklist-weigh-bag-label" class="nav-link" data-scroll-target="#lesson-2-checklist-weigh-bag-label">Lesson 2 checklist (weigh, bag, label)</a></li>
+  <li><a href="#bag-recording-table" id="toc-bag-recording-table" class="nav-link" data-scroll-target="#bag-recording-table">Bag recording table</a></li>
+  <li><a href="#income-check" id="toc-income-check" class="nav-link" data-scroll-target="#income-check">Income check</a></li>
+  <li><a href="#teacher-sign-off" id="toc-teacher-sign-off" class="nav-link" data-scroll-target="#teacher-sign-off">Teacher sign-off</a></li>
+  </ul></li>
   </ul>
 </nav>
-</nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
-<!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Textbook</h1>
+<h1 class="title">Unit 5: Apple Unit (2 lessons)</h1>
 </div>
 
 
@@ -195,14 +235,14 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Your Name </p>
+             <p>Urban Farm 2026 </p>
           </div>
   </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">March 25, 2026</p>
+      <p class="date">Invalid Date</p>
     </div>
   </div>
   
@@ -214,53 +254,378 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="introduction" class="level1">
-<h1>Introduction</h1>
-<p>Welcome to the textbook section for Urban Farm Applied Mathematics.</p>
+<section id="purpose" class="level2">
+<h2 class="anchored" data-anchor-id="purpose">Purpose</h2>
+<p>This unit links practical orchard work with measurement and money maths. Students pick apples, clean fruit, weigh accurately, and pack fruit into sale bags.</p>
+<hr>
 </section>
-<section id="chapter-1-introduction-to-farming" class="level1">
-<h1>Chapter 1: Introduction to Farming</h1>
-<section id="overview" class="level2">
-<h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>This chapter introduces core farming ideas, agriculture systems, and practical farm contexts.</p>
-</section>
-<section id="key-concepts" class="level2">
-<h2 class="anchored" data-anchor-id="key-concepts">Key Concepts</h2>
+<section id="unit-target-for-this-year" class="level2">
+<h2 class="anchored" data-anchor-id="unit-target-for-this-year">Unit target for this year</h2>
 <ul>
-<li>Types of Farming</li>
-<li>Sustainable Practices</li>
-<li>Technology in Farming</li>
+<li>Pack <strong>4 x 2kg bags</strong>.</li>
+<li>Price is <strong>$6 per 2kg bag</strong>.</li>
+<li>Total target income: <strong>$24</strong>.</li>
+<li><strong>No 1kg bags this time</strong> (usually they are $4 per 1kg).</li>
+</ul>
+<hr>
+</section>
+<section id="learning-goals" class="level2">
+<h2 class="anchored" data-anchor-id="learning-goals">Learning goals</h2>
+<p>By the end of this unit, students can:</p>
+<ul>
+<li>pick and handle fruit safely without bruising</li>
+<li>clean and sort apples by quality</li>
+<li>weigh fruit accurately to 2kg</li>
+<li>pack, label, and count bags ready for sale</li>
+<li>calculate expected income from packed bags</li>
+</ul>
+<hr>
+</section>
+<section id="lesson-structure-2-lessons" class="level2">
+<h2 class="anchored" data-anchor-id="lesson-structure-2-lessons">Lesson structure (2 lessons)</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Lesson</th>
+<th>Focus</th>
+<th>Outcome</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Lesson 1</td>
+<td>Pick and clean fruit</td>
+<td>Apples are safely picked, cleaned, and sorted.</td>
+</tr>
+<tr class="even">
+<td>Lesson 2</td>
+<td>Weigh, bag, and label fruit</td>
+<td>4 x 2kg bags are packed and ready for sale.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="lesson-1-picking-and-cleaning-apples-40-min" class="level2">
+<h2 class="anchored" data-anchor-id="lesson-1-picking-and-cleaning-apples-40-min">Lesson 1: Picking and cleaning apples (40 min)</h2>
+<p><strong>Goal:</strong> Harvest apples safely and prepare clean fruit for packing.</p>
+<section id="student-activities-and-instructions" class="level3">
+<h3 class="anchored" data-anchor-id="student-activities-and-instructions">Student activities and instructions</h3>
+<ol type="1">
+<li>Put on gloves and check your picking area.</li>
+<li>Pick apples carefully (twist and lift, do not pull hard).</li>
+<li>Place fruit gently into crates/buckets (do not throw fruit).</li>
+<li>Remove leaves and obvious dirt.</li>
+<li>Wipe or rinse apples and place on drying trays.</li>
+<li>Sort into:</li>
+</ol>
+<ul>
+<li><strong>Sale quality</strong> (good skin, good size)</li>
+<li><strong>Second quality</strong> (bruised/small; not for 2kg sale bags)</li>
 </ul>
 </section>
+<section id="group-tasks-20-students" class="level3">
+<h3 class="anchored" data-anchor-id="group-tasks-20-students">Group tasks (20 students)</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Group</th>
+<th>Students</th>
+<th>Task focus</th>
+<th>Key actions</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Group A</td>
+<td>7</td>
+<td>Picking</td>
+<td>Pick apples safely and fill crates.</td>
+</tr>
+<tr class="even">
+<td>Group B</td>
+<td>7</td>
+<td>Cleaning</td>
+<td>Wipe/rinse apples and set to dry.</td>
+</tr>
+<tr class="odd">
+<td>Group C</td>
+<td>6</td>
+<td>Sorting</td>
+<td>Sort apples into sale/second quality.</td>
+</tr>
+</tbody>
+</table>
 </section>
-<section id="chapter-2-daily-challenges-in-farming" class="level1">
-<h1>Chapter 2: Daily Challenges in Farming</h1>
-<section id="overview-1" class="level2">
-<h2 class="anchored" data-anchor-id="overview-1">Overview</h2>
-<p>This chapter covers weather, market factors, and pest management in day-to-day farm decision-making.</p>
-</section>
-<section id="key-concepts-1" class="level2">
-<h2 class="anchored" data-anchor-id="key-concepts-1">Key Concepts</h2>
+<section id="timing-40-min" class="level3">
+<h3 class="anchored" data-anchor-id="timing-40-min">Timing (40 min)</h3>
 <ul>
-<li>Weather Impact</li>
-<li>Economic Factors</li>
-<li>Pest Control Strategies</li>
+<li>0-5 min: Safety briefing and tool/equipment check.</li>
+<li>5-25 min: Picking and crate collection.</li>
+<li>25-35 min: Cleaning and sorting.</li>
+<li>35-40 min: Clean-up and count prepared fruit.</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="lesson-2-weighing-bagging-and-pricing-40-min" class="level2">
+<h2 class="anchored" data-anchor-id="lesson-2-weighing-bagging-and-pricing-40-min">Lesson 2: Weighing, bagging, and pricing (40 min)</h2>
+<p><strong>Goal:</strong> Produce 4 x 2kg sale bags and calculate expected income.</p>
+<section id="student-activities-and-instructions-1" class="level3">
+<h3 class="anchored" data-anchor-id="student-activities-and-instructions-1">Student activities and instructions</h3>
+<ol type="1">
+<li>Set up scales on flat ground and check zero.</li>
+<li>Fill each bag to <strong>2.00kg</strong> (or as close as possible).</li>
+<li>Adjust weight by adding/removing apples.</li>
+<li>Seal each bag and label clearly:</li>
+</ol>
+<ul>
+<li>“Apple Bag - 2kg”</li>
+<li>Price “$6”</li>
+</ul>
+<ol start="5" type="1">
+<li>Repeat until <strong>4 bags</strong> are complete.</li>
+<li>Calculate income:</li>
+</ol>
+<ul>
+<li><span class="math inline">\(4 \times 6 = 24\)</span></li>
+</ul>
+<ol start="7" type="1">
+<li>Record final numbers in class sheet.</li>
+</ol>
+</section>
+<section id="packing-table" class="level3">
+<h3 class="anchored" data-anchor-id="packing-table">Packing table</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Bag #</th>
+<th style="text-align: right;">Target weight</th>
+<th style="text-align: right;">Actual weight</th>
+<th style="text-align: right;">Price</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td style="text-align: right;">2.00 kg</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">$6</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td style="text-align: right;">2.00 kg</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">$6</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td style="text-align: right;">2.00 kg</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">$6</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td style="text-align: right;">2.00 kg</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">$6</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="timing-40-min-1" class="level3">
+<h3 class="anchored" data-anchor-id="timing-40-min-1">Timing (40 min)</h3>
+<ul>
+<li>0-5 min: Scale setup and demo.</li>
+<li>5-25 min: Weigh and pack 4 bags.</li>
+<li>25-35 min: Label, check quality, and count stock.</li>
+<li>35-40 min: Income calculation and tidy up.</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="tools-and-materials" class="level2">
+<h2 class="anchored" data-anchor-id="tools-and-materials">Tools and materials</h2>
+<ul>
+<li>picking buckets/crates</li>
+<li>gloves</li>
+<li>clean cloths or rinse tubs</li>
+<li>digital or kitchen scales</li>
+<li>packing bags</li>
+<li>labels/marker pens</li>
+<li>cleaning spray/paper towels for workstations</li>
+</ul>
+<hr>
+</section>
+<section id="health-and-safety-guidelines" class="level2">
+<h2 class="anchored" data-anchor-id="health-and-safety-guidelines">Health and safety guidelines</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Risk</th>
+<th>Guideline/control</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Slips/trips in orchard</td>
+<td>Walk, do not run; keep paths clear of crates and bags.</td>
+</tr>
+<tr class="even">
+<td>Ladder/fall risk</td>
+<td>Only teacher-approved students use ladders; 3-point contact at all times.</td>
+</tr>
+<tr class="odd">
+<td>Cuts/scratches</td>
+<td>Wear gloves; handle branches carefully; report injuries immediately.</td>
+</tr>
+<tr class="even">
+<td>Food hygiene risk</td>
+<td>Clean hands before handling sale fruit; use clean cloths and clean surfaces.</td>
+</tr>
+<tr class="odd">
+<td>Manual handling strain</td>
+<td>Lift crates with bent knees; share heavy loads.</td>
+</tr>
+<tr class="even">
+<td>Bee/wasp stings</td>
+<td>Stay calm near insects; notify teacher if allergic reaction risk.</td>
+</tr>
+<tr class="odd">
+<td>Sun exposure/dehydration</td>
+<td>Hats, sunscreen, and water breaks required.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="teacher-checks-end-of-unit" class="level2">
+<h2 class="anchored" data-anchor-id="teacher-checks-end-of-unit">Teacher checks (end of unit)</h2>
+<ul class="task-list">
+<li><label><input type="checkbox">4 x 2kg bags completed</label></li>
+<li><label><input type="checkbox">Labels clear and correct ($6 per bag)</label></li>
+<li><label><input type="checkbox">Weights recorded</label></li>
+<li><label><input type="checkbox">Hygiene and safety expectations met</label></li>
+<li><label><input type="checkbox">Total income calculated ($24)</label></li>
+</ul>
+<hr>
+</section>
+<section id="reflection" class="level2">
+<h2 class="anchored" data-anchor-id="reflection">Reflection</h2>
+<ul>
+<li>What helped your group weigh bags accurately?</li>
+<li>What quality issues did you notice most often?</li>
+<li>If we used 1kg bags next time, how would sales options change?</li>
+</ul>
+<hr>
+</section>
+<section id="printable-student-worksheet" class="level2">
+<h2 class="anchored" data-anchor-id="printable-student-worksheet">Printable student worksheet</h2>
+<section id="student-names" class="level3">
+<h3 class="anchored" data-anchor-id="student-names">Student names</h3>
+<ul>
+<li>Name 1: ____________________</li>
+<li>Name 2: ____________________</li>
+<li>Name 3: ____________________</li>
 </ul>
 </section>
+<section id="lesson-1-checklist-pick-clean-sort" class="level3">
+<h3 class="anchored" data-anchor-id="lesson-1-checklist-pick-clean-sort">Lesson 1 checklist (pick, clean, sort)</h3>
+<ul class="task-list">
+<li><label><input type="checkbox">I wore gloves and followed safety instructions.</label></li>
+<li><label><input type="checkbox">I picked apples carefully without bruising fruit.</label></li>
+<li><label><input type="checkbox">I cleaned apples and removed dirt/leaves.</label></li>
+<li><label><input type="checkbox">I sorted apples into sale quality and second quality.</label></li>
+</ul>
 </section>
-<section id="interactive-components" class="level1">
-<h1>Interactive Components</h1>
-<p>This section will include interactive elements that allow students to engage with the material actively. These components will be developed in the <code>interactive</code> folder and linked here.</p>
+<section id="lesson-2-checklist-weigh-bag-label" class="level3">
+<h3 class="anchored" data-anchor-id="lesson-2-checklist-weigh-bag-label">Lesson 2 checklist (weigh, bag, label)</h3>
+<ul class="task-list">
+<li><label><input type="checkbox">I checked the scale was at zero before weighing.</label></li>
+<li><label><input type="checkbox">I helped pack 2kg bags accurately.</label></li>
+<li><label><input type="checkbox">I checked each bag label was correct.</label></li>
+<li><label><input type="checkbox">I helped calculate total expected income.</label></li>
+</ul>
 </section>
-<section id="conclusion" class="level1">
-<h1>Conclusion</h1>
-<p>This textbook provides a foundational overview and supports the practical farm units in this site.</p>
+<section id="bag-recording-table" class="level3">
+<h3 class="anchored" data-anchor-id="bag-recording-table">Bag recording table</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 14%">
+<col style="width: 19%">
+<col style="width: 19%">
+<col style="width: 23%">
+<col style="width: 23%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Bag #</th>
+<th style="text-align: right;">Target weight</th>
+<th style="text-align: right;">Actual weight</th>
+<th style="text-align: center;">Label checked</th>
+<th style="text-align: center;">Ready for sale</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td style="text-align: right;">2.00 kg</td>
+<td style="text-align: right;"></td>
+<td style="text-align: center;">[ ]</td>
+<td style="text-align: center;">[ ]</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td style="text-align: right;">2.00 kg</td>
+<td style="text-align: right;"></td>
+<td style="text-align: center;">[ ]</td>
+<td style="text-align: center;">[ ]</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td style="text-align: right;">2.00 kg</td>
+<td style="text-align: right;"></td>
+<td style="text-align: center;">[ ]</td>
+<td style="text-align: center;">[ ]</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td style="text-align: right;">2.00 kg</td>
+<td style="text-align: right;"></td>
+<td style="text-align: center;">[ ]</td>
+<td style="text-align: center;">[ ]</td>
+</tr>
+</tbody>
+</table>
 </section>
-<section id="references" class="level1">
-<h1>References</h1>
-<p>For a complete list of references used in this textbook, please see the <code>references.bib</code> file in this directory.</p>
+<section id="income-check" class="level3">
+<h3 class="anchored" data-anchor-id="income-check">Income check</h3>
+<ul>
+<li>Number of 2kg bags packed: ______</li>
+<li>Price per 2kg bag: $6</li>
+<li>Total expected income: $______</li>
+</ul>
+</section>
+<section id="teacher-sign-off" class="level3">
+<h3 class="anchored" data-anchor-id="teacher-sign-off">Teacher sign-off</h3>
+<ul class="task-list">
+<li><label><input type="checkbox">Safety expectations met</label></li>
+<li><label><input type="checkbox">Quality and weight checks completed</label></li>
+<li><label><input type="checkbox">Bags ready for sale</label></li>
+</ul>
+<p>Teacher signature: ____________________ Date: ____________________</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

@@ -1,0 +1,171 @@
+---
+title: "Unit 7: Weather, Forecasting, and Environmental Impacts (Dunedin and Kaikorai Valley)"
+author: "Urban Farm 2026"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+```
+
+## Overview
+
+This unit explores local weather systems in Dunedin and Kaikorai Valley and connects forecasts to practical decisions on the KVC farm. You will study how weather conditions affect native and invasive species, compare plant versus animal impacts, and use air quality monitoring data already collected at KVC.
+
+---
+
+## Learning Goals
+
+By the end of this unit, you can:
+
+- Read weather forecasts and identify key short-term risks.
+- Explain how local geography in Kaikorai Valley shapes weather conditions.
+- Compare impacts of weather on native species and invasive species.
+- Compare plant impacts and animal impacts from the same weather event.
+- Use KVC air quality monitoring observations to support farm decisions.
+
+---
+
+## 1. Local Weather Context: Dunedin and Kaikorai Valley
+
+### Why local context matters
+
+Dunedin weather can change quickly due to coastal influence, wind shifts, and temperature differences between low and elevated areas. Kaikorai Valley can experience:
+
+- Cooler overnight temperatures and morning dampness.
+- Wind funnel effects in exposed areas.
+- Fast shifts between calm and gusty conditions.
+- Localized rain intensity that affects drainage and muddy zones.
+
+### Quick climate features to watch
+
+- Wind direction and strength (especially strong southerlies).
+- Rainfall intensity and duration.
+- Overnight minimum temperature and frost risk.
+- Daily maximum temperature and heat stress risk.
+- Humidity and dew point for disease pressure in plants.
+
+---
+
+## 2. Forecasting for Farm Decisions
+
+### Forecast checklist (daily)
+
+Before starting practical work, check:
+
+1. Next 24-hour rainfall forecast.
+2. Wind forecast (speed and gusts).
+3. Temperature range (min and max).
+4. Any weather warnings (heavy rain, strong winds, cold snaps).
+5. Air quality trend if available for the day.
+
+### Practical forecast actions
+
+- Heavy rain expected: delay soil disturbance and protect exposed soil.
+- Strong wind expected: secure loose materials, postpone spraying, check shelter access.
+- Frost risk expected: protect sensitive plants and adjust irrigation timing.
+- Hot, dry period expected: prioritize watering and check animal shade/water supply.
+
+---
+
+## 3. Impact Analysis: Native vs Invasive, Animals vs Plants
+
+Use the matrix below to compare impacts after major weather changes.
+
+| Weather condition | Native plants | Invasive plants | Native animals | Farm animals |
+|---|---|---|---|---|
+| Prolonged rain | Possible root stress in poorly drained areas; some natives tolerate wet conditions well | Fast growth in some invasive grasses and weeds | More wet/cold stress if shelter is limited | Mud stress, foot issues, and feed area damage |
+| Dry spell | Water stress in young native plantings | Drought-tolerant invasives can outcompete new plantings | Reduced invertebrate food in dry patches | Heat stress and higher water demand |
+| Strong wind | Physical damage to young trees and exposed shrubs | Wind-dispersed invasive seeds may spread further | Nest disturbance for small bird species | Animals avoid exposed paddocks; fencing risk |
+| Cold snap/frost | Frost-sensitive natives may be damaged | Some invasives recover quickly after frost | Reduced activity and higher energy demand | Extra feed and shelter may be required |
+
+### Discussion prompts
+
+1. Which weather condition creates the biggest advantage for invasive species on the KVC farm?
+2. Which species group is most vulnerable to sudden weather shifts: plants or animals?
+3. What management action could reduce risk for both native biodiversity and farm operations?
+
+---
+
+## 4. Air Quality Monitoring at KVC
+
+KVC already monitors air quality. In this unit, treat air quality as part of environmental forecasting and risk management.
+
+### Why air quality matters on a school farm
+
+- High particulate levels can affect human comfort during outdoor work.
+- Dust can increase during dry, windy periods.
+- Air quality can signal when to reduce strenuous outdoor tasks.
+- Air quality and weather together improve planning accuracy.
+
+### Monitoring routine
+
+1. Record daily air quality reading from the KVC monitoring setup.
+2. Record the same-day weather conditions (wind, rain, temperature).
+3. Note observed farm impacts (animal behavior, plant stress, dust, mud).
+4. Compare trends across at least two weeks.
+
+### Data table template
+
+| Date | Air quality reading/category | Rainfall (mm or none/light/moderate/heavy) | Wind (calm/moderate/strong) | Temperature range | Key farm observations |
+|---|---|---|---|---|---|
+| | | | | | |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+
+---
+
+## 5. Investigation Task: Forecast vs Reality
+
+### Task
+
+Over 10 school days:
+
+1. Record the daily forecast each morning.
+2. Record observed weather conditions later the same day.
+3. Record KVC air quality reading.
+4. Identify one plant impact and one animal impact each day.
+5. Classify whether the main impact was stronger on native or invasive species.
+
+### Output
+
+Prepare a short report that includes:
+
+- A summary of forecast accuracy over the 10 days.
+- A chart or table of weather + air quality observations.
+- A comparison of native vs invasive impacts.
+- A comparison of animal vs plant impacts.
+- Two practical recommendations for farm planning at KVC.
+
+---
+
+## 6. Assessment Questions
+
+1. Explain two ways Kaikorai Valley geography can influence local weather compared with a general Dunedin city forecast.
+2. Describe one weather situation where invasive species may gain an advantage over native species.
+3. Compare how a 3-day heavy rain event can affect plants differently from animals.
+4. Explain how KVC air quality data can improve operational decisions on the farm.
+5. Suggest one monitoring improvement to make your weather-impact data more reliable.
+
+---
+
+## Extension: Building a Farm Weather Risk Plan
+
+Create a one-page risk plan for the next month that includes:
+
+- Top three weather hazards most likely for this season.
+- Early warning signs from forecasts and air quality data.
+- Immediate actions for animals, crops, and restoration/native planting zones.
+- A review date to check if the plan worked.
+
+---
+
+## Suggested Data Sources
+
+- MetService forecast for Dunedin.
+- NIWA climate summaries and weather context.
+- KVC air quality monitoring records.
+- School farm observation logs.

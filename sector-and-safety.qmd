@@ -1,0 +1,508 @@
+---
+title: "Unit 1: Sector and Safety"
+author: "Urban Farm 2026"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+## Overview
+
+This opening unit is built directly from the booklet in [resources/Farm Booklet 1 (Sector and Safety).pdf](resources/Farm%20Booklet%201%20%28Sector%20and%20Safety%29.pdf).
+
+Source files for traceability:
+
+- [Original PDF booklet](resources/Farm%20Booklet%201%20%28Sector%20and%20Safety%29.pdf)
+- [OCR transcript](resources/Farm%20Booklet%201%20%28Sector%20and%20Safety%29.ocr.txt)
+
+The sections below preserve the booklet content in course-page format so this can operate as the opening unit of the course.
+
+---
+
+## New Zealand Primary Industries
+
+### Key Vocabulary
+
+Before diving into the activities, review the key terms below. You will need these to answer the questions in the following sections.
+
+**Biodiversity**
+
+The variety of plant and animal life in the world or in a particular habitat, a high level of which is usually considered important and desirable.
+
+**Horticulture**
+
+The branch of agriculture that deals with the art, science, technology, and business of growing plants (fruits, vegetables, flowers).
+
+**Pastoral Farming**
+
+Farming aimed at producing livestock (animals), such as dairy cattle, beef cattle, and sheep, rather than growing crops.
+
+**Primary Production**
+
+The sector of the economy involved in the extraction and production of raw materials, such as farming, logging, hunting, fishing, and mining.
+
+**Ruminant**
+
+A hoofed mammal (like a cow or sheep) that chews the cud and has a specialized stomach system to digest grass.
+
+### Quick Check: Sector Roles
+
+Let's check your understanding of the key terms. Answer the questions below to see if you can match the vocabulary to the job.
+
+1. If a farmer's main business is raising sheep for wool and meat, what type of farming is this?
+   a. Horticulture
+   b. Pastoral Farming
+   c. Aquaculture
+   d. Forestry
+2. A person who grows fruit, vegetables, and flowers is working in which industry?
+   a. The Equine sector
+   b. Sports Turf management
+   c. Pastoral Farming
+   d. Horticulture
+3. A cow is considered a ruminant because it...
+   a. lives in a herd.
+   b. produces milk.
+   c. has a specialised stomach to digest grass.
+   d. is used for beef.
+4. Which of these is the best example of a Primary Production activity?
+   a. Baking bread in a factory
+   b. Selling vegetables at a supermarket
+   c. Harvesting timber from a forest
+   d. Designing a new tractor
+
+---
+
+## The Seven Key Sectors
+
+Did you know? Primary production contributes billions of dollars to the New Zealand economy every year.
+
+New Zealand's primary industries are grouped into seven main sectors. Pastoral farming (Dairy, Beef, Sheep) is the largest, utilizing our grasslands. Horticulture covers fruit and vegetables, while Forestry manages timber. We also have Aquaculture / Seafood for fish, the Equine sector for horses, and Sports Turf management.
+
+Complete the sentences below using the correct industry terms based on the reading above.
+
+Word bank: Horticulture, Forestry, Equine, Aquaculture, Dairy
+
+1. Growing apples, kiwifruit, and potatoes falls under the category of ____________________.
+2. Farming fish and harvesting seafood sustainably is known as ____________________.
+3. The industry focused on breeding, racing, and training horses is called the ____________________ sector.
+4. Managing pine plantations for timber production is the main focus of ____________________.
+5. The production of milk and milk products is a major part of ____________________ farming.
+
+---
+
+## Careers in the Primary Sector
+
+The primary industries aren't just about farming. There are thousands of different jobs available, from scientists and engineers to managers and technicians. Let's explore some of the career opportunities.
+
+1. A person who uses scientific knowledge to advise farmers on how to improve their crop or pasture growth is most likely working as a(n)...
+   a. Farm veterinarian
+   b. Stock and station agent
+   c. Agronomist
+   d. Accountant
+2. Which of these careers involves working with technology in the forestry sector?
+   a. A chef cooking with local ingredients
+   b. A drone operator mapping a forest for harvest planning
+   c. A bus driver in a rural town
+   d. A truck driver delivering milk
+3. Someone who works in the equine sector might have which of these jobs?
+   a. Breeding racehorses
+   b. Managing a dairy herd
+   c. Harvesting kiwifruit
+   d. Operating a fishing boat
+4. A career in aquaculture would most likely involve...
+   a. Managing sports fields
+   b. Shearing sheep
+   c. Farming salmon or mussels
+   d. Growing pine trees for timber
+
+### Sector Showcase
+
+Now that you know the seven main sectors, let's test your knowledge. Each sector has a unique focus. Can you identify the correct sector based on its main products or activities?
+
+1. Which sector is primarily focused on producing milk, meat, and wool from animals like cows and sheep?
+   a. Horticulture
+   b. Pastoral Farming
+   c. Equine
+   d. Forestry
+2. If a company grows apples for export and vegetables for the local market, which sector are they part of?
+   a. Aquaculture
+   b. Sports Turf
+   c. Horticulture
+   d. Dairy Farming
+3. The management of Eden Park's playing surface and the grass at a local golf course falls under which specialised sector?
+   a. Sports Turf
+   b. Pastoral Farming
+   c. Forestry
+   d. Horticulture
+4. The farming of salmon in sea pens and the harvesting of mussels are key activities in which sector?
+   a. Equine
+   b. Beef Farming
+   c. Aquaculture / Seafood
+   d. Forestry
+
+### Synthesis: Careers and Sustainability
+
+The primary sector offers diverse careers, from science and technology to hands-on farming. A major focus for the future is sustainability, farming in a way that protects the environment for future generations.
+
+Choose ONE primary sector (for example, Dairy, Horticulture, Forestry). Describe one way a person working in that sector can help protect the environment (biodiversity or water quality).
+
+### Unit Summary: Fill in the Gaps
+
+Read the passage below and fill in the blanks using the words from the word bank. This passage summarises some of the key ideas we have covered about jobs, science, and safety in the primary sector.
+
+Word bank: primary, pastoral, ruminants, pasture, harvest, safety, machinery, chemicals, future
+
+Working in New Zealand's ____________________ industries is more than just a job; it involves managing land, animals, and resources responsibly. For example, in ____________________ farming, understanding how ____________________ like cows digest ____________________ is crucial for feed management. In horticulture, knowing the right time to ____________________ crops ensures a good yield.
+
+No matter the sector, ____________________ is paramount. This means knowing the risks, from operating heavy ____________________ to handling agricultural ____________________. It's about looking after yourself, your workmates, and the environment, ensuring the sector remains strong for ____________________ generations.
+
+---
+
+## Focusing on Sustainability
+
+As we learn about New Zealand's primary industries, it's vital to think about sustainability. This means managing our land, water, and resources in a way that is good for the environment, for people, and for the economy, both now and in the future. Let's check your understanding of this important idea.
+
+1. The main goal of sustainable farming is to...?
+   a. Produce the most food possible in one year.
+   b. Use the newest and most expensive technology.
+   c. Make sure we can farm successfully for many years without harming the environment.
+   d. Only farm plants and not animals.
+2. Why is protecting biodiversity important for a farm?
+   a. It makes the farm look nicer.
+   b. It helps create a healthy ecosystem, which can improve soil and control pests naturally.
+   c. It is required by law in every single case.
+   d. It means the farmer can charge more for their products.
+3. Which of these is an example of a sustainable practice on a farm?
+   a. Allowing cow manure and fertiliser to wash directly into rivers.
+   b. Planting native trees along stream banks to filter water.
+   c. Removing all trees to make bigger paddocks.
+   d. Using as much water as possible for irrigation.
+4. How does using resources like water carefully help a farm in the long run?
+   a. It doesn't help; using more is always better.
+   b. It ensures there will be enough water available for the farm in future dry years.
+   c. It makes the grass grow slower.
+   d. It is only important for farms near the ocean.
+
+### Sustainability Vocabulary
+
+Thinking about safety and long-term success leads us to sustainability. This means using our resources wisely to ensure the primary industries can thrive for generations to come, protecting our environment. Match the sustainability terms from the word bank to their correct definitions below.
+
+Word bank: Sustainability, Riparian Planting, Erosion, Ecosystem, Greenhouse Gas Emissions, Carbon Footprint
+
+1. The practice of meeting our own needs without preventing future generations from meeting theirs. It balances environmental, social, and economic factors.
+2. Planting trees and native plants along the banks of rivers, streams, and lakes to improve water quality and create habitats for wildlife.
+3. The gradual wearing away of land surface (soil) by wind, water, or other natural agents, which can be accelerated by farming practices.
+4. A biological community of interacting organisms (like plants and animals) and their physical environment.
+5. Gases like methane (from livestock) and carbon dioxide that are released into the atmosphere and contribute to climate change.
+6. The total amount of greenhouse gases generated by our actions, often related to an activity or an organisation.
+
+### Extension Questions
+
+#### Question 1: The Triple Bottom Line in Practice
+
+"Sustainability is described as managing land, water, and resources in a way that is good for the environment, the people, and the economy."
+
+Choose one New Zealand primary industry (for example, Dairy, Sheep and Beef, or Horticulture) and evaluate how a business within that sector can balance these three pillars of sustainability.
+
+In your answer:
+
+- Identify two specific sustainable practices used in that industry.
+- Explain how these practices benefit the environment (for example, water quality or soil health).
+- Discuss how these same practices can lead to economic success or benefits for the people involved in the industry.
+
+#### Question 2: Resource Management and Future-Proofing
+
+"Thinking about safety and long-term success leads us to sustainability. This means using our resources wisely to ensure the primary industries can thrive for generations to come."
+
+Discuss the role of resource management in ensuring the long-term viability of New Zealand's primary industries. Your response should:
+
+- Describe how the mismanagement of a specific resource (such as water or soil) could lead to the failure of a farm in the future.
+- Explain how using resources wisely (such as through riparian planting or smart irrigation) acts as a form of insurance for a farmer's long-term success.
+- Connect the idea of a safe working environment to the broader goal of a sustainable and thriving rural community.
+
+---
+
+## Location Factors and Biology
+
+Different sectors are located in specific parts of New Zealand. This isn't random; it depends on factors like climate (temperature and rainfall), soil quality, water availability, infrastructure, and market access.
+
+1. Which of the following is NOT typically a major factor influencing where a farm is located?
+   a. Soil quality
+   b. Climate and rainfall
+   c. The colour of the farm buildings
+   d. Access to markets and infrastructure
+2. Which plant is a key component of NZ pasture, often grown alongside ryegrass?
+   a. White Clover
+   b. Pine trees
+   c. Kumara
+   d. Roses
+3. What is the specific term for the amount of dry plant material available for animals to eat?
+   a. Wet Weight
+   b. Dry Matter (DM)
+   c. Total Harvest
+   d. Silage Count
+
+### Where in NZ? A Regions Map
+
+Different regions in New Zealand are famous for specific primary industries. The climate, soil, and landscape of a region make it ideal for certain types of farming or production. Study the map below and then answer the questions to check your understanding.
+
+1. Based on the map, which industry is the Waikato region most famous for?
+   a. Dairy Farming
+   b. Forestry
+   c. Wine Production
+   d. Sheep Farming
+2. If you wanted to start a kiwifruit orchard, which region shown on the map would be the best place to choose?
+   a. Southland
+   b. Bay of Plenty
+   c. Canterbury
+   d. Taranaki
+3. According to the map, Central Otago and Marlborough are key regions for which industry?
+   a. Beef farming
+   b. Aquaculture
+   c. Wine production (viticulture)
+   d. Potato growing
+4. The vast, flat plains of which region make it ideal for arable farming (growing crops like wheat and barley)?
+   a. Canterbury
+   b. Northland
+   c. West Coast
+   d. Waikato
+
+### Why Farm Here? Location Factors
+
+The success of a primary production business often depends on where it is located. Let's test your understanding of the key factors that determine why certain industries thrive in specific regions of New Zealand.
+
+1. Why is a region like the Waikato well-suited for dairy farming?
+   a. It has a very cold, dry climate.
+   b. It has reliable rainfall and good soil for growing pasture.
+   c. It is close to the main ski fields.
+   d. It has no access to major roads or ports.
+2. Central Otago is famous for growing summer fruit like cherries and apricots. Which climate factor is most important for these crops?
+   a. Heavy rainfall all year round.
+   b. Warm winters and cool summers.
+   c. Cold winters for fruit to set and hot, dry summers for ripening.
+   d. Close proximity to the ocean for sea breezes.
+3. The term market access is a key location factor. What does it refer to?
+   a. The quality of the soil on the farm.
+   b. The amount of rainfall an area receives.
+   c. How easily a farmer can sell and transport their products to customers or processors.
+   d. The number of local farmers' markets in a town.
+4. Which of these is the best example of infrastructure that is vital for a large-scale forestry operation?
+   a. Having a local cafe near the forest.
+   b. Having large, stable ports nearby to export logs and timber.
+   c. The number of native birds in the area.
+   d. Having beautiful scenery for tourists.
+
+#### Question 1: Physical Environment and Industry Suitability
+
+"The success of a primary production business often depends on physical factors like climate, soil quality, and water availability."
+
+Identify one specific region in New Zealand and a primary industry that is successful there (for example, Dairy in the Waikato, Kiwifruit in the Bay of Plenty, or Viticulture in Marlborough).
+
+In your response:
+
+- Describe the climate (temperature and rainfall) and soil requirements of that specific industry.
+- Explain how the physical characteristics of your chosen region meet those biological needs.
+- Discuss how a change in one of these factors (for example, a long-term drought or decrease in water availability) would impact the success of that industry in that location.
+
+#### Question 2: The Role of Human Factors and Infrastructure
+
+"While biology and climate are important, the success of a primary production business also relies on human factors like infrastructure and market access."
+
+Explain why a location with perfect soil and weather might still be unsuitable for a large-scale primary industry if it lacks infrastructure and market access.
+
+In your answer:
+
+- Define the terms infrastructure and market access within a rural context.
+- Provide an example of how a specific piece of infrastructure (such as a port, processing plant, or transport network) is essential for a sector like Forestry or Dairy.
+- Argue why being close to a market (either local or an export hub) is a critical factor for a business's economic survival.
+
+---
+
+## Rural Safety Check
+
+Safety is critical in the primary industries. Common hazards include vehicles (quad bikes), machinery, chemicals, and livestock. We manage these risks through training, using Personal Protective Equipment (PPE), and following safety commandments.
+
+1. What does the acronym PPE stand for in a rural safety context?
+   a. Personal Production Equipment
+   b. Pasture Protection Elements
+   c. Personal Protective Equipment
+   d. Primary Production Environment
+   e. People Protecting Everyone
+2. Which of the following is a common cause of accidents on New Zealand farms?
+   a. Excessive rainfall
+   b. Loss of control of vehicles (for example, quad bikes)
+   c. Sheep grazing too fast
+   d. Growing too many vegetables
+
+Imagine you are managing a farm. You have stored agricultural chemicals in a shed. List two safety rules you must follow regarding these chemicals.
+
+### Rural Safety Quick Questions
+
+Working in any primary industry involves risks. A successful career in this sector means prioritising safety for yourself and for others. Let's do a final check on your safety knowledge.
+
+1. What is the correct technique for lifting a heavy sack of feed to avoid a back injury?
+   a. Bend from your waist and pull up hard.
+   b. Keep your legs straight and twist as you lift.
+   c. Bend your knees and use your leg muscles to lift.
+   d. Drag it along the ground.
+2. Why is it important to wear ear protection (earmuffs or earplugs) when using loud machinery like a chainsaw or tractor for long periods?
+   a. To keep your ears warm on a cold day.
+   b. So you can listen to music while you work.
+   c. To prove you are following the rules.
+   d. To prevent permanent hearing damage from the noise.
+3. When working with large, unpredictable animals like cattle or horses, what is a crucial safety practice?
+   a. Always approach them silently from behind.
+   b. Make sure you always have a planned escape route.
+   c. Move quickly and make sudden movements to show you are in charge.
+   d. Work alone so you don't distract the animals.
+
+#### Question: Risk Management and the Culture of Safety
+
+"Safety is critical in the primary industries because the workplace is often remote and involves high-risk hazards like heavy machinery, chemicals, and unpredictable livestock."
+
+Choose one hazard common in New Zealand farming (for example, operating a quad bike, handling large cattle, or using agricultural chemicals) and write a safety briefing.
+
+In your response:
+
+- Identify the risks: Describe at least two specific ways an accident could occur with your chosen hazard.
+- Preventative measures: Outline the specific PPE (Personal Protective Equipment) and protocols (safety rules) that must be followed to minimise these risks.
+- The human factor: Explain why having a safety-first culture is essential for the long-term success of the farm and the well-being of the rural community.
+
+---
+
+## Crop Focus: The Potato
+
+Potatoes are a staple crop globally and in New Zealand. They have significant historical and cultural importance, including Maori potato varieties.
+
+Briefly explain the difference between a potato and a kumara (sweet potato) in terms of how they are used or their cultural significance in NZ.
+
+### Agricultural Science Terms
+
+Match the agricultural science terms from the word bank to their correct definitions below. These terms describe important processes and practices in farming.
+
+Word bank: Photosynthesis, Germination, Fertiliser, Grazing System, Silage, Pest
+
+1. The process plants use to turn sunlight, water, and carbon dioxide into food (energy).
+2. The process of a seed sprouting and beginning to grow into a plant.
+3. A substance (natural or chemical) added to soil to increase its fertility and help plants grow.
+4. A plan for how livestock are moved around paddocks to manage pasture growth.
+5. Grass or other green fodder compacted and stored in airtight conditions to be used as animal feed.
+6. An organism (like an insect or weed) that is harmful to crops, pasture, or livestock.
+
+#### Question: Managing the Biological Cycle
+
+"The success of any New Zealand farm, whether it is an orchard or a dairy farm, depends on the farmer's ability to manage the natural biological processes of plants."
+
+Using the terms from the word bank, explain how a farmer manages the life cycle of plants to ensure a productive season.
+
+In your response:
+
+- Establishing growth: Explain the role of germination and photosynthesis in creating a healthy pasture or crop.
+- Managing inputs and threats: Discuss how a farmer uses fertilisers to support these natural processes and how they protect the system from pests.
+- Maximising use: Evaluate how a grazing system or the production of silage allows a farmer to effectively capture and store the energy produced by plants to feed animals later in the year.
+
+---
+
+## Answer Key
+
+The source booklet includes an answer section labelled "Answer Key - NEED REARRANGING!!!!!!!!!". The answers below preserve that content.
+
+### Quick Check: Sector Roles
+
+1. Pastoral Farming
+2. Horticulture
+3. has a specialised stomach to digest grass.
+4. Harvesting timber from a forest
+
+### Focusing on Sustainability
+
+1. Make sure we can farm successfully for many years without harming the environment.
+2. It helps create a healthy ecosystem, which can improve soil and control pests naturally.
+3. Planting native trees along stream banks to filter water.
+4. It ensures there will be enough water available for the farm in future dry years.
+
+### The Seven Key Sectors
+
+1. Horticulture
+2. Aquaculture
+3. Equine
+4. Forestry
+5. Dairy
+
+### Careers in the Primary Sector
+
+1. Agronomist
+2. A drone operator mapping a forest for harvest planning
+3. Breeding racehorses
+4. Farming salmon or mussels
+
+### Sector Showcase
+
+1. Pastoral Farming
+2. Horticulture
+3. Sports Turf
+4. Aquaculture / Seafood
+
+### Location Factors and Biology
+
+1. The colour of the farm buildings
+2. White Clover
+3. Dry Matter (DM)
+
+### Where in NZ? A Regions Map
+
+1. Dairy Farming
+2. Bay of Plenty
+3. Wine production (viticulture)
+4. Canterbury
+
+### Why Farm Here? Location Factors
+
+1. It has reliable rainfall and good soil for growing pasture.
+2. Cold winters for fruit to set and hot, dry summers for ripening.
+3. How easily a farmer can sell and transport their products to customers or processors.
+4. Having large, stable ports nearby to export logs and timber.
+
+### Rural Safety Check
+
+1. Personal Protective Equipment
+2. Loss of control of vehicles (for example, quad bikes)
+
+Possible answers: Store in a locked cabinet or shed, keep in original containers with labels, use appropriate PPE when handling, have a spill kit nearby, keep away from animal feed and water.
+
+### Rural Safety Quick Questions
+
+1. Bend your knees and use your leg muscles to lift.
+2. To prevent permanent hearing damage from the noise.
+3. Make sure you always have a planned escape route.
+
+### Crop Focus: The Potato
+
+Potatoes are a global staple often used for chips, fries, or roasting. Kumara (sweet potato) has deep cultural significance to Maori, brought by early Polynesian voyagers, and requires warmer conditions to grow compared to many potato varieties.
+
+### Synthesis: Careers and Sustainability
+
+Answers will vary. Example (Dairy): A farmer can plant riparian buffers (native plants) along streams to stop fertilizer runoff from entering the water. Example (Forestry): Replanting harvested areas quickly to prevent soil erosion.
+
+### Unit Summary: Fill in the Gaps
+
+Working in New Zealand's primary industries is more than just a job; it involves managing land, animals, and resources responsibly. For example, in pastoral farming, understanding how ruminants like cows digest pasture is crucial for feed management. In horticulture, knowing the right time to harvest crops ensures a good yield.
+
+No matter the sector, safety is paramount. This means knowing the risks, from operating heavy machinery to handling agricultural chemicals. It's about looking after yourself, your workmates, and the environment, ensuring the sector remains strong for future generations.
+
+### Sustainability Vocabulary
+
+1. Sustainability
+2. Riparian Planting
+3. Erosion
+4. Ecosystem
+5. Greenhouse Gas Emissions
+6. Carbon Footprint
+
+### Agricultural Science Terms
+
+1. Photosynthesis
+2. Germination
+3. Fertiliser
+4. Grazing System
+5. Silage
+6. Pest

@@ -1,0 +1,1569 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.26">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Urban Farm 2026">
+
+<title>Unit 6: Practical Skills Refraction - Refractometer Unit (Year 9-10) – Urban Farm Applied Mathematics</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-e31584831b205ffbb2d98406f31c2a5b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Urban Farm Applied Mathematics</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./units-overview.html"> 
+<span class="menu-text">Farm Units</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./sector-and-safety.html"> 
+<span class="menu-text">Unit 1: Sector and Safety</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./missions/index.html"> 
+<span class="menu-text">Farm Missions</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./mapping.html"> 
+<span class="menu-text">Unit 2: Mapping</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./potato-patch.html"> 
+<span class="menu-text">Unit 3: Potato Patch</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./farm-dogs.html"> 
+<span class="menu-text">Unit 4: Farm Dogs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./apple-unit.html"> 
+<span class="menu-text">Unit 5: Apple Unit</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./refractometer-unit.html" aria-current="page"> 
+<span class="menu-text">Unit 6: Refractometer</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./weather-dunedin-kaikorai.html"> 
+<span class="menu-text">Unit 7: Weather</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./autumn-planting-seedlings.html"> 
+<span class="menu-text">Unit 8: Autumn Planting</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./friday-closedown.html"> 
+<span class="menu-text">Friday Close-Down</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./textbook/textbook.html"> 
+<span class="menu-text">Textbook</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#unit-overview" id="toc-unit-overview" class="nav-link active" data-scroll-target="#unit-overview">Unit overview</a></li>
+  <li><a href="#source-resource-and-core-concept" id="toc-source-resource-and-core-concept" class="nav-link" data-scroll-target="#source-resource-and-core-concept">Source resource and core concept</a>
+  <ul class="collapse">
+  <li><a href="#core-science-idea-from-the-worksheet" id="toc-core-science-idea-from-the-worksheet" class="nav-link" data-scroll-target="#core-science-idea-from-the-worksheet">Core science idea from the worksheet</a></li>
+  <li><a href="#why-this-matters-on-a-farm" id="toc-why-this-matters-on-a-farm" class="nav-link" data-scroll-target="#why-this-matters-on-a-farm">Why this matters on a farm</a></li>
+  </ul></li>
+  <li><a href="#learning-goals" id="toc-learning-goals" class="nav-link" data-scroll-target="#learning-goals">Learning goals</a></li>
+  <li><a href="#curriculum-links-new-and-old-nz-curriculum" id="toc-curriculum-links-new-and-old-nz-curriculum" class="nav-link" data-scroll-target="#curriculum-links-new-and-old-nz-curriculum">Curriculum links (New and Old NZ Curriculum)</a>
+  <ul class="collapse">
+  <li><a href="#curriculum-source-links" id="toc-curriculum-source-links" class="nav-link" data-scroll-target="#curriculum-source-links">Curriculum source links</a></li>
+  </ul></li>
+  <li><a href="#old-nz-curriculum-nzc-2007-links" id="toc-old-nz-curriculum-nzc-2007-links" class="nav-link" data-scroll-target="#old-nz-curriculum-nzc-2007-links">Old NZ Curriculum (NZC 2007) links</a>
+  <ul class="collapse">
+  <li><a href="#science-level-5-years-9-10" id="toc-science-level-5-years-9-10" class="nav-link" data-scroll-target="#science-level-5-years-9-10">Science (Level 5, Years 9-10)</a></li>
+  <li><a href="#mathematics-and-statistics-level-5" id="toc-mathematics-and-statistics-level-5" class="nav-link" data-scroll-target="#mathematics-and-statistics-level-5">Mathematics and Statistics (Level 5)</a></li>
+  <li><a href="#technology-agricultural-context-links" id="toc-technology-agricultural-context-links" class="nav-link" data-scroll-target="#technology-agricultural-context-links">Technology / Agricultural context links</a></li>
+  </ul></li>
+  <li><a href="#new-nz-curriculum-refresh-te-mataiaho-alignment" id="toc-new-nz-curriculum-refresh-te-mataiaho-alignment" class="nav-link" data-scroll-target="#new-nz-curriculum-refresh-te-mataiaho-alignment">New NZ Curriculum (Refresh / Te Mataiaho) alignment</a></li>
+  <li><a href="#unit-plan-at-a-glance" id="toc-unit-plan-at-a-glance" class="nav-link" data-scroll-target="#unit-plan-at-a-glance">Unit plan at a glance</a></li>
+  <li><a href="#detailed-lesson-plan" id="toc-detailed-lesson-plan" class="nav-link" data-scroll-target="#detailed-lesson-plan">Detailed lesson plan</a></li>
+  <li><a href="#lesson-1-refraction-and-refractometer-setup" id="toc-lesson-1-refraction-and-refractometer-setup" class="nav-link" data-scroll-target="#lesson-1-refraction-and-refractometer-setup">Lesson 1: Refraction and refractometer setup</a>
+  <ul class="collapse">
+  <li><a href="#lesson-flow" id="toc-lesson-flow" class="nav-link" data-scroll-target="#lesson-flow">Lesson flow</a></li>
+  <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources">Resources</a></li>
+  </ul></li>
+  <li><a href="#lesson-2-sample-collection-and-brix-testing" id="toc-lesson-2-sample-collection-and-brix-testing" class="nav-link" data-scroll-target="#lesson-2-sample-collection-and-brix-testing">Lesson 2: Sample collection and Brix testing</a>
+  <ul class="collapse">
+  <li><a href="#procedure-from-source-worksheet" id="toc-procedure-from-source-worksheet" class="nav-link" data-scroll-target="#procedure-from-source-worksheet">Procedure (from source worksheet)</a></li>
+  <li><a href="#group-roles" id="toc-group-roles" class="nav-link" data-scroll-target="#group-roles">Group roles</a></li>
+  <li><a href="#data-table-template" id="toc-data-table-template" class="nav-link" data-scroll-target="#data-table-template">Data table template</a></li>
+  </ul></li>
+  <li><a href="#lesson-3-analysis-and-benchmarking" id="toc-lesson-3-analysis-and-benchmarking" class="nav-link" data-scroll-target="#lesson-3-analysis-and-benchmarking">Lesson 3: Analysis and benchmarking</a>
+  <ul class="collapse">
+  <li><a href="#required-analysis-questions-from-source-worksheet" id="toc-required-analysis-questions-from-source-worksheet" class="nav-link" data-scroll-target="#required-analysis-questions-from-source-worksheet">Required analysis questions (from source worksheet)</a></li>
+  <li><a href="#useful-analysis-extensions-for-year-9-10" id="toc-useful-analysis-extensions-for-year-9-10" class="nav-link" data-scroll-target="#useful-analysis-extensions-for-year-9-10">Useful analysis extensions for Year 9-10</a></li>
+  </ul></li>
+  <li><a href="#lesson-4-farm-decision-making-and-communication" id="toc-lesson-4-farm-decision-making-and-communication" class="nav-link" data-scroll-target="#lesson-4-farm-decision-making-and-communication">Lesson 4: Farm decision making and communication</a>
+  <ul class="collapse">
+  <li><a href="#suggested-presentation-outputs" id="toc-suggested-presentation-outputs" class="nav-link" data-scroll-target="#suggested-presentation-outputs">Suggested presentation outputs</a></li>
+  <li><a href="#required-recommendation-prompts" id="toc-required-recommendation-prompts" class="nav-link" data-scroll-target="#required-recommendation-prompts">Required recommendation prompts</a></li>
+  </ul></li>
+  <li><a href="#assessment-plan" id="toc-assessment-plan" class="nav-link" data-scroll-target="#assessment-plan">Assessment plan</a></li>
+  <li><a href="#formative-checks" id="toc-formative-checks" class="nav-link" data-scroll-target="#formative-checks">Formative checks</a></li>
+  <li><a href="#summative-task" id="toc-summative-task" class="nav-link" data-scroll-target="#summative-task">Summative task</a>
+  <ul class="collapse">
+  <li><a href="#suggested-rubric-4-point" id="toc-suggested-rubric-4-point" class="nav-link" data-scroll-target="#suggested-rubric-4-point">Suggested rubric (4-point)</a></li>
+  </ul></li>
+  <li><a href="#health-and-safety-controls" id="toc-health-and-safety-controls" class="nav-link" data-scroll-target="#health-and-safety-controls">Health and safety controls</a></li>
+  <li><a href="#brix-reference-chart-from-source-worksheet-ocr-clean-up" id="toc-brix-reference-chart-from-source-worksheet-ocr-clean-up" class="nav-link" data-scroll-target="#brix-reference-chart-from-source-worksheet-ocr-clean-up">Brix reference chart from source worksheet (OCR clean-up)</a>
+  <ul class="collapse">
+  <li><a href="#vegetables" id="toc-vegetables" class="nav-link" data-scroll-target="#vegetables">Vegetables</a></li>
+  <li><a href="#fruits" id="toc-fruits" class="nav-link" data-scroll-target="#fruits">Fruits</a></li>
+  <li><a href="#grasses-and-grains" id="toc-grasses-and-grains" class="nav-link" data-scroll-target="#grasses-and-grains">Grasses and grains</a></li>
+  </ul></li>
+  <li><a href="#student-worksheet-section-ready-to-print" id="toc-student-worksheet-section-ready-to-print" class="nav-link" data-scroll-target="#student-worksheet-section-ready-to-print">Student worksheet section (ready to print)</a>
+  <ul class="collapse">
+  <li><a href="#names" id="toc-names" class="nav-link" data-scroll-target="#names">Names</a></li>
+  <li><a href="#practical-checklist" id="toc-practical-checklist" class="nav-link" data-scroll-target="#practical-checklist">Practical checklist</a></li>
+  <li><a href="#reflection-prompts" id="toc-reflection-prompts" class="nav-link" data-scroll-target="#reflection-prompts">Reflection prompts</a></li>
+  </ul></li>
+  <li><a href="#teacher-notes-and-extension-ideas" id="toc-teacher-notes-and-extension-ideas" class="nav-link" data-scroll-target="#teacher-notes-and-extension-ideas">Teacher notes and extension ideas</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Unit 6: Practical Skills Refraction - Refractometer Unit (Year 9-10)</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Urban Farm 2026 </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">Invalid Date</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="unit-overview" class="level2">
+<h2 class="anchored" data-anchor-id="unit-overview">Unit overview</h2>
+<p>This unit uses practical farm produce testing to connect physics, biology, and measurement. Students use a handheld refractometer to measure sugar concentration (Brix) in fruit and vegetables collected from around the school farm.</p>
+<p><strong>Recommended duration:</strong> 4 lessons (40-60 min each)</p>
+<hr>
+</section>
+<section id="source-resource-and-core-concept" class="level2">
+<h2 class="anchored" data-anchor-id="source-resource-and-core-concept">Source resource and core concept</h2>
+<p>This unit is built from the worksheet in <a href="resources/Practical Skills Refraction 2026.pdf">resources/Practical Skills Refraction 2026.pdf</a>.</p>
+<section id="core-science-idea-from-the-worksheet" class="level3">
+<h3 class="anchored" data-anchor-id="core-science-idea-from-the-worksheet">Core science idea from the worksheet</h3>
+<ul>
+<li>Light bends (refracts) when it moves between substances such as air, water, glass, or plastic.</li>
+<li>Different amounts of dissolved substances bend light by different amounts.</li>
+<li>Sugar is one dissolved substance we can test in food juices.</li>
+<li>A refractometer measures sugar content in Degree Brix (% sucrose equivalent).</li>
+<li>Higher Brix generally indicates greater sweetness and, in many crops, greater ripeness.</li>
+</ul>
+</section>
+<section id="why-this-matters-on-a-farm" class="level3">
+<h3 class="anchored" data-anchor-id="why-this-matters-on-a-farm">Why this matters on a farm</h3>
+<ul>
+<li>Farmers can estimate ripeness and harvest timing.</li>
+<li>Brix helps compare crop quality across paddocks, varieties, and seasons.</li>
+<li>Results support decisions about eating quality, processing, preserving, and market timing.</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="learning-goals" class="level2">
+<h2 class="anchored" data-anchor-id="learning-goals">Learning goals</h2>
+<p>By the end of this unit, students can:</p>
+<ul>
+<li>explain refraction in simple scientific language</li>
+<li>calibrate and safely use a refractometer</li>
+<li>collect and prepare juice samples from produce</li>
+<li>take repeated measurements and calculate averages</li>
+<li>compare measured values to a Brix reference chart</li>
+<li>evaluate crop quality (poor, average, good, excellent)</li>
+<li>communicate findings with evidence and farm recommendations</li>
+</ul>
+<hr>
+</section>
+<section id="curriculum-links-new-and-old-nz-curriculum" class="level2">
+<h2 class="anchored" data-anchor-id="curriculum-links-new-and-old-nz-curriculum">Curriculum links (New and Old NZ Curriculum)</h2>
+<section id="curriculum-source-links" class="level3">
+<h3 class="anchored" data-anchor-id="curriculum-source-links">Curriculum source links</h3>
+<ul>
+<li>Old NZ Curriculum (NZC 2007): <a href="https://nzcurriculum.tki.org.nz/The-New-Zealand-Curriculum">The New Zealand Curriculum</a></li>
+<li>NZC 2007 Science learning area and achievement objectives: <a href="https://nzcurriculum.tki.org.nz/The-New-Zealand-Curriculum/Science">Science in NZC</a></li>
+<li>NZC 2007 Mathematics and Statistics learning area: <a href="https://nzcurriculum.tki.org.nz/The-New-Zealand-Curriculum/Mathematics-and-statistics">Mathematics and Statistics in NZC</a></li>
+<li>Refreshed NZ Curriculum / Te Mataiaho portal: <a href="https://curriculumrefresh.education.govt.nz">Curriculum Refresh</a></li>
+<li>Te Mataiaho framework information: <a href="https://curriculumrefresh.education.govt.nz/te-mataiaho">Te Mataiaho</a></li>
+</ul>
+</section>
+</section>
+<section id="old-nz-curriculum-nzc-2007-links" class="level2">
+<h2 class="anchored" data-anchor-id="old-nz-curriculum-nzc-2007-links">Old NZ Curriculum (NZC 2007) links</h2>
+<section id="science-level-5-years-9-10" class="level3">
+<h3 class="anchored" data-anchor-id="science-level-5-years-9-10">Science (Level 5, Years 9-10)</h3>
+<ul>
+<li><strong>Nature of Science - Investigating in science</strong>: Carry out investigations using equipment safely, gather and interpret data, and draw evidence-based conclusions.</li>
+<li><strong>Physical world</strong>: Explore light behavior (refraction) and how optical tools work.</li>
+<li><strong>Material world</strong>: Understand solutions and concentration in real contexts.</li>
+<li><strong>Living world (contextual link)</strong>: Connect plant products and quality indicators to growing conditions and biology.</li>
+</ul>
+</section>
+<section id="mathematics-and-statistics-level-5" class="level3">
+<h3 class="anchored" data-anchor-id="mathematics-and-statistics-level-5">Mathematics and Statistics (Level 5)</h3>
+<ul>
+<li><strong>Measurement</strong>: Use and interpret scales accurately (Brix readings).</li>
+<li><strong>Statistics</strong>: Plan data collection, calculate mean values, compare groups, and discuss variability.</li>
+<li><strong>Number and algebra (applied)</strong>: Compute averages, differences, and simple percent-style interpretations.</li>
+</ul>
+</section>
+<section id="technology-agricultural-context-links" class="level3">
+<h3 class="anchored" data-anchor-id="technology-agricultural-context-links">Technology / Agricultural context links</h3>
+<ul>
+<li>Use of practical farm tools and procedures.</li>
+<li>Product quality testing and decision-making from evidence.</li>
+</ul>
+</section>
+</section>
+<section id="new-nz-curriculum-refresh-te-mataiaho-alignment" class="level2">
+<h2 class="anchored" data-anchor-id="new-nz-curriculum-refresh-te-mataiaho-alignment">New NZ Curriculum (Refresh / Te Mataiaho) alignment</h2>
+<p>This unit aligns with the refreshed intent for Years 9-10 by integrating:</p>
+<ul>
+<li><strong>Understand, Know, Do progression</strong> through scientific knowledge applied in a local context.</li>
+<li><strong>Science practices</strong>: observing, measuring, testing, analyzing, and communicating findings.</li>
+<li><strong>Local curriculum design</strong>: learning from school-farm environments and authentic produce.</li>
+<li><strong>Key competencies in action</strong>:
+<ul>
+<li>Thinking (interpreting evidence)</li>
+<li>Using language, symbols, and texts (tables, units, graphs)</li>
+<li>Managing self (safe practical workflow)</li>
+<li>Relating to others (group roles)</li>
+<li>Participating and contributing (farm quality decisions)</li>
+</ul></li>
+</ul>
+<hr>
+</section>
+<section id="unit-plan-at-a-glance" class="level2">
+<h2 class="anchored" data-anchor-id="unit-plan-at-a-glance">Unit plan at a glance</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Lesson</th>
+<th>Focus</th>
+<th>Practical outcome</th>
+<th>Data outcome</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Physics of refraction and instrument setup</td>
+<td>Refractometer safely calibrated with distilled water</td>
+<td>Baseline zero checks recorded</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Sampling and measurement routine</td>
+<td>Produce juices prepared and tested correctly</td>
+<td>3 readings per item collected</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Data analysis and quality rating</td>
+<td>Brix averages calculated for each food</td>
+<td>Results compared to reference values</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Farm recommendations and communication</td>
+<td>Group report/poster completed</td>
+<td>Evidence-based quality conclusions shared</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="detailed-lesson-plan" class="level2">
+<h2 class="anchored" data-anchor-id="detailed-lesson-plan">Detailed lesson plan</h2>
+</section>
+<section id="lesson-1-refraction-and-refractometer-setup" class="level2">
+<h2 class="anchored" data-anchor-id="lesson-1-refraction-and-refractometer-setup">Lesson 1: Refraction and refractometer setup</h2>
+<p><strong>Time:</strong> 50 min<br>
+<strong>Learning intention:</strong> Understand how light refraction allows sugar measurement.<br>
+<strong>Success criteria:</strong> Students explain Brix and correctly calibrate the instrument.</p>
+<section id="lesson-flow" class="level3">
+<h3 class="anchored" data-anchor-id="lesson-flow">Lesson flow</h3>
+<ol type="1">
+<li><strong>Hook and context (10 min)</strong></li>
+</ol>
+<ul>
+<li>Show refractometer and explain farm use.</li>
+<li>Prompt: Why might farmers care about sugar levels?</li>
+</ul>
+<ol start="2" type="1">
+<li><strong>Teach concept (10 min)</strong></li>
+</ol>
+<ul>
+<li>Light bends between materials.</li>
+<li>More dissolved solids change refraction and shift reading.</li>
+<li>Degree Brix = approximate percent sucrose equivalent.</li>
+</ul>
+<ol start="3" type="1">
+<li><strong>Safety and handling (10 min)</strong></li>
+</ol>
+<ul>
+<li>Carry device with two hands.</li>
+<li>Never scratch prism plate.</li>
+<li>Clean with soft tissue and distilled water only.</li>
+<li>No sharing droppers between unknown liquids without rinsing.</li>
+</ul>
+<ol start="4" type="1">
+<li><strong>Calibration practical (15 min)</strong></li>
+</ol>
+<ul>
+<li>Place distilled water on prism.</li>
+<li>Close flap.</li>
+<li>Read scale.</li>
+<li>If needed, adjust top screw to zero (teacher supervised).</li>
+</ul>
+<ol start="5" type="1">
+<li><strong>Exit check (5 min)</strong></li>
+</ol>
+<ul>
+<li>Students write one sentence: How does a refractometer use light?</li>
+</ul>
+</section>
+<section id="resources" class="level3">
+<h3 class="anchored" data-anchor-id="resources">Resources</h3>
+<ul>
+<li>refractometers</li>
+<li>distilled water</li>
+<li>droppers/pipettes</li>
+<li>lens tissue/soft wipes</li>
+<li>gloves and eye protection as required</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="lesson-2-sample-collection-and-brix-testing" class="level2">
+<h2 class="anchored" data-anchor-id="lesson-2-sample-collection-and-brix-testing">Lesson 2: Sample collection and Brix testing</h2>
+<p><strong>Time:</strong> 50-60 min<br>
+<strong>Learning intention:</strong> Follow a valid sampling procedure and collect reliable data.<br>
+<strong>Success criteria:</strong> Students gather 3 repeat measurements for each selected item.</p>
+<section id="procedure-from-source-worksheet" class="level3">
+<h3 class="anchored" data-anchor-id="procedure-from-source-worksheet">Procedure (from source worksheet)</h3>
+<ol type="1">
+<li>Select fruit/vegetables from around the farm.</li>
+<li>Prepare juice using a juicer or fork-mash and squeeze method.</li>
+<li>Place a small drop on prism.</li>
+<li>Close flap and take reading.</li>
+<li>Wipe prism with distilled water between every sample.</li>
+<li>Repeat readings for each item (at least three readings).</li>
+<li>Record and compute average Brix.</li>
+</ol>
+</section>
+<section id="group-roles" class="level3">
+<h3 class="anchored" data-anchor-id="group-roles">Group roles</h3>
+<ul>
+<li>sampler</li>
+<li>juicer/prep lead</li>
+<li>instrument operator</li>
+<li>recorder/calculator</li>
+<li>hygiene and cleanup checker</li>
+</ul>
+</section>
+<section id="data-table-template" class="level3">
+<h3 class="anchored" data-anchor-id="data-table-template">Data table template</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 15%">
+<col style="width: 21%">
+<col style="width: 21%">
+<col style="width: 21%">
+<col style="width: 21%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Food item</th>
+<th style="text-align: right;">Brix reading 1</th>
+<th style="text-align: right;">Brix reading 2</th>
+<th style="text-align: right;">Brix reading 3</th>
+<th style="text-align: right;">Average</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Dissolved sugar (control)</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+</section>
+<section id="lesson-3-analysis-and-benchmarking" class="level2">
+<h2 class="anchored" data-anchor-id="lesson-3-analysis-and-benchmarking">Lesson 3: Analysis and benchmarking</h2>
+<p><strong>Time:</strong> 50 min<br>
+<strong>Learning intention:</strong> Compare measured values against typical Brix ranges.<br>
+<strong>Success criteria:</strong> Students classify at least two produce items and justify their judgement.</p>
+<section id="required-analysis-questions-from-source-worksheet" class="level3">
+<h3 class="anchored" data-anchor-id="required-analysis-questions-from-source-worksheet">Required analysis questions (from source worksheet)</h3>
+<ol type="1">
+<li>Which food had the highest Brix measurement?</li>
+<li>Compare your results for at least two foods with typical measurements.</li>
+<li>Classify each as poor, average, good, or excellent.</li>
+</ol>
+</section>
+<section id="useful-analysis-extensions-for-year-9-10" class="level3">
+<h3 class="anchored" data-anchor-id="useful-analysis-extensions-for-year-9-10">Useful analysis extensions for Year 9-10</h3>
+<ul>
+<li>Range: max minus min for each item.</li>
+<li>Reliability: discuss why repeats may vary.</li>
+<li>Graphing: bar chart of average Brix by food type.</li>
+<li>Evidence claim: Which crop area is producing sweetest produce and why?</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="lesson-4-farm-decision-making-and-communication" class="level2">
+<h2 class="anchored" data-anchor-id="lesson-4-farm-decision-making-and-communication">Lesson 4: Farm decision making and communication</h2>
+<p><strong>Time:</strong> 50 min<br>
+<strong>Learning intention:</strong> Use evidence to make practical farm recommendations.<br>
+<strong>Success criteria:</strong> Group presents clear recommendations linked to data.</p>
+<section id="suggested-presentation-outputs" class="level3">
+<h3 class="anchored" data-anchor-id="suggested-presentation-outputs">Suggested presentation outputs</h3>
+<ul>
+<li>One-page farm quality report</li>
+<li>Poster with table and graph</li>
+<li>Short oral briefing to class/farm team</li>
+</ul>
+</section>
+<section id="required-recommendation-prompts" class="level3">
+<h3 class="anchored" data-anchor-id="required-recommendation-prompts">Required recommendation prompts</h3>
+<ul>
+<li>Which produce should be harvested now?</li>
+<li>Which crops may need more time, water, or nutrient support?</li>
+<li>What would you re-test next week to track change?</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="assessment-plan" class="level2">
+<h2 class="anchored" data-anchor-id="assessment-plan">Assessment plan</h2>
+</section>
+<section id="formative-checks" class="level2">
+<h2 class="anchored" data-anchor-id="formative-checks">Formative checks</h2>
+<ul>
+<li>Safe tool use and calibration accuracy</li>
+<li>Correct cleaning between samples</li>
+<li>Complete data table with repeated readings</li>
+</ul>
+</section>
+<section id="summative-task" class="level2">
+<h2 class="anchored" data-anchor-id="summative-task">Summative task</h2>
+<p>Group investigation report including:</p>
+<ul>
+<li>method used</li>
+<li>raw data and averages</li>
+<li>comparison against reference ranges</li>
+<li>quality classification (poor to excellent)</li>
+<li>evidence-based farm recommendations</li>
+</ul>
+<section id="suggested-rubric-4-point" class="level3">
+<h3 class="anchored" data-anchor-id="suggested-rubric-4-point">Suggested rubric (4-point)</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Criterion</th>
+<th>1 Beginning</th>
+<th>2 Developing</th>
+<th>3 Proficient</th>
+<th>4 Advanced</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Practical method</td>
+<td>Unsafe/incomplete</td>
+<td>Some errors</td>
+<td>Correct and safe</td>
+<td>Precise and consistent</td>
+</tr>
+<tr class="even">
+<td>Data quality</td>
+<td>Limited data</td>
+<td>Some repeats</td>
+<td>3+ repeats and averages</td>
+<td>Strong repeats plus error discussion</td>
+</tr>
+<tr class="odd">
+<td>Science explanation</td>
+<td>Minimal</td>
+<td>Basic links</td>
+<td>Clear refraction-Brix explanation</td>
+<td>Deep explanation with examples</td>
+</tr>
+<tr class="even">
+<td>Application to farm</td>
+<td>Vague</td>
+<td>Some practical links</td>
+<td>Clear recommendations</td>
+<td>Insightful recommendations with next-step testing</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+</section>
+<section id="health-and-safety-controls" class="level2">
+<h2 class="anchored" data-anchor-id="health-and-safety-controls">Health and safety controls</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Risk</th>
+<th>Control</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Glass/plastic instrument damage</td>
+<td>Handle over bench/tray, teacher demonstration first</td>
+</tr>
+<tr class="even">
+<td>Contamination between samples</td>
+<td>Distilled water rinse and wipe every sample</td>
+</tr>
+<tr class="odd">
+<td>Food hygiene</td>
+<td>Gloves where needed, clean tools and surfaces</td>
+</tr>
+<tr class="even">
+<td>Allergies/sensitivities</td>
+<td>Pre-check allergies, avoid unsafe tasting</td>
+</tr>
+<tr class="odd">
+<td>Slips/spills</td>
+<td>Immediate cleanup and clear walkways</td>
+</tr>
+<tr class="even">
+<td>Outdoor hazards during sampling</td>
+<td>Closed shoes, sun protection, supervised movement</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="brix-reference-chart-from-source-worksheet-ocr-clean-up" class="level2">
+<h2 class="anchored" data-anchor-id="brix-reference-chart-from-source-worksheet-ocr-clean-up">Brix reference chart from source worksheet (OCR clean-up)</h2>
+<p>The worksheet includes a chart titled <strong>Refractive Index of Crop Juices Calibrated in % Sucrose or Degree Brix</strong> with poor/average/excellent bands.<br>
+Use this table as a practical benchmark in class. Keep the source PDF open for visual confirmation where values are faint.</p>
+<section id="vegetables" class="level3">
+<h3 class="anchored" data-anchor-id="vegetables">Vegetables</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Vegetable</th>
+<th style="text-align: right;">Poor</th>
+<th style="text-align: right;">Average</th>
+<th style="text-align: right;">Excellent</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Asparagus</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td>Beets</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="odd">
+<td>Bell peppers</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td>Broccoli</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="odd">
+<td>Cabbage</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">14</td>
+</tr>
+<tr class="even">
+<td>Carrots</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">18</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="odd">
+<td>Cauliflower</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td>Celery</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="odd">
+<td>Corn stalks</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td>Corn (young)</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">18</td>
+<td style="text-align: right;">24</td>
+</tr>
+<tr class="odd">
+<td>Cow peas</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td>Endive</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="odd">
+<td>English peas</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td>Escarole</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="odd">
+<td>Field peas</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td>Green beans</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="odd">
+<td>Hot peppers</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td>Kohlrabi</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="odd">
+<td>Lettuce</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td>Onions</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="odd">
+<td>Parsley</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td>Peanuts</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="odd">
+<td>Potatoes, Irish</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td>Potatoes, sweet</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="odd">
+<td>Romaine</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td>Rutabagas</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="odd">
+<td>Squash</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td>Sweet corn</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">18</td>
+<td style="text-align: right;">24</td>
+</tr>
+<tr class="odd">
+<td>Turnips</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="fruits" class="level3">
+<h3 class="anchored" data-anchor-id="fruits">Fruits</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Fruit</th>
+<th style="text-align: right;">Poor</th>
+<th style="text-align: right;">Average</th>
+<th style="text-align: right;">Excellent</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Apple</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">18</td>
+</tr>
+<tr class="even">
+<td>Avocadoes</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="odd">
+<td>Bananas</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">14</td>
+</tr>
+<tr class="even">
+<td>Cantaloupe</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="odd">
+<td>Casaba</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">14</td>
+</tr>
+<tr class="even">
+<td>Cherries</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="odd">
+<td>Coconut</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">14</td>
+</tr>
+<tr class="even">
+<td>Grapes</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">20</td>
+</tr>
+<tr class="odd">
+<td>Grapefruit</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">18</td>
+</tr>
+<tr class="even">
+<td>Honeydew</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">14</td>
+</tr>
+<tr class="odd">
+<td>Kumquat</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">12</td>
+</tr>
+<tr class="even">
+<td>Lemons</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="odd">
+<td>Limes</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td>Mangos</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="odd">
+<td>Oranges</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">20</td>
+</tr>
+<tr class="even">
+<td>Papayas</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">18</td>
+<td style="text-align: right;">22</td>
+</tr>
+<tr class="odd">
+<td>Peaches</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">18</td>
+</tr>
+<tr class="even">
+<td>Pears</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">14</td>
+</tr>
+<tr class="odd">
+<td>Pineapple</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">20</td>
+</tr>
+<tr class="even">
+<td>Raisins</td>
+<td style="text-align: right;">70</td>
+<td style="text-align: right;">75</td>
+<td style="text-align: right;">80</td>
+</tr>
+<tr class="odd">
+<td>Rasberry</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td>Strawberry</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="odd">
+<td>Tomato</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td>Watermelon</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="grasses-and-grains" class="level3">
+<h3 class="anchored" data-anchor-id="grasses-and-grains">Grasses and grains</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Item</th>
+<th style="text-align: right;">Poor</th>
+<th style="text-align: right;">Average</th>
+<th style="text-align: right;">Excellent</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Alfalfa</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">22</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td>Sorghum</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">22</td>
+<td style="text-align: right;">30</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+</section>
+<section id="student-worksheet-section-ready-to-print" class="level2">
+<h2 class="anchored" data-anchor-id="student-worksheet-section-ready-to-print">Student worksheet section (ready to print)</h2>
+<section id="names" class="level3">
+<h3 class="anchored" data-anchor-id="names">Names</h3>
+<ul>
+<li>Student 1: ____________________</li>
+<li>Student 2: ____________________</li>
+<li>Student 3: ____________________</li>
+</ul>
+</section>
+<section id="practical-checklist" class="level3">
+<h3 class="anchored" data-anchor-id="practical-checklist">Practical checklist</h3>
+<ul class="task-list">
+<li><label><input type="checkbox">I calibrated the refractometer using distilled water.</label></li>
+<li><label><input type="checkbox">I cleaned the prism between all samples.</label></li>
+<li><label><input type="checkbox">I collected 3 readings for each food sample.</label></li>
+<li><label><input type="checkbox">I calculated average Brix correctly.</label></li>
+<li><label><input type="checkbox">I compared at least two foods to benchmark values.</label></li>
+</ul>
+</section>
+<section id="reflection-prompts" class="level3">
+<h3 class="anchored" data-anchor-id="reflection-prompts">Reflection prompts</h3>
+<ul>
+<li>Which sample had the highest Brix and why do you think this happened?</li>
+<li>Did your repeated readings stay close together? Explain.</li>
+<li>What farm management action would you suggest based on your data?</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="teacher-notes-and-extension-ideas" class="level2">
+<h2 class="anchored" data-anchor-id="teacher-notes-and-extension-ideas">Teacher notes and extension ideas</h2>
+<ul>
+<li>Re-test the same crop weekly and graph trend over time.</li>
+<li>Compare sunny vs shaded growing areas.</li>
+<li>Compare irrigation regimes where appropriate.</li>
+<li>Integrate with economics: does higher Brix influence sale value?</li>
+<li>Integrate with digital tech: students build a shared class dataset.</li>
+</ul>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+<p>Urban Farm Applied Mathematics</p>
+</div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

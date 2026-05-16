@@ -28,5 +28,7 @@ See [SECURITY_AUDIT.md](SECURITY_AUDIT.md) for the scanner, pre-commit hook, and
 
 - `_quarto.yml` - site configuration
 - `index.qmd` - home page
-- `farm/` - unit content and resources
+- `units-overview.Rmd` - unit sequence overview
+- `missions/` - mission pages
+- `resources/` - shared unit resources
 - `styles.css` - shared styling

@@ -1,6 +1,25 @@
 project:
   type: website
   output-dir: docs
+  render:
+    - index.qmd
+    - units-overview.Rmd
+    - apple-unit.qmd
+    - farm-dogs.qmd
+    - friday-closedown.qmd
+    - mapping.qmd
+    - potato-patch.qmd
+    - refractometer-unit.qmd
+    - autumn-planting-seedlings.qmd
+    - weather-dunedin-kaikorai.qmd
+    - sector-and-safety.qmd
+    - missions/**/*.qmd
+    - textbook/**/*.qmd
+    - textbook/**/*.Rmd
+    - '!data/**'
+    - '!docs/**'
+    - '!farm-homework/**'
+    - '!temp-render/**'
 
 website:
   title: "Urban Farm Applied Mathematics"
@@ -9,19 +28,27 @@ website:
       - text: "Home"
         href: index.qmd
       - text: "Farm Units"
-        href: farm/index.Rmd
+        href: units-overview.Rmd
+      - text: "Unit 1: Sector and Safety"
+        href: sector-and-safety.qmd
       - text: "Farm Missions"
-        href: farm/missions/index.qmd
-      - text: "Mapping Unit"
-        href: farm/mapping.qmd
-      - text: "Potato Patch Unit"
-        href: farm/potato-patch.qmd
-      - text: "Farm Dogs Unit"
-        href: farm/farm-dogs.qmd
-      - text: "Apple Unit"
-        href: farm/apple-unit.qmd
+        href: missions/index.qmd
+      - text: "Unit 2: Mapping"
+        href: mapping.qmd
+      - text: "Unit 3: Potato Patch"
+        href: potato-patch.qmd
+      - text: "Unit 4: Farm Dogs"
+        href: farm-dogs.qmd
+      - text: "Unit 5: Apple Unit"
+        href: apple-unit.qmd
+      - text: "Unit 6: Refractometer"
+        href: refractometer-unit.qmd
+      - text: "Unit 7: Weather"
+        href: weather-dunedin-kaikorai.qmd
+      - text: "Unit 8: Autumn Planting"
+        href: autumn-planting-seedlings.qmd
       - text: "Friday Close-Down"
-        href: farm/friday-closedown.qmd
+        href: friday-closedown.qmd
       - text: "Textbook"
         href: textbook/textbook.qmd
   sidebar: false

@@ -1,0 +1,379 @@
+---
+title: "Unit 6: Practical Skills Refraction - Refractometer Unit (Year 9-10)"
+author: "Urban Farm 2026"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+## Unit overview
+
+This unit uses practical farm produce testing to connect physics, biology, and measurement.
+Students use a handheld refractometer to measure sugar concentration (Brix) in fruit and vegetables collected from around the school farm.
+
+**Recommended duration:** 4 lessons (40-60 min each)
+
+---
+
+## Source resource and core concept
+
+This unit is built from the worksheet in [resources/Practical Skills Refraction 2026.pdf](resources/Practical%20Skills%20Refraction%202026.pdf).
+
+### Core science idea from the worksheet
+
+- Light bends (refracts) when it moves between substances such as air, water, glass, or plastic.
+- Different amounts of dissolved substances bend light by different amounts.
+- Sugar is one dissolved substance we can test in food juices.
+- A refractometer measures sugar content in Degree Brix (% sucrose equivalent).
+- Higher Brix generally indicates greater sweetness and, in many crops, greater ripeness.
+
+### Why this matters on a farm
+
+- Farmers can estimate ripeness and harvest timing.
+- Brix helps compare crop quality across paddocks, varieties, and seasons.
+- Results support decisions about eating quality, processing, preserving, and market timing.
+
+---
+
+## Learning goals
+
+By the end of this unit, students can:
+
+- explain refraction in simple scientific language
+- calibrate and safely use a refractometer
+- collect and prepare juice samples from produce
+- take repeated measurements and calculate averages
+- compare measured values to a Brix reference chart
+- evaluate crop quality (poor, average, good, excellent)
+- communicate findings with evidence and farm recommendations
+
+---
+
+## Curriculum links (New and Old NZ Curriculum)
+
+### Curriculum source links
+
+- Old NZ Curriculum (NZC 2007): [The New Zealand Curriculum](https://nzcurriculum.tki.org.nz/The-New-Zealand-Curriculum)
+- NZC 2007 Science learning area and achievement objectives: [Science in NZC](https://nzcurriculum.tki.org.nz/The-New-Zealand-Curriculum/Science)
+- NZC 2007 Mathematics and Statistics learning area: [Mathematics and Statistics in NZC](https://nzcurriculum.tki.org.nz/The-New-Zealand-Curriculum/Mathematics-and-statistics)
+- Refreshed NZ Curriculum / Te Mataiaho portal: [Curriculum Refresh](https://curriculumrefresh.education.govt.nz)
+- Te Mataiaho framework information: [Te Mataiaho](https://curriculumrefresh.education.govt.nz/te-mataiaho)
+
+## Old NZ Curriculum (NZC 2007) links
+
+### Science (Level 5, Years 9-10)
+
+- **Nature of Science - Investigating in science**: Carry out investigations using equipment safely, gather and interpret data, and draw evidence-based conclusions.
+- **Physical world**: Explore light behavior (refraction) and how optical tools work.
+- **Material world**: Understand solutions and concentration in real contexts.
+- **Living world (contextual link)**: Connect plant products and quality indicators to growing conditions and biology.
+
+### Mathematics and Statistics (Level 5)
+
+- **Measurement**: Use and interpret scales accurately (Brix readings).
+- **Statistics**: Plan data collection, calculate mean values, compare groups, and discuss variability.
+- **Number and algebra (applied)**: Compute averages, differences, and simple percent-style interpretations.
+
+### Technology / Agricultural context links
+
+- Use of practical farm tools and procedures.
+- Product quality testing and decision-making from evidence.
+
+## New NZ Curriculum (Refresh / Te Mataiaho) alignment
+
+This unit aligns with the refreshed intent for Years 9-10 by integrating:
+
+- **Understand, Know, Do progression** through scientific knowledge applied in a local context.
+- **Science practices**: observing, measuring, testing, analyzing, and communicating findings.
+- **Local curriculum design**: learning from school-farm environments and authentic produce.
+- **Key competencies in action**:
+  - Thinking (interpreting evidence)
+  - Using language, symbols, and texts (tables, units, graphs)
+  - Managing self (safe practical workflow)
+  - Relating to others (group roles)
+  - Participating and contributing (farm quality decisions)
+
+---
+
+## Unit plan at a glance
+
+| Lesson | Focus | Practical outcome | Data outcome |
+|---|---|---|---|
+| 1 | Physics of refraction and instrument setup | Refractometer safely calibrated with distilled water | Baseline zero checks recorded |
+| 2 | Sampling and measurement routine | Produce juices prepared and tested correctly | 3 readings per item collected |
+| 3 | Data analysis and quality rating | Brix averages calculated for each food | Results compared to reference values |
+| 4 | Farm recommendations and communication | Group report/poster completed | Evidence-based quality conclusions shared |
+
+---
+
+## Detailed lesson plan
+
+## Lesson 1: Refraction and refractometer setup
+
+**Time:** 50 min  
+**Learning intention:** Understand how light refraction allows sugar measurement.  
+**Success criteria:** Students explain Brix and correctly calibrate the instrument.
+
+### Lesson flow
+
+1. **Hook and context (10 min)**
+- Show refractometer and explain farm use.
+- Prompt: Why might farmers care about sugar levels?
+
+2. **Teach concept (10 min)**
+- Light bends between materials.
+- More dissolved solids change refraction and shift reading.
+- Degree Brix = approximate percent sucrose equivalent.
+
+3. **Safety and handling (10 min)**
+- Carry device with two hands.
+- Never scratch prism plate.
+- Clean with soft tissue and distilled water only.
+- No sharing droppers between unknown liquids without rinsing.
+
+4. **Calibration practical (15 min)**
+- Place distilled water on prism.
+- Close flap.
+- Read scale.
+- If needed, adjust top screw to zero (teacher supervised).
+
+5. **Exit check (5 min)**
+- Students write one sentence: How does a refractometer use light?
+
+### Resources
+
+- refractometers
+- distilled water
+- droppers/pipettes
+- lens tissue/soft wipes
+- gloves and eye protection as required
+
+---
+
+## Lesson 2: Sample collection and Brix testing
+
+**Time:** 50-60 min  
+**Learning intention:** Follow a valid sampling procedure and collect reliable data.  
+**Success criteria:** Students gather 3 repeat measurements for each selected item.
+
+### Procedure (from source worksheet)
+
+1. Select fruit/vegetables from around the farm.
+2. Prepare juice using a juicer or fork-mash and squeeze method.
+3. Place a small drop on prism.
+4. Close flap and take reading.
+5. Wipe prism with distilled water between every sample.
+6. Repeat readings for each item (at least three readings).
+7. Record and compute average Brix.
+
+### Group roles
+
+- sampler
+- juicer/prep lead
+- instrument operator
+- recorder/calculator
+- hygiene and cleanup checker
+
+### Data table template
+
+| Food item | Brix reading 1 | Brix reading 2 | Brix reading 3 | Average |
+|---|---:|---:|---:|---:|
+| Dissolved sugar (control) |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
+
+---
+
+## Lesson 3: Analysis and benchmarking
+
+**Time:** 50 min  
+**Learning intention:** Compare measured values against typical Brix ranges.  
+**Success criteria:** Students classify at least two produce items and justify their judgement.
+
+### Required analysis questions (from source worksheet)
+
+1. Which food had the highest Brix measurement?
+2. Compare your results for at least two foods with typical measurements.
+3. Classify each as poor, average, good, or excellent.
+
+### Useful analysis extensions for Year 9-10
+
+- Range: max minus min for each item.
+- Reliability: discuss why repeats may vary.
+- Graphing: bar chart of average Brix by food type.
+- Evidence claim: Which crop area is producing sweetest produce and why?
+
+---
+
+## Lesson 4: Farm decision making and communication
+
+**Time:** 50 min  
+**Learning intention:** Use evidence to make practical farm recommendations.  
+**Success criteria:** Group presents clear recommendations linked to data.
+
+### Suggested presentation outputs
+
+- One-page farm quality report
+- Poster with table and graph
+- Short oral briefing to class/farm team
+
+### Required recommendation prompts
+
+- Which produce should be harvested now?
+- Which crops may need more time, water, or nutrient support?
+- What would you re-test next week to track change?
+
+---
+
+## Assessment plan
+
+## Formative checks
+
+- Safe tool use and calibration accuracy
+- Correct cleaning between samples
+- Complete data table with repeated readings
+
+## Summative task
+
+Group investigation report including:
+
+- method used
+- raw data and averages
+- comparison against reference ranges
+- quality classification (poor to excellent)
+- evidence-based farm recommendations
+
+### Suggested rubric (4-point)
+
+| Criterion | 1 Beginning | 2 Developing | 3 Proficient | 4 Advanced |
+|---|---|---|---|---|
+| Practical method | Unsafe/incomplete | Some errors | Correct and safe | Precise and consistent |
+| Data quality | Limited data | Some repeats | 3+ repeats and averages | Strong repeats plus error discussion |
+| Science explanation | Minimal | Basic links | Clear refraction-Brix explanation | Deep explanation with examples |
+| Application to farm | Vague | Some practical links | Clear recommendations | Insightful recommendations with next-step testing |
+
+---
+
+## Health and safety controls
+
+| Risk | Control |
+|---|---|
+| Glass/plastic instrument damage | Handle over bench/tray, teacher demonstration first |
+| Contamination between samples | Distilled water rinse and wipe every sample |
+| Food hygiene | Gloves where needed, clean tools and surfaces |
+| Allergies/sensitivities | Pre-check allergies, avoid unsafe tasting |
+| Slips/spills | Immediate cleanup and clear walkways |
+| Outdoor hazards during sampling | Closed shoes, sun protection, supervised movement |
+
+---
+
+## Brix reference chart from source worksheet (OCR clean-up)
+
+The worksheet includes a chart titled **Refractive Index of Crop Juices Calibrated in % Sucrose or Degree Brix** with poor/average/excellent bands.  
+Use this table as a practical benchmark in class. Keep the source PDF open for visual confirmation where values are faint.
+
+### Vegetables
+
+| Vegetable | Poor | Average | Excellent |
+|---|---:|---:|---:|
+| Asparagus |  |  |  |
+| Beets | 10 | 12 |  |
+| Bell peppers |  | 12 |  |
+| Broccoli | 10 | 12 |  |
+| Cabbage | 10 | 12 | 14 |
+| Carrots | 12 | 18 |  |
+| Cauliflower | 10 |  |  |
+| Celery | 10 | 12 |  |
+| Corn stalks |  | 20 |  |
+| Corn (young) | 10 | 18 | 24 |
+| Cow peas | 10 | 12 |  |
+| Endive | 10 |  |  |
+| English peas |  | 14 |  |
+| Escarole | 10 |  |  |
+| Field peas | 10 | 12 |  |
+| Green beans | 10 |  |  |
+| Hot peppers | 10 |  |  |
+| Kohlrabi | 10 | 12 |  |
+| Lettuce | 10 |  |  |
+| Onions | 10 |  |  |
+| Parsley | 10 |  |  |
+| Peanuts | 10 |  |  |
+| Potatoes, Irish | 10 | 14 |  |
+| Potatoes, sweet | 10 | 14 |  |
+| Romaine | 10 |  |  |
+| Rutabagas | 10 | 12 |  |
+| Squash | 12 | 14 |  |
+| Sweet corn | 10 | 18 | 24 |
+| Turnips | 10 |  |  |
+
+### Fruits
+
+| Fruit | Poor | Average | Excellent |
+|---|---:|---:|---:|
+| Apple | 10 | 14 | 18 |
+| Avocadoes | 10 |  |  |
+| Bananas | 10 | 12 | 14 |
+| Cantaloupe | 12 | 16 |  |
+| Casaba | 12 | 10 | 14 |
+| Cherries | 14 | 16 |  |
+| Coconut | 10 | 14 | 14 |
+| Grapes | 12 | 14 | 20 |
+| Grapefruit | 10 | 14 | 18 |
+| Honeydew | 10 | 12 | 14 |
+| Kumquat | 10 | 10 | 12 |
+| Lemons | 12 |  |  |
+| Limes | 10 | 12 |  |
+| Mangos | 10 | 14 |  |
+| Oranges | 10 | 16 | 20 |
+| Papayas | 10 | 18 | 22 |
+| Peaches | 10 | 14 | 18 |
+| Pears | 10 | 12 | 14 |
+| Pineapple | 12 | 14 | 20 |
+| Raisins | 70 | 75 | 80 |
+| Rasberry | 12 | 14 |  |
+| Strawberry |  | 16 |  |
+| Tomato |  | 12 |  |
+| Watermelon | 12 |  |  |
+
+### Grasses and grains
+
+| Item | Poor | Average | Excellent |
+|---|---:|---:|---:|
+| Alfalfa | 16 | 22 |  |
+| Sorghum | 10 | 22 | 30 |
+
+---
+
+## Student worksheet section (ready to print)
+
+### Names
+
+- Student 1: ____________________
+- Student 2: ____________________
+- Student 3: ____________________
+
+### Practical checklist
+
+- [ ] I calibrated the refractometer using distilled water.
+- [ ] I cleaned the prism between all samples.
+- [ ] I collected 3 readings for each food sample.
+- [ ] I calculated average Brix correctly.
+- [ ] I compared at least two foods to benchmark values.
+
+### Reflection prompts
+
+- Which sample had the highest Brix and why do you think this happened?
+- Did your repeated readings stay close together? Explain.
+- What farm management action would you suggest based on your data?
+
+---
+
+## Teacher notes and extension ideas
+
+- Re-test the same crop weekly and graph trend over time.
+- Compare sunny vs shaded growing areas.
+- Compare irrigation regimes where appropriate.
+- Integrate with economics: does higher Brix influence sale value?
+- Integrate with digital tech: students build a shared class dataset.

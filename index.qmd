@@ -8,12 +8,17 @@ This standalone site contains the Urban Farm applied mathematics units, separate
 
 ### Units
 
-- [Farm Units overview](farm/index.Rmd)
-- [Unit 1: Mapping the School Farm](farm/mapping.qmd)
-- [Unit 2: Potato Patch Prep](farm/potato-patch.qmd)
-- [Unit 3: Apple Unit (2 lessons)](farm/apple-unit.qmd)
+- [Farm Units overview](units-overview.Rmd)
+- [Unit 1: Sector and Safety](sector-and-safety.qmd)
+- [Unit 2: Mapping the School Farm](mapping.qmd)
+- [Unit 3: Potato Patch Prep](potato-patch.qmd)
+- [Unit 4: Farm Dogs and Working with Sheep](farm-dogs.qmd)
+- [Unit 5: Apple Unit (2 lessons)](apple-unit.qmd)
+- [Unit 6: Refractometer Testing](refractometer-unit.qmd)
+- [Unit 7: Weather, Forecasting, and Environmental Impacts](weather-dunedin-kaikorai.qmd)
+- [Unit 8: Autumn Planting (Seedlings)](autumn-planting-seedlings.qmd)
 
 ### Farm Operations
 
-- [Farm Missions](farm/missions/index.qmd) - Regular maintenance tasks
-- [Friday Close-Down Checklist](farm/friday-closedown.qmd)
+- [Farm Missions](missions/index.qmd) - Regular maintenance tasks
+- [Friday Close-Down Checklist](friday-closedown.qmd)

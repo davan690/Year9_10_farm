@@ -1,0 +1,167 @@
+---
+title: "Applied Mathematics: Farm Units"
+author: "Urban Farm 2026"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+```
+
+## Overview
+
+This section contains the course sequence for the school farm programme. The opening unit introduces primary sectors, sustainability, location factors, and rural safety before students move into the practical farm units.
+
+---
+
+## Unit 1: Sector and Safety
+
+Focus on the structure of New Zealand's primary industries, sustainability, location factors, rural safety, and introductory agricultural science vocabulary.
+
+**What you'll do**
+
+- Learn the seven key primary sectors in New Zealand.
+- Explore sustainability, biodiversity, and resource management.
+- Study why industries are located in different regions.
+- Practise rural safety knowledge and agricultural science vocabulary.
+
+- Go to: [Unit 1: Sector and Safety](sector-and-safety.qmd)
+
+---
+
+## Unit 2: Mapping the School Farm (3 weeks)
+
+Focus on mapping the farm, measuring areas and distances, and producing a final map for the workbook.
+
+![](resources/use-google-my-maps-map-your-farm_assets/page1_img1.png){width=70%}
+
+**What you'll do**
+
+- Build layers for existing and proposed features.
+- Measure paddocks and distances.
+- Export a clean PDF map for your workbook.
+
+- Go to: [Unit 2: Mapping the School Farm](mapping.qmd)
+
+---
+
+## Unit 3: Potato Patch Prep (3 lessons)
+
+Focus on hazards, tool safety, and practical preparation of the potato patch.
+
+**What you'll do**
+
+- Identify hazards and agree on controls.
+- Turn over soil and remove turf.
+- Compost and level the patch for planting.
+
+- Go to: [Unit 3: Potato Patch Prep](potato-patch.qmd)
+
+---
+
+## Unit 4: Farm Dogs & Working with Sheep (2 lessons)
+
+Focus on the role of working dogs in livestock movement, animal welfare, and farm safety.
+
+**What you'll do**
+
+- Learn how farm dogs support sheep and paddock operations.
+- Practise observation and command-response analysis.
+- Complete a practical lesson with Jess the sheepdog.
+
+- Go to: [Unit 4: Farm Dogs & Working with Sheep](farm-dogs.qmd)
+
+---
+
+## Unit 5: Apple Unit (2 lessons)
+
+Focus on harvesting, cleaning, weighing, and bagging apples for sale while applying measurement and money maths.
+
+**What you'll do**
+
+- Pick and handle fruit safely.
+- Clean and sort apples by quality.
+- Weigh fruit accurately and pack sale bags.
+- Calculate total expected income from packed fruit.
+
+- Go to: [Unit 5: Apple Unit](apple-unit.qmd)
+
+---
+
+## Unit 6: Refractometer Testing - Sugar Levels in Farm Produce (4 lessons)
+
+Focus on measuring sugar levels (Brix) in fruit and vegetables from around the farm using a refractometer.
+
+**What you'll do**
+
+- Learn how light refraction is used in practical farm testing.
+- Calibrate and use a refractometer safely.
+- Test and compare produce quality using Brix readings.
+- Make evidence-based recommendations for harvest timing and crop quality.
+
+- Go to: [Unit 6: Refractometer Testing](refractometer-unit.qmd)
+
+---
+
+## Unit 7: Weather, Forecasting, and Environmental Impacts (Dunedin and Kaikorai Valley)
+
+Focus on reading local forecasts, interpreting conditions in Kaikorai Valley, and evaluating impacts on native and invasive species, animals and plants, with air quality monitoring integrated from current KVC practice.
+
+**What you'll do**
+
+- Track daily forecasts and compare forecast vs observed conditions.
+- Assess weather impacts on native versus invasive species.
+- Compare animal welfare impacts with plant growth and stress impacts.
+- Use KVC air quality observations as part of farm risk planning.
+
+- Go to: [Unit 7: Weather, Forecasting, and Environmental Impacts](weather-dunedin-kaikorai.qmd)
+
+---
+
+## Unit 8: Autumn Planting (Seedlings) (3 lessons)
+
+Focus on choosing hardy autumn crops, sowing seeds accurately, and caring for seedlings before transplanting.
+
+**What you'll do**
+
+- Compare cool-season crops for Otago conditions.
+- Learn how water, oxygen, and temperature support germination.
+- Sow, label, and record trays correctly.
+- Plan how to harden off seedlings before planting out.
+
+- Go to: [Unit 8: Autumn Planting (Seedlings)](autumn-planting-seedlings.qmd)
+
+---
+
+## Farm Operations
+
+### Farm Missions
+
+Regular maintenance and care tasks that anyone can undertake. Each mission focuses on a specific area of farm management with detailed instructions and ticklists.
+
+**Available Missions:**
+
+- Mission 1: Animal Care & Observation
+- Mission 2: Garden & Berry House Maintenance
+- Mission 3: Restoration & Tree Health
+- Mission 4: Environmental Observation
+- Mission 5: Organisation & Inventory
+
+- Go to: [Farm Missions Overview](missions/index.qmd)
+
+---
+
+### Friday Close-Down Checklist
+
+A quick final check for Friday afternoon to ensure the farm is secure, clean, and ready for the weekend.
+
+**What you'll do**
+
+- Verify all animals have weekend supplies
+- Confirm tools and equipment are secured
+- Check gates, doors, and utilities
+- Ensure the farm is ready for Monday
+
+- Go to: [Friday Close-Down Checklist](friday-closedown.qmd)
