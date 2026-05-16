@@ -4,7 +4,7 @@
     "href": "textbook/textbook.html",
     "title": "Textbook",
     "section": "",
-    "text": "Welcome to the textbook section for Urban Farm Applied Mathematics."
+    "text": "Welcome to the textbook section for Urban Farm Applied Mathematics.\n\nThis textbook combines farm science and practical maths so students can learn with real places, real tasks, and real data."
   },
   {
     "objectID": "textbook/textbook.html#overview",
@@ -18,7 +18,7 @@
     "href": "textbook/textbook.html#key-concepts",
     "title": "Textbook",
     "section": "Key Concepts",
-    "text": "Key Concepts\n\nTypes of Farming\nSustainable Practices\nTechnology in Farming"
+    "text": "Key Concepts\n\nTypes of Farming\nSustainable Practices\nTechnology in Farming\n\n\nStudent Image Prompt\nUse the image below to discuss: What jobs happen in this space each day, and what measurements would help plan those jobs?"
   },
   {
     "objectID": "textbook/textbook.html#overview-1",
@@ -32,7 +32,7 @@
     "href": "textbook/textbook.html#key-concepts-1",
     "title": "Textbook",
     "section": "Key Concepts",
-    "text": "Key Concepts\n\nWeather Impact\nEconomic Factors\nPest Control Strategies"
+    "text": "Key Concepts\n\nWeather Impact\nEconomic Factors\nPest Control Strategies\n\n\nStudent Image Prompt\nLook at the chicken area image and list three risks and three improvements. Then rank them from most urgent to least urgent."
   },
   {
     "objectID": "missions/mission4-environmental-observation.html",
@@ -109,7 +109,7 @@
     "href": "missions/mission2-garden-maintenance.html#the-berry-house-mission",
     "title": "Mission 2: Garden & Berry House Maintenance",
     "section": "The Berry House Mission",
-    "text": "The Berry House Mission\nMaintain the berry house for optimal fruit production:\n\nWeed around the base of the berry plants\nApply a fresh layer of wood chips to suppress future weeds and hold moisture\nCheck berry plants for fruit development\nRemove any dead canes or leaves\nEnsure plants are properly supported\n\nBerry Care Notes: - Wood chip mulch helps retain moisture - Keep 5cm space between mulch and plant stems - Monitor for signs of disease or pest damage"
+    "text": "The Berry House Mission\nMaintain the berry house for optimal fruit production:\n\n\nWeed around the base of the berry plants\nApply a fresh layer of wood chips to suppress future weeds and hold moisture\nCheck berry plants for fruit development\nRemove any dead canes or leaves\nEnsure plants are properly supported\n\nBerry Care Notes: - Wood chip mulch helps retain moisture - Keep 5cm space between mulch and plant stems - Monitor for signs of disease or pest damage"
   },
   {
     "objectID": "missions/mission2-garden-maintenance.html#planting-propagation",
@@ -144,7 +144,7 @@
     "href": "missions/index.html#available-missions",
     "title": "Farm Missions",
     "section": "Available Missions",
-    "text": "Available Missions\n\nMission 1: Animal Care & Observation\nFocus: Chickens and paddock animals\nEnsure the health and wellbeing of our farm animals through proper feeding, watering, and observation.\n\nCheck and refill water containers\nProvide feed and treats\nObserve animal health and behavior\nMaintain clean bedding\n\nGo to Mission 1: Animal Care & Observation\n\n\n\nMission 2: Garden & Berry House Maintenance\nFocus: Vegetables, berries, and seedlings\nMaintain the health and productivity of our garden beds, berry house, and young plants.\n\nWater raised beds and herb boxes\nWeed and aerate garden beds\nMaintain berry house mulching\nCare for seedlings in tunnel house\n\nGo to Mission 2: Garden & Berry House Maintenance\n\n\n\nMission 3: Restoration & Tree Health\nFocus: Native plantings and invasive species control\nProtect and maintain the farm’s restoration areas through weed control and tree monitoring.\n\nRemove invasive gorse\nCheck young tree health\nMaintain tree guards and stakes\nMonitor restoration progress\n\nGo to Mission 3: Restoration & Tree Health\n\n\n\nMission 4: Environmental Observation\nFocus: Ecosystem monitoring and biodiversity\nObserve and document environmental conditions to understand ecosystem health.\n\nStudy stream water quality and flow\nMonitor bee hive activity\nRecord wildlife observations\nTrack seasonal changes\n\nGo to Mission 4: Environmental Observation\n\n\n\nMission 5: Organisation & Inventory\nFocus: Workspace maintenance and tool care\nMaintain an organized, safe, and efficient farm workspace.\n\nTidy barn and shed areas\nOrganize wood pile and pots\nClean and maintain tools\nConduct security checks\n\nGo to Mission 5: Organisation & Inventory"
+    "text": "Available Missions\n\nMission 1: Animal Care & Observation\nFocus: Chickens and paddock animals\n\nEnsure the health and wellbeing of our farm animals through proper feeding, watering, and observation.\n\nCheck and refill water containers\nProvide feed and treats\nObserve animal health and behavior\nMaintain clean bedding\n\nGo to Mission 1: Animal Care & Observation\n\n\n\nMission 2: Garden & Berry House Maintenance\nFocus: Vegetables, berries, and seedlings\n\nMaintain the health and productivity of our garden beds, berry house, and young plants.\n\nWater raised beds and herb boxes\nWeed and aerate garden beds\nMaintain berry house mulching\nCare for seedlings in tunnel house\n\nGo to Mission 2: Garden & Berry House Maintenance\n\n\n\nMission 3: Restoration & Tree Health\nFocus: Native plantings and invasive species control\n\nProtect and maintain the farm’s restoration areas through weed control and tree monitoring.\n\nRemove invasive gorse\nCheck young tree health\nMaintain tree guards and stakes\nMonitor restoration progress\n\nGo to Mission 3: Restoration & Tree Health\n\n\n\nMission 4: Environmental Observation\nFocus: Ecosystem monitoring and biodiversity\n\nObserve and document environmental conditions to understand ecosystem health.\n\nStudy stream water quality and flow\nMonitor bee hive activity\nRecord wildlife observations\nTrack seasonal changes\n\nGo to Mission 4: Environmental Observation\n\n\n\nMission 5: Organisation & Inventory\nFocus: Workspace maintenance and tool care\n\nMaintain an organized, safe, and efficient farm workspace.\n\nTidy barn and shed areas\nOrganize wood pile and pots\nClean and maintain tools\nConduct security checks\n\nGo to Mission 5: Organisation & Inventory"
   },
   {
     "objectID": "missions/index.html#how-to-complete-a-mission",
@@ -168,81 +168,536 @@
     "text": "Ready to Begin?\nChoose a mission above and start contributing to our urban farm ecosystem. Remember: careful observation and attention to detail make the best farm stewards! 🌾"
   },
   {
-    "objectID": "weather-dunedin-kaikorai.html",
-    "href": "weather-dunedin-kaikorai.html",
-    "title": "Unit 7: Weather, Forecasting, and Environmental Impacts (Dunedin and Kaikorai Valley)",
+    "objectID": "hazards-unit.html",
+    "href": "hazards-unit.html",
+    "title": "Applied Mathematics: Farm Units",
     "section": "",
-    "text": "This unit explores local weather systems in Dunedin and Kaikorai Valley and connects forecasts to practical decisions on the KVC farm. You will study how weather conditions affect native and invasive species, compare plant versus animal impacts, and use air quality monitoring data already collected at KVC."
+    "text": "This end-of-term project asks students to complete a full farm hazard audit, build evidence-based controls, and present a final safety poster and briefing."
   },
   {
-    "objectID": "weather-dunedin-kaikorai.html#overview",
-    "href": "weather-dunedin-kaikorai.html#overview",
-    "title": "Unit 7: Weather, Forecasting, and Environmental Impacts (Dunedin and Kaikorai Valley)",
+    "objectID": "hazards-unit.html#overview",
+    "href": "hazards-unit.html#overview",
+    "title": "Applied Mathematics: Farm Units",
     "section": "",
-    "text": "This unit explores local weather systems in Dunedin and Kaikorai Valley and connects forecasts to practical decisions on the KVC farm. You will study how weather conditions affect native and invasive species, compare plant versus animal impacts, and use air quality monitoring data already collected at KVC."
+    "text": "This end-of-term project asks students to complete a full farm hazard audit, build evidence-based controls, and present a final safety poster and briefing."
   },
   {
-    "objectID": "weather-dunedin-kaikorai.html#learning-goals",
-    "href": "weather-dunedin-kaikorai.html#learning-goals",
-    "title": "Unit 7: Weather, Forecasting, and Environmental Impacts (Dunedin and Kaikorai Valley)",
+    "objectID": "hazards-unit.html#big-project-goal",
+    "href": "hazards-unit.html#big-project-goal",
+    "title": "Applied Mathematics: Farm Units",
+    "section": "Big Project Goal",
+    "text": "Big Project Goal\nCreate a practical, student-led hazard management pack for one school farm area that includes:\n\nHazard identification and risk scoring\nControl and mitigation plan\nSafety communication poster\nTeam presentation with peer feedback"
+  },
+  {
+    "objectID": "hazards-unit.html#learning-outcomes",
+    "href": "hazards-unit.html#learning-outcomes",
+    "title": "Applied Mathematics: Farm Units",
+    "section": "Learning Outcomes",
+    "text": "Learning Outcomes\nBy the end of this unit, students can:\n\nIdentify hazards in a real farm context using a consistent process.\nExplain risk using likelihood, impact, and risk score.\nPropose controls using elimination, isolation, and minimisation.\nCommunicate safety expectations with clear visuals and plain language.\nReflect on safe practice and team responsibility."
+  },
+  {
+    "objectID": "hazards-unit.html#project-workflow",
+    "href": "hazards-unit.html#project-workflow",
+    "title": "Applied Mathematics: Farm Units",
+    "section": "Project Workflow",
+    "text": "Project Workflow\n\nPhase 1: Induction and Setup\n\nRead project instructions and complete safety induction.\nSign the student safety contract.\nReview model posters and unit examples.\n\n\n\nPhase 2: Field Audit and Evidence\n\nChoose a farm area or tool focus.\nRecord hazards, tasks, tools, and people affected.\nGather evidence with notes, photos, and observation logs.\n\n\n\nPhase 3: Controls and Resource Design\n\nBuild control actions and safe-work steps.\nDraft a safety poster from the template.\nPrepare speaking notes and presentation slides.\n\n\n\nPhase 4: Presentation and Sign-Off\n\nPresent findings to class.\nGive and receive peer feedback.\nSubmit final poster, log, and monitoring actions."
+  },
+  {
+    "objectID": "hazards-unit.html#unit-resource-pack",
+    "href": "hazards-unit.html#unit-resource-pack",
+    "title": "Applied Mathematics: Farm Units",
+    "section": "Unit Resource Pack",
+    "text": "Unit Resource Pack\n\nCore Unit Files\n\nMaster Unit Plan: Farm Safety and Management\nStudent Project Instructions: Farm Safety Audit\nStudent Presentation Template: Farm Safety\nClassroom Support: Peer Feedback and Poster Guides\nWeekly Farm Monitoring Log\nFarm Hazards Poster Template\n\n\n\nHealth and Safety Documents\n\nHealth and Safety Induction (PDF)\nHealth and Safety Induction (PPT)\nStudent Farm Safety Contract\nPPE Reference: Gear up for Ag PPE Kit\n\n\n\nVisual Examples\n\nFeed Storage Hazard Example Image\nManual Wire Snips Hazard Example Image"
+  },
+  {
+    "objectID": "hazards-unit.html#suggested-assessment-evidence",
+    "href": "hazards-unit.html#suggested-assessment-evidence",
+    "title": "Applied Mathematics: Farm Units",
+    "section": "Suggested Assessment Evidence",
+    "text": "Suggested Assessment Evidence\n\nCompleted hazard audit table for one chosen context\nDraft and final safety poster\nPresentation and peer feedback notes\nWeekly monitoring entry and improvement actions"
+  },
+  {
+    "objectID": "hazards-unit.html#teacher-note",
+    "href": "hazards-unit.html#teacher-note",
+    "title": "Applied Mathematics: Farm Units",
+    "section": "Teacher Note",
+    "text": "Teacher Note\nThe folders hazards/posters and hazards/Tools are available for adding student poster exports and tool-specific reference files over time.\n\n\n```{r setup, include=FALSE} knitr::opts_chunk$set(echo = FALSE)\n```"
+  },
+  {
+    "objectID": "autumn-planting-seedlings.html",
+    "href": "autumn-planting-seedlings.html",
+    "title": "Unit 8: Autumn Planting (Seedlings)",
+    "section": "",
+    "text": "This 3-lesson unit focuses on raising cool-season seedlings for autumn planting in Otago. Students investigate why crop choice matters, sow seeds using a controlled method, and care for seedlings so they are ready to harden off and transplant.\nThis unit is adapted from the existing autumn planting resources in the repo and supported by new classroom-ready files in the resources folder.\n\n\n\nOtago Autumn Planting Lessons.docx\nAutumn Champion Crop Profile Assignment.docx\nAutumn planting seedling crop guide\nAutumn planting student workbook\nAutumn planting tray log"
+  },
+  {
+    "objectID": "autumn-planting-seedlings.html#unit-overview",
+    "href": "autumn-planting-seedlings.html#unit-overview",
+    "title": "Unit 8: Autumn Planting (Seedlings)",
+    "section": "",
+    "text": "This 3-lesson unit focuses on raising cool-season seedlings for autumn planting in Otago. Students investigate why crop choice matters, sow seeds using a controlled method, and care for seedlings so they are ready to harden off and transplant.\nThis unit is adapted from the existing autumn planting resources in the repo and supported by new classroom-ready files in the resources folder.\n\n\n\nOtago Autumn Planting Lessons.docx\nAutumn Champion Crop Profile Assignment.docx\nAutumn planting seedling crop guide\nAutumn planting student workbook\nAutumn planting tray log"
+  },
+  {
+    "objectID": "autumn-planting-seedlings.html#purpose",
+    "href": "autumn-planting-seedlings.html#purpose",
+    "title": "Unit 8: Autumn Planting (Seedlings)",
+    "section": "Purpose",
+    "text": "Purpose\nStudents learn how local climate affects planting decisions and apply that knowledge in a practical seed-raising sequence. The emphasis is on choosing hardy autumn crops, using seed trays and warming mats correctly, and managing seedling health before transplanting."
+  },
+  {
+    "objectID": "autumn-planting-seedlings.html#learning-goals",
+    "href": "autumn-planting-seedlings.html#learning-goals",
+    "title": "Unit 8: Autumn Planting (Seedlings)",
+    "section": "Learning goals",
+    "text": "Learning goals\nBy the end of this unit, students can:\n\nexplain why autumn planting in Otago focuses on establishment rather than fast growth\nselect suitable cool-season crops for local conditions\nsow seeds at an appropriate depth and label trays accurately\ndescribe the role of water, oxygen, and temperature in germination\nmonitor seedling health and identify common risks such as leggy growth and damping off\ncreate a simple hardening-off plan before transplanting"
+  },
+  {
+    "objectID": "autumn-planting-seedlings.html#lesson-structure-3-lessons",
+    "href": "autumn-planting-seedlings.html#lesson-structure-3-lessons",
+    "title": "Unit 8: Autumn Planting (Seedlings)",
+    "section": "Lesson structure (3 lessons)",
+    "text": "Lesson structure (3 lessons)\n\n\n\n\n\n\n\n\nLesson\nFocus\nOutcome\n\n\n\n\nLesson 1\nCrop selection and seasonality\nStudents choose suitable autumn crops and justify why they suit Otago conditions.\n\n\nLesson 2\nGermination and sowing\nSeed trays are sown correctly, labelled, and placed for germination.\n\n\nLesson 3\nSeedling care and hardening off\nStudents inspect seedling health and produce a transplant preparation plan."
+  },
+  {
+    "objectID": "autumn-planting-seedlings.html#lesson-1-choosing-the-right-autumn-crop",
+    "href": "autumn-planting-seedlings.html#lesson-1-choosing-the-right-autumn-crop",
+    "title": "Unit 8: Autumn Planting (Seedlings)",
+    "section": "Lesson 1: Choosing the right autumn crop",
+    "text": "Lesson 1: Choosing the right autumn crop\nGoal: Understand why autumn planting in Otago requires hardy crops and realistic expectations about growth.\n\nKey teaching idea\nAutumn planting in Otago is mainly about building roots and establishing plants before winter. Lower light levels, cooler air, and frost risk mean students must choose crops that can cope with slow growth and cold conditions.\n\n\nStarter discussion\n\nWhy can two farms plant the same seed at different times and get different results?\nWhat changes in autumn besides temperature?\nWhy might a warming mat help germination but not solve every growing problem?\n\n\n\nStudent activities\n\nReview the crop guide and identify crops suited to autumn sowing.\nCompare crop needs using germination temperature, days to germinate, and harvest window.\nSelect one crop for the class tray or group tray.\nComplete a short justification using:\n\nfrost tolerance\nexpected harvest window\nlikely success in Dunedin or Otago conditions\n\n\n\n\nSuggested crops\n\nbroad beans\nspinach\nkale\nsilverbeet\nwinter cabbage\npak choy\ngarlic for a seasonal comparison discussion\n\n\n\nGroup task structure\n\n\n\n\n\n\n\n\n\nGroup\nStudents\nTask focus\nKey actions\n\n\n\n\nGroup A\n7\nClimate and seasonality\nIdentify local autumn limits: light, frost, and slower growth.\n\n\nGroup B\n7\nCrop comparison\nUse the crop guide to compare hardy options.\n\n\nGroup C\n6\nRecommendation\nChoose crops and report back with reasons.\n\n\n\n\n\nTiming (40-50 min)\n\n0-10 min: Intro discussion on seasonality and local conditions.\n10-20 min: Crop guide reading and teacher modelling.\n20-35 min: Group comparison and recommendation task.\n35-45 min: Share decisions and record chosen crops.\n45-50 min: Exit slip or workbook reflection.\n\n\n\nSuccess criteria\n\nI can name at least two crops suited to autumn planting.\nI can explain why decreasing daylight matters.\nI can justify one crop choice using evidence."
+  },
+  {
+    "objectID": "autumn-planting-seedlings.html#lesson-2-germination-and-seed-sowing",
+    "href": "autumn-planting-seedlings.html#lesson-2-germination-and-seed-sowing",
+    "title": "Unit 8: Autumn Planting (Seedlings)",
+    "section": "Lesson 2: Germination and seed sowing",
+    "text": "Lesson 2: Germination and seed sowing\nGoal: Sow seeds accurately and explain how germination works.\n\nKey teaching idea\nSeeds need water, oxygen, and suitable temperature to start growing. Warming mats help the soil reach a useful germination temperature, but students still need correct depth, moisture, and labelling.\n\n\nCore science idea: W.O.T.\n\nWater: activates the seed and starts internal processes\nOxygen: allows respiration so the embryo can release energy\nTemperature: helps enzymes work efficiently so the seed can germinate\n\n\n\nPractical instructions\n\nPrepare seed trays or small pots with seed-raising mix.\nMoisten the mix so it is damp, not saturated.\nSow seeds using the rule of thumb: about \\(2 \\times\\) the seed diameter.\nCover lightly and mist gently.\nLabel each tray with crop name, date, and group.\nPlace trays on a warming mat or in a protected germination area.\n\n\n\nPractical roles\n\n\n\nRole\nResponsibility\n\n\n\n\nTray prep\nFill trays evenly and moisten seed mix.\n\n\nSowing\nPlace seeds at correct depth and spacing.\n\n\nLabelling\nRecord crop, sowing date, and group accurately.\n\n\nSetup check\nConfirm trays are tidy and placed correctly.\n\n\n\n\n\nTiming (40-50 min)\n\n0-10 min: Demonstration of W.O.T. and sowing depth.\n10-15 min: Prepare trays and equipment.\n15-35 min: Sow and label trays.\n35-45 min: Check placement, moisture, and records.\n45-50 min: Complete tray log and workbook notes.\n\n\n\nSuccess criteria\n\nI can explain W.O.T. in simple scientific language.\nI can sow seeds at an appropriate depth.\nI can label trays clearly enough for later monitoring."
+  },
+  {
+    "objectID": "autumn-planting-seedlings.html#lesson-3-seedling-care-and-hardening-off",
+    "href": "autumn-planting-seedlings.html#lesson-3-seedling-care-and-hardening-off",
+    "title": "Unit 8: Autumn Planting (Seedlings)",
+    "section": "Lesson 3: Seedling care and hardening off",
+    "text": "Lesson 3: Seedling care and hardening off\nGoal: Identify healthy seedling conditions and prepare a plan for moving seedlings outdoors.\n\nKey teaching idea\nWarmth alone is not enough. Seedlings also need enough light, airflow, and careful watering. Before transplanting, they must be hardened off gradually so they can tolerate colder outdoor conditions.\n\n\nStudent activities\n\nInspect trays or example seedlings for signs of success or problems.\nIdentify risks such as:\n\nleggy seedlings\noverwatering\ndry trays\npoor labelling\ndamping off\n\nCreate a 5- to 7-day hardening-off schedule.\nComplete a crop profile or transplant plan from the workbook.\n\n\n\nHardening-off sequence\n\nDay 1-2: short sheltered outdoor exposure\nDay 3-4: longer outdoor time with some cooler air\nDay 5-6: most of the day outside if conditions are suitable\nDay 7: ready for transplanting if roots, moisture, and weather are appropriate\n\n\n\nTiming (40-50 min)\n\n0-10 min: Review seedling care and common failure points.\n10-20 min: Tray inspection and discussion.\n20-35 min: Hardening-off plan task.\n35-45 min: Crop profile or transplant recommendation.\n45-50 min: Reflection and teacher check.\n\n\n\nSuccess criteria\n\nI can describe what a healthy seedling needs.\nI can identify at least two common seedling risks.\nI can make a realistic hardening-off plan."
+  },
+  {
+    "objectID": "autumn-planting-seedlings.html#tools-and-materials",
+    "href": "autumn-planting-seedlings.html#tools-and-materials",
+    "title": "Unit 8: Autumn Planting (Seedlings)",
+    "section": "Tools and materials",
+    "text": "Tools and materials\n\nseed trays or small pots\nseed-raising mix\nautumn crop seeds\nlabels and permanent marker\nwatering spray bottle or fine rose watering can\nwarming mat or sheltered propagation area\nruler for spacing/depth demonstration\nclass crop guide and workbook"
+  },
+  {
+    "objectID": "autumn-planting-seedlings.html#health-and-safety-guidelines",
+    "href": "autumn-planting-seedlings.html#health-and-safety-guidelines",
+    "title": "Unit 8: Autumn Planting (Seedlings)",
+    "section": "Health and safety guidelines",
+    "text": "Health and safety guidelines\n\n\n\n\n\n\n\nRisk\nControl\n\n\n\n\nWet floors or spilled mix\nClean spills quickly and keep walkways clear.\n\n\nCross-contamination between trays\nUse labelled trays and clean tools between groups.\n\n\nOverwatering around electrical warming mats\nTeacher manages plugs and checks safe placement.\n\n\nAllergies or dust from seed mix\nUse ventilation and wash hands after handling mix.\n\n\nPoor lifting or carrying of trays\nCarry trays with two hands and use benches at suitable height.\n\n\nSun or cold exposure during hardening off\nMove seedlings gradually and monitor weather before outdoor placement."
+  },
+  {
+    "objectID": "autumn-planting-seedlings.html#assessment-opportunities",
+    "href": "autumn-planting-seedlings.html#assessment-opportunities",
+    "title": "Unit 8: Autumn Planting (Seedlings)",
+    "section": "Assessment opportunities",
+    "text": "Assessment opportunities\n\ncrop selection justification in Lesson 1\ncorrectly completed tray labels and tray log in Lesson 2\nhardening-off plan or crop profile in Lesson 3\nteacher observation of practical handling and care routines"
+  },
+  {
+    "objectID": "autumn-planting-seedlings.html#teacher-checks",
+    "href": "autumn-planting-seedlings.html#teacher-checks",
+    "title": "Unit 8: Autumn Planting (Seedlings)",
+    "section": "Teacher checks",
+    "text": "Teacher checks\n\nAutumn crops chosen suit local conditions.\nTrays are labelled with crop, date, and group.\nStudents can explain W.O.T. accurately.\nSeedling care risks have been discussed.\nA hardening-off plan has been completed."
+  },
+  {
+    "objectID": "autumn-planting-seedlings.html#reflection-questions",
+    "href": "autumn-planting-seedlings.html#reflection-questions",
+    "title": "Unit 8: Autumn Planting (Seedlings)",
+    "section": "Reflection questions",
+    "text": "Reflection questions\n\nWhy is autumn planting in Otago more about roots than rapid leaf growth?\nWhich crop would you trust most for local autumn planting, and why?\nWhat could go wrong if seedlings move from a warm tray straight into a cold garden bed?"
+  },
+  {
+    "objectID": "potato-patch.html",
+    "href": "potato-patch.html",
+    "title": "Unit 3: Potato Patch Prep (3 lessons)",
+    "section": "",
+    "text": "This short unit links practical work to risk management by preparing the potato patch. Students identify hazards, use tools safely, and complete the prep steps."
+  },
+  {
+    "objectID": "potato-patch.html#purpose",
+    "href": "potato-patch.html#purpose",
+    "title": "Unit 3: Potato Patch Prep (3 lessons)",
+    "section": "",
+    "text": "This short unit links practical work to risk management by preparing the potato patch. Students identify hazards, use tools safely, and complete the prep steps."
+  },
+  {
+    "objectID": "potato-patch.html#lesson-structure-3-lessons",
+    "href": "potato-patch.html#lesson-structure-3-lessons",
+    "title": "Unit 3: Potato Patch Prep (3 lessons)",
+    "section": "Lesson structure (3 lessons)",
+    "text": "Lesson structure (3 lessons)\n\n\n\n\n\n\n\n\nLesson\nFocus\nOutcome\n\n\n\n\nLesson 1\nHazards and safe tool use\nStudents can name hazards and apply controls.\n\n\nLesson 2\nTurn over and prep the patch\nSoil is loosened and turf is removed.\n\n\nLesson 3\nCompost, break up soil, level\nPatch is composted and ready for planting."
+  },
+  {
+    "objectID": "potato-patch.html#practical-session-potato-patch-prep-40-min",
+    "href": "potato-patch.html#practical-session-potato-patch-prep-40-min",
+    "title": "Unit 3: Potato Patch Prep (3 lessons)",
+    "section": "Practical session: Potato patch prep (40 min)",
+    "text": "Practical session: Potato patch prep (40 min)\nGoal: Turn over and prepare the potato patch for planting by removing grass, loosening soil, and mixing compost.\n\nGroup tasks (20 students total)\n\n\n\n\n\n\n\n\n\nGroup\nStudents\nTask focus\nKey actions\n\n\n\n\nGroup A\n7\nRemove top grass\nLift turf, stack it in a designated pile, clear roots.\n\n\nGroup B\n7\nTurn over soil\nUse forks/spades to loosen and flip soil to one spade depth.\n\n\nGroup C\n6\nCompost and break up soil\nSpread compost, break clods, rake level.\n\n\n\n\n\nTiming (40 min)\n\n0-5 min: Safety briefing, tool allocation, demo of safe spade/fork use.\n5-30 min: Group work on tasks.\n30-35 min: Rotate quick checks, finish edges, tidy stacks.\n35-40 min: Tool clean-up, wash hands, quick reflection.\n\n\n\nTools and materials\n\nSpades (for turf lifting)\nGarden forks (for turning soil)\nRakes (for leveling)\nBuckets or barrow (for compost)\nGloves (one pair per student)\nWater bottle and sunscreen (if required)\n\n\n\nRisks and controls\n\n\n\n\n\n\n\nRisk\nControl\n\n\n\n\nBlisters or cuts\nGloves required, correct tool grip demo.\n\n\nTool injuries (spade/fork)\nSpacing rule: arm’s length plus tool length; tools down when not in use.\n\n\nTrips on uneven ground\nClear walkways; keep tools flat on ground when resting.\n\n\nManual handling strain\nUse knees when lifting turf; share heavy loads.\n\n\nSun exposure\nHats, sunscreen, water breaks.\n\n\n\n\n\nExtra process ideas\n\nMark the patch boundary with string before starting.\nAssign a student as timekeeper for mid-lesson check-in.\nPhotograph before/after for reflection or mapping updates."
+  },
+  {
+    "objectID": "friday-closedown.html",
+    "href": "friday-closedown.html",
+    "title": "Friday Farm Close-Down Checklist",
+    "section": "",
+    "text": "Welcome to the Friday close-down routine! Before leaving for the weekend, complete this final checklist to ensure the farm is secure, clean, and ready for Monday.\nNote: If you haven’t already completed the regular farm missions this week, visit the Farm Missions page to see what needs to be done. The Friday close-down assumes all regular maintenance has been completed.\n📄 Download: Friday Ticklist PDF - Print this checklist for easy reference on the farm!"
+  },
+  {
+    "objectID": "friday-closedown.html#friday-close-down",
+    "href": "friday-closedown.html#friday-close-down",
+    "title": "Friday Farm Close-Down Checklist",
+    "section": "",
+    "text": "Welcome to the Friday close-down routine! Before leaving for the weekend, complete this final checklist to ensure the farm is secure, clean, and ready for Monday.\nNote: If you haven’t already completed the regular farm missions this week, visit the Farm Missions page to see what needs to be done. The Friday close-down assumes all regular maintenance has been completed.\n📄 Download: Friday Ticklist PDF - Print this checklist for easy reference on the farm!"
+  },
+  {
+    "objectID": "friday-closedown.html#final-check",
+    "href": "friday-closedown.html#final-check",
+    "title": "Friday Farm Close-Down Checklist",
+    "section": "Final Check",
+    "text": "Final Check\nBefore you leave for the weekend:\n\nAnimal Welfare\n\nAll animals have food and water for the weekend\nChicken door is secure\nPaddock animals are safe and healthy\nAll shelter areas are accessible\n\n\n\nTools & Equipment\n\nAll tools are cleaned and stored properly\nWatering cans and buckets stored upside down (prevent mosquito breeding)\nNo equipment left outside that should be stored\nAll sharp tools safely stored\n\n\n\nSecurity & Safety\n\nAll gates and doors are secured\nShed and barn locked\nNo trip hazards left in pathways\nFire hazards cleared (wood chips, dry materials away from buildings)\n\n\n\nWater & Utilities\n\nNo hoses or watering equipment left running\nAll taps turned off completely\nCheck for leaks or running water\nGutters and drains clear\n\n\n\nGeneral Farm Readiness\n\nWork areas are tidy\nRubbish removed to appropriate bins\nFarm log completed with any observations or issues\nAny urgent issues reported to farm supervisor\nFarm is ready for Monday!"
+  },
+  {
+    "objectID": "friday-closedown.html#weekend-considerations",
+    "href": "friday-closedown.html#weekend-considerations",
+    "title": "Friday Farm Close-Down Checklist",
+    "section": "Weekend Considerations",
+    "text": "Weekend Considerations\nBefore you leave, consider:\n\nWeather forecast: Does anything need extra securing for wind/rain?\nAnimal needs: Is weekend feed/water supply adequate?\nUrgent issues: Has everything that needs immediate attention been reported?\nNext week: Any special tasks or events to prepare for?"
+  },
+  {
+    "objectID": "friday-closedown.html#quick-mission-reference",
+    "href": "friday-closedown.html#quick-mission-reference",
+    "title": "Friday Farm Close-Down Checklist",
+    "section": "Quick Mission Reference",
+    "text": "Quick Mission Reference\nIf you notice something needs attention before the weekend:\n\nAnimals need care? → Mission 1: Animal Care\nGarden needs watering/weeding? → Mission 2: Garden Maintenance\nTrees need checking? → Mission 3: Restoration\nWant to make observations? → Mission 4: Environmental Observation\nAreas need tidying? → Mission 5: Organisation\n\n\nWell done, Farm Steward! Have a great weekend! 🌾\nSee you Monday!"
+  },
+  {
+    "objectID": "apple-unit.html",
+    "href": "apple-unit.html",
+    "title": "Unit 5: Apple Unit (2 lessons)",
+    "section": "",
+    "text": "This unit links practical orchard work with measurement and money maths. Students pick apples, clean fruit, weigh accurately, and pack fruit into sale bags."
+  },
+  {
+    "objectID": "apple-unit.html#purpose",
+    "href": "apple-unit.html#purpose",
+    "title": "Unit 5: Apple Unit (2 lessons)",
+    "section": "",
+    "text": "This unit links practical orchard work with measurement and money maths. Students pick apples, clean fruit, weigh accurately, and pack fruit into sale bags."
+  },
+  {
+    "objectID": "apple-unit.html#unit-target-for-this-year",
+    "href": "apple-unit.html#unit-target-for-this-year",
+    "title": "Unit 5: Apple Unit (2 lessons)",
+    "section": "Unit target for this year",
+    "text": "Unit target for this year\n\nPack 4 x 2kg bags.\nPrice is $6 per 2kg bag.\nTotal target income: $24.\nNo 1kg bags this time (usually they are $4 per 1kg)."
+  },
+  {
+    "objectID": "apple-unit.html#learning-goals",
+    "href": "apple-unit.html#learning-goals",
+    "title": "Unit 5: Apple Unit (2 lessons)",
+    "section": "Learning goals",
+    "text": "Learning goals\nBy the end of this unit, students can:\n\npick and handle fruit safely without bruising\nclean and sort apples by quality\nweigh fruit accurately to 2kg\npack, label, and count bags ready for sale\ncalculate expected income from packed bags"
+  },
+  {
+    "objectID": "apple-unit.html#lesson-structure-2-lessons",
+    "href": "apple-unit.html#lesson-structure-2-lessons",
+    "title": "Unit 5: Apple Unit (2 lessons)",
+    "section": "Lesson structure (2 lessons)",
+    "text": "Lesson structure (2 lessons)\n\n\n\n\n\n\n\n\nLesson\nFocus\nOutcome\n\n\n\n\nLesson 1\nPick and clean fruit\nApples are safely picked, cleaned, and sorted.\n\n\nLesson 2\nWeigh, bag, and label fruit\n4 x 2kg bags are packed and ready for sale."
+  },
+  {
+    "objectID": "apple-unit.html#lesson-1-picking-and-cleaning-apples-40-min",
+    "href": "apple-unit.html#lesson-1-picking-and-cleaning-apples-40-min",
+    "title": "Unit 5: Apple Unit (2 lessons)",
+    "section": "Lesson 1: Picking and cleaning apples (40 min)",
+    "text": "Lesson 1: Picking and cleaning apples (40 min)\nGoal: Harvest apples safely and prepare clean fruit for packing.\n\nStudent activities and instructions\n\nPut on gloves and check your picking area.\nPick apples carefully (twist and lift, do not pull hard).\nPlace fruit gently into crates/buckets (do not throw fruit).\nRemove leaves and obvious dirt.\nWipe or rinse apples and place on drying trays.\nSort into:\n\n\nSale quality (good skin, good size)\nSecond quality (bruised/small; not for 2kg sale bags)\n\n\n\nGroup tasks (20 students)\n\n\n\nGroup\nStudents\nTask focus\nKey actions\n\n\n\n\nGroup A\n7\nPicking\nPick apples safely and fill crates.\n\n\nGroup B\n7\nCleaning\nWipe/rinse apples and set to dry.\n\n\nGroup C\n6\nSorting\nSort apples into sale/second quality.\n\n\n\n\n\nTiming (40 min)\n\n0-5 min: Safety briefing and tool/equipment check.\n5-25 min: Picking and crate collection.\n25-35 min: Cleaning and sorting.\n35-40 min: Clean-up and count prepared fruit."
+  },
+  {
+    "objectID": "apple-unit.html#lesson-2-weighing-bagging-and-pricing-40-min",
+    "href": "apple-unit.html#lesson-2-weighing-bagging-and-pricing-40-min",
+    "title": "Unit 5: Apple Unit (2 lessons)",
+    "section": "Lesson 2: Weighing, bagging, and pricing (40 min)",
+    "text": "Lesson 2: Weighing, bagging, and pricing (40 min)\nGoal: Produce 4 x 2kg sale bags and calculate expected income.\n\nStudent activities and instructions\n\nSet up scales on flat ground and check zero.\nFill each bag to 2.00kg (or as close as possible).\nAdjust weight by adding/removing apples.\nSeal each bag and label clearly:\n\n\n“Apple Bag - 2kg”\nPrice “$6”\n\n\nRepeat until 4 bags are complete.\nCalculate income:\n\n\n\\(4 \\times 6 = 24\\)\n\n\nRecord final numbers in class sheet.\n\n\n\nPacking table\n\n\n\nBag #\nTarget weight\nActual weight\nPrice\n\n\n\n\n1\n2.00 kg\n\n$6\n\n\n2\n2.00 kg\n\n$6\n\n\n3\n2.00 kg\n\n$6\n\n\n4\n2.00 kg\n\n$6\n\n\n\n\n\nTiming (40 min)\n\n0-5 min: Scale setup and demo.\n5-25 min: Weigh and pack 4 bags.\n25-35 min: Label, check quality, and count stock.\n35-40 min: Income calculation and tidy up."
+  },
+  {
+    "objectID": "apple-unit.html#tools-and-materials",
+    "href": "apple-unit.html#tools-and-materials",
+    "title": "Unit 5: Apple Unit (2 lessons)",
+    "section": "Tools and materials",
+    "text": "Tools and materials\n\npicking buckets/crates\ngloves\nclean cloths or rinse tubs\ndigital or kitchen scales\npacking bags\nlabels/marker pens\ncleaning spray/paper towels for workstations"
+  },
+  {
+    "objectID": "apple-unit.html#health-and-safety-guidelines",
+    "href": "apple-unit.html#health-and-safety-guidelines",
+    "title": "Unit 5: Apple Unit (2 lessons)",
+    "section": "Health and safety guidelines",
+    "text": "Health and safety guidelines\n\n\n\n\n\n\n\nRisk\nGuideline/control\n\n\n\n\nSlips/trips in orchard\nWalk, do not run; keep paths clear of crates and bags.\n\n\nLadder/fall risk\nOnly teacher-approved students use ladders; 3-point contact at all times.\n\n\nCuts/scratches\nWear gloves; handle branches carefully; report injuries immediately.\n\n\nFood hygiene risk\nClean hands before handling sale fruit; use clean cloths and clean surfaces.\n\n\nManual handling strain\nLift crates with bent knees; share heavy loads.\n\n\nBee/wasp stings\nStay calm near insects; notify teacher if allergic reaction risk.\n\n\nSun exposure/dehydration\nHats, sunscreen, and water breaks required."
+  },
+  {
+    "objectID": "apple-unit.html#teacher-checks-end-of-unit",
+    "href": "apple-unit.html#teacher-checks-end-of-unit",
+    "title": "Unit 5: Apple Unit (2 lessons)",
+    "section": "Teacher checks (end of unit)",
+    "text": "Teacher checks (end of unit)\n\n4 x 2kg bags completed\nLabels clear and correct ($6 per bag)\nWeights recorded\nHygiene and safety expectations met\nTotal income calculated ($24)"
+  },
+  {
+    "objectID": "apple-unit.html#reflection",
+    "href": "apple-unit.html#reflection",
+    "title": "Unit 5: Apple Unit (2 lessons)",
+    "section": "Reflection",
+    "text": "Reflection\n\nWhat helped your group weigh bags accurately?\nWhat quality issues did you notice most often?\nIf we used 1kg bags next time, how would sales options change?"
+  },
+  {
+    "objectID": "apple-unit.html#printable-student-worksheet",
+    "href": "apple-unit.html#printable-student-worksheet",
+    "title": "Unit 5: Apple Unit (2 lessons)",
+    "section": "Printable student worksheet",
+    "text": "Printable student worksheet\n\nStudent names\n\nName 1: ____________________\nName 2: ____________________\nName 3: ____________________\n\n\n\nLesson 1 checklist (pick, clean, sort)\n\nI wore gloves and followed safety instructions.\nI picked apples carefully without bruising fruit.\nI cleaned apples and removed dirt/leaves.\nI sorted apples into sale quality and second quality.\n\n\n\nLesson 2 checklist (weigh, bag, label)\n\nI checked the scale was at zero before weighing.\nI helped pack 2kg bags accurately.\nI checked each bag label was correct.\nI helped calculate total expected income.\n\n\n\nBag recording table\n\n\n\n\n\n\n\n\n\n\nBag #\nTarget weight\nActual weight\nLabel checked\nReady for sale\n\n\n\n\n1\n2.00 kg\n\n[ ]\n[ ]\n\n\n2\n2.00 kg\n\n[ ]\n[ ]\n\n\n3\n2.00 kg\n\n[ ]\n[ ]\n\n\n4\n2.00 kg\n\n[ ]\n[ ]\n\n\n\n\n\nIncome check\n\nNumber of 2kg bags packed: ______\nPrice per 2kg bag: $6\nTotal expected income: $______\n\n\n\nTeacher sign-off\n\nSafety expectations met\nQuality and weight checks completed\nBags ready for sale\n\nTeacher signature: ____________________ Date: ____________________"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Urban Farm Applied Mathematics",
+    "section": "",
+    "text": "This standalone site contains the Kaikoria Valley College Urban Farm units 2026. The units are designed to be used in the context of the school farm, providing students with practical applications of agriculture and horticulture while exploring mathematical concepts through real-world scenarios."
+  },
+  {
+    "objectID": "index.html#welcome",
+    "href": "index.html#welcome",
+    "title": "Urban Farm Applied Mathematics",
+    "section": "",
+    "text": "This standalone site contains the Kaikoria Valley College Urban Farm units 2026. The units are designed to be used in the context of the school farm, providing students with practical applications of agriculture and horticulture while exploring mathematical concepts through real-world scenarios."
+  },
+  {
+    "objectID": "index.html#course-overview",
+    "href": "index.html#course-overview",
+    "title": "Urban Farm Applied Mathematics",
+    "section": "Course Overview",
+    "text": "Course Overview\n\nUnits\nThis course aligns with the Refreshed New Zealand Curriculum (2026) and is designed to provide students with practical applications of agriculture and horticulture in the context of our school farm. Each unit focuses on a specific aspect of farm operations, allowing students to real and develop new skills at the same time as they explore mathematical concepts through real-world scenarios.\n\nFarm Units overview\nUnit 1: Sector and Safety\nUnit 2: Mapping the School Farm (Project 1)\nUnit 3: Potato Patch Prep\nUnit 4: Farm Dogs and Working with Sheep\nUnit 5: Apples and the Orchard\nUnit 6: Refractometer Testing\nUnit 7: Weather, Forecasting, and Environmental Impacts\nUnit 8: Autumn Planting (Project 2)\nUnit 9: Farm Hazards and Safety Project (Project 3)\n\n\n\nRegular Farm Operations\n\nFarm Missions - Regular maintenance tasks\nWeekly Farm Tasks - Routine weekly activities\nFriday Close-Down Checklist - Procedures for end-of-week farm maintenance"
+  },
+  {
+    "objectID": "units-overview.html",
+    "href": "units-overview.html",
+    "title": "Applied Mathematics: Farm Units",
+    "section": "",
+    "text": "This section contains the course sequence for the school farm programme. The opening unit introduces primary sectors, sustainability, location factors, and rural safety before students move into the practical farm units."
+  },
+  {
+    "objectID": "units-overview.html#overview",
+    "href": "units-overview.html#overview",
+    "title": "Applied Mathematics: Farm Units",
+    "section": "",
+    "text": "This section contains the course sequence for the school farm programme. The opening unit introduces primary sectors, sustainability, location factors, and rural safety before students move into the practical farm units."
+  },
+  {
+    "objectID": "units-overview.html#two-term-unit-plan-calendar-tue-thu-fri",
+    "href": "units-overview.html#two-term-unit-plan-calendar-tue-thu-fri",
+    "title": "Applied Mathematics: Farm Units",
+    "section": "Two-Term Unit Plan Calendar (Tue, Thu, Fri)",
+    "text": "Two-Term Unit Plan Calendar (Tue, Thu, Fri)\nThis class runs across two terms with three lessons each week:\n\nTerm 1: 10 weeks (30 lessons)\nTerm 2: 11 weeks (33 lessons)\nClass days: Tuesday, Thursday, Friday\n\n\nTerm 1 Calendar (10 Weeks)\n\n\n\n\n\n\n\n\n\nWeek\nTuesday\nThursday\nFriday\n\n\n\n\n1\nUnit 1: Primary sectors in NZ\nUnit 1: Sustainability and biodiversity\nUnit 1: Rural safety and vocabulary\n\n\n2\nUnit 1: Location factors\nUnit 1: Sector case studies\nUnit 1: Quiz and safety practical\n\n\n3\nUnit 2: Intro to farm mapping\nUnit 2: Base map and layers setup\nUnit 2: Mapping field walk\n\n\n4\nUnit 2: Measuring paddock areas\nUnit 2: Distance and scale calculations\nUnit 2: Data entry and map updates\n\n\n5\nUnit 2: Proposed farm improvements\nUnit 2: Final map formatting\nUnit 2: Export and submit final map\n\n\n6\nUnit 3: Hazard identification\nUnit 3: Tool safety and procedures\nUnit 3: Potato patch prep practical\n\n\n7\nUnit 4: Working dogs and welfare\nUnit 4: Sheep movement observation\nMission rotation and reflection\n\n\n8\nUnit 5: Apple harvest and handling\nUnit 5: Weighing, bagging, and money maths\nFarm mission + Friday close-down routine\n\n\n9\nUnit 6: Refractometer theory and setup\nUnit 6: Calibration and safe use\nUnit 6: Brix testing practical\n\n\n10\nUnit 6: Data analysis and recommendations\nTerm 1 review and catch-up\nEnd-of-term practical checkpoint\n\n\n\n\n\nTerm 2 Calendar (11 Weeks)\n\n\n\n\n\n\n\n\n\nWeek\nTuesday\nThursday\nFriday\n\n\n\n\n1\nUnit 7: Forecast tools and maps + hazards mini-check\nUnit 7: Reading Dunedin and Kaikorai forecasts + PPE reminder\nWeather log setup + hazards monitoring entry\n\n\n2\nUnit 7: Forecast vs observed conditions + hazard spotting\nUnit 7: Wind/rain impacts + control options\nFarm weather reflection + risk ranking\n\n\n3\nUnit 7: Native vs invasive impacts + safe movement\nUnit 7: Welfare planning + tool hazard cue\nAir quality monitoring + evidence logging\n\n\n4\nUnit 8: Autumn crop selection + setup risk check\nUnit 8: Germination planning + hygiene control\nSeed sowing practical + safe workflow review\n\n\n5\nUnit 8: Tray management + manual handling cue\nMission 1 + animal area hazard focus\nFriday close-down + weekly hazard log\n\n\n6\nMission 2 + slips/trips and tool handling\nMission 3 + restoration safety controls\nMission evidence collection + hazard update\n\n\n7\nMission 4 + environmental hazard cue\nMission 5 + organisation and safe storage\nMission catch-up + near-miss discussion\n\n\n8\nIntegrated maths project + pre-task risk check\nData collection + control hierarchy review\nProject work + monitoring log quality check\n\n\n9\nProject analysis + communication risk prompt\nRecommendations + practical control planning\nFarm operations practical + audit evidence\n\n\n10\nReport drafting + sign-off checklist\nPresentation prep + peer safety feedback\nRehearsals + final hazard poster edits\n\n\n11\nFinal presentations + hazard summary\nCourse reflection + behavior change review\nEnd-of-term close-down + project sign-off\n\n\n\n\n\nFarm Photo Highlights\nUse these real farm snapshots as lesson starters, discussion prompts, and writing tasks."
+  },
+  {
+    "objectID": "units-overview.html#unit-1-sector-and-safety",
+    "href": "units-overview.html#unit-1-sector-and-safety",
+    "title": "Applied Mathematics: Farm Units",
+    "section": "Unit 1: Sector and Safety",
+    "text": "Unit 1: Sector and Safety\nFocus on the structure of New Zealand’s primary industries, sustainability, location factors, rural safety, and introductory agricultural science vocabulary.\nWhat you’ll do\n\nLearn the seven key primary sectors in New Zealand.\nExplore sustainability, biodiversity, and resource management.\nStudy why industries are located in different regions.\nPractise rural safety knowledge and agricultural science vocabulary.\nGo to: Unit 1: Sector and Safety"
+  },
+  {
+    "objectID": "units-overview.html#unit-2-mapping-the-school-farm-3-weeks",
+    "href": "units-overview.html#unit-2-mapping-the-school-farm-3-weeks",
+    "title": "Applied Mathematics: Farm Units",
+    "section": "Unit 2: Mapping the School Farm (3 weeks)",
+    "text": "Unit 2: Mapping the School Farm (3 weeks)\nFocus on mapping the farm, measuring areas and distances, and producing a final map for the workbook.\n\nWhat you’ll do\n\nBuild layers for existing and proposed features.\nMeasure paddocks and distances.\nExport a clean PDF map for your workbook.\nGo to: Unit 2: Mapping the School Farm"
+  },
+  {
+    "objectID": "units-overview.html#unit-3-potato-patch-prep-3-lessons",
+    "href": "units-overview.html#unit-3-potato-patch-prep-3-lessons",
+    "title": "Applied Mathematics: Farm Units",
+    "section": "Unit 3: Potato Patch Prep (3 lessons)",
+    "text": "Unit 3: Potato Patch Prep (3 lessons)\nFocus on hazards, tool safety, and practical preparation of the potato patch.\nWhat you’ll do\n\nIdentify hazards and agree on controls.\nTurn over soil and remove turf.\nCompost and level the patch for planting.\nGo to: Unit 3: Potato Patch Prep"
+  },
+  {
+    "objectID": "units-overview.html#unit-4-farm-dogs-working-with-sheep-2-lessons",
+    "href": "units-overview.html#unit-4-farm-dogs-working-with-sheep-2-lessons",
+    "title": "Applied Mathematics: Farm Units",
+    "section": "Unit 4: Farm Dogs & Working with Sheep (2 lessons)",
+    "text": "Unit 4: Farm Dogs & Working with Sheep (2 lessons)\nFocus on the role of working dogs in livestock movement, animal welfare, and farm safety.\n\nWhat you’ll do\n\nLearn how farm dogs support sheep and paddock operations.\nPractise observation and command-response analysis.\nComplete a practical lesson with Jess the sheepdog.\nGo to: Unit 4: Farm Dogs & Working with Sheep"
+  },
+  {
+    "objectID": "units-overview.html#unit-5-apple-unit-2-lessons",
+    "href": "units-overview.html#unit-5-apple-unit-2-lessons",
+    "title": "Applied Mathematics: Farm Units",
+    "section": "Unit 5: Apple Unit (2 lessons)",
+    "text": "Unit 5: Apple Unit (2 lessons)\nFocus on harvesting, cleaning, weighing, and bagging apples for sale while applying measurement and money maths.\n\nWhat you’ll do\n\nPick and handle fruit safely.\nClean and sort apples by quality.\nWeigh fruit accurately and pack sale bags.\nCalculate total expected income from packed fruit.\nGo to: Unit 5: Apple Unit"
+  },
+  {
+    "objectID": "units-overview.html#unit-6-refractometer-testing---sugar-levels-in-farm-produce-4-lessons",
+    "href": "units-overview.html#unit-6-refractometer-testing---sugar-levels-in-farm-produce-4-lessons",
+    "title": "Applied Mathematics: Farm Units",
+    "section": "Unit 6: Refractometer Testing - Sugar Levels in Farm Produce (4 lessons)",
+    "text": "Unit 6: Refractometer Testing - Sugar Levels in Farm Produce (4 lessons)\nFocus on measuring sugar levels (Brix) in fruit and vegetables from around the farm using a refractometer.\nWhat you’ll do\n\nLearn how light refraction is used in practical farm testing.\nCalibrate and use a refractometer safely.\nTest and compare produce quality using Brix readings.\nMake evidence-based recommendations for harvest timing and crop quality.\nGo to: Unit 6: Refractometer Testing"
+  },
+  {
+    "objectID": "units-overview.html#unit-7-weather-forecasting-and-environmental-impacts-dunedin-and-kaikorai-valley",
+    "href": "units-overview.html#unit-7-weather-forecasting-and-environmental-impacts-dunedin-and-kaikorai-valley",
+    "title": "Applied Mathematics: Farm Units",
+    "section": "Unit 7: Weather, Forecasting, and Environmental Impacts (Dunedin and Kaikorai Valley)",
+    "text": "Unit 7: Weather, Forecasting, and Environmental Impacts (Dunedin and Kaikorai Valley)\nFocus on reading local forecasts, interpreting conditions in Kaikorai Valley, and evaluating impacts on native and invasive species, animals and plants, with air quality monitoring integrated from current KVC practice.\nWhat you’ll do\n\nTrack daily forecasts and compare forecast vs observed conditions.\nAssess weather impacts on native versus invasive species.\nCompare animal welfare impacts with plant growth and stress impacts.\nUse KVC air quality observations as part of farm risk planning.\nGo to: Unit 7: Weather, Forecasting, and Environmental Impacts"
+  },
+  {
+    "objectID": "units-overview.html#unit-8-autumn-planting-seedlings-3-lessons",
+    "href": "units-overview.html#unit-8-autumn-planting-seedlings-3-lessons",
+    "title": "Applied Mathematics: Farm Units",
+    "section": "Unit 8: Autumn Planting (Seedlings) (3 lessons)",
+    "text": "Unit 8: Autumn Planting (Seedlings) (3 lessons)\nFocus on choosing hardy autumn crops, sowing seeds accurately, and caring for seedlings before transplanting.\nWhat you’ll do\n\nCompare cool-season crops for Otago conditions.\nLearn how water, oxygen, and temperature support germination.\nSow, label, and record trays correctly.\nPlan how to harden off seedlings before planting out.\nGo to: Unit 8: Autumn Planting (Seedlings)"
+  },
+  {
+    "objectID": "units-overview.html#unit-9-farm-hazards-and-safety-project-4-6-lessons",
+    "href": "units-overview.html#unit-9-farm-hazards-and-safety-project-4-6-lessons",
+    "title": "Applied Mathematics: Farm Units",
+    "section": "Unit 9: Farm Hazards and Safety Project (4-6 lessons)",
+    "text": "Unit 9: Farm Hazards and Safety Project (4-6 lessons)\nFocus on completing a real farm hazard audit, developing controls, and presenting a student-designed safety communication poster.\n \nWhat you’ll do\n\nComplete hazard identification and risk scoring in a selected farm area.\nBuild practical controls and safer work routines.\nUse templates to design a hazard communication poster.\nPresent findings and recommendations to peers.\nGo to: Unit 9: Farm Hazards and Safety Project"
+  },
+  {
+    "objectID": "units-overview.html#farm-operations",
+    "href": "units-overview.html#farm-operations",
+    "title": "Applied Mathematics: Farm Units",
+    "section": "Farm Operations",
+    "text": "Farm Operations\n\nFarm Hazards and Safety\nStudent project resources and templates for the end-of-term hazard audit and safety poster task.\n\nGo to: Unit 9 Hazards Project Hub\n\n\n\nFarm Tools and Equipment\nTool-related examples and resources are included inside the hazards project unit for classroom use.\n\nGo to: Hazards Unit Resources\n\n\n\nFarm Missions\nRegular maintenance and care tasks that anyone can undertake. Each mission focuses on a specific area of farm management with detailed instructions and ticklists.\n \nAvailable Missions:\n\nMission 1: Animal Care & Observation\nMission 2: Garden & Berry House Maintenance\nMission 3: Restoration & Tree Health\nMission 4: Environmental Observation\nMission 5: Organisation & Inventory\nGo to: Farm Missions Overview\n\n\n\n\nFriday Close-Down Checklist\nA quick final check for Friday afternoon to ensure the farm is secure, clean, and ready for the weekend.\nWhat you’ll do\n\nVerify all animals have weekend supplies\nConfirm tools and equipment are secured\nCheck gates, doors, and utilities\nEnsure the farm is ready for Monday\nGo to: Friday Close-Down Checklist"
+  },
+  {
+    "objectID": "farm-dogs.html",
+    "href": "farm-dogs.html",
+    "title": "Unit 4: Farm Dogs & Working with Sheep",
+    "section": "",
+    "text": "This two-lesson mini-unit introduces the role of farm dogs in livestock management, safety, and animal welfare.\n\nLesson 1 (tomorrow): Building background knowledge and planning observations.\nLesson 2 (Friday): Live practical session with Jess (your sheepdog)."
+  },
+  {
+    "objectID": "farm-dogs.html#overview",
+    "href": "farm-dogs.html#overview",
+    "title": "Unit 4: Farm Dogs & Working with Sheep",
+    "section": "",
+    "text": "This two-lesson mini-unit introduces the role of farm dogs in livestock management, safety, and animal welfare.\n\nLesson 1 (tomorrow): Building background knowledge and planning observations.\nLesson 2 (Friday): Live practical session with Jess (your sheepdog)."
+  },
+  {
+    "objectID": "farm-dogs.html#learning-goals",
+    "href": "farm-dogs.html#learning-goals",
+    "title": "Unit 4: Farm Dogs & Working with Sheep",
     "section": "Learning Goals",
-    "text": "Learning Goals\nBy the end of this unit, you can:\n\nRead weather forecasts and identify key short-term risks.\nExplain how local geography in Kaikorai Valley shapes weather conditions.\nCompare impacts of weather on native species and invasive species.\nCompare plant impacts and animal impacts from the same weather event.\nUse KVC air quality monitoring observations to support farm decisions."
+    "text": "Learning Goals\nBy the end of this unit, students can:\n\nExplain at least three jobs farm dogs perform on working farms.\nDescribe safe behaviour around a working dog.\nRecord structured observations of dog behaviour using correct farm language.\nConnect dog actions (movement, positioning, commands) to stock movement outcomes."
   },
   {
-    "objectID": "weather-dunedin-kaikorai.html#local-weather-context-dunedin-and-kaikorai-valley",
-    "href": "weather-dunedin-kaikorai.html#local-weather-context-dunedin-and-kaikorai-valley",
-    "title": "Unit 7: Weather, Forecasting, and Environmental Impacts (Dunedin and Kaikorai Valley)",
-    "section": "1. Local Weather Context: Dunedin and Kaikorai Valley",
-    "text": "1. Local Weather Context: Dunedin and Kaikorai Valley\n\nWhy local context matters\nDunedin weather can change quickly due to coastal influence, wind shifts, and temperature differences between low and elevated areas. Kaikorai Valley can experience:\n\nCooler overnight temperatures and morning dampness.\nWind funnel effects in exposed areas.\nFast shifts between calm and gusty conditions.\nLocalized rain intensity that affects drainage and muddy zones.\n\n\n\nQuick climate features to watch\n\nWind direction and strength (especially strong southerlies).\nRainfall intensity and duration.\nOvernight minimum temperature and frost risk.\nDaily maximum temperature and heat stress risk.\nHumidity and dew point for disease pressure in plants."
+    "objectID": "farm-dogs.html#lesson-1-introduction-to-farm-dogs-classroomyard-50-60-min",
+    "href": "farm-dogs.html#lesson-1-introduction-to-farm-dogs-classroomyard-50-60-min",
+    "title": "Unit 4: Farm Dogs & Working with Sheep",
+    "section": "Lesson 1: Introduction to Farm Dogs (Classroom/yard, 50-60 min)",
+    "text": "Lesson 1: Introduction to Farm Dogs (Classroom/yard, 50-60 min)\n\nSuccess Criteria\nStudents can:\n\nIdentify key traits of a working sheepdog.\nMatch common commands to expected dog actions.\nPrepare an observation sheet for Friday’s practical lesson.\n\n\n\nMaterials\n\nWhiteboard and markers\nPrinted copy of the observation table (below)\nClipboards (if heading outside for short movement demo)\n\n\n\nLesson Sequence\n\nHook (5 min):\n\nAsk: “What makes a farm dog different from a pet dog?”\nGather ideas and sort into categories: behaviour, training, purpose.\n\nMini-teaching (10-15 min):\n\nRoles of farm dogs: gathering, driving, holding, backing, and yard work.\nKey welfare concepts: calm pressure, no rough handling, handler responsibility.\n\nCommands and communication (10 min):\n\nIntroduce likely commands students may hear on Friday (e.g. stop, lie down, walk up, come by, away, steady).\nDiscuss why consistent commands matter for animal safety.\n\nMovement mapping task (15 min):\n\nIn pairs, students draw a small paddock and plot where dog, sheep, and handler should stand to move sheep through a gate.\nShare and compare different movement plans.\n\nPrepare for Friday (10 min):\n\nHand out observation sheet and explain what students must record during Jess’s session.\nReview class expectations for safe conduct around Jess and sheep.\n\n\n\n\nFormative Check\n\nExit ticket: “One thing Jess will need to do on Friday” + “One safety rule I must follow.”"
   },
   {
-    "objectID": "weather-dunedin-kaikorai.html#forecasting-for-farm-decisions",
-    "href": "weather-dunedin-kaikorai.html#forecasting-for-farm-decisions",
-    "title": "Unit 7: Weather, Forecasting, and Environmental Impacts (Dunedin and Kaikorai Valley)",
-    "section": "2. Forecasting for Farm Decisions",
-    "text": "2. Forecasting for Farm Decisions\n\nForecast checklist (daily)\nBefore starting practical work, check:\n\nNext 24-hour rainfall forecast.\nWind forecast (speed and gusts).\nTemperature range (min and max).\nAny weather warnings (heavy rain, strong winds, cold snaps).\nAir quality trend if available for the day.\n\n\n\nPractical forecast actions\n\nHeavy rain expected: delay soil disturbance and protect exposed soil.\nStrong wind expected: secure loose materials, postpone spraying, check shelter access.\nFrost risk expected: protect sensitive plants and adjust irrigation timing.\nHot, dry period expected: prioritize watering and check animal shade/water supply."
+    "objectID": "farm-dogs.html#lesson-2-practical-with-jess-friday-50-60-min",
+    "href": "farm-dogs.html#lesson-2-practical-with-jess-friday-50-60-min",
+    "title": "Unit 4: Farm Dogs & Working with Sheep",
+    "section": "Lesson 2: Practical with Jess (Friday, 50-60 min)",
+    "text": "Lesson 2: Practical with Jess (Friday, 50-60 min)\n\nSuccess Criteria\nStudents can:\n\nObserve and accurately describe Jess’s response to commands.\nExplain how Jess’s position changes sheep movement.\nDemonstrate safe and respectful behaviour around working animals.\n\n\n\nSafety Brief (Start of lesson)\n\nStay behind the marked observation line unless invited forward.\nNo sudden movements, shouting, or approaching Jess without permission.\nFollow teacher instructions immediately around livestock.\nIf unsure, step back and ask.\n\n\n\nPractical Sequence\n\nRe-cap and briefing (5 min):\n\nReview previous lesson’s commands and safety expectations.\n\nJess introduction (5 min):\n\nBrief profile: breed/type, age, training, daily farm roles.\n\nDemonstration rounds (20-25 min):\n\nRound 1: Basic control (stop/lie down/walk up).\nRound 2: Directional work around stock.\nRound 3: Moving stock toward a target point.\nStudents complete observation table during each round.\n\nStudent analysis (10-15 min):\n\nPairs compare notes and identify one “effective handler move” and one “effective Jess behaviour.”\n\nDebrief (5-10 min):\n\nWhole-class discussion: What did Jess do that most affected sheep direction and speed?\n\n\n\n\nQuick Assessment Task\nStudents submit a short paragraph:\n“Describe one command, Jess’s response, and the effect on sheep movement. Include one safety behaviour you followed.”"
   },
   {
-    "objectID": "weather-dunedin-kaikorai.html#impact-analysis-native-vs-invasive-animals-vs-plants",
-    "href": "weather-dunedin-kaikorai.html#impact-analysis-native-vs-invasive-animals-vs-plants",
-    "title": "Unit 7: Weather, Forecasting, and Environmental Impacts (Dunedin and Kaikorai Valley)",
-    "section": "3. Impact Analysis: Native vs Invasive, Animals vs Plants",
-    "text": "3. Impact Analysis: Native vs Invasive, Animals vs Plants\nUse the matrix below to compare impacts after major weather changes.\n\n\n\n\n\n\n\n\n\n\nWeather condition\nNative plants\nInvasive plants\nNative animals\nFarm animals\n\n\n\n\nProlonged rain\nPossible root stress in poorly drained areas; some natives tolerate wet conditions well\nFast growth in some invasive grasses and weeds\nMore wet/cold stress if shelter is limited\nMud stress, foot issues, and feed area damage\n\n\nDry spell\nWater stress in young native plantings\nDrought-tolerant invasives can outcompete new plantings\nReduced invertebrate food in dry patches\nHeat stress and higher water demand\n\n\nStrong wind\nPhysical damage to young trees and exposed shrubs\nWind-dispersed invasive seeds may spread further\nNest disturbance for small bird species\nAnimals avoid exposed paddocks; fencing risk\n\n\nCold snap/frost\nFrost-sensitive natives may be damaged\nSome invasives recover quickly after frost\nReduced activity and higher energy demand\nExtra feed and shelter may be required\n\n\n\n\nDiscussion prompts\n\nWhich weather condition creates the biggest advantage for invasive species on the KVC farm?\nWhich species group is most vulnerable to sudden weather shifts: plants or animals?\nWhat management action could reduce risk for both native biodiversity and farm operations?"
+    "objectID": "farm-dogs.html#student-observation-table-print-or-copy",
+    "href": "farm-dogs.html#student-observation-table-print-or-copy",
+    "title": "Unit 4: Farm Dogs & Working with Sheep",
+    "section": "Student Observation Table (print or copy)",
+    "text": "Student Observation Table (print or copy)\n\n\n\n\n\n\n\n\n\nCommand heard\nJess’s action\nSheep response\nWhy it worked (or didn’t)"
   },
   {
-    "objectID": "weather-dunedin-kaikorai.html#air-quality-monitoring-at-kvc",
-    "href": "weather-dunedin-kaikorai.html#air-quality-monitoring-at-kvc",
-    "title": "Unit 7: Weather, Forecasting, and Environmental Impacts (Dunedin and Kaikorai Valley)",
-    "section": "4. Air Quality Monitoring at KVC",
-    "text": "4. Air Quality Monitoring at KVC\nKVC already monitors air quality. In this unit, treat air quality as part of environmental forecasting and risk management.\n\nWhy air quality matters on a school farm\n\nHigh particulate levels can affect human comfort during outdoor work.\nDust can increase during dry, windy periods.\nAir quality can signal when to reduce strenuous outdoor tasks.\nAir quality and weather together improve planning accuracy.\n\n\n\nMonitoring routine\n\nRecord daily air quality reading from the KVC monitoring setup.\nRecord the same-day weather conditions (wind, rain, temperature).\nNote observed farm impacts (animal behavior, plant stress, dust, mud).\nCompare trends across at least two weeks.\n\n\n\nData table template\n\n\n\n\n\n\n\n\n\n\n\nDate\nAir quality reading/category\nRainfall (mm or none/light/moderate/heavy)\nWind (calm/moderate/strong)\nTemperature range\nKey farm observations"
+    "objectID": "farm-dogs.html#optional-extension-homework",
+    "href": "farm-dogs.html#optional-extension-homework",
+    "title": "Unit 4: Farm Dogs & Working with Sheep",
+    "section": "Optional Extension / Homework",
+    "text": "Optional Extension / Homework\n\nCreate a one-page “Working Dog Guide for New Farm Students” including:\n\n5 safety rules\n5 useful commands\n1 diagram showing ideal handler-dog-stock positioning"
   },
   {
-    "objectID": "weather-dunedin-kaikorai.html#investigation-task-forecast-vs-reality",
-    "href": "weather-dunedin-kaikorai.html#investigation-task-forecast-vs-reality",
-    "title": "Unit 7: Weather, Forecasting, and Environmental Impacts (Dunedin and Kaikorai Valley)",
-    "section": "5. Investigation Task: Forecast vs Reality",
-    "text": "5. Investigation Task: Forecast vs Reality\n\nTask\nOver 10 school days:\n\nRecord the daily forecast each morning.\nRecord observed weather conditions later the same day.\nRecord KVC air quality reading.\nIdentify one plant impact and one animal impact each day.\nClassify whether the main impact was stronger on native or invasive species.\n\n\n\nOutput\nPrepare a short report that includes:\n\nA summary of forecast accuracy over the 10 days.\nA chart or table of weather + air quality observations.\nA comparison of native vs invasive impacts.\nA comparison of animal vs plant impacts.\nTwo practical recommendations for farm planning at KVC."
+    "objectID": "mapping.html",
+    "href": "mapping.html",
+    "title": "Unit 2: Mapping the School Farm (3 weeks)",
+    "section": "",
+    "text": "Google My Maps is a free tool for creating a farm plan, measuring distances and areas, and recording work done on the property. This guide helps you map our school farm features and plan future work."
   },
   {
-    "objectID": "weather-dunedin-kaikorai.html#assessment-questions",
-    "href": "weather-dunedin-kaikorai.html#assessment-questions",
-    "title": "Unit 7: Weather, Forecasting, and Environmental Impacts (Dunedin and Kaikorai Valley)",
-    "section": "6. Assessment Questions",
-    "text": "6. Assessment Questions\n\nExplain two ways Kaikorai Valley geography can influence local weather compared with a general Dunedin city forecast.\nDescribe one weather situation where invasive species may gain an advantage over native species.\nCompare how a 3-day heavy rain event can affect plants differently from animals.\nExplain how KVC air quality data can improve operational decisions on the farm.\nSuggest one monitoring improvement to make your weather-impact data more reliable."
+    "objectID": "mapping.html#introduction",
+    "href": "mapping.html#introduction",
+    "title": "Unit 2: Mapping the School Farm (3 weeks)",
+    "section": "",
+    "text": "Google My Maps is a free tool for creating a farm plan, measuring distances and areas, and recording work done on the property. This guide helps you map our school farm features and plan future work."
   },
   {
-    "objectID": "weather-dunedin-kaikorai.html#extension-building-a-farm-weather-risk-plan",
-    "href": "weather-dunedin-kaikorai.html#extension-building-a-farm-weather-risk-plan",
-    "title": "Unit 7: Weather, Forecasting, and Environmental Impacts (Dunedin and Kaikorai Valley)",
-    "section": "Extension: Building a Farm Weather Risk Plan",
-    "text": "Extension: Building a Farm Weather Risk Plan\nCreate a one-page risk plan for the next month that includes:\n\nTop three weather hazards most likely for this season.\nEarly warning signs from forecasts and air quality data.\nImmediate actions for animals, crops, and restoration/native planting zones.\nA review date to check if the plan worked."
+    "objectID": "mapping.html#learning-goals",
+    "href": "mapping.html#learning-goals",
+    "title": "Unit 2: Mapping the School Farm (3 weeks)",
+    "section": "Learning Goals",
+    "text": "Learning Goals\n\nCreate a digital farm map using layers.\nAdd points, lines, and areas with clear labels.\nMeasure distances and paddock areas accurately.\nExport or print a clean map for your workbook."
   },
   {
-    "objectID": "weather-dunedin-kaikorai.html#suggested-data-sources",
-    "href": "weather-dunedin-kaikorai.html#suggested-data-sources",
-    "title": "Unit 7: Weather, Forecasting, and Environmental Impacts (Dunedin and Kaikorai Valley)",
-    "section": "Suggested Data Sources",
-    "text": "Suggested Data Sources\n\nMetService forecast for Dunedin.\nNIWA climate summaries and weather context.\nKVC air quality monitoring records.\nSchool farm observation logs."
+    "objectID": "mapping.html#getting-started",
+    "href": "mapping.html#getting-started",
+    "title": "Unit 2: Mapping the School Farm (3 weeks)",
+    "section": "1. Getting Started",
+    "text": "1. Getting Started\n\nGo to https://www.google.co.nz/mymaps and sign in to your Google account. If you do not have an account, create one.\nClick “Create a new map”.\nClick “Untitled map” to rename your map (for example, “Kaikorai Valley College School Farm”)."
+  },
+  {
+    "objectID": "mapping.html#set-up-layers",
+    "href": "mapping.html#set-up-layers",
+    "title": "Unit 2: Mapping the School Farm (3 weeks)",
+    "section": "2. Set Up Layers",
+    "text": "2. Set Up Layers\nLayers let you separate existing features from proposed work. You can turn layers on or off using the checkbox next to each layer.\n\nRename the first layer to Existing. Use this for current paddocks, dams, fences, buildings, and water points.\nClick “Add layer” and name it Proposed for future work such as new planting or fencing."
+  },
+  {
+    "objectID": "mapping.html#locate-the-farm",
+    "href": "mapping.html#locate-the-farm",
+    "title": "Unit 2: Mapping the School Farm (3 weeks)",
+    "section": "3. Locate the Farm",
+    "text": "3. Locate the Farm\n\nUse the search bar to type in the school address, or zoom using the mouse wheel and the + / - buttons.\nClick the arrow next to Base map and choose Satellite for a clear aerial view."
+  },
+  {
+    "objectID": "mapping.html#add-farm-features",
+    "href": "mapping.html#add-farm-features",
+    "title": "Unit 2: Mapping the School Farm (3 weeks)",
+    "section": "4. Add Farm Features",
+    "text": "4. Add Farm Features\n\nA. Markers (Point Features)\nUse markers for water tanks, sheds, gates, troughs, or trees.\n\nClick the Marker icon under the search bar.\nClick the exact spot on the map.\nGive the marker a clear title, then save.\n\n\n\n\nB. Lines (Fences, Tracks, Waterways)\n\nClick the Line icon (right of the marker icon) and choose “Add line or shape”.\nClick along the path of the fence or creek.\nPress Enter to finish the line and add a title.\n\n\n\n\nC. Areas (Paddocks, Orchards, Bush)\n\nStart the same way as a line.\nClick around the boundary and then click the starting point to close the shape.\nAdd a title and save.\n\n\n\nD. Edit or Delete Features\nAfter saving a feature, a popup lets you edit color, line width, transparency, and description. You can also attach a photo or delete the feature using the trash bin icon."
+  },
+  {
+    "objectID": "mapping.html#measure-distances-and-areas",
+    "href": "mapping.html#measure-distances-and-areas",
+    "title": "Unit 2: Mapping the School Farm (3 weeks)",
+    "section": "5. Measure Distances and Areas",
+    "text": "5. Measure Distances and Areas\nThe Measurement tool (ruler icon) helps you check distances or paddock sizes.\n\nClick the ruler icon on the far right of the toolbar.\nClick a starting point, then add points to measure a path.\nFor a polygon, close the shape to see both perimeter and area (in hectares).\nPress Enter to finish a straight line measurement.\nTo stop measuring, click the hand icon or click anywhere on the screen."
+  },
+  {
+    "objectID": "mapping.html#export-or-print-your-map",
+    "href": "mapping.html#export-or-print-your-map",
+    "title": "Unit 2: Mapping the School Farm (3 weeks)",
+    "section": "6. Export or Print Your Map",
+    "text": "6. Export or Print Your Map\n\nOption A: Print Map (Recommended)\n\nClick the three vertical dots next to your map name.\nChoose “Print map”.\nPick paper size, orientation, and output type, then click Print.\nA new PDF preview opens in your browser. Use the print icon to save as PDF or print.\n\n\n\n\nOption B: Screenshot (Snipping Tool)\nWindows\n\nOpen Snipping Tool from the Start menu search.\nClick New, then drag to select the area.\nSave the image and insert it into your workbook.\n\nMac\n\nPress Shift + Command + 4.\nDrag to select the area.\nThe screenshot saves to the desktop for inserting into your workbook."
+  },
+  {
+    "objectID": "mapping.html#map-checklist",
+    "href": "mapping.html#map-checklist",
+    "title": "Unit 2: Mapping the School Farm (3 weeks)",
+    "section": "Map Checklist",
+    "text": "Map Checklist\n\nYour map has a clear title.\nLayers include Existing and Proposed.\nFeatures are labeled with correct names.\nAt least one line and one area are mapped.\nMeasurements are used to check a distance or area.\nExport is clean and readable."
+  },
+  {
+    "objectID": "mapping.html#source-and-further-help",
+    "href": "mapping.html#source-and-further-help",
+    "title": "Unit 2: Mapping the School Farm (3 weeks)",
+    "section": "Source and Further Help",
+    "text": "Source and Further Help\n\nAdapted from Beef + Lamb New Zealand User Guide (July 2021). PDF: resources/use-google-my-maps-map-your-farm.pdf. Site: https://www.beeflambnz.com\nExtra help video: https://www.landcare.org.nz/resource-item/mapping\nGoogle My Maps support: https://support.google.com/mymaps"
   },
   {
     "objectID": "refractometer-unit.html",
@@ -385,459 +840,81 @@
     "text": "Teacher notes and extension ideas\n\nRe-test the same crop weekly and graph trend over time.\nCompare sunny vs shaded growing areas.\nCompare irrigation regimes where appropriate.\nIntegrate with economics: does higher Brix influence sale value?\nIntegrate with digital tech: students build a shared class dataset."
   },
   {
-    "objectID": "mapping.html",
-    "href": "mapping.html",
-    "title": "Unit 2: Mapping the School Farm (3 weeks)",
+    "objectID": "weather-dunedin-kaikorai.html",
+    "href": "weather-dunedin-kaikorai.html",
+    "title": "Unit 7: Weather, Forecasting, and Environmental Impacts (Dunedin and Kaikorai Valley)",
     "section": "",
-    "text": "Google My Maps is a free tool for creating a farm plan, measuring distances and areas, and recording work done on the property. This guide helps you map our school farm features and plan future work."
+    "text": "This unit explores local weather systems in Dunedin and Kaikorai Valley and connects forecasts to practical decisions on the KVC farm. You will study how weather conditions affect native and invasive species, compare plant versus animal impacts, and use air quality monitoring data already collected at KVC."
   },
   {
-    "objectID": "mapping.html#introduction",
-    "href": "mapping.html#introduction",
-    "title": "Unit 2: Mapping the School Farm (3 weeks)",
+    "objectID": "weather-dunedin-kaikorai.html#overview",
+    "href": "weather-dunedin-kaikorai.html#overview",
+    "title": "Unit 7: Weather, Forecasting, and Environmental Impacts (Dunedin and Kaikorai Valley)",
     "section": "",
-    "text": "Google My Maps is a free tool for creating a farm plan, measuring distances and areas, and recording work done on the property. This guide helps you map our school farm features and plan future work."
+    "text": "This unit explores local weather systems in Dunedin and Kaikorai Valley and connects forecasts to practical decisions on the KVC farm. You will study how weather conditions affect native and invasive species, compare plant versus animal impacts, and use air quality monitoring data already collected at KVC."
   },
   {
-    "objectID": "mapping.html#learning-goals",
-    "href": "mapping.html#learning-goals",
-    "title": "Unit 2: Mapping the School Farm (3 weeks)",
+    "objectID": "weather-dunedin-kaikorai.html#learning-goals",
+    "href": "weather-dunedin-kaikorai.html#learning-goals",
+    "title": "Unit 7: Weather, Forecasting, and Environmental Impacts (Dunedin and Kaikorai Valley)",
     "section": "Learning Goals",
-    "text": "Learning Goals\n\nCreate a digital farm map using layers.\nAdd points, lines, and areas with clear labels.\nMeasure distances and paddock areas accurately.\nExport or print a clean map for your workbook."
+    "text": "Learning Goals\nBy the end of this unit, you can:\n\nRead weather forecasts and identify key short-term risks.\nExplain how local geography in Kaikorai Valley shapes weather conditions.\nCompare impacts of weather on native species and invasive species.\nCompare plant impacts and animal impacts from the same weather event.\nUse KVC air quality monitoring observations to support farm decisions."
   },
   {
-    "objectID": "mapping.html#getting-started",
-    "href": "mapping.html#getting-started",
-    "title": "Unit 2: Mapping the School Farm (3 weeks)",
-    "section": "1. Getting Started",
-    "text": "1. Getting Started\n\nGo to https://www.google.co.nz/mymaps and sign in to your Google account. If you do not have an account, create one.\nClick “Create a new map”.\nClick “Untitled map” to rename your map (for example, “Kaikorai Valley College School Farm”)."
+    "objectID": "weather-dunedin-kaikorai.html#local-weather-context-dunedin-and-kaikorai-valley",
+    "href": "weather-dunedin-kaikorai.html#local-weather-context-dunedin-and-kaikorai-valley",
+    "title": "Unit 7: Weather, Forecasting, and Environmental Impacts (Dunedin and Kaikorai Valley)",
+    "section": "1. Local Weather Context: Dunedin and Kaikorai Valley",
+    "text": "1. Local Weather Context: Dunedin and Kaikorai Valley\n\nWhy local context matters\nDunedin weather can change quickly due to coastal influence, wind shifts, and temperature differences between low and elevated areas. Kaikorai Valley can experience:\n\nCooler overnight temperatures and morning dampness.\nWind funnel effects in exposed areas.\nFast shifts between calm and gusty conditions.\nLocalized rain intensity that affects drainage and muddy zones.\n\n\n\nQuick climate features to watch\n\nWind direction and strength (especially strong southerlies).\nRainfall intensity and duration.\nOvernight minimum temperature and frost risk.\nDaily maximum temperature and heat stress risk.\nHumidity and dew point for disease pressure in plants."
   },
   {
-    "objectID": "mapping.html#set-up-layers",
-    "href": "mapping.html#set-up-layers",
-    "title": "Unit 2: Mapping the School Farm (3 weeks)",
-    "section": "2. Set Up Layers",
-    "text": "2. Set Up Layers\nLayers let you separate existing features from proposed work. You can turn layers on or off using the checkbox next to each layer.\n\nRename the first layer to Existing. Use this for current paddocks, dams, fences, buildings, and water points.\nClick “Add layer” and name it Proposed for future work such as new planting or fencing."
+    "objectID": "weather-dunedin-kaikorai.html#forecasting-for-farm-decisions",
+    "href": "weather-dunedin-kaikorai.html#forecasting-for-farm-decisions",
+    "title": "Unit 7: Weather, Forecasting, and Environmental Impacts (Dunedin and Kaikorai Valley)",
+    "section": "2. Forecasting for Farm Decisions",
+    "text": "2. Forecasting for Farm Decisions\n\nForecast checklist (daily)\nBefore starting practical work, check:\n\nNext 24-hour rainfall forecast.\nWind forecast (speed and gusts).\nTemperature range (min and max).\nAny weather warnings (heavy rain, strong winds, cold snaps).\nAir quality trend if available for the day.\n\n\n\nPractical forecast actions\n\nHeavy rain expected: delay soil disturbance and protect exposed soil.\nStrong wind expected: secure loose materials, postpone spraying, check shelter access.\nFrost risk expected: protect sensitive plants and adjust irrigation timing.\nHot, dry period expected: prioritize watering and check animal shade/water supply."
   },
   {
-    "objectID": "mapping.html#locate-the-farm",
-    "href": "mapping.html#locate-the-farm",
-    "title": "Unit 2: Mapping the School Farm (3 weeks)",
-    "section": "3. Locate the Farm",
-    "text": "3. Locate the Farm\n\nUse the search bar to type in the school address, or zoom using the mouse wheel and the + / - buttons.\nClick the arrow next to Base map and choose Satellite for a clear aerial view."
+    "objectID": "weather-dunedin-kaikorai.html#impact-analysis-native-vs-invasive-animals-vs-plants",
+    "href": "weather-dunedin-kaikorai.html#impact-analysis-native-vs-invasive-animals-vs-plants",
+    "title": "Unit 7: Weather, Forecasting, and Environmental Impacts (Dunedin and Kaikorai Valley)",
+    "section": "3. Impact Analysis: Native vs Invasive, Animals vs Plants",
+    "text": "3. Impact Analysis: Native vs Invasive, Animals vs Plants\nUse the matrix below to compare impacts after major weather changes.\n\n\n\n\n\n\n\n\n\n\nWeather condition\nNative plants\nInvasive plants\nNative animals\nFarm animals\n\n\n\n\nProlonged rain\nPossible root stress in poorly drained areas; some natives tolerate wet conditions well\nFast growth in some invasive grasses and weeds\nMore wet/cold stress if shelter is limited\nMud stress, foot issues, and feed area damage\n\n\nDry spell\nWater stress in young native plantings\nDrought-tolerant invasives can outcompete new plantings\nReduced invertebrate food in dry patches\nHeat stress and higher water demand\n\n\nStrong wind\nPhysical damage to young trees and exposed shrubs\nWind-dispersed invasive seeds may spread further\nNest disturbance for small bird species\nAnimals avoid exposed paddocks; fencing risk\n\n\nCold snap/frost\nFrost-sensitive natives may be damaged\nSome invasives recover quickly after frost\nReduced activity and higher energy demand\nExtra feed and shelter may be required\n\n\n\n\nDiscussion prompts\n\nWhich weather condition creates the biggest advantage for invasive species on the KVC farm?\nWhich species group is most vulnerable to sudden weather shifts: plants or animals?\nWhat management action could reduce risk for both native biodiversity and farm operations?"
   },
   {
-    "objectID": "mapping.html#add-farm-features",
-    "href": "mapping.html#add-farm-features",
-    "title": "Unit 2: Mapping the School Farm (3 weeks)",
-    "section": "4. Add Farm Features",
-    "text": "4. Add Farm Features\n\nA. Markers (Point Features)\nUse markers for water tanks, sheds, gates, troughs, or trees.\n\nClick the Marker icon under the search bar.\nClick the exact spot on the map.\nGive the marker a clear title, then save.\n\n\n\n\nB. Lines (Fences, Tracks, Waterways)\n\nClick the Line icon (right of the marker icon) and choose “Add line or shape”.\nClick along the path of the fence or creek.\nPress Enter to finish the line and add a title.\n\n\n\n\nC. Areas (Paddocks, Orchards, Bush)\n\nStart the same way as a line.\nClick around the boundary and then click the starting point to close the shape.\nAdd a title and save.\n\n\n\nD. Edit or Delete Features\nAfter saving a feature, a popup lets you edit color, line width, transparency, and description. You can also attach a photo or delete the feature using the trash bin icon."
+    "objectID": "weather-dunedin-kaikorai.html#air-quality-monitoring-at-kvc",
+    "href": "weather-dunedin-kaikorai.html#air-quality-monitoring-at-kvc",
+    "title": "Unit 7: Weather, Forecasting, and Environmental Impacts (Dunedin and Kaikorai Valley)",
+    "section": "4. Air Quality Monitoring at KVC",
+    "text": "4. Air Quality Monitoring at KVC\nKVC already monitors air quality. In this unit, treat air quality as part of environmental forecasting and risk management.\n\nWhy air quality matters on a school farm\n\nHigh particulate levels can affect human comfort during outdoor work.\nDust can increase during dry, windy periods.\nAir quality can signal when to reduce strenuous outdoor tasks.\nAir quality and weather together improve planning accuracy.\n\n\n\nMonitoring routine\n\nRecord daily air quality reading from the KVC monitoring setup.\nRecord the same-day weather conditions (wind, rain, temperature).\nNote observed farm impacts (animal behavior, plant stress, dust, mud).\nCompare trends across at least two weeks.\n\n\n\nData table template\n\n\n\n\n\n\n\n\n\n\n\nDate\nAir quality reading/category\nRainfall (mm or none/light/moderate/heavy)\nWind (calm/moderate/strong)\nTemperature range\nKey farm observations"
   },
   {
-    "objectID": "mapping.html#measure-distances-and-areas",
-    "href": "mapping.html#measure-distances-and-areas",
-    "title": "Unit 2: Mapping the School Farm (3 weeks)",
-    "section": "5. Measure Distances and Areas",
-    "text": "5. Measure Distances and Areas\nThe Measurement tool (ruler icon) helps you check distances or paddock sizes.\n\nClick the ruler icon on the far right of the toolbar.\nClick a starting point, then add points to measure a path.\nFor a polygon, close the shape to see both perimeter and area (in hectares).\nPress Enter to finish a straight line measurement.\nTo stop measuring, click the hand icon or click anywhere on the screen."
+    "objectID": "weather-dunedin-kaikorai.html#investigation-task-forecast-vs-reality",
+    "href": "weather-dunedin-kaikorai.html#investigation-task-forecast-vs-reality",
+    "title": "Unit 7: Weather, Forecasting, and Environmental Impacts (Dunedin and Kaikorai Valley)",
+    "section": "5. Investigation Task: Forecast vs Reality",
+    "text": "5. Investigation Task: Forecast vs Reality\n\nTask\nOver 10 school days:\n\nRecord the daily forecast each morning.\nRecord observed weather conditions later the same day.\nRecord KVC air quality reading.\nIdentify one plant impact and one animal impact each day.\nClassify whether the main impact was stronger on native or invasive species.\n\n\n\nOutput\nPrepare a short report that includes:\n\nA summary of forecast accuracy over the 10 days.\nA chart or table of weather + air quality observations.\nA comparison of native vs invasive impacts.\nA comparison of animal vs plant impacts.\nTwo practical recommendations for farm planning at KVC."
   },
   {
-    "objectID": "mapping.html#export-or-print-your-map",
-    "href": "mapping.html#export-or-print-your-map",
-    "title": "Unit 2: Mapping the School Farm (3 weeks)",
-    "section": "6. Export or Print Your Map",
-    "text": "6. Export or Print Your Map\n\nOption A: Print Map (Recommended)\n\nClick the three vertical dots next to your map name.\nChoose “Print map”.\nPick paper size, orientation, and output type, then click Print.\nA new PDF preview opens in your browser. Use the print icon to save as PDF or print.\n\n\n\n\nOption B: Screenshot (Snipping Tool)\nWindows\n\nOpen Snipping Tool from the Start menu search.\nClick New, then drag to select the area.\nSave the image and insert it into your workbook.\n\nMac\n\nPress Shift + Command + 4.\nDrag to select the area.\nThe screenshot saves to the desktop for inserting into your workbook."
+    "objectID": "weather-dunedin-kaikorai.html#assessment-questions",
+    "href": "weather-dunedin-kaikorai.html#assessment-questions",
+    "title": "Unit 7: Weather, Forecasting, and Environmental Impacts (Dunedin and Kaikorai Valley)",
+    "section": "6. Assessment Questions",
+    "text": "6. Assessment Questions\n\nExplain two ways Kaikorai Valley geography can influence local weather compared with a general Dunedin city forecast.\nDescribe one weather situation where invasive species may gain an advantage over native species.\nCompare how a 3-day heavy rain event can affect plants differently from animals.\nExplain how KVC air quality data can improve operational decisions on the farm.\nSuggest one monitoring improvement to make your weather-impact data more reliable."
   },
   {
-    "objectID": "mapping.html#map-checklist",
-    "href": "mapping.html#map-checklist",
-    "title": "Unit 2: Mapping the School Farm (3 weeks)",
-    "section": "Map Checklist",
-    "text": "Map Checklist\n\nYour map has a clear title.\nLayers include Existing and Proposed.\nFeatures are labeled with correct names.\nAt least one line and one area are mapped.\nMeasurements are used to check a distance or area.\nExport is clean and readable."
+    "objectID": "weather-dunedin-kaikorai.html#extension-building-a-farm-weather-risk-plan",
+    "href": "weather-dunedin-kaikorai.html#extension-building-a-farm-weather-risk-plan",
+    "title": "Unit 7: Weather, Forecasting, and Environmental Impacts (Dunedin and Kaikorai Valley)",
+    "section": "Extension: Building a Farm Weather Risk Plan",
+    "text": "Extension: Building a Farm Weather Risk Plan\nCreate a one-page risk plan for the next month that includes:\n\nTop three weather hazards most likely for this season.\nEarly warning signs from forecasts and air quality data.\nImmediate actions for animals, crops, and restoration/native planting zones.\nA review date to check if the plan worked."
   },
   {
-    "objectID": "mapping.html#source-and-further-help",
-    "href": "mapping.html#source-and-further-help",
-    "title": "Unit 2: Mapping the School Farm (3 weeks)",
-    "section": "Source and Further Help",
-    "text": "Source and Further Help\n\nAdapted from Beef + Lamb New Zealand User Guide (July 2021). PDF: resources/use-google-my-maps-map-your-farm.pdf. Site: https://www.beeflambnz.com\nExtra help video: https://www.landcare.org.nz/resource-item/mapping\nGoogle My Maps support: https://support.google.com/mymaps"
-  },
-  {
-    "objectID": "farm-dogs.html",
-    "href": "farm-dogs.html",
-    "title": "Unit 4: Farm Dogs & Working with Sheep",
-    "section": "",
-    "text": "This two-lesson mini-unit introduces the role of farm dogs in livestock management, safety, and animal welfare.\n\nLesson 1 (tomorrow): Building background knowledge and planning observations.\nLesson 2 (Friday): Live practical session with Jess (your sheepdog)."
-  },
-  {
-    "objectID": "farm-dogs.html#overview",
-    "href": "farm-dogs.html#overview",
-    "title": "Unit 4: Farm Dogs & Working with Sheep",
-    "section": "",
-    "text": "This two-lesson mini-unit introduces the role of farm dogs in livestock management, safety, and animal welfare.\n\nLesson 1 (tomorrow): Building background knowledge and planning observations.\nLesson 2 (Friday): Live practical session with Jess (your sheepdog)."
-  },
-  {
-    "objectID": "farm-dogs.html#learning-goals",
-    "href": "farm-dogs.html#learning-goals",
-    "title": "Unit 4: Farm Dogs & Working with Sheep",
-    "section": "Learning Goals",
-    "text": "Learning Goals\nBy the end of this unit, students can:\n\nExplain at least three jobs farm dogs perform on working farms.\nDescribe safe behaviour around a working dog.\nRecord structured observations of dog behaviour using correct farm language.\nConnect dog actions (movement, positioning, commands) to stock movement outcomes."
-  },
-  {
-    "objectID": "farm-dogs.html#lesson-1-introduction-to-farm-dogs-classroomyard-50-60-min",
-    "href": "farm-dogs.html#lesson-1-introduction-to-farm-dogs-classroomyard-50-60-min",
-    "title": "Unit 4: Farm Dogs & Working with Sheep",
-    "section": "Lesson 1: Introduction to Farm Dogs (Classroom/yard, 50-60 min)",
-    "text": "Lesson 1: Introduction to Farm Dogs (Classroom/yard, 50-60 min)\n\nSuccess Criteria\nStudents can:\n\nIdentify key traits of a working sheepdog.\nMatch common commands to expected dog actions.\nPrepare an observation sheet for Friday’s practical lesson.\n\n\n\nMaterials\n\nWhiteboard and markers\nPrinted copy of the observation table (below)\nClipboards (if heading outside for short movement demo)\n\n\n\nLesson Sequence\n\nHook (5 min):\n\nAsk: “What makes a farm dog different from a pet dog?”\nGather ideas and sort into categories: behaviour, training, purpose.\n\nMini-teaching (10-15 min):\n\nRoles of farm dogs: gathering, driving, holding, backing, and yard work.\nKey welfare concepts: calm pressure, no rough handling, handler responsibility.\n\nCommands and communication (10 min):\n\nIntroduce likely commands students may hear on Friday (e.g. stop, lie down, walk up, come by, away, steady).\nDiscuss why consistent commands matter for animal safety.\n\nMovement mapping task (15 min):\n\nIn pairs, students draw a small paddock and plot where dog, sheep, and handler should stand to move sheep through a gate.\nShare and compare different movement plans.\n\nPrepare for Friday (10 min):\n\nHand out observation sheet and explain what students must record during Jess’s session.\nReview class expectations for safe conduct around Jess and sheep.\n\n\n\n\nFormative Check\n\nExit ticket: “One thing Jess will need to do on Friday” + “One safety rule I must follow.”"
-  },
-  {
-    "objectID": "farm-dogs.html#lesson-2-practical-with-jess-friday-50-60-min",
-    "href": "farm-dogs.html#lesson-2-practical-with-jess-friday-50-60-min",
-    "title": "Unit 4: Farm Dogs & Working with Sheep",
-    "section": "Lesson 2: Practical with Jess (Friday, 50-60 min)",
-    "text": "Lesson 2: Practical with Jess (Friday, 50-60 min)\n\nSuccess Criteria\nStudents can:\n\nObserve and accurately describe Jess’s response to commands.\nExplain how Jess’s position changes sheep movement.\nDemonstrate safe and respectful behaviour around working animals.\n\n\n\nSafety Brief (Start of lesson)\n\nStay behind the marked observation line unless invited forward.\nNo sudden movements, shouting, or approaching Jess without permission.\nFollow teacher instructions immediately around livestock.\nIf unsure, step back and ask.\n\n\n\nPractical Sequence\n\nRe-cap and briefing (5 min):\n\nReview previous lesson’s commands and safety expectations.\n\nJess introduction (5 min):\n\nBrief profile: breed/type, age, training, daily farm roles.\n\nDemonstration rounds (20-25 min):\n\nRound 1: Basic control (stop/lie down/walk up).\nRound 2: Directional work around stock.\nRound 3: Moving stock toward a target point.\nStudents complete observation table during each round.\n\nStudent analysis (10-15 min):\n\nPairs compare notes and identify one “effective handler move” and one “effective Jess behaviour.”\n\nDebrief (5-10 min):\n\nWhole-class discussion: What did Jess do that most affected sheep direction and speed?\n\n\n\n\nQuick Assessment Task\nStudents submit a short paragraph:\n“Describe one command, Jess’s response, and the effect on sheep movement. Include one safety behaviour you followed.”"
-  },
-  {
-    "objectID": "farm-dogs.html#student-observation-table-print-or-copy",
-    "href": "farm-dogs.html#student-observation-table-print-or-copy",
-    "title": "Unit 4: Farm Dogs & Working with Sheep",
-    "section": "Student Observation Table (print or copy)",
-    "text": "Student Observation Table (print or copy)\n\n\n\n\n\n\n\n\n\nCommand heard\nJess’s action\nSheep response\nWhy it worked (or didn’t)"
-  },
-  {
-    "objectID": "farm-dogs.html#optional-extension-homework",
-    "href": "farm-dogs.html#optional-extension-homework",
-    "title": "Unit 4: Farm Dogs & Working with Sheep",
-    "section": "Optional Extension / Homework",
-    "text": "Optional Extension / Homework\n\nCreate a one-page “Working Dog Guide for New Farm Students” including:\n\n5 safety rules\n5 useful commands\n1 diagram showing ideal handler-dog-stock positioning"
-  },
-  {
-    "objectID": "units-overview.html",
-    "href": "units-overview.html",
-    "title": "Applied Mathematics: Farm Units",
-    "section": "",
-    "text": "This section contains the course sequence for the school farm programme. The opening unit introduces primary sectors, sustainability, location factors, and rural safety before students move into the practical farm units."
-  },
-  {
-    "objectID": "units-overview.html#overview",
-    "href": "units-overview.html#overview",
-    "title": "Applied Mathematics: Farm Units",
-    "section": "",
-    "text": "This section contains the course sequence for the school farm programme. The opening unit introduces primary sectors, sustainability, location factors, and rural safety before students move into the practical farm units."
-  },
-  {
-    "objectID": "units-overview.html#unit-1-sector-and-safety",
-    "href": "units-overview.html#unit-1-sector-and-safety",
-    "title": "Applied Mathematics: Farm Units",
-    "section": "Unit 1: Sector and Safety",
-    "text": "Unit 1: Sector and Safety\nFocus on the structure of New Zealand’s primary industries, sustainability, location factors, rural safety, and introductory agricultural science vocabulary.\nWhat you’ll do\n\nLearn the seven key primary sectors in New Zealand.\nExplore sustainability, biodiversity, and resource management.\nStudy why industries are located in different regions.\nPractise rural safety knowledge and agricultural science vocabulary.\nGo to: Unit 1: Sector and Safety"
-  },
-  {
-    "objectID": "units-overview.html#unit-2-mapping-the-school-farm-3-weeks",
-    "href": "units-overview.html#unit-2-mapping-the-school-farm-3-weeks",
-    "title": "Applied Mathematics: Farm Units",
-    "section": "Unit 2: Mapping the School Farm (3 weeks)",
-    "text": "Unit 2: Mapping the School Farm (3 weeks)\nFocus on mapping the farm, measuring areas and distances, and producing a final map for the workbook.\n\nWhat you’ll do\n\nBuild layers for existing and proposed features.\nMeasure paddocks and distances.\nExport a clean PDF map for your workbook.\nGo to: Unit 2: Mapping the School Farm"
-  },
-  {
-    "objectID": "units-overview.html#unit-3-potato-patch-prep-3-lessons",
-    "href": "units-overview.html#unit-3-potato-patch-prep-3-lessons",
-    "title": "Applied Mathematics: Farm Units",
-    "section": "Unit 3: Potato Patch Prep (3 lessons)",
-    "text": "Unit 3: Potato Patch Prep (3 lessons)\nFocus on hazards, tool safety, and practical preparation of the potato patch.\nWhat you’ll do\n\nIdentify hazards and agree on controls.\nTurn over soil and remove turf.\nCompost and level the patch for planting.\nGo to: Unit 3: Potato Patch Prep"
-  },
-  {
-    "objectID": "units-overview.html#unit-4-farm-dogs-working-with-sheep-2-lessons",
-    "href": "units-overview.html#unit-4-farm-dogs-working-with-sheep-2-lessons",
-    "title": "Applied Mathematics: Farm Units",
-    "section": "Unit 4: Farm Dogs & Working with Sheep (2 lessons)",
-    "text": "Unit 4: Farm Dogs & Working with Sheep (2 lessons)\nFocus on the role of working dogs in livestock movement, animal welfare, and farm safety.\nWhat you’ll do\n\nLearn how farm dogs support sheep and paddock operations.\nPractise observation and command-response analysis.\nComplete a practical lesson with Jess the sheepdog.\nGo to: Unit 4: Farm Dogs & Working with Sheep"
-  },
-  {
-    "objectID": "units-overview.html#unit-5-apple-unit-2-lessons",
-    "href": "units-overview.html#unit-5-apple-unit-2-lessons",
-    "title": "Applied Mathematics: Farm Units",
-    "section": "Unit 5: Apple Unit (2 lessons)",
-    "text": "Unit 5: Apple Unit (2 lessons)\nFocus on harvesting, cleaning, weighing, and bagging apples for sale while applying measurement and money maths.\nWhat you’ll do\n\nPick and handle fruit safely.\nClean and sort apples by quality.\nWeigh fruit accurately and pack sale bags.\nCalculate total expected income from packed fruit.\nGo to: Unit 5: Apple Unit"
-  },
-  {
-    "objectID": "units-overview.html#unit-6-refractometer-testing---sugar-levels-in-farm-produce-4-lessons",
-    "href": "units-overview.html#unit-6-refractometer-testing---sugar-levels-in-farm-produce-4-lessons",
-    "title": "Applied Mathematics: Farm Units",
-    "section": "Unit 6: Refractometer Testing - Sugar Levels in Farm Produce (4 lessons)",
-    "text": "Unit 6: Refractometer Testing - Sugar Levels in Farm Produce (4 lessons)\nFocus on measuring sugar levels (Brix) in fruit and vegetables from around the farm using a refractometer.\nWhat you’ll do\n\nLearn how light refraction is used in practical farm testing.\nCalibrate and use a refractometer safely.\nTest and compare produce quality using Brix readings.\nMake evidence-based recommendations for harvest timing and crop quality.\nGo to: Unit 6: Refractometer Testing"
-  },
-  {
-    "objectID": "units-overview.html#unit-7-weather-forecasting-and-environmental-impacts-dunedin-and-kaikorai-valley",
-    "href": "units-overview.html#unit-7-weather-forecasting-and-environmental-impacts-dunedin-and-kaikorai-valley",
-    "title": "Applied Mathematics: Farm Units",
-    "section": "Unit 7: Weather, Forecasting, and Environmental Impacts (Dunedin and Kaikorai Valley)",
-    "text": "Unit 7: Weather, Forecasting, and Environmental Impacts (Dunedin and Kaikorai Valley)\nFocus on reading local forecasts, interpreting conditions in Kaikorai Valley, and evaluating impacts on native and invasive species, animals and plants, with air quality monitoring integrated from current KVC practice.\nWhat you’ll do\n\nTrack daily forecasts and compare forecast vs observed conditions.\nAssess weather impacts on native versus invasive species.\nCompare animal welfare impacts with plant growth and stress impacts.\nUse KVC air quality observations as part of farm risk planning.\nGo to: Unit 7: Weather, Forecasting, and Environmental Impacts"
-  },
-  {
-    "objectID": "units-overview.html#unit-8-autumn-planting-seedlings-3-lessons",
-    "href": "units-overview.html#unit-8-autumn-planting-seedlings-3-lessons",
-    "title": "Applied Mathematics: Farm Units",
-    "section": "Unit 8: Autumn Planting (Seedlings) (3 lessons)",
-    "text": "Unit 8: Autumn Planting (Seedlings) (3 lessons)\nFocus on choosing hardy autumn crops, sowing seeds accurately, and caring for seedlings before transplanting.\nWhat you’ll do\n\nCompare cool-season crops for Otago conditions.\nLearn how water, oxygen, and temperature support germination.\nSow, label, and record trays correctly.\nPlan how to harden off seedlings before planting out.\nGo to: Unit 8: Autumn Planting (Seedlings)"
-  },
-  {
-    "objectID": "units-overview.html#farm-operations",
-    "href": "units-overview.html#farm-operations",
-    "title": "Applied Mathematics: Farm Units",
-    "section": "Farm Operations",
-    "text": "Farm Operations\n\nFarm Missions\nRegular maintenance and care tasks that anyone can undertake. Each mission focuses on a specific area of farm management with detailed instructions and ticklists.\nAvailable Missions:\n\nMission 1: Animal Care & Observation\nMission 2: Garden & Berry House Maintenance\nMission 3: Restoration & Tree Health\nMission 4: Environmental Observation\nMission 5: Organisation & Inventory\nGo to: Farm Missions Overview\n\n\n\n\nFriday Close-Down Checklist\nA quick final check for Friday afternoon to ensure the farm is secure, clean, and ready for the weekend.\nWhat you’ll do\n\nVerify all animals have weekend supplies\nConfirm tools and equipment are secured\nCheck gates, doors, and utilities\nEnsure the farm is ready for Monday\nGo to: Friday Close-Down Checklist"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Unit 8: Autumn Planting (Seedlings)",
-    "section": "",
-    "text": "This standalone site contains the Urban Farm applied mathematics units, separated from the Year 9 Mathematics project.\n\n\n\nFarm Units overview\nUnit 1: Sector and Safety\nUnit 2: Mapping the School Farm\nUnit 3: Potato Patch Prep\nUnit 4: Farm Dogs and Working with Sheep\nUnit 5: Apple Unit (2 lessons)\nUnit 6: Refractometer Testing\nUnit 7: Weather, Forecasting, and Environmental Impacts\nUnit 8: Autumn Planting (Seedlings)\n\n\n\n\n\nFarm Missions - Regular maintenance tasks\nFriday Close-Down Checklist\n\n\n\n```{r setup, include=FALSE} knitr::opts_chunk$set(echo = FALSE)\n```"
-  },
-  {
-    "objectID": "index.html#welcome",
-    "href": "index.html#welcome",
-    "title": "Unit 8: Autumn Planting (Seedlings)",
-    "section": "",
-    "text": "This standalone site contains the Urban Farm applied mathematics units, separated from the Year 9 Mathematics project.\n\n\n\nFarm Units overview\nUnit 1: Sector and Safety\nUnit 2: Mapping the School Farm\nUnit 3: Potato Patch Prep\nUnit 4: Farm Dogs and Working with Sheep\nUnit 5: Apple Unit (2 lessons)\nUnit 6: Refractometer Testing\nUnit 7: Weather, Forecasting, and Environmental Impacts\nUnit 8: Autumn Planting (Seedlings)\n\n\n\n\n\nFarm Missions - Regular maintenance tasks\nFriday Close-Down Checklist\n\n\n\n```{r setup, include=FALSE} knitr::opts_chunk$set(echo = FALSE)\n```"
-  },
-  {
-    "objectID": "apple-unit.html",
-    "href": "apple-unit.html",
-    "title": "Unit 5: Apple Unit (2 lessons)",
-    "section": "",
-    "text": "This unit links practical orchard work with measurement and money maths. Students pick apples, clean fruit, weigh accurately, and pack fruit into sale bags."
-  },
-  {
-    "objectID": "apple-unit.html#purpose",
-    "href": "apple-unit.html#purpose",
-    "title": "Unit 5: Apple Unit (2 lessons)",
-    "section": "",
-    "text": "This unit links practical orchard work with measurement and money maths. Students pick apples, clean fruit, weigh accurately, and pack fruit into sale bags."
-  },
-  {
-    "objectID": "apple-unit.html#unit-target-for-this-year",
-    "href": "apple-unit.html#unit-target-for-this-year",
-    "title": "Unit 5: Apple Unit (2 lessons)",
-    "section": "Unit target for this year",
-    "text": "Unit target for this year\n\nPack 4 x 2kg bags.\nPrice is $6 per 2kg bag.\nTotal target income: $24.\nNo 1kg bags this time (usually they are $4 per 1kg)."
-  },
-  {
-    "objectID": "apple-unit.html#learning-goals",
-    "href": "apple-unit.html#learning-goals",
-    "title": "Unit 5: Apple Unit (2 lessons)",
-    "section": "Learning goals",
-    "text": "Learning goals\nBy the end of this unit, students can:\n\npick and handle fruit safely without bruising\nclean and sort apples by quality\nweigh fruit accurately to 2kg\npack, label, and count bags ready for sale\ncalculate expected income from packed bags"
-  },
-  {
-    "objectID": "apple-unit.html#lesson-structure-2-lessons",
-    "href": "apple-unit.html#lesson-structure-2-lessons",
-    "title": "Unit 5: Apple Unit (2 lessons)",
-    "section": "Lesson structure (2 lessons)",
-    "text": "Lesson structure (2 lessons)\n\n\n\n\n\n\n\n\nLesson\nFocus\nOutcome\n\n\n\n\nLesson 1\nPick and clean fruit\nApples are safely picked, cleaned, and sorted.\n\n\nLesson 2\nWeigh, bag, and label fruit\n4 x 2kg bags are packed and ready for sale."
-  },
-  {
-    "objectID": "apple-unit.html#lesson-1-picking-and-cleaning-apples-40-min",
-    "href": "apple-unit.html#lesson-1-picking-and-cleaning-apples-40-min",
-    "title": "Unit 5: Apple Unit (2 lessons)",
-    "section": "Lesson 1: Picking and cleaning apples (40 min)",
-    "text": "Lesson 1: Picking and cleaning apples (40 min)\nGoal: Harvest apples safely and prepare clean fruit for packing.\n\nStudent activities and instructions\n\nPut on gloves and check your picking area.\nPick apples carefully (twist and lift, do not pull hard).\nPlace fruit gently into crates/buckets (do not throw fruit).\nRemove leaves and obvious dirt.\nWipe or rinse apples and place on drying trays.\nSort into:\n\n\nSale quality (good skin, good size)\nSecond quality (bruised/small; not for 2kg sale bags)\n\n\n\nGroup tasks (20 students)\n\n\n\nGroup\nStudents\nTask focus\nKey actions\n\n\n\n\nGroup A\n7\nPicking\nPick apples safely and fill crates.\n\n\nGroup B\n7\nCleaning\nWipe/rinse apples and set to dry.\n\n\nGroup C\n6\nSorting\nSort apples into sale/second quality.\n\n\n\n\n\nTiming (40 min)\n\n0-5 min: Safety briefing and tool/equipment check.\n5-25 min: Picking and crate collection.\n25-35 min: Cleaning and sorting.\n35-40 min: Clean-up and count prepared fruit."
-  },
-  {
-    "objectID": "apple-unit.html#lesson-2-weighing-bagging-and-pricing-40-min",
-    "href": "apple-unit.html#lesson-2-weighing-bagging-and-pricing-40-min",
-    "title": "Unit 5: Apple Unit (2 lessons)",
-    "section": "Lesson 2: Weighing, bagging, and pricing (40 min)",
-    "text": "Lesson 2: Weighing, bagging, and pricing (40 min)\nGoal: Produce 4 x 2kg sale bags and calculate expected income.\n\nStudent activities and instructions\n\nSet up scales on flat ground and check zero.\nFill each bag to 2.00kg (or as close as possible).\nAdjust weight by adding/removing apples.\nSeal each bag and label clearly:\n\n\n“Apple Bag - 2kg”\nPrice “$6”\n\n\nRepeat until 4 bags are complete.\nCalculate income:\n\n\n\\(4 \\times 6 = 24\\)\n\n\nRecord final numbers in class sheet.\n\n\n\nPacking table\n\n\n\nBag #\nTarget weight\nActual weight\nPrice\n\n\n\n\n1\n2.00 kg\n\n$6\n\n\n2\n2.00 kg\n\n$6\n\n\n3\n2.00 kg\n\n$6\n\n\n4\n2.00 kg\n\n$6\n\n\n\n\n\nTiming (40 min)\n\n0-5 min: Scale setup and demo.\n5-25 min: Weigh and pack 4 bags.\n25-35 min: Label, check quality, and count stock.\n35-40 min: Income calculation and tidy up."
-  },
-  {
-    "objectID": "apple-unit.html#tools-and-materials",
-    "href": "apple-unit.html#tools-and-materials",
-    "title": "Unit 5: Apple Unit (2 lessons)",
-    "section": "Tools and materials",
-    "text": "Tools and materials\n\npicking buckets/crates\ngloves\nclean cloths or rinse tubs\ndigital or kitchen scales\npacking bags\nlabels/marker pens\ncleaning spray/paper towels for workstations"
-  },
-  {
-    "objectID": "apple-unit.html#health-and-safety-guidelines",
-    "href": "apple-unit.html#health-and-safety-guidelines",
-    "title": "Unit 5: Apple Unit (2 lessons)",
-    "section": "Health and safety guidelines",
-    "text": "Health and safety guidelines\n\n\n\n\n\n\n\nRisk\nGuideline/control\n\n\n\n\nSlips/trips in orchard\nWalk, do not run; keep paths clear of crates and bags.\n\n\nLadder/fall risk\nOnly teacher-approved students use ladders; 3-point contact at all times.\n\n\nCuts/scratches\nWear gloves; handle branches carefully; report injuries immediately.\n\n\nFood hygiene risk\nClean hands before handling sale fruit; use clean cloths and clean surfaces.\n\n\nManual handling strain\nLift crates with bent knees; share heavy loads.\n\n\nBee/wasp stings\nStay calm near insects; notify teacher if allergic reaction risk.\n\n\nSun exposure/dehydration\nHats, sunscreen, and water breaks required."
-  },
-  {
-    "objectID": "apple-unit.html#teacher-checks-end-of-unit",
-    "href": "apple-unit.html#teacher-checks-end-of-unit",
-    "title": "Unit 5: Apple Unit (2 lessons)",
-    "section": "Teacher checks (end of unit)",
-    "text": "Teacher checks (end of unit)\n\n4 x 2kg bags completed\nLabels clear and correct ($6 per bag)\nWeights recorded\nHygiene and safety expectations met\nTotal income calculated ($24)"
-  },
-  {
-    "objectID": "apple-unit.html#reflection",
-    "href": "apple-unit.html#reflection",
-    "title": "Unit 5: Apple Unit (2 lessons)",
-    "section": "Reflection",
-    "text": "Reflection\n\nWhat helped your group weigh bags accurately?\nWhat quality issues did you notice most often?\nIf we used 1kg bags next time, how would sales options change?"
-  },
-  {
-    "objectID": "apple-unit.html#printable-student-worksheet",
-    "href": "apple-unit.html#printable-student-worksheet",
-    "title": "Unit 5: Apple Unit (2 lessons)",
-    "section": "Printable student worksheet",
-    "text": "Printable student worksheet\n\nStudent names\n\nName 1: ____________________\nName 2: ____________________\nName 3: ____________________\n\n\n\nLesson 1 checklist (pick, clean, sort)\n\nI wore gloves and followed safety instructions.\nI picked apples carefully without bruising fruit.\nI cleaned apples and removed dirt/leaves.\nI sorted apples into sale quality and second quality.\n\n\n\nLesson 2 checklist (weigh, bag, label)\n\nI checked the scale was at zero before weighing.\nI helped pack 2kg bags accurately.\nI checked each bag label was correct.\nI helped calculate total expected income.\n\n\n\nBag recording table\n\n\n\n\n\n\n\n\n\n\nBag #\nTarget weight\nActual weight\nLabel checked\nReady for sale\n\n\n\n\n1\n2.00 kg\n\n[ ]\n[ ]\n\n\n2\n2.00 kg\n\n[ ]\n[ ]\n\n\n3\n2.00 kg\n\n[ ]\n[ ]\n\n\n4\n2.00 kg\n\n[ ]\n[ ]\n\n\n\n\n\nIncome check\n\nNumber of 2kg bags packed: ______\nPrice per 2kg bag: $6\nTotal expected income: $______\n\n\n\nTeacher sign-off\n\nSafety expectations met\nQuality and weight checks completed\nBags ready for sale\n\nTeacher signature: ____________________ Date: ____________________"
-  },
-  {
-    "objectID": "friday-closedown.html",
-    "href": "friday-closedown.html",
-    "title": "Friday Farm Close-Down Checklist",
-    "section": "",
-    "text": "Welcome to the Friday close-down routine! Before leaving for the weekend, complete this final checklist to ensure the farm is secure, clean, and ready for Monday.\nNote: If you haven’t already completed the regular farm missions this week, visit the Farm Missions page to see what needs to be done. The Friday close-down assumes all regular maintenance has been completed.\n📄 Download: Friday Ticklist PDF - Print this checklist for easy reference on the farm!"
-  },
-  {
-    "objectID": "friday-closedown.html#friday-close-down",
-    "href": "friday-closedown.html#friday-close-down",
-    "title": "Friday Farm Close-Down Checklist",
-    "section": "",
-    "text": "Welcome to the Friday close-down routine! Before leaving for the weekend, complete this final checklist to ensure the farm is secure, clean, and ready for Monday.\nNote: If you haven’t already completed the regular farm missions this week, visit the Farm Missions page to see what needs to be done. The Friday close-down assumes all regular maintenance has been completed.\n📄 Download: Friday Ticklist PDF - Print this checklist for easy reference on the farm!"
-  },
-  {
-    "objectID": "friday-closedown.html#final-check",
-    "href": "friday-closedown.html#final-check",
-    "title": "Friday Farm Close-Down Checklist",
-    "section": "Final Check",
-    "text": "Final Check\nBefore you leave for the weekend:\n\nAnimal Welfare\n\nAll animals have food and water for the weekend\nChicken door is secure\nPaddock animals are safe and healthy\nAll shelter areas are accessible\n\n\n\nTools & Equipment\n\nAll tools are cleaned and stored properly\nWatering cans and buckets stored upside down (prevent mosquito breeding)\nNo equipment left outside that should be stored\nAll sharp tools safely stored\n\n\n\nSecurity & Safety\n\nAll gates and doors are secured\nShed and barn locked\nNo trip hazards left in pathways\nFire hazards cleared (wood chips, dry materials away from buildings)\n\n\n\nWater & Utilities\n\nNo hoses or watering equipment left running\nAll taps turned off completely\nCheck for leaks or running water\nGutters and drains clear\n\n\n\nGeneral Farm Readiness\n\nWork areas are tidy\nRubbish removed to appropriate bins\nFarm log completed with any observations or issues\nAny urgent issues reported to farm supervisor\nFarm is ready for Monday!"
-  },
-  {
-    "objectID": "friday-closedown.html#weekend-considerations",
-    "href": "friday-closedown.html#weekend-considerations",
-    "title": "Friday Farm Close-Down Checklist",
-    "section": "Weekend Considerations",
-    "text": "Weekend Considerations\nBefore you leave, consider:\n\nWeather forecast: Does anything need extra securing for wind/rain?\nAnimal needs: Is weekend feed/water supply adequate?\nUrgent issues: Has everything that needs immediate attention been reported?\nNext week: Any special tasks or events to prepare for?"
-  },
-  {
-    "objectID": "friday-closedown.html#quick-mission-reference",
-    "href": "friday-closedown.html#quick-mission-reference",
-    "title": "Friday Farm Close-Down Checklist",
-    "section": "Quick Mission Reference",
-    "text": "Quick Mission Reference\nIf you notice something needs attention before the weekend:\n\nAnimals need care? → Mission 1: Animal Care\nGarden needs watering/weeding? → Mission 2: Garden Maintenance\nTrees need checking? → Mission 3: Restoration\nWant to make observations? → Mission 4: Environmental Observation\nAreas need tidying? → Mission 5: Organisation\n\n\nWell done, Farm Steward! Have a great weekend! 🌾\nSee you Monday!"
-  },
-  {
-    "objectID": "potato-patch.html",
-    "href": "potato-patch.html",
-    "title": "Unit 3: Potato Patch Prep (3 lessons)",
-    "section": "",
-    "text": "This short unit links practical work to risk management by preparing the potato patch. Students identify hazards, use tools safely, and complete the prep steps."
-  },
-  {
-    "objectID": "potato-patch.html#purpose",
-    "href": "potato-patch.html#purpose",
-    "title": "Unit 3: Potato Patch Prep (3 lessons)",
-    "section": "",
-    "text": "This short unit links practical work to risk management by preparing the potato patch. Students identify hazards, use tools safely, and complete the prep steps."
-  },
-  {
-    "objectID": "potato-patch.html#lesson-structure-3-lessons",
-    "href": "potato-patch.html#lesson-structure-3-lessons",
-    "title": "Unit 3: Potato Patch Prep (3 lessons)",
-    "section": "Lesson structure (3 lessons)",
-    "text": "Lesson structure (3 lessons)\n\n\n\n\n\n\n\n\nLesson\nFocus\nOutcome\n\n\n\n\nLesson 1\nHazards and safe tool use\nStudents can name hazards and apply controls.\n\n\nLesson 2\nTurn over and prep the patch\nSoil is loosened and turf is removed.\n\n\nLesson 3\nCompost, break up soil, level\nPatch is composted and ready for planting."
-  },
-  {
-    "objectID": "potato-patch.html#practical-session-potato-patch-prep-40-min",
-    "href": "potato-patch.html#practical-session-potato-patch-prep-40-min",
-    "title": "Unit 3: Potato Patch Prep (3 lessons)",
-    "section": "Practical session: Potato patch prep (40 min)",
-    "text": "Practical session: Potato patch prep (40 min)\nGoal: Turn over and prepare the potato patch for planting by removing grass, loosening soil, and mixing compost.\n\nGroup tasks (20 students total)\n\n\n\n\n\n\n\n\n\nGroup\nStudents\nTask focus\nKey actions\n\n\n\n\nGroup A\n7\nRemove top grass\nLift turf, stack it in a designated pile, clear roots.\n\n\nGroup B\n7\nTurn over soil\nUse forks/spades to loosen and flip soil to one spade depth.\n\n\nGroup C\n6\nCompost and break up soil\nSpread compost, break clods, rake level.\n\n\n\n\n\nTiming (40 min)\n\n0-5 min: Safety briefing, tool allocation, demo of safe spade/fork use.\n5-30 min: Group work on tasks.\n30-35 min: Rotate quick checks, finish edges, tidy stacks.\n35-40 min: Tool clean-up, wash hands, quick reflection.\n\n\n\nTools and materials\n\nSpades (for turf lifting)\nGarden forks (for turning soil)\nRakes (for leveling)\nBuckets or barrow (for compost)\nGloves (one pair per student)\nWater bottle and sunscreen (if required)\n\n\n\nRisks and controls\n\n\n\n\n\n\n\nRisk\nControl\n\n\n\n\nBlisters or cuts\nGloves required, correct tool grip demo.\n\n\nTool injuries (spade/fork)\nSpacing rule: arm’s length plus tool length; tools down when not in use.\n\n\nTrips on uneven ground\nClear walkways; keep tools flat on ground when resting.\n\n\nManual handling strain\nUse knees when lifting turf; share heavy loads.\n\n\nSun exposure\nHats, sunscreen, water breaks.\n\n\n\n\n\nExtra process ideas\n\nMark the patch boundary with string before starting.\nAssign a student as timekeeper for mid-lesson check-in.\nPhotograph before/after for reflection or mapping updates."
-  },
-  {
-    "objectID": "autumn-planting-seedlings.html",
-    "href": "autumn-planting-seedlings.html",
-    "title": "Unit 8: Autumn Planting (Seedlings)",
-    "section": "",
-    "text": "This 3-lesson unit focuses on raising cool-season seedlings for autumn planting in Otago. Students investigate why crop choice matters, sow seeds using a controlled method, and care for seedlings so they are ready to harden off and transplant.\nThis unit is adapted from the existing autumn planting resources in the repo and supported by new classroom-ready files in the resources folder.\n\n\n\nOtago Autumn Planting Lessons.docx\nAutumn Champion Crop Profile Assignment.docx\nAutumn planting seedling crop guide\nAutumn planting student workbook\nAutumn planting tray log"
-  },
-  {
-    "objectID": "autumn-planting-seedlings.html#unit-overview",
-    "href": "autumn-planting-seedlings.html#unit-overview",
-    "title": "Unit 8: Autumn Planting (Seedlings)",
-    "section": "",
-    "text": "This 3-lesson unit focuses on raising cool-season seedlings for autumn planting in Otago. Students investigate why crop choice matters, sow seeds using a controlled method, and care for seedlings so they are ready to harden off and transplant.\nThis unit is adapted from the existing autumn planting resources in the repo and supported by new classroom-ready files in the resources folder.\n\n\n\nOtago Autumn Planting Lessons.docx\nAutumn Champion Crop Profile Assignment.docx\nAutumn planting seedling crop guide\nAutumn planting student workbook\nAutumn planting tray log"
-  },
-  {
-    "objectID": "autumn-planting-seedlings.html#purpose",
-    "href": "autumn-planting-seedlings.html#purpose",
-    "title": "Unit 8: Autumn Planting (Seedlings)",
-    "section": "Purpose",
-    "text": "Purpose\nStudents learn how local climate affects planting decisions and apply that knowledge in a practical seed-raising sequence. The emphasis is on choosing hardy autumn crops, using seed trays and warming mats correctly, and managing seedling health before transplanting."
-  },
-  {
-    "objectID": "autumn-planting-seedlings.html#learning-goals",
-    "href": "autumn-planting-seedlings.html#learning-goals",
-    "title": "Unit 8: Autumn Planting (Seedlings)",
-    "section": "Learning goals",
-    "text": "Learning goals\nBy the end of this unit, students can:\n\nexplain why autumn planting in Otago focuses on establishment rather than fast growth\nselect suitable cool-season crops for local conditions\nsow seeds at an appropriate depth and label trays accurately\ndescribe the role of water, oxygen, and temperature in germination\nmonitor seedling health and identify common risks such as leggy growth and damping off\ncreate a simple hardening-off plan before transplanting"
-  },
-  {
-    "objectID": "autumn-planting-seedlings.html#lesson-structure-3-lessons",
-    "href": "autumn-planting-seedlings.html#lesson-structure-3-lessons",
-    "title": "Unit 8: Autumn Planting (Seedlings)",
-    "section": "Lesson structure (3 lessons)",
-    "text": "Lesson structure (3 lessons)\n\n\n\n\n\n\n\n\nLesson\nFocus\nOutcome\n\n\n\n\nLesson 1\nCrop selection and seasonality\nStudents choose suitable autumn crops and justify why they suit Otago conditions.\n\n\nLesson 2\nGermination and sowing\nSeed trays are sown correctly, labelled, and placed for germination.\n\n\nLesson 3\nSeedling care and hardening off\nStudents inspect seedling health and produce a transplant preparation plan."
-  },
-  {
-    "objectID": "autumn-planting-seedlings.html#lesson-1-choosing-the-right-autumn-crop",
-    "href": "autumn-planting-seedlings.html#lesson-1-choosing-the-right-autumn-crop",
-    "title": "Unit 8: Autumn Planting (Seedlings)",
-    "section": "Lesson 1: Choosing the right autumn crop",
-    "text": "Lesson 1: Choosing the right autumn crop\nGoal: Understand why autumn planting in Otago requires hardy crops and realistic expectations about growth.\n\nKey teaching idea\nAutumn planting in Otago is mainly about building roots and establishing plants before winter. Lower light levels, cooler air, and frost risk mean students must choose crops that can cope with slow growth and cold conditions.\n\n\nStarter discussion\n\nWhy can two farms plant the same seed at different times and get different results?\nWhat changes in autumn besides temperature?\nWhy might a warming mat help germination but not solve every growing problem?\n\n\n\nStudent activities\n\nReview the crop guide and identify crops suited to autumn sowing.\nCompare crop needs using germination temperature, days to germinate, and harvest window.\nSelect one crop for the class tray or group tray.\nComplete a short justification using:\n\nfrost tolerance\nexpected harvest window\nlikely success in Dunedin or Otago conditions\n\n\n\n\nSuggested crops\n\nbroad beans\nspinach\nkale\nsilverbeet\nwinter cabbage\npak choy\ngarlic for a seasonal comparison discussion\n\n\n\nGroup task structure\n\n\n\n\n\n\n\n\n\nGroup\nStudents\nTask focus\nKey actions\n\n\n\n\nGroup A\n7\nClimate and seasonality\nIdentify local autumn limits: light, frost, and slower growth.\n\n\nGroup B\n7\nCrop comparison\nUse the crop guide to compare hardy options.\n\n\nGroup C\n6\nRecommendation\nChoose crops and report back with reasons.\n\n\n\n\n\nTiming (40-50 min)\n\n0-10 min: Intro discussion on seasonality and local conditions.\n10-20 min: Crop guide reading and teacher modelling.\n20-35 min: Group comparison and recommendation task.\n35-45 min: Share decisions and record chosen crops.\n45-50 min: Exit slip or workbook reflection.\n\n\n\nSuccess criteria\n\nI can name at least two crops suited to autumn planting.\nI can explain why decreasing daylight matters.\nI can justify one crop choice using evidence."
-  },
-  {
-    "objectID": "autumn-planting-seedlings.html#lesson-2-germination-and-seed-sowing",
-    "href": "autumn-planting-seedlings.html#lesson-2-germination-and-seed-sowing",
-    "title": "Unit 8: Autumn Planting (Seedlings)",
-    "section": "Lesson 2: Germination and seed sowing",
-    "text": "Lesson 2: Germination and seed sowing\nGoal: Sow seeds accurately and explain how germination works.\n\nKey teaching idea\nSeeds need water, oxygen, and suitable temperature to start growing. Warming mats help the soil reach a useful germination temperature, but students still need correct depth, moisture, and labelling.\n\n\nCore science idea: W.O.T.\n\nWater: activates the seed and starts internal processes\nOxygen: allows respiration so the embryo can release energy\nTemperature: helps enzymes work efficiently so the seed can germinate\n\n\n\nPractical instructions\n\nPrepare seed trays or small pots with seed-raising mix.\nMoisten the mix so it is damp, not saturated.\nSow seeds using the rule of thumb: about \\(2 \\times\\) the seed diameter.\nCover lightly and mist gently.\nLabel each tray with crop name, date, and group.\nPlace trays on a warming mat or in a protected germination area.\n\n\n\nPractical roles\n\n\n\nRole\nResponsibility\n\n\n\n\nTray prep\nFill trays evenly and moisten seed mix.\n\n\nSowing\nPlace seeds at correct depth and spacing.\n\n\nLabelling\nRecord crop, sowing date, and group accurately.\n\n\nSetup check\nConfirm trays are tidy and placed correctly.\n\n\n\n\n\nTiming (40-50 min)\n\n0-10 min: Demonstration of W.O.T. and sowing depth.\n10-15 min: Prepare trays and equipment.\n15-35 min: Sow and label trays.\n35-45 min: Check placement, moisture, and records.\n45-50 min: Complete tray log and workbook notes.\n\n\n\nSuccess criteria\n\nI can explain W.O.T. in simple scientific language.\nI can sow seeds at an appropriate depth.\nI can label trays clearly enough for later monitoring."
-  },
-  {
-    "objectID": "autumn-planting-seedlings.html#lesson-3-seedling-care-and-hardening-off",
-    "href": "autumn-planting-seedlings.html#lesson-3-seedling-care-and-hardening-off",
-    "title": "Unit 8: Autumn Planting (Seedlings)",
-    "section": "Lesson 3: Seedling care and hardening off",
-    "text": "Lesson 3: Seedling care and hardening off\nGoal: Identify healthy seedling conditions and prepare a plan for moving seedlings outdoors.\n\nKey teaching idea\nWarmth alone is not enough. Seedlings also need enough light, airflow, and careful watering. Before transplanting, they must be hardened off gradually so they can tolerate colder outdoor conditions.\n\n\nStudent activities\n\nInspect trays or example seedlings for signs of success or problems.\nIdentify risks such as:\n\nleggy seedlings\noverwatering\ndry trays\npoor labelling\ndamping off\n\nCreate a 5- to 7-day hardening-off schedule.\nComplete a crop profile or transplant plan from the workbook.\n\n\n\nHardening-off sequence\n\nDay 1-2: short sheltered outdoor exposure\nDay 3-4: longer outdoor time with some cooler air\nDay 5-6: most of the day outside if conditions are suitable\nDay 7: ready for transplanting if roots, moisture, and weather are appropriate\n\n\n\nTiming (40-50 min)\n\n0-10 min: Review seedling care and common failure points.\n10-20 min: Tray inspection and discussion.\n20-35 min: Hardening-off plan task.\n35-45 min: Crop profile or transplant recommendation.\n45-50 min: Reflection and teacher check.\n\n\n\nSuccess criteria\n\nI can describe what a healthy seedling needs.\nI can identify at least two common seedling risks.\nI can make a realistic hardening-off plan."
-  },
-  {
-    "objectID": "autumn-planting-seedlings.html#tools-and-materials",
-    "href": "autumn-planting-seedlings.html#tools-and-materials",
-    "title": "Unit 8: Autumn Planting (Seedlings)",
-    "section": "Tools and materials",
-    "text": "Tools and materials\n\nseed trays or small pots\nseed-raising mix\nautumn crop seeds\nlabels and permanent marker\nwatering spray bottle or fine rose watering can\nwarming mat or sheltered propagation area\nruler for spacing/depth demonstration\nclass crop guide and workbook"
-  },
-  {
-    "objectID": "autumn-planting-seedlings.html#health-and-safety-guidelines",
-    "href": "autumn-planting-seedlings.html#health-and-safety-guidelines",
-    "title": "Unit 8: Autumn Planting (Seedlings)",
-    "section": "Health and safety guidelines",
-    "text": "Health and safety guidelines\n\n\n\n\n\n\n\nRisk\nControl\n\n\n\n\nWet floors or spilled mix\nClean spills quickly and keep walkways clear.\n\n\nCross-contamination between trays\nUse labelled trays and clean tools between groups.\n\n\nOverwatering around electrical warming mats\nTeacher manages plugs and checks safe placement.\n\n\nAllergies or dust from seed mix\nUse ventilation and wash hands after handling mix.\n\n\nPoor lifting or carrying of trays\nCarry trays with two hands and use benches at suitable height.\n\n\nSun or cold exposure during hardening off\nMove seedlings gradually and monitor weather before outdoor placement."
-  },
-  {
-    "objectID": "autumn-planting-seedlings.html#assessment-opportunities",
-    "href": "autumn-planting-seedlings.html#assessment-opportunities",
-    "title": "Unit 8: Autumn Planting (Seedlings)",
-    "section": "Assessment opportunities",
-    "text": "Assessment opportunities\n\ncrop selection justification in Lesson 1\ncorrectly completed tray labels and tray log in Lesson 2\nhardening-off plan or crop profile in Lesson 3\nteacher observation of practical handling and care routines"
-  },
-  {
-    "objectID": "autumn-planting-seedlings.html#teacher-checks",
-    "href": "autumn-planting-seedlings.html#teacher-checks",
-    "title": "Unit 8: Autumn Planting (Seedlings)",
-    "section": "Teacher checks",
-    "text": "Teacher checks\n\nAutumn crops chosen suit local conditions.\nTrays are labelled with crop, date, and group.\nStudents can explain W.O.T. accurately.\nSeedling care risks have been discussed.\nA hardening-off plan has been completed."
-  },
-  {
-    "objectID": "autumn-planting-seedlings.html#reflection-questions",
-    "href": "autumn-planting-seedlings.html#reflection-questions",
-    "title": "Unit 8: Autumn Planting (Seedlings)",
-    "section": "Reflection questions",
-    "text": "Reflection questions\n\nWhy is autumn planting in Otago more about roots than rapid leaf growth?\nWhich crop would you trust most for local autumn planting, and why?\nWhat could go wrong if seedlings move from a warm tray straight into a cold garden bed?"
+    "objectID": "weather-dunedin-kaikorai.html#suggested-data-sources",
+    "href": "weather-dunedin-kaikorai.html#suggested-data-sources",
+    "title": "Unit 7: Weather, Forecasting, and Environmental Impacts (Dunedin and Kaikorai Valley)",
+    "section": "Suggested Data Sources",
+    "text": "Suggested Data Sources\n\nMetService forecast for Dunedin.\nNIWA climate summaries and weather context.\nKVC air quality monitoring records.\nSchool farm observation logs."
   },
   {
     "objectID": "sector-and-safety.html",
@@ -1036,157 +1113,122 @@
     "text": "Completion\nOnce all tasks are completed: - [ ] Take a photo of tidy work area (optional) - [ ] Record completion in farm log - [ ] Report any issues to supervisor - [ ] Leave the farm better than you found it!\nMission Status: Complete! 🧹🔧"
   },
   {
-    "objectID": "index.html#overview",
-    "href": "index.html#overview",
-    "title": "Unit 8: Autumn Planting (Seedlings)",
+    "objectID": "hazards-unit.html#overview-1",
+    "href": "hazards-unit.html#overview-1",
+    "title": "Applied Mathematics: Farm Units",
     "section": "Overview",
     "text": "Overview\nThis section contains the course sequence for the school farm programme. The opening unit introduces primary sectors, sustainability, location factors, and rural safety before students move into the practical farm units."
   },
   {
-    "objectID": "index.html#unit-1-sector-and-safety",
-    "href": "index.html#unit-1-sector-and-safety",
-    "title": "Unit 8: Autumn Planting (Seedlings)",
+    "objectID": "hazards-unit.html#two-term-unit-plan-calendar-tue-thu-fri",
+    "href": "hazards-unit.html#two-term-unit-plan-calendar-tue-thu-fri",
+    "title": "Applied Mathematics: Farm Units",
+    "section": "Two-Term Unit Plan Calendar (Tue, Thu, Fri)",
+    "text": "Two-Term Unit Plan Calendar (Tue, Thu, Fri)\nThis class runs across two terms with three lessons each week:\n\nTerm 1: 10 weeks (30 lessons)\nTerm 2: 11 weeks (33 lessons)\nClass days: Tuesday, Thursday, Friday\n\n\nTerm 1 Calendar (10 Weeks)\n\n\n\n\n\n\n\n\n\nWeek\nTuesday\nThursday\nFriday\n\n\n\n\n1\nUnit 1: Primary sectors in NZ\nUnit 1: Sustainability and biodiversity\nUnit 1: Rural safety and vocabulary\n\n\n2\nUnit 1: Location factors\nUnit 1: Sector case studies\nUnit 1: Quiz and safety practical\n\n\n3\nUnit 2: Intro to farm mapping\nUnit 2: Base map and layers setup\nUnit 2: Mapping field walk\n\n\n4\nUnit 2: Measuring paddock areas\nUnit 2: Distance and scale calculations\nUnit 2: Data entry and map updates\n\n\n5\nUnit 2: Proposed farm improvements\nUnit 2: Final map formatting\nUnit 2: Export and submit final map\n\n\n6\nUnit 3: Hazard identification\nUnit 3: Tool safety and procedures\nUnit 3: Potato patch prep practical\n\n\n7\nUnit 4: Working dogs and welfare\nUnit 4: Sheep movement observation\nMission rotation and reflection\n\n\n8\nUnit 5: Apple harvest and handling\nUnit 5: Weighing, bagging, and money maths\nFarm mission + Friday close-down routine\n\n\n9\nUnit 6: Refractometer theory and setup\nUnit 6: Calibration and safe use\nUnit 6: Brix testing practical\n\n\n10\nUnit 6: Data analysis and recommendations\nTerm 1 review and catch-up\nEnd-of-term practical checkpoint\n\n\n\n\n\nTerm 2 Calendar (11 Weeks)\n\n\n\n\n\n\n\n\n\nWeek\nTuesday\nThursday\nFriday\n\n\n\n\n1\nUnit 7: Forecast tools and maps + hazards mini-check\nUnit 7: Reading Dunedin and Kaikorai forecasts + PPE reminder\nWeather log setup + hazards monitoring entry\n\n\n2\nUnit 7: Forecast vs observed conditions + hazard spotting\nUnit 7: Wind/rain impacts + control options\nFarm weather reflection + risk ranking\n\n\n3\nUnit 7: Native vs invasive impacts + safe movement\nUnit 7: Welfare planning + tool hazard cue\nAir quality monitoring + evidence logging\n\n\n4\nUnit 8: Autumn crop selection + setup risk check\nUnit 8: Germination planning + hygiene control\nSeed sowing practical + safe workflow review\n\n\n5\nUnit 8: Tray management + manual handling cue\nMission 1 + animal area hazard focus\nFriday close-down + weekly hazard log\n\n\n6\nMission 2 + slips/trips and tool handling\nMission 3 + restoration safety controls\nMission evidence collection + hazard update\n\n\n7\nMission 4 + environmental hazard cue\nMission 5 + organisation and safe storage\nMission catch-up + near-miss discussion\n\n\n8\nIntegrated maths project + pre-task risk check\nData collection + control hierarchy review\nProject work + monitoring log quality check\n\n\n9\nProject analysis + communication risk prompt\nRecommendations + practical control planning\nFarm operations practical + audit evidence\n\n\n10\nReport drafting + sign-off checklist\nPresentation prep + peer safety feedback\nRehearsals + final hazard poster edits\n\n\n11\nFinal presentations + hazard summary\nCourse reflection + behavior change review\nEnd-of-term close-down + project sign-off\n\n\n\n\n\nFarm Photo Highlights\nUse these real farm snapshots as lesson starters, discussion prompts, and writing tasks."
+  },
+  {
+    "objectID": "hazards-unit.html#unit-1-sector-and-safety",
+    "href": "hazards-unit.html#unit-1-sector-and-safety",
+    "title": "Applied Mathematics: Farm Units",
     "section": "Unit 1: Sector and Safety",
     "text": "Unit 1: Sector and Safety\nFocus on the structure of New Zealand’s primary industries, sustainability, location factors, rural safety, and introductory agricultural science vocabulary.\nWhat you’ll do\n\nLearn the seven key primary sectors in New Zealand.\nExplore sustainability, biodiversity, and resource management.\nStudy why industries are located in different regions.\nPractise rural safety knowledge and agricultural science vocabulary.\nGo to: Unit 1: Sector and Safety"
   },
   {
-    "objectID": "index.html#unit-2-mapping-the-school-farm-3-weeks",
-    "href": "index.html#unit-2-mapping-the-school-farm-3-weeks",
-    "title": "Unit 8: Autumn Planting (Seedlings)",
+    "objectID": "hazards-unit.html#unit-2-mapping-the-school-farm-3-weeks",
+    "href": "hazards-unit.html#unit-2-mapping-the-school-farm-3-weeks",
+    "title": "Applied Mathematics: Farm Units",
     "section": "Unit 2: Mapping the School Farm (3 weeks)",
     "text": "Unit 2: Mapping the School Farm (3 weeks)\nFocus on mapping the farm, measuring areas and distances, and producing a final map for the workbook.\n\nWhat you’ll do\n\nBuild layers for existing and proposed features.\nMeasure paddocks and distances.\nExport a clean PDF map for your workbook.\nGo to: Unit 2: Mapping the School Farm"
   },
   {
-    "objectID": "index.html#unit-3-potato-patch-prep-3-lessons",
-    "href": "index.html#unit-3-potato-patch-prep-3-lessons",
-    "title": "Unit 8: Autumn Planting (Seedlings)",
+    "objectID": "hazards-unit.html#unit-3-potato-patch-prep-3-lessons",
+    "href": "hazards-unit.html#unit-3-potato-patch-prep-3-lessons",
+    "title": "Applied Mathematics: Farm Units",
     "section": "Unit 3: Potato Patch Prep (3 lessons)",
     "text": "Unit 3: Potato Patch Prep (3 lessons)\nFocus on hazards, tool safety, and practical preparation of the potato patch.\nWhat you’ll do\n\nIdentify hazards and agree on controls.\nTurn over soil and remove turf.\nCompost and level the patch for planting.\nGo to: Unit 3: Potato Patch Prep"
   },
   {
-    "objectID": "index.html#unit-4-farm-dogs-working-with-sheep-2-lessons",
-    "href": "index.html#unit-4-farm-dogs-working-with-sheep-2-lessons",
-    "title": "Unit 8: Autumn Planting (Seedlings)",
+    "objectID": "hazards-unit.html#unit-4-farm-dogs-working-with-sheep-2-lessons",
+    "href": "hazards-unit.html#unit-4-farm-dogs-working-with-sheep-2-lessons",
+    "title": "Applied Mathematics: Farm Units",
     "section": "Unit 4: Farm Dogs & Working with Sheep (2 lessons)",
-    "text": "Unit 4: Farm Dogs & Working with Sheep (2 lessons)\nFocus on the role of working dogs in livestock movement, animal welfare, and farm safety.\nWhat you’ll do\n\nLearn how farm dogs support sheep and paddock operations.\nPractise observation and command-response analysis.\nComplete a practical lesson with Jess the sheepdog.\nGo to: Unit 4: Farm Dogs & Working with Sheep"
+    "text": "Unit 4: Farm Dogs & Working with Sheep (2 lessons)\nFocus on the role of working dogs in livestock movement, animal welfare, and farm safety.\n\nWhat you’ll do\n\nLearn how farm dogs support sheep and paddock operations.\nPractise observation and command-response analysis.\nComplete a practical lesson with Jess the sheepdog.\nGo to: Unit 4: Farm Dogs & Working with Sheep"
   },
   {
-    "objectID": "index.html#unit-5-apple-unit-2-lessons",
-    "href": "index.html#unit-5-apple-unit-2-lessons",
-    "title": "Unit 8: Autumn Planting (Seedlings)",
+    "objectID": "hazards-unit.html#unit-5-apple-unit-2-lessons",
+    "href": "hazards-unit.html#unit-5-apple-unit-2-lessons",
+    "title": "Applied Mathematics: Farm Units",
     "section": "Unit 5: Apple Unit (2 lessons)",
-    "text": "Unit 5: Apple Unit (2 lessons)\nFocus on harvesting, cleaning, weighing, and bagging apples for sale while applying measurement and money maths.\nWhat you’ll do\n\nPick and handle fruit safely.\nClean and sort apples by quality.\nWeigh fruit accurately and pack sale bags.\nCalculate total expected income from packed fruit.\nGo to: Unit 5: Apple Unit"
+    "text": "Unit 5: Apple Unit (2 lessons)\nFocus on harvesting, cleaning, weighing, and bagging apples for sale while applying measurement and money maths.\n\nWhat you’ll do\n\nPick and handle fruit safely.\nClean and sort apples by quality.\nWeigh fruit accurately and pack sale bags.\nCalculate total expected income from packed fruit.\nGo to: Unit 5: Apple Unit"
   },
   {
-    "objectID": "index.html#unit-6-refractometer-testing---sugar-levels-in-farm-produce-4-lessons",
-    "href": "index.html#unit-6-refractometer-testing---sugar-levels-in-farm-produce-4-lessons",
-    "title": "Unit 8: Autumn Planting (Seedlings)",
+    "objectID": "hazards-unit.html#unit-6-refractometer-testing---sugar-levels-in-farm-produce-4-lessons",
+    "href": "hazards-unit.html#unit-6-refractometer-testing---sugar-levels-in-farm-produce-4-lessons",
+    "title": "Applied Mathematics: Farm Units",
     "section": "Unit 6: Refractometer Testing - Sugar Levels in Farm Produce (4 lessons)",
     "text": "Unit 6: Refractometer Testing - Sugar Levels in Farm Produce (4 lessons)\nFocus on measuring sugar levels (Brix) in fruit and vegetables from around the farm using a refractometer.\nWhat you’ll do\n\nLearn how light refraction is used in practical farm testing.\nCalibrate and use a refractometer safely.\nTest and compare produce quality using Brix readings.\nMake evidence-based recommendations for harvest timing and crop quality.\nGo to: Unit 6: Refractometer Testing"
   },
   {
-    "objectID": "index.html#unit-7-weather-forecasting-and-environmental-impacts-dunedin-and-kaikorai-valley",
-    "href": "index.html#unit-7-weather-forecasting-and-environmental-impacts-dunedin-and-kaikorai-valley",
-    "title": "Unit 8: Autumn Planting (Seedlings)",
+    "objectID": "hazards-unit.html#unit-7-weather-forecasting-and-environmental-impacts-dunedin-and-kaikorai-valley",
+    "href": "hazards-unit.html#unit-7-weather-forecasting-and-environmental-impacts-dunedin-and-kaikorai-valley",
+    "title": "Applied Mathematics: Farm Units",
     "section": "Unit 7: Weather, Forecasting, and Environmental Impacts (Dunedin and Kaikorai Valley)",
     "text": "Unit 7: Weather, Forecasting, and Environmental Impacts (Dunedin and Kaikorai Valley)\nFocus on reading local forecasts, interpreting conditions in Kaikorai Valley, and evaluating impacts on native and invasive species, animals and plants, with air quality monitoring integrated from current KVC practice.\nWhat you’ll do\n\nTrack daily forecasts and compare forecast vs observed conditions.\nAssess weather impacts on native versus invasive species.\nCompare animal welfare impacts with plant growth and stress impacts.\nUse KVC air quality observations as part of farm risk planning.\nGo to: Unit 7: Weather, Forecasting, and Environmental Impacts"
   },
   {
-    "objectID": "index.html#unit-8-autumn-planting-seedlings-3-lessons",
-    "href": "index.html#unit-8-autumn-planting-seedlings-3-lessons",
-    "title": "Unit 8: Autumn Planting (Seedlings)",
+    "objectID": "hazards-unit.html#unit-8-autumn-planting-seedlings-3-lessons",
+    "href": "hazards-unit.html#unit-8-autumn-planting-seedlings-3-lessons",
+    "title": "Applied Mathematics: Farm Units",
     "section": "Unit 8: Autumn Planting (Seedlings) (3 lessons)",
     "text": "Unit 8: Autumn Planting (Seedlings) (3 lessons)\nFocus on choosing hardy autumn crops, sowing seeds accurately, and caring for seedlings before transplanting.\nWhat you’ll do\n\nCompare cool-season crops for Otago conditions.\nLearn how water, oxygen, and temperature support germination.\nSow, label, and record trays correctly.\nPlan how to harden off seedlings before planting out.\nGo to: Unit 8: Autumn Planting (Seedlings)"
   },
   {
-    "objectID": "index.html#farm-operations-1",
-    "href": "index.html#farm-operations-1",
-    "title": "Unit 8: Autumn Planting (Seedlings)",
+    "objectID": "hazards-unit.html#unit-9-farm-hazards-and-safety-project-4-6-lessons",
+    "href": "hazards-unit.html#unit-9-farm-hazards-and-safety-project-4-6-lessons",
+    "title": "Applied Mathematics: Farm Units",
+    "section": "Unit 9: Farm Hazards and Safety Project (4-6 lessons)",
+    "text": "Unit 9: Farm Hazards and Safety Project (4-6 lessons)\nFocus on completing a real farm hazard audit, developing controls, and presenting a student-designed safety communication poster.\n \nWhat you’ll do\n\nComplete hazard identification and risk scoring in a selected farm area.\nBuild practical controls and safer work routines.\nUse templates to design a hazard communication poster.\nPresent findings and recommendations to peers.\nGo to: Unit 9: Farm Hazards and Safety Project"
+  },
+  {
+    "objectID": "hazards-unit.html#farm-operations",
+    "href": "hazards-unit.html#farm-operations",
+    "title": "Applied Mathematics: Farm Units",
     "section": "Farm Operations",
-    "text": "Farm Operations\n\nFarm Missions\nRegular maintenance and care tasks that anyone can undertake. Each mission focuses on a specific area of farm management with detailed instructions and ticklists.\nAvailable Missions:\n\nMission 1: Animal Care & Observation\nMission 2: Garden & Berry House Maintenance\nMission 3: Restoration & Tree Health\nMission 4: Environmental Observation\nMission 5: Organisation & Inventory\nGo to: Farm Missions Overview\n\n\n\n\nFriday Close-Down Checklist\nA quick final check for Friday afternoon to ensure the farm is secure, clean, and ready for the weekend.\nWhat you’ll do\n\nVerify all animals have weekend supplies\nConfirm tools and equipment are secured\nCheck gates, doors, and utilities\nEnsure the farm is ready for Monday\nGo to: Friday Close-Down Checklist"
+    "text": "Farm Operations\n\nFarm Hazards and Safety\nStudent project resources and templates for the end-of-term hazard audit and safety poster task.\n\nGo to: Unit 9 Hazards Project Hub\n\n\n\nFarm Tools and Equipment\nTool-related examples and resources are included inside the hazards project unit for classroom use.\n\nGo to: Hazards Unit Resources\n\n\n\nFarm Missions\nRegular maintenance and care tasks that anyone can undertake. Each mission focuses on a specific area of farm management with detailed instructions and ticklists.\n \nAvailable Missions:\n\nMission 1: Animal Care & Observation\nMission 2: Garden & Berry House Maintenance\nMission 3: Restoration & Tree Health\nMission 4: Environmental Observation\nMission 5: Organisation & Inventory\nGo to: Farm Missions Overview\n\n\n\n\nFriday Close-Down Checklist\nA quick final check for Friday afternoon to ensure the farm is secure, clean, and ready for the weekend.\nWhat you’ll do\n\nVerify all animals have weekend supplies\nConfirm tools and equipment are secured\nCheck gates, doors, and utilities\nEnsure the farm is ready for Monday\nGo to: Friday Close-Down Checklist"
   },
   {
-    "objectID": "index.html#unit-overview",
-    "href": "index.html#unit-overview",
-    "title": "Unit 8: Autumn Planting (Seedlings)",
-    "section": "Unit overview",
-    "text": "Unit overview\nThis 3-lesson unit focuses on raising cool-season seedlings for autumn planting in Otago. Students investigate why crop choice matters, sow seeds using a controlled method, and care for seedlings so they are ready to harden off and transplant.\nThis unit is adapted from the existing autumn planting resources in the repo and supported by new classroom-ready files in the resources folder.\n\nSource and support resources\n\nOtago Autumn Planting Lessons.docx\nAutumn Champion Crop Profile Assignment.docx\nAutumn planting seedling crop guide\nAutumn planting student workbook\nAutumn planting tray log"
+    "objectID": "hazards-unit.html#welcome",
+    "href": "hazards-unit.html#welcome",
+    "title": "Urban Farm Applied Mathematics",
+    "section": "Welcome",
+    "text": "Welcome\nThis standalone site contains the Kaikoria Valley College Urban Farm units 2026. The units are designed to be used in the context of the school farm, providing students with practical applications of agriculture and horticulture while exploring mathematical concepts through real-world scenarios."
   },
   {
-    "objectID": "index.html#purpose",
-    "href": "index.html#purpose",
-    "title": "Unit 8: Autumn Planting (Seedlings)",
-    "section": "Purpose",
-    "text": "Purpose\nStudents learn how local climate affects planting decisions and apply that knowledge in a practical seed-raising sequence. The emphasis is on choosing hardy autumn crops, using seed trays and warming mats correctly, and managing seedling health before transplanting."
+    "objectID": "hazards-unit.html#course-overview",
+    "href": "hazards-unit.html#course-overview",
+    "title": "Urban Farm Applied Mathematics",
+    "section": "Course Overview",
+    "text": "Course Overview\n\nUnits\nThis course aligns with the Refreshed New Zealand Curriculum (2026) and is designed to provide students with practical applications of agriculture and horticulture in the context of our school farm. Each unit focuses on a specific aspect of farm operations, allowing students to real and develop new skills at the same time as they explore mathematical concepts through real-world scenarios.\n\nFarm Units overview\nUnit 1: Sector and Safety\nUnit 2: Mapping the School Farm (Project 1)\nUnit 3: Potato Patch Prep\nUnit 4: Farm Dogs and Working with Sheep\nUnit 5: Apples and the Orchard\nUnit 6: Refractometer Testing\nUnit 7: Weather, Forecasting, and Environmental Impacts\nUnit 8: Autumn Planting (Project 2)\nUnit 9: Farm Hazards and Safety Project (Project 3)\n\n\n\nRegular Farm Operations\n\nFarm Missions - Regular maintenance tasks\nWeekly Farm Tasks - Routine weekly activities\nFriday Close-Down Checklist - Procedures for end-of-week farm maintenance"
   },
   {
-    "objectID": "index.html#learning-goals",
-    "href": "index.html#learning-goals",
-    "title": "Unit 8: Autumn Planting (Seedlings)",
-    "section": "Learning goals",
-    "text": "Learning goals\nBy the end of this unit, students can:\n\nexplain why autumn planting in Otago focuses on establishment rather than fast growth\nselect suitable cool-season crops for local conditions\nsow seeds at an appropriate depth and label trays accurately\ndescribe the role of water, oxygen, and temperature in germination\nmonitor seedling health and identify common risks such as leggy growth and damping off\ncreate a simple hardening-off plan before transplanting"
+    "objectID": "hazards-unit.html#term-2-delivery-model-threaded-across-all-lessons",
+    "href": "hazards-unit.html#term-2-delivery-model-threaded-across-all-lessons",
+    "title": "Applied Mathematics: Farm Units",
+    "section": "Term 2 Delivery Model (Threaded Across All Lessons)",
+    "text": "Term 2 Delivery Model (Threaded Across All Lessons)\nHazards and safety are included in every Term 2 lesson as a short routine, with bigger project progress completed on wet days.\n\nEvery Lesson (Tue, Thu, Fri)\nUse a 5-10 minute safety thread in most lessons:\n\nStart-of-lesson hazard check for the activity area\nOne quick discussion prompt (risk, control, PPE, or safe behavior)\nOne monitoring note added to the class hazard log\n\n\n\nWet Day Intensives\nUse wet days for deeper hazards project work (30-60 minutes):\n\nPoster drafting and editing\nRisk matrix scoring and moderation\nEvidence write-up and peer feedback\nPresentation rehearsal and sign-off preparation"
   },
   {
-    "objectID": "index.html#lesson-structure-3-lessons",
-    "href": "index.html#lesson-structure-3-lessons",
-    "title": "Unit 8: Autumn Planting (Seedlings)",
-    "section": "Lesson structure (3 lessons)",
-    "text": "Lesson structure (3 lessons)\n\n\n\n\n\n\n\n\nLesson\nFocus\nOutcome\n\n\n\n\nLesson 1\nCrop selection and seasonality\nStudents choose suitable autumn crops and justify why they suit Otago conditions.\n\n\nLesson 2\nGermination and sowing\nSeed trays are sown correctly, labelled, and placed for germination.\n\n\nLesson 3\nSeedling care and hardening off\nStudents inspect seedling health and produce a transplant preparation plan."
+    "objectID": "hazards-unit.html#term-2-week-by-week-hazards-integration",
+    "href": "hazards-unit.html#term-2-week-by-week-hazards-integration",
+    "title": "Applied Mathematics: Farm Units",
+    "section": "Term 2 Week-by-Week Hazards Integration",
+    "text": "Term 2 Week-by-Week Hazards Integration\n\n\n\n\n\n\n\n\n\n\nTerm 2 Week\nTue (light touch)\nThu (light touch)\nFri (light touch)\nWet day intensive focus\n\n\n\n\n1\nIntroduce hazard thread routine\nPPE refresher linked to activity\nLog first monitoring entry\nInduction + contract + project briefing\n\n\n2\nHazard spotting warm-up\nLikelihood vs impact mini-task\nTeam risk ranking check\nBuild audit teams and choose focus areas\n\n\n3\nSafe movement and manual handling cue\nTool-specific hazard reminder\nEvidence note and photo plan\nRun first full hazard audit draft\n\n\n4\nGermination/seedling task risk check\nHygiene and contamination control\nEnd-of-week control check\nStart poster template with chosen hazard\n\n\n5\nAnimal area dynamic risk check\nSafe feed/water handling prompt\nWeekly log update\nRefine controls and add evidence text\n\n\n6\nGarden and tool handling reminder\nSlips/trips and surface scan\nPPE compliance mini-audit\nMid-project peer feedback workshop\n\n\n7\nEnvironmental observation hazard cue\nWeather-triggered risk discussion\nReview near-miss examples\nUpdate risk scores using new evidence\n\n\n8\nProject fieldwork pre-check\nControl hierarchy quick review\nMonitoring log quality check\nPoster and presentation build session\n\n\n9\nData collection safety focus\nCommunicating risk clearly\nTeam action check-in\nDraft presentation + speaking notes\n\n\n10\nPractice sign-off checklist\nFinal control validation\nPre-presentation safety brief\nFull rehearsal and peer review\n\n\n11\nFinal hazard summary prompt\nReflection on behavior change\nClose-down and next steps\nFinal presentations and project sign-off"
   },
   {
-    "objectID": "index.html#lesson-1-choosing-the-right-autumn-crop",
-    "href": "index.html#lesson-1-choosing-the-right-autumn-crop",
-    "title": "Unit 8: Autumn Planting (Seedlings)",
-    "section": "Lesson 1: Choosing the right autumn crop",
-    "text": "Lesson 1: Choosing the right autumn crop\nGoal: Understand why autumn planting in Otago requires hardy crops and realistic expectations about growth.\n\nKey teaching idea\nAutumn planting in Otago is mainly about building roots and establishing plants before winter. Lower light levels, cooler air, and frost risk mean students must choose crops that can cope with slow growth and cold conditions.\n\n\nStarter discussion\n\nWhy can two farms plant the same seed at different times and get different results?\nWhat changes in autumn besides temperature?\nWhy might a warming mat help germination but not solve every growing problem?\n\n\n\nStudent activities\n\nReview the crop guide and identify crops suited to autumn sowing.\nCompare crop needs using germination temperature, days to germinate, and harvest window.\nSelect one crop for the class tray or group tray.\nComplete a short justification using:\n\nfrost tolerance\nexpected harvest window\nlikely success in Dunedin or Otago conditions\n\n\n\n\nSuggested crops\n\nbroad beans\nspinach\nkale\nsilverbeet\nwinter cabbage\npak choy\ngarlic for a seasonal comparison discussion\n\n\n\nGroup task structure\n\n\n\n\n\n\n\n\n\nGroup\nStudents\nTask focus\nKey actions\n\n\n\n\nGroup A\n7\nClimate and seasonality\nIdentify local autumn limits: light, frost, and slower growth.\n\n\nGroup B\n7\nCrop comparison\nUse the crop guide to compare hardy options.\n\n\nGroup C\n6\nRecommendation\nChoose crops and report back with reasons.\n\n\n\n\n\nTiming (40-50 min)\n\n0-10 min: Intro discussion on seasonality and local conditions.\n10-20 min: Crop guide reading and teacher modelling.\n20-35 min: Group comparison and recommendation task.\n35-45 min: Share decisions and record chosen crops.\n45-50 min: Exit slip or workbook reflection.\n\n\n\nSuccess criteria\n\nI can name at least two crops suited to autumn planting.\nI can explain why decreasing daylight matters.\nI can justify one crop choice using evidence."
-  },
-  {
-    "objectID": "index.html#lesson-2-germination-and-seed-sowing",
-    "href": "index.html#lesson-2-germination-and-seed-sowing",
-    "title": "Unit 8: Autumn Planting (Seedlings)",
-    "section": "Lesson 2: Germination and seed sowing",
-    "text": "Lesson 2: Germination and seed sowing\nGoal: Sow seeds accurately and explain how germination works.\n\nKey teaching idea\nSeeds need water, oxygen, and suitable temperature to start growing. Warming mats help the soil reach a useful germination temperature, but students still need correct depth, moisture, and labelling.\n\n\nCore science idea: W.O.T.\n\nWater: activates the seed and starts internal processes\nOxygen: allows respiration so the embryo can release energy\nTemperature: helps enzymes work efficiently so the seed can germinate\n\n\n\nPractical instructions\n\nPrepare seed trays or small pots with seed-raising mix.\nMoisten the mix so it is damp, not saturated.\nSow seeds using the rule of thumb: about \\(2 \\times\\) the seed diameter.\nCover lightly and mist gently.\nLabel each tray with crop name, date, and group.\nPlace trays on a warming mat or in a protected germination area.\n\n\n\nPractical roles\n\n\n\nRole\nResponsibility\n\n\n\n\nTray prep\nFill trays evenly and moisten seed mix.\n\n\nSowing\nPlace seeds at correct depth and spacing.\n\n\nLabelling\nRecord crop, sowing date, and group accurately.\n\n\nSetup check\nConfirm trays are tidy and placed correctly.\n\n\n\n\n\nTiming (40-50 min)\n\n0-10 min: Demonstration of W.O.T. and sowing depth.\n10-15 min: Prepare trays and equipment.\n15-35 min: Sow and label trays.\n35-45 min: Check placement, moisture, and records.\n45-50 min: Complete tray log and workbook notes.\n\n\n\nSuccess criteria\n\nI can explain W.O.T. in simple scientific language.\nI can sow seeds at an appropriate depth.\nI can label trays clearly enough for later monitoring."
-  },
-  {
-    "objectID": "index.html#lesson-3-seedling-care-and-hardening-off",
-    "href": "index.html#lesson-3-seedling-care-and-hardening-off",
-    "title": "Unit 8: Autumn Planting (Seedlings)",
-    "section": "Lesson 3: Seedling care and hardening off",
-    "text": "Lesson 3: Seedling care and hardening off\nGoal: Identify healthy seedling conditions and prepare a plan for moving seedlings outdoors.\n\nKey teaching idea\nWarmth alone is not enough. Seedlings also need enough light, airflow, and careful watering. Before transplanting, they must be hardened off gradually so they can tolerate colder outdoor conditions.\n\n\nStudent activities\n\nInspect trays or example seedlings for signs of success or problems.\nIdentify risks such as:\n\nleggy seedlings\noverwatering\ndry trays\npoor labelling\ndamping off\n\nCreate a 5- to 7-day hardening-off schedule.\nComplete a crop profile or transplant plan from the workbook.\n\n\n\nHardening-off sequence\n\nDay 1-2: short sheltered outdoor exposure\nDay 3-4: longer outdoor time with some cooler air\nDay 5-6: most of the day outside if conditions are suitable\nDay 7: ready for transplanting if roots, moisture, and weather are appropriate\n\n\n\nTiming (40-50 min)\n\n0-10 min: Review seedling care and common failure points.\n10-20 min: Tray inspection and discussion.\n20-35 min: Hardening-off plan task.\n35-45 min: Crop profile or transplant recommendation.\n45-50 min: Reflection and teacher check.\n\n\n\nSuccess criteria\n\nI can describe what a healthy seedling needs.\nI can identify at least two common seedling risks.\nI can make a realistic hardening-off plan."
-  },
-  {
-    "objectID": "index.html#tools-and-materials",
-    "href": "index.html#tools-and-materials",
-    "title": "Unit 8: Autumn Planting (Seedlings)",
-    "section": "Tools and materials",
-    "text": "Tools and materials\n\nseed trays or small pots\nseed-raising mix\nautumn crop seeds\nlabels and permanent marker\nwatering spray bottle or fine rose watering can\nwarming mat or sheltered propagation area\nruler for spacing/depth demonstration\nclass crop guide and workbook"
-  },
-  {
-    "objectID": "index.html#health-and-safety-guidelines",
-    "href": "index.html#health-and-safety-guidelines",
-    "title": "Unit 8: Autumn Planting (Seedlings)",
-    "section": "Health and safety guidelines",
-    "text": "Health and safety guidelines\n\n\n\n\n\n\n\nRisk\nControl\n\n\n\n\nWet floors or spilled mix\nClean spills quickly and keep walkways clear.\n\n\nCross-contamination between trays\nUse labelled trays and clean tools between groups.\n\n\nOverwatering around electrical warming mats\nTeacher manages plugs and checks safe placement.\n\n\nAllergies or dust from seed mix\nUse ventilation and wash hands after handling mix.\n\n\nPoor lifting or carrying of trays\nCarry trays with two hands and use benches at suitable height.\n\n\nSun or cold exposure during hardening off\nMove seedlings gradually and monitor weather before outdoor placement."
-  },
-  {
-    "objectID": "index.html#assessment-opportunities",
-    "href": "index.html#assessment-opportunities",
-    "title": "Unit 8: Autumn Planting (Seedlings)",
-    "section": "Assessment opportunities",
-    "text": "Assessment opportunities\n\ncrop selection justification in Lesson 1\ncorrectly completed tray labels and tray log in Lesson 2\nhardening-off plan or crop profile in Lesson 3\nteacher observation of practical handling and care routines"
-  },
-  {
-    "objectID": "index.html#teacher-checks",
-    "href": "index.html#teacher-checks",
-    "title": "Unit 8: Autumn Planting (Seedlings)",
-    "section": "Teacher checks",
-    "text": "Teacher checks\n\nAutumn crops chosen suit local conditions.\nTrays are labelled with crop, date, and group.\nStudents can explain W.O.T. accurately.\nSeedling care risks have been discussed.\nA hardening-off plan has been completed."
-  },
-  {
-    "objectID": "index.html#reflection-questions",
-    "href": "index.html#reflection-questions",
-    "title": "Unit 8: Autumn Planting (Seedlings)",
-    "section": "Reflection questions",
-    "text": "Reflection questions\n\nWhy is autumn planting in Otago more about roots than rapid leaf growth?\nWhich crop would you trust most for local autumn planting, and why?\nWhat could go wrong if seedlings move from a warm tray straight into a cold garden bed?"
+    "objectID": "hazards-unit.html#suggested-weekly-rhythm",
+    "href": "hazards-unit.html#suggested-weekly-rhythm",
+    "title": "Applied Mathematics: Farm Units",
+    "section": "Suggested Weekly Rhythm",
+    "text": "Suggested Weekly Rhythm\n\nTuesday: quick hazard identification and planning cue\nThursday: controls, PPE, and safe-practice check\nFriday: monitoring log + reflection + actions for next week"
   }
 ]

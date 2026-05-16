@@ -9,6 +9,9 @@ Farm Missions are regular maintenance and care tasks that anyone can undertake o
 
 These missions help ensure the ongoing health and productivity of our urban farm while providing hands-on learning opportunities for students.
 
+![](../resources/farm-photos/farm_barn.jpg){width=48%}
+![](../resources/farm-photos/farm_shed.jpg){width=48%}
+
 ---
 
 ## Available Missions
@@ -16,6 +19,8 @@ These missions help ensure the ongoing health and productivity of our urban farm
 ### Mission 1: Animal Care & Observation
 
 **Focus:** Chickens and paddock animals
+
+![](../resources/farm-photos/chickens_water_food.jpg){width=55%}
 
 Ensure the health and wellbeing of our farm animals through proper feeding, watering, and observation.
 
@@ -32,6 +37,8 @@ Ensure the health and wellbeing of our farm animals through proper feeding, wate
 
 **Focus:** Vegetables, berries, and seedlings
 
+![](../resources/farm-photos/chicken_door.jpg){width=55%}
+
 Maintain the health and productivity of our garden beds, berry house, and young plants.
 
 - Water raised beds and herb boxes
@@ -46,6 +53,8 @@ Maintain the health and productivity of our garden beds, berry house, and young 
 ### Mission 3: Restoration & Tree Health
 
 **Focus:** Native plantings and invasive species control
+
+![](../resources/farm-photos/farm_shed.jpg){width=55%}
 
 Protect and maintain the farm's restoration areas through weed control and tree monitoring.
 
@@ -62,6 +71,8 @@ Protect and maintain the farm's restoration areas through weed control and tree 
 
 **Focus:** Ecosystem monitoring and biodiversity
 
+![](../resources/farm-photos/sheep_water.jpg){width=55%}
+
 Observe and document environmental conditions to understand ecosystem health.
 
 - Study stream water quality and flow
@@ -76,6 +87,8 @@ Observe and document environmental conditions to understand ecosystem health.
 ### Mission 5: Organisation & Inventory
 
 **Focus:** Workspace maintenance and tool care
+
+![](../resources/farm-photos/farm_barn.jpg){width=55%}
 
 Maintain an organized, safe, and efficient farm workspace.
 

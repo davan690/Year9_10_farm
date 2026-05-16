@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Urban Farm 2026">
 
-<title>Unit 8: Autumn Planting (Seedlings)</title>
+<title>Urban Farm Applied Mathematics</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -70,35 +69,6 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -165,6 +135,10 @@ window.Quarto = {
 <span class="menu-text">Unit 8: Autumn Planting</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="./hazards-unit.html"> 
+<span class="menu-text">Unit 9: Hazards Project</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./friday-closedown.html"> 
 <span class="menu-text">Friday Close-Down</span></a>
   </li>  
@@ -188,64 +162,12 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#welcome" id="toc-welcome" class="nav-link active" data-scroll-target="#welcome">Welcome</a>
+  <li><a href="#welcome" id="toc-welcome" class="nav-link active" data-scroll-target="#welcome">Welcome</a></li>
+  <li><a href="#course-overview" id="toc-course-overview" class="nav-link" data-scroll-target="#course-overview">Course Overview</a>
   <ul class="collapse">
   <li><a href="#units" id="toc-units" class="nav-link" data-scroll-target="#units">Units</a></li>
-  <li><a href="#farm-operations" id="toc-farm-operations" class="nav-link" data-scroll-target="#farm-operations">Farm Operations</a></li>
+  <li><a href="#regular-farm-operations" id="toc-regular-farm-operations" class="nav-link" data-scroll-target="#regular-farm-operations">Regular Farm Operations</a></li>
   </ul></li>
-  <li><a href="#overview" id="toc-overview" class="nav-link" data-scroll-target="#overview">Overview</a></li>
-  <li><a href="#unit-1-sector-and-safety" id="toc-unit-1-sector-and-safety" class="nav-link" data-scroll-target="#unit-1-sector-and-safety">Unit 1: Sector and Safety</a></li>
-  <li><a href="#unit-2-mapping-the-school-farm-3-weeks" id="toc-unit-2-mapping-the-school-farm-3-weeks" class="nav-link" data-scroll-target="#unit-2-mapping-the-school-farm-3-weeks">Unit 2: Mapping the School Farm (3 weeks)</a></li>
-  <li><a href="#unit-3-potato-patch-prep-3-lessons" id="toc-unit-3-potato-patch-prep-3-lessons" class="nav-link" data-scroll-target="#unit-3-potato-patch-prep-3-lessons">Unit 3: Potato Patch Prep (3 lessons)</a></li>
-  <li><a href="#unit-4-farm-dogs-working-with-sheep-2-lessons" id="toc-unit-4-farm-dogs-working-with-sheep-2-lessons" class="nav-link" data-scroll-target="#unit-4-farm-dogs-working-with-sheep-2-lessons">Unit 4: Farm Dogs &amp; Working with Sheep (2 lessons)</a></li>
-  <li><a href="#unit-5-apple-unit-2-lessons" id="toc-unit-5-apple-unit-2-lessons" class="nav-link" data-scroll-target="#unit-5-apple-unit-2-lessons">Unit 5: Apple Unit (2 lessons)</a></li>
-  <li><a href="#unit-6-refractometer-testing---sugar-levels-in-farm-produce-4-lessons" id="toc-unit-6-refractometer-testing---sugar-levels-in-farm-produce-4-lessons" class="nav-link" data-scroll-target="#unit-6-refractometer-testing---sugar-levels-in-farm-produce-4-lessons">Unit 6: Refractometer Testing - Sugar Levels in Farm Produce (4 lessons)</a></li>
-  <li><a href="#unit-7-weather-forecasting-and-environmental-impacts-dunedin-and-kaikorai-valley" id="toc-unit-7-weather-forecasting-and-environmental-impacts-dunedin-and-kaikorai-valley" class="nav-link" data-scroll-target="#unit-7-weather-forecasting-and-environmental-impacts-dunedin-and-kaikorai-valley">Unit 7: Weather, Forecasting, and Environmental Impacts (Dunedin and Kaikorai Valley)</a></li>
-  <li><a href="#unit-8-autumn-planting-seedlings-3-lessons" id="toc-unit-8-autumn-planting-seedlings-3-lessons" class="nav-link" data-scroll-target="#unit-8-autumn-planting-seedlings-3-lessons">Unit 8: Autumn Planting (Seedlings) (3 lessons)</a></li>
-  <li><a href="#farm-operations-1" id="toc-farm-operations-1" class="nav-link" data-scroll-target="#farm-operations-1">Farm Operations</a>
-  <ul class="collapse">
-  <li><a href="#farm-missions" id="toc-farm-missions" class="nav-link" data-scroll-target="#farm-missions">Farm Missions</a></li>
-  <li><a href="#friday-close-down-checklist" id="toc-friday-close-down-checklist" class="nav-link" data-scroll-target="#friday-close-down-checklist">Friday Close-Down Checklist</a></li>
-  </ul></li>
-  <li><a href="#unit-overview" id="toc-unit-overview" class="nav-link" data-scroll-target="#unit-overview">Unit overview</a>
-  <ul class="collapse">
-  <li><a href="#source-and-support-resources" id="toc-source-and-support-resources" class="nav-link" data-scroll-target="#source-and-support-resources">Source and support resources</a></li>
-  </ul></li>
-  <li><a href="#purpose" id="toc-purpose" class="nav-link" data-scroll-target="#purpose">Purpose</a></li>
-  <li><a href="#learning-goals" id="toc-learning-goals" class="nav-link" data-scroll-target="#learning-goals">Learning goals</a></li>
-  <li><a href="#lesson-structure-3-lessons" id="toc-lesson-structure-3-lessons" class="nav-link" data-scroll-target="#lesson-structure-3-lessons">Lesson structure (3 lessons)</a></li>
-  <li><a href="#lesson-1-choosing-the-right-autumn-crop" id="toc-lesson-1-choosing-the-right-autumn-crop" class="nav-link" data-scroll-target="#lesson-1-choosing-the-right-autumn-crop">Lesson 1: Choosing the right autumn crop</a>
-  <ul class="collapse">
-  <li><a href="#key-teaching-idea" id="toc-key-teaching-idea" class="nav-link" data-scroll-target="#key-teaching-idea">Key teaching idea</a></li>
-  <li><a href="#starter-discussion" id="toc-starter-discussion" class="nav-link" data-scroll-target="#starter-discussion">Starter discussion</a></li>
-  <li><a href="#student-activities" id="toc-student-activities" class="nav-link" data-scroll-target="#student-activities">Student activities</a></li>
-  <li><a href="#suggested-crops" id="toc-suggested-crops" class="nav-link" data-scroll-target="#suggested-crops">Suggested crops</a></li>
-  <li><a href="#group-task-structure" id="toc-group-task-structure" class="nav-link" data-scroll-target="#group-task-structure">Group task structure</a></li>
-  <li><a href="#timing-40-50-min" id="toc-timing-40-50-min" class="nav-link" data-scroll-target="#timing-40-50-min">Timing (40-50 min)</a></li>
-  <li><a href="#success-criteria" id="toc-success-criteria" class="nav-link" data-scroll-target="#success-criteria">Success criteria</a></li>
-  </ul></li>
-  <li><a href="#lesson-2-germination-and-seed-sowing" id="toc-lesson-2-germination-and-seed-sowing" class="nav-link" data-scroll-target="#lesson-2-germination-and-seed-sowing">Lesson 2: Germination and seed sowing</a>
-  <ul class="collapse">
-  <li><a href="#key-teaching-idea-1" id="toc-key-teaching-idea-1" class="nav-link" data-scroll-target="#key-teaching-idea-1">Key teaching idea</a></li>
-  <li><a href="#core-science-idea-w.o.t." id="toc-core-science-idea-w.o.t." class="nav-link" data-scroll-target="#core-science-idea-w.o.t.">Core science idea: W.O.T.</a></li>
-  <li><a href="#practical-instructions" id="toc-practical-instructions" class="nav-link" data-scroll-target="#practical-instructions">Practical instructions</a></li>
-  <li><a href="#practical-roles" id="toc-practical-roles" class="nav-link" data-scroll-target="#practical-roles">Practical roles</a></li>
-  <li><a href="#timing-40-50-min-1" id="toc-timing-40-50-min-1" class="nav-link" data-scroll-target="#timing-40-50-min-1">Timing (40-50 min)</a></li>
-  <li><a href="#success-criteria-1" id="toc-success-criteria-1" class="nav-link" data-scroll-target="#success-criteria-1">Success criteria</a></li>
-  </ul></li>
-  <li><a href="#lesson-3-seedling-care-and-hardening-off" id="toc-lesson-3-seedling-care-and-hardening-off" class="nav-link" data-scroll-target="#lesson-3-seedling-care-and-hardening-off">Lesson 3: Seedling care and hardening off</a>
-  <ul class="collapse">
-  <li><a href="#key-teaching-idea-2" id="toc-key-teaching-idea-2" class="nav-link" data-scroll-target="#key-teaching-idea-2">Key teaching idea</a></li>
-  <li><a href="#student-activities-1" id="toc-student-activities-1" class="nav-link" data-scroll-target="#student-activities-1">Student activities</a></li>
-  <li><a href="#hardening-off-sequence" id="toc-hardening-off-sequence" class="nav-link" data-scroll-target="#hardening-off-sequence">Hardening-off sequence</a></li>
-  <li><a href="#timing-40-50-min-2" id="toc-timing-40-50-min-2" class="nav-link" data-scroll-target="#timing-40-50-min-2">Timing (40-50 min)</a></li>
-  <li><a href="#success-criteria-2" id="toc-success-criteria-2" class="nav-link" data-scroll-target="#success-criteria-2">Success criteria</a></li>
-  </ul></li>
-  <li><a href="#tools-and-materials" id="toc-tools-and-materials" class="nav-link" data-scroll-target="#tools-and-materials">Tools and materials</a></li>
-  <li><a href="#health-and-safety-guidelines" id="toc-health-and-safety-guidelines" class="nav-link" data-scroll-target="#health-and-safety-guidelines">Health and safety guidelines</a></li>
-  <li><a href="#assessment-opportunities" id="toc-assessment-opportunities" class="nav-link" data-scroll-target="#assessment-opportunities">Assessment opportunities</a></li>
-  <li><a href="#teacher-checks" id="toc-teacher-checks" class="nav-link" data-scroll-target="#teacher-checks">Teacher checks</a></li>
-  <li><a href="#reflection-questions" id="toc-reflection-questions" class="nav-link" data-scroll-target="#reflection-questions">Reflection questions</a></li>
   </ul>
 </nav>
     </div>
@@ -254,7 +176,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Unit 8: Autumn Planting (Seedlings)</h1>
+<h1 class="title">Urban Farm Applied Mathematics</h1>
 </div>
 
 
@@ -262,12 +184,6 @@ window.Quarto = {
 <div class="quarto-title-meta">
 
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date"><code>r Sys.Date()</code></p>
-    </div>
-  </div>
   
     
   </div>
@@ -279,549 +195,36 @@ window.Quarto = {
 
 <section id="welcome" class="level2">
 <h2 class="anchored" data-anchor-id="welcome">Welcome</h2>
-<p>This standalone site contains the Urban Farm applied mathematics units, separated from the Year 9 Mathematics project.</p>
+<p>This standalone site contains the Kaikoria Valley College Urban Farm units 2026. The units are designed to be used in the context of the school farm, providing students with practical applications of agriculture and horticulture while exploring mathematical concepts through real-world scenarios.</p>
+</section>
+<section id="course-overview" class="level2">
+<h2 class="anchored" data-anchor-id="course-overview">Course Overview</h2>
 <section id="units" class="level3">
 <h3 class="anchored" data-anchor-id="units">Units</h3>
+<p>This course aligns with the Refreshed New Zealand Curriculum (2026) and is designed to provide students with practical applications of agriculture and horticulture in the context of our school farm. Each unit focuses on a specific aspect of farm operations, allowing students to real and develop new skills at the same time as they explore mathematical concepts through real-world scenarios.</p>
 <ul>
 <li><a href="./units-overview.html">Farm Units overview</a></li>
 <li><a href="./sector-and-safety.html">Unit 1: Sector and Safety</a></li>
-<li><a href="./mapping.html">Unit 2: Mapping the School Farm</a></li>
+<li><a href="./mapping.html">Unit 2: Mapping the School Farm (Project 1)</a></li>
 <li><a href="./potato-patch.html">Unit 3: Potato Patch Prep</a></li>
 <li><a href="./farm-dogs.html">Unit 4: Farm Dogs and Working with Sheep</a></li>
-<li><a href="./apple-unit.html">Unit 5: Apple Unit (2 lessons)</a></li>
+<li><a href="./apple-unit.html">Unit 5: Apples and the Orchard</a></li>
 <li><a href="./refractometer-unit.html">Unit 6: Refractometer Testing</a></li>
 <li><a href="./weather-dunedin-kaikorai.html">Unit 7: Weather, Forecasting, and Environmental Impacts</a></li>
-<li><a href="./autumn-planting-seedlings.html">Unit 8: Autumn Planting (Seedlings)</a></li>
+<li><a href="./autumn-planting-seedlings.html">Unit 8: Autumn Planting (Project 2)</a></li>
+<li><a href="./hazards-unit.html">Unit 9: Farm Hazards and Safety Project (Project 3)</a></li>
 </ul>
 </section>
-<section id="farm-operations" class="level3">
-<h3 class="anchored" data-anchor-id="farm-operations">Farm Operations</h3>
+<section id="regular-farm-operations" class="level3">
+<h3 class="anchored" data-anchor-id="regular-farm-operations">Regular Farm Operations</h3>
 <ul>
 <li><a href="./missions/index.html">Farm Missions</a> - Regular maintenance tasks</li>
-<li><a href="./friday-closedown.html">Friday Close-Down Checklist</a></li>
+<li><a href="weekly-tasks.qmd">Weekly Farm Tasks</a> - Routine weekly activities</li>
+<li><a href="./friday-closedown.html">Friday Close-Down Checklist</a> - Procedures for end-of-week farm maintenance</li>
 </ul>
 
 
-<p>```{r setup, include=FALSE} knitr::opts_chunk$set(echo = FALSE)</p>
-<p>```</p>
 </section>
-</section>
-<section id="overview" class="level2">
-<h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>This section contains the course sequence for the school farm programme. The opening unit introduces primary sectors, sustainability, location factors, and rural safety before students move into the practical farm units.</p>
-<hr>
-</section>
-<section id="unit-1-sector-and-safety" class="level2">
-<h2 class="anchored" data-anchor-id="unit-1-sector-and-safety">Unit 1: Sector and Safety</h2>
-<p>Focus on the structure of New Zealand’s primary industries, sustainability, location factors, rural safety, and introductory agricultural science vocabulary.</p>
-<p><strong>What you’ll do</strong></p>
-<ul>
-<li><p>Learn the seven key primary sectors in New Zealand.</p></li>
-<li><p>Explore sustainability, biodiversity, and resource management.</p></li>
-<li><p>Study why industries are located in different regions.</p></li>
-<li><p>Practise rural safety knowledge and agricultural science vocabulary.</p></li>
-<li><p>Go to: <a href="./sector-and-safety.html">Unit 1: Sector and Safety</a></p></li>
-</ul>
-<hr>
-</section>
-<section id="unit-2-mapping-the-school-farm-3-weeks" class="level2">
-<h2 class="anchored" data-anchor-id="unit-2-mapping-the-school-farm-3-weeks">Unit 2: Mapping the School Farm (3 weeks)</h2>
-<p>Focus on mapping the farm, measuring areas and distances, and producing a final map for the workbook.</p>
-<p><img src="resources/use-google-my-maps-map-your-farm_assets/page1_img1.png" class="img-fluid" style="width:70.0%"></p>
-<p><strong>What you’ll do</strong></p>
-<ul>
-<li><p>Build layers for existing and proposed features.</p></li>
-<li><p>Measure paddocks and distances.</p></li>
-<li><p>Export a clean PDF map for your workbook.</p></li>
-<li><p>Go to: <a href="./mapping.html">Unit 2: Mapping the School Farm</a></p></li>
-</ul>
-<hr>
-</section>
-<section id="unit-3-potato-patch-prep-3-lessons" class="level2">
-<h2 class="anchored" data-anchor-id="unit-3-potato-patch-prep-3-lessons">Unit 3: Potato Patch Prep (3 lessons)</h2>
-<p>Focus on hazards, tool safety, and practical preparation of the potato patch.</p>
-<p><strong>What you’ll do</strong></p>
-<ul>
-<li><p>Identify hazards and agree on controls.</p></li>
-<li><p>Turn over soil and remove turf.</p></li>
-<li><p>Compost and level the patch for planting.</p></li>
-<li><p>Go to: <a href="./potato-patch.html">Unit 3: Potato Patch Prep</a></p></li>
-</ul>
-<hr>
-</section>
-<section id="unit-4-farm-dogs-working-with-sheep-2-lessons" class="level2">
-<h2 class="anchored" data-anchor-id="unit-4-farm-dogs-working-with-sheep-2-lessons">Unit 4: Farm Dogs &amp; Working with Sheep (2 lessons)</h2>
-<p>Focus on the role of working dogs in livestock movement, animal welfare, and farm safety.</p>
-<p><strong>What you’ll do</strong></p>
-<ul>
-<li><p>Learn how farm dogs support sheep and paddock operations.</p></li>
-<li><p>Practise observation and command-response analysis.</p></li>
-<li><p>Complete a practical lesson with Jess the sheepdog.</p></li>
-<li><p>Go to: <a href="./farm-dogs.html">Unit 4: Farm Dogs &amp; Working with Sheep</a></p></li>
-</ul>
-<hr>
-</section>
-<section id="unit-5-apple-unit-2-lessons" class="level2">
-<h2 class="anchored" data-anchor-id="unit-5-apple-unit-2-lessons">Unit 5: Apple Unit (2 lessons)</h2>
-<p>Focus on harvesting, cleaning, weighing, and bagging apples for sale while applying measurement and money maths.</p>
-<p><strong>What you’ll do</strong></p>
-<ul>
-<li><p>Pick and handle fruit safely.</p></li>
-<li><p>Clean and sort apples by quality.</p></li>
-<li><p>Weigh fruit accurately and pack sale bags.</p></li>
-<li><p>Calculate total expected income from packed fruit.</p></li>
-<li><p>Go to: <a href="./apple-unit.html">Unit 5: Apple Unit</a></p></li>
-</ul>
-<hr>
-</section>
-<section id="unit-6-refractometer-testing---sugar-levels-in-farm-produce-4-lessons" class="level2">
-<h2 class="anchored" data-anchor-id="unit-6-refractometer-testing---sugar-levels-in-farm-produce-4-lessons">Unit 6: Refractometer Testing - Sugar Levels in Farm Produce (4 lessons)</h2>
-<p>Focus on measuring sugar levels (Brix) in fruit and vegetables from around the farm using a refractometer.</p>
-<p><strong>What you’ll do</strong></p>
-<ul>
-<li><p>Learn how light refraction is used in practical farm testing.</p></li>
-<li><p>Calibrate and use a refractometer safely.</p></li>
-<li><p>Test and compare produce quality using Brix readings.</p></li>
-<li><p>Make evidence-based recommendations for harvest timing and crop quality.</p></li>
-<li><p>Go to: <a href="./refractometer-unit.html">Unit 6: Refractometer Testing</a></p></li>
-</ul>
-<hr>
-</section>
-<section id="unit-7-weather-forecasting-and-environmental-impacts-dunedin-and-kaikorai-valley" class="level2">
-<h2 class="anchored" data-anchor-id="unit-7-weather-forecasting-and-environmental-impacts-dunedin-and-kaikorai-valley">Unit 7: Weather, Forecasting, and Environmental Impacts (Dunedin and Kaikorai Valley)</h2>
-<p>Focus on reading local forecasts, interpreting conditions in Kaikorai Valley, and evaluating impacts on native and invasive species, animals and plants, with air quality monitoring integrated from current KVC practice.</p>
-<p><strong>What you’ll do</strong></p>
-<ul>
-<li><p>Track daily forecasts and compare forecast vs observed conditions.</p></li>
-<li><p>Assess weather impacts on native versus invasive species.</p></li>
-<li><p>Compare animal welfare impacts with plant growth and stress impacts.</p></li>
-<li><p>Use KVC air quality observations as part of farm risk planning.</p></li>
-<li><p>Go to: <a href="./weather-dunedin-kaikorai.html">Unit 7: Weather, Forecasting, and Environmental Impacts</a></p></li>
-</ul>
-<hr>
-</section>
-<section id="unit-8-autumn-planting-seedlings-3-lessons" class="level2">
-<h2 class="anchored" data-anchor-id="unit-8-autumn-planting-seedlings-3-lessons">Unit 8: Autumn Planting (Seedlings) (3 lessons)</h2>
-<p>Focus on choosing hardy autumn crops, sowing seeds accurately, and caring for seedlings before transplanting.</p>
-<p><strong>What you’ll do</strong></p>
-<ul>
-<li><p>Compare cool-season crops for Otago conditions.</p></li>
-<li><p>Learn how water, oxygen, and temperature support germination.</p></li>
-<li><p>Sow, label, and record trays correctly.</p></li>
-<li><p>Plan how to harden off seedlings before planting out.</p></li>
-<li><p>Go to: <a href="./autumn-planting-seedlings.html">Unit 8: Autumn Planting (Seedlings)</a></p></li>
-</ul>
-<hr>
-</section>
-<section id="farm-operations-1" class="level2">
-<h2 class="anchored" data-anchor-id="farm-operations-1">Farm Operations</h2>
-<section id="farm-missions" class="level3">
-<h3 class="anchored" data-anchor-id="farm-missions">Farm Missions</h3>
-<p>Regular maintenance and care tasks that anyone can undertake. Each mission focuses on a specific area of farm management with detailed instructions and ticklists.</p>
-<p><strong>Available Missions:</strong></p>
-<ul>
-<li><p>Mission 1: Animal Care &amp; Observation</p></li>
-<li><p>Mission 2: Garden &amp; Berry House Maintenance</p></li>
-<li><p>Mission 3: Restoration &amp; Tree Health</p></li>
-<li><p>Mission 4: Environmental Observation</p></li>
-<li><p>Mission 5: Organisation &amp; Inventory</p></li>
-<li><p>Go to: <a href="./missions/index.html">Farm Missions Overview</a></p></li>
-</ul>
-<hr>
-</section>
-<section id="friday-close-down-checklist" class="level3">
-<h3 class="anchored" data-anchor-id="friday-close-down-checklist">Friday Close-Down Checklist</h3>
-<p>A quick final check for Friday afternoon to ensure the farm is secure, clean, and ready for the weekend.</p>
-<p><strong>What you’ll do</strong></p>
-<ul>
-<li><p>Verify all animals have weekend supplies</p></li>
-<li><p>Confirm tools and equipment are secured</p></li>
-<li><p>Check gates, doors, and utilities</p></li>
-<li><p>Ensure the farm is ready for Monday</p></li>
-<li><p>Go to: <a href="./friday-closedown.html">Friday Close-Down Checklist</a></p></li>
-</ul>
-</section>
-</section>
-<section id="unit-overview" class="level2">
-<h2 class="anchored" data-anchor-id="unit-overview">Unit overview</h2>
-<p>This 3-lesson unit focuses on raising cool-season seedlings for autumn planting in Otago. Students investigate why crop choice matters, sow seeds using a controlled method, and care for seedlings so they are ready to harden off and transplant.</p>
-<p>This unit is adapted from the existing autumn planting resources in the repo and supported by new classroom-ready files in the resources folder.</p>
-<section id="source-and-support-resources" class="level3">
-<h3 class="anchored" data-anchor-id="source-and-support-resources">Source and support resources</h3>
-<ul>
-<li><a href="resources/Otago Autumn Planting Lessons.docx">Otago Autumn Planting Lessons.docx</a></li>
-<li><a href="resources/Autumn Champion Crop Profile Assignment.docx">Autumn Champion Crop Profile Assignment.docx</a></li>
-<li><a href="resources/autumn-planting-seedling-crop-guide.md">Autumn planting seedling crop guide</a></li>
-<li><a href="resources/autumn-planting-seedling-student-workbook.md">Autumn planting student workbook</a></li>
-<li><a href="resources/autumn-planting-seedling-tray-log.csv">Autumn planting tray log</a></li>
-</ul>
-<hr>
-</section>
-</section>
-<section id="purpose" class="level2">
-<h2 class="anchored" data-anchor-id="purpose">Purpose</h2>
-<p>Students learn how local climate affects planting decisions and apply that knowledge in a practical seed-raising sequence. The emphasis is on choosing hardy autumn crops, using seed trays and warming mats correctly, and managing seedling health before transplanting.</p>
-<hr>
-</section>
-<section id="learning-goals" class="level2">
-<h2 class="anchored" data-anchor-id="learning-goals">Learning goals</h2>
-<p>By the end of this unit, students can:</p>
-<ul>
-<li>explain why autumn planting in Otago focuses on establishment rather than fast growth</li>
-<li>select suitable cool-season crops for local conditions</li>
-<li>sow seeds at an appropriate depth and label trays accurately</li>
-<li>describe the role of water, oxygen, and temperature in germination</li>
-<li>monitor seedling health and identify common risks such as leggy growth and damping off</li>
-<li>create a simple hardening-off plan before transplanting</li>
-</ul>
-<hr>
-</section>
-<section id="lesson-structure-3-lessons" class="level2">
-<h2 class="anchored" data-anchor-id="lesson-structure-3-lessons">Lesson structure (3 lessons)</h2>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 33%">
-<col style="width: 33%">
-<col style="width: 33%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Lesson</th>
-<th>Focus</th>
-<th>Outcome</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lesson 1</td>
-<td>Crop selection and seasonality</td>
-<td>Students choose suitable autumn crops and justify why they suit Otago conditions.</td>
-</tr>
-<tr class="even">
-<td>Lesson 2</td>
-<td>Germination and sowing</td>
-<td>Seed trays are sown correctly, labelled, and placed for germination.</td>
-</tr>
-<tr class="odd">
-<td>Lesson 3</td>
-<td>Seedling care and hardening off</td>
-<td>Students inspect seedling health and produce a transplant preparation plan.</td>
-</tr>
-</tbody>
-</table>
-<hr>
-</section>
-<section id="lesson-1-choosing-the-right-autumn-crop" class="level2">
-<h2 class="anchored" data-anchor-id="lesson-1-choosing-the-right-autumn-crop">Lesson 1: Choosing the right autumn crop</h2>
-<p><strong>Goal:</strong> Understand why autumn planting in Otago requires hardy crops and realistic expectations about growth.</p>
-<section id="key-teaching-idea" class="level3">
-<h3 class="anchored" data-anchor-id="key-teaching-idea">Key teaching idea</h3>
-<p>Autumn planting in Otago is mainly about building roots and establishing plants before winter. Lower light levels, cooler air, and frost risk mean students must choose crops that can cope with slow growth and cold conditions.</p>
-</section>
-<section id="starter-discussion" class="level3">
-<h3 class="anchored" data-anchor-id="starter-discussion">Starter discussion</h3>
-<ul>
-<li>Why can two farms plant the same seed at different times and get different results?</li>
-<li>What changes in autumn besides temperature?</li>
-<li>Why might a warming mat help germination but not solve every growing problem?</li>
-</ul>
-</section>
-<section id="student-activities" class="level3">
-<h3 class="anchored" data-anchor-id="student-activities">Student activities</h3>
-<ol type="1">
-<li>Review the crop guide and identify crops suited to autumn sowing.</li>
-<li>Compare crop needs using germination temperature, days to germinate, and harvest window.</li>
-<li>Select one crop for the class tray or group tray.</li>
-<li>Complete a short justification using:
-<ul>
-<li>frost tolerance</li>
-<li>expected harvest window</li>
-<li>likely success in Dunedin or Otago conditions</li>
-</ul></li>
-</ol>
-</section>
-<section id="suggested-crops" class="level3">
-<h3 class="anchored" data-anchor-id="suggested-crops">Suggested crops</h3>
-<ul>
-<li>broad beans</li>
-<li>spinach</li>
-<li>kale</li>
-<li>silverbeet</li>
-<li>winter cabbage</li>
-<li>pak choy</li>
-<li>garlic for a seasonal comparison discussion</li>
-</ul>
-</section>
-<section id="group-task-structure" class="level3">
-<h3 class="anchored" data-anchor-id="group-task-structure">Group task structure</h3>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 25%">
-<col style="width: 25%">
-<col style="width: 25%">
-<col style="width: 25%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Group</th>
-<th>Students</th>
-<th>Task focus</th>
-<th>Key actions</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Group A</td>
-<td>7</td>
-<td>Climate and seasonality</td>
-<td>Identify local autumn limits: light, frost, and slower growth.</td>
-</tr>
-<tr class="even">
-<td>Group B</td>
-<td>7</td>
-<td>Crop comparison</td>
-<td>Use the crop guide to compare hardy options.</td>
-</tr>
-<tr class="odd">
-<td>Group C</td>
-<td>6</td>
-<td>Recommendation</td>
-<td>Choose crops and report back with reasons.</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="timing-40-50-min" class="level3">
-<h3 class="anchored" data-anchor-id="timing-40-50-min">Timing (40-50 min)</h3>
-<ul>
-<li>0-10 min: Intro discussion on seasonality and local conditions.</li>
-<li>10-20 min: Crop guide reading and teacher modelling.</li>
-<li>20-35 min: Group comparison and recommendation task.</li>
-<li>35-45 min: Share decisions and record chosen crops.</li>
-<li>45-50 min: Exit slip or workbook reflection.</li>
-</ul>
-</section>
-<section id="success-criteria" class="level3">
-<h3 class="anchored" data-anchor-id="success-criteria">Success criteria</h3>
-<ul>
-<li>I can name at least two crops suited to autumn planting.</li>
-<li>I can explain why decreasing daylight matters.</li>
-<li>I can justify one crop choice using evidence.</li>
-</ul>
-<hr>
-</section>
-</section>
-<section id="lesson-2-germination-and-seed-sowing" class="level2">
-<h2 class="anchored" data-anchor-id="lesson-2-germination-and-seed-sowing">Lesson 2: Germination and seed sowing</h2>
-<p><strong>Goal:</strong> Sow seeds accurately and explain how germination works.</p>
-<section id="key-teaching-idea-1" class="level3">
-<h3 class="anchored" data-anchor-id="key-teaching-idea-1">Key teaching idea</h3>
-<p>Seeds need water, oxygen, and suitable temperature to start growing. Warming mats help the soil reach a useful germination temperature, but students still need correct depth, moisture, and labelling.</p>
-</section>
-<section id="core-science-idea-w.o.t." class="level3">
-<h3 class="anchored" data-anchor-id="core-science-idea-w.o.t.">Core science idea: W.O.T.</h3>
-<ul>
-<li><strong>Water:</strong> activates the seed and starts internal processes</li>
-<li><strong>Oxygen:</strong> allows respiration so the embryo can release energy</li>
-<li><strong>Temperature:</strong> helps enzymes work efficiently so the seed can germinate</li>
-</ul>
-</section>
-<section id="practical-instructions" class="level3">
-<h3 class="anchored" data-anchor-id="practical-instructions">Practical instructions</h3>
-<ol type="1">
-<li>Prepare seed trays or small pots with seed-raising mix.</li>
-<li>Moisten the mix so it is damp, not saturated.</li>
-<li>Sow seeds using the rule of thumb: about <span class="math inline">\(2 \times\)</span> the seed diameter.</li>
-<li>Cover lightly and mist gently.</li>
-<li>Label each tray with crop name, date, and group.</li>
-<li>Place trays on a warming mat or in a protected germination area.</li>
-</ol>
-</section>
-<section id="practical-roles" class="level3">
-<h3 class="anchored" data-anchor-id="practical-roles">Practical roles</h3>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Role</th>
-<th>Responsibility</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Tray prep</td>
-<td>Fill trays evenly and moisten seed mix.</td>
-</tr>
-<tr class="even">
-<td>Sowing</td>
-<td>Place seeds at correct depth and spacing.</td>
-</tr>
-<tr class="odd">
-<td>Labelling</td>
-<td>Record crop, sowing date, and group accurately.</td>
-</tr>
-<tr class="even">
-<td>Setup check</td>
-<td>Confirm trays are tidy and placed correctly.</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="timing-40-50-min-1" class="level3">
-<h3 class="anchored" data-anchor-id="timing-40-50-min-1">Timing (40-50 min)</h3>
-<ul>
-<li>0-10 min: Demonstration of W.O.T. and sowing depth.</li>
-<li>10-15 min: Prepare trays and equipment.</li>
-<li>15-35 min: Sow and label trays.</li>
-<li>35-45 min: Check placement, moisture, and records.</li>
-<li>45-50 min: Complete tray log and workbook notes.</li>
-</ul>
-</section>
-<section id="success-criteria-1" class="level3">
-<h3 class="anchored" data-anchor-id="success-criteria-1">Success criteria</h3>
-<ul>
-<li>I can explain W.O.T. in simple scientific language.</li>
-<li>I can sow seeds at an appropriate depth.</li>
-<li>I can label trays clearly enough for later monitoring.</li>
-</ul>
-<hr>
-</section>
-</section>
-<section id="lesson-3-seedling-care-and-hardening-off" class="level2">
-<h2 class="anchored" data-anchor-id="lesson-3-seedling-care-and-hardening-off">Lesson 3: Seedling care and hardening off</h2>
-<p><strong>Goal:</strong> Identify healthy seedling conditions and prepare a plan for moving seedlings outdoors.</p>
-<section id="key-teaching-idea-2" class="level3">
-<h3 class="anchored" data-anchor-id="key-teaching-idea-2">Key teaching idea</h3>
-<p>Warmth alone is not enough. Seedlings also need enough light, airflow, and careful watering. Before transplanting, they must be hardened off gradually so they can tolerate colder outdoor conditions.</p>
-</section>
-<section id="student-activities-1" class="level3">
-<h3 class="anchored" data-anchor-id="student-activities-1">Student activities</h3>
-<ol type="1">
-<li>Inspect trays or example seedlings for signs of success or problems.</li>
-<li>Identify risks such as:
-<ul>
-<li>leggy seedlings</li>
-<li>overwatering</li>
-<li>dry trays</li>
-<li>poor labelling</li>
-<li>damping off</li>
-</ul></li>
-<li>Create a 5- to 7-day hardening-off schedule.</li>
-<li>Complete a crop profile or transplant plan from the workbook.</li>
-</ol>
-</section>
-<section id="hardening-off-sequence" class="level3">
-<h3 class="anchored" data-anchor-id="hardening-off-sequence">Hardening-off sequence</h3>
-<ul>
-<li>Day 1-2: short sheltered outdoor exposure</li>
-<li>Day 3-4: longer outdoor time with some cooler air</li>
-<li>Day 5-6: most of the day outside if conditions are suitable</li>
-<li>Day 7: ready for transplanting if roots, moisture, and weather are appropriate</li>
-</ul>
-</section>
-<section id="timing-40-50-min-2" class="level3">
-<h3 class="anchored" data-anchor-id="timing-40-50-min-2">Timing (40-50 min)</h3>
-<ul>
-<li>0-10 min: Review seedling care and common failure points.</li>
-<li>10-20 min: Tray inspection and discussion.</li>
-<li>20-35 min: Hardening-off plan task.</li>
-<li>35-45 min: Crop profile or transplant recommendation.</li>
-<li>45-50 min: Reflection and teacher check.</li>
-</ul>
-</section>
-<section id="success-criteria-2" class="level3">
-<h3 class="anchored" data-anchor-id="success-criteria-2">Success criteria</h3>
-<ul>
-<li>I can describe what a healthy seedling needs.</li>
-<li>I can identify at least two common seedling risks.</li>
-<li>I can make a realistic hardening-off plan.</li>
-</ul>
-<hr>
-</section>
-</section>
-<section id="tools-and-materials" class="level2">
-<h2 class="anchored" data-anchor-id="tools-and-materials">Tools and materials</h2>
-<ul>
-<li>seed trays or small pots</li>
-<li>seed-raising mix</li>
-<li>autumn crop seeds</li>
-<li>labels and permanent marker</li>
-<li>watering spray bottle or fine rose watering can</li>
-<li>warming mat or sheltered propagation area</li>
-<li>ruler for spacing/depth demonstration</li>
-<li>class crop guide and workbook</li>
-</ul>
-<hr>
-</section>
-<section id="health-and-safety-guidelines" class="level2">
-<h2 class="anchored" data-anchor-id="health-and-safety-guidelines">Health and safety guidelines</h2>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 50%">
-<col style="width: 50%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Risk</th>
-<th>Control</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Wet floors or spilled mix</td>
-<td>Clean spills quickly and keep walkways clear.</td>
-</tr>
-<tr class="even">
-<td>Cross-contamination between trays</td>
-<td>Use labelled trays and clean tools between groups.</td>
-</tr>
-<tr class="odd">
-<td>Overwatering around electrical warming mats</td>
-<td>Teacher manages plugs and checks safe placement.</td>
-</tr>
-<tr class="even">
-<td>Allergies or dust from seed mix</td>
-<td>Use ventilation and wash hands after handling mix.</td>
-</tr>
-<tr class="odd">
-<td>Poor lifting or carrying of trays</td>
-<td>Carry trays with two hands and use benches at suitable height.</td>
-</tr>
-<tr class="even">
-<td>Sun or cold exposure during hardening off</td>
-<td>Move seedlings gradually and monitor weather before outdoor placement.</td>
-</tr>
-</tbody>
-</table>
-<hr>
-</section>
-<section id="assessment-opportunities" class="level2">
-<h2 class="anchored" data-anchor-id="assessment-opportunities">Assessment opportunities</h2>
-<ul>
-<li>crop selection justification in Lesson 1</li>
-<li>correctly completed tray labels and tray log in Lesson 2</li>
-<li>hardening-off plan or crop profile in Lesson 3</li>
-<li>teacher observation of practical handling and care routines</li>
-</ul>
-<hr>
-</section>
-<section id="teacher-checks" class="level2">
-<h2 class="anchored" data-anchor-id="teacher-checks">Teacher checks</h2>
-<ul class="task-list">
-<li><label><input type="checkbox">Autumn crops chosen suit local conditions.</label></li>
-<li><label><input type="checkbox">Trays are labelled with crop, date, and group.</label></li>
-<li><label><input type="checkbox">Students can explain W.O.T. accurately.</label></li>
-<li><label><input type="checkbox">Seedling care risks have been discussed.</label></li>
-<li><label><input type="checkbox">A hardening-off plan has been completed.</label></li>
-</ul>
-<hr>
-</section>
-<section id="reflection-questions" class="level2">
-<h2 class="anchored" data-anchor-id="reflection-questions">Reflection questions</h2>
-<ul>
-<li>Why is autumn planting in Otago more about roots than rapid leaf growth?</li>
-<li>Which crop would you trust most for local autumn planting, and why?</li>
-<li>What could go wrong if seedlings move from a warm tray straight into a cold garden bed?</li>
-</ul>
 </section>
 
 </main> <!-- /main -->

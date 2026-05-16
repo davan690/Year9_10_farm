@@ -23,7 +23,7 @@ This course aligns with the Refreshed New Zealand Curriculum (2026) and is desig
 - [Unit 6: Refractometer Testing](refractometer-unit.qmd)
 - [Unit 7: Weather, Forecasting, and Environmental Impacts](weather-dunedin-kaikorai.qmd)
 - [Unit 8: Autumn Planting (Project 2)](autumn-planting-seedlings.qmd)
-- [Unit 9: Risk analysis for farm hazards (Project 3)](spring-planting-seedlings.qmd)
+- [Unit 9: Farm Hazards and Safety Project (Project 3)](hazards-unit.qmd)
 
 ### Regular Farm Operations
 

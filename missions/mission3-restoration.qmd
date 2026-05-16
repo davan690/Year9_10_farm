@@ -7,6 +7,8 @@ format: html
 
 Your mission is to protect and maintain the farm's restoration areas. This includes controlling invasive species and ensuring young trees establish successfully.
 
+![](../resources/farm-photos/farm_barn.jpg){width=60%}
+
 ---
 
 ## Gorse Removal

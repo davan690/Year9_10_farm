@@ -12,11 +12,17 @@ format:
 
 Welcome to the textbook section for Urban Farm Applied Mathematics.
 
+![](../resources/farm-photos/farm_barn.jpg){width=70%}
+
+This textbook combines farm science and practical maths so students can learn with real places, real tasks, and real data.
+
 # Chapter 1: Introduction to Farming
 
 ## Overview
 
 This chapter introduces core farming ideas, agriculture systems, and practical farm contexts.
+
+![](../resources/farm-photos/farm_shed.jpg){width=65%}
 
 ## Key Concepts
 
@@ -24,17 +30,31 @@ This chapter introduces core farming ideas, agriculture systems, and practical f
 - Sustainable Practices
 - Technology in Farming
 
+### Student Image Prompt
+
+Use the image below to discuss: What jobs happen in this space each day, and what measurements would help plan those jobs?
+
+![](../resources/farm-photos/chickens_water_food.jpg){width=65%}
+
 # Chapter 2: Daily Challenges in Farming
 
 ## Overview
 
 This chapter covers weather, market factors, and pest management in day-to-day farm decision-making.
 
+![](../resources/farm-photos/sheep_water.jpg){width=65%}
+
 ## Key Concepts
 
 - Weather Impact
 - Economic Factors
 - Pest Control Strategies
+
+### Student Image Prompt
+
+Look at the chicken area image and list three risks and three improvements. Then rank them from most urgent to least urgent.
+
+![](../resources/farm-photos/chicken_door.jpg){width=65%}
 
 # Interactive Components
 

@@ -7,6 +7,8 @@ format: html
 
 Your mission is to maintain the health and productivity of our garden beds, berry house, and seedlings. Complete these tasks to ensure our crops thrive.
 
+![](../resources/farm-photos/farm_shed.jpg){width=60%}
+
 ---
 
 ## The Watering Run
@@ -46,6 +48,8 @@ Keep garden beds healthy and productive:
 ## The Berry House Mission
 
 Maintain the berry house for optimal fruit production:
+
+![](../resources/farm-photos/chicken_door.jpg){width=55%}
 
 - [ ] Weed around the base of the berry plants
 - [ ] Apply a fresh layer of wood chips to suppress future weeds and hold moisture

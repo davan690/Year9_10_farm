@@ -7,6 +7,8 @@ format: html
 
 Your mission is to observe and document environmental conditions on the farm. These observations help us understand ecosystem health and biodiversity.
 
+![](../resources/farm-photos/sheep_water.jpg){width=60%}
+
 ---
 
 ## The Stream Study

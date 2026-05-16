@@ -1,0 +1,133 @@
+---
+title: "Unit 9: Farm Hazards and Safety Project"
+format: html
+---
+
+## Overview
+
+This end-of-term project asks students to complete a full farm hazard audit, build evidence-based controls, and present a final safety poster and briefing.
+
+![](hazards/chicken_feed_example.png){width=48%}
+![](hazards/snips_tool_example.png){width=48%}
+
+## Big Project Goal
+
+Create a practical, student-led hazard management pack for one school farm area that includes:
+
+- Hazard identification and risk scoring
+- Control and mitigation plan
+- Safety communication poster
+- Team presentation with peer feedback
+
+## Learning Outcomes
+
+By the end of this unit, students can:
+
+- Identify hazards in a real farm context using a consistent process.
+- Explain risk using likelihood, impact, and risk score.
+- Propose controls using elimination, isolation, and minimisation.
+- Communicate safety expectations with clear visuals and plain language.
+- Reflect on safe practice and team responsibility.
+
+## Term 2 Delivery Model (Threaded Across All Lessons)
+
+Hazards and safety are included in every Term 2 lesson as a short routine, with bigger project progress completed on wet days.
+
+### Every Lesson (Tue, Thu, Fri)
+
+Use a 5-10 minute safety thread in most lessons:
+
+- Start-of-lesson hazard check for the activity area
+- One quick discussion prompt (risk, control, PPE, or safe behavior)
+- One monitoring note added to the class hazard log
+
+### Wet Day Intensives
+
+Use wet days for deeper hazards project work (30-60 minutes):
+
+- Poster drafting and editing
+- Risk matrix scoring and moderation
+- Evidence write-up and peer feedback
+- Presentation rehearsal and sign-off preparation
+
+## Term 2 Week-by-Week Hazards Integration
+
+| Term 2 Week | Tue (light touch) | Thu (light touch) | Fri (light touch) | Wet day intensive focus |
+|---|---|---|---|---|
+| 1 | Introduce hazard thread routine | PPE refresher linked to activity | Log first monitoring entry | Induction + contract + project briefing |
+| 2 | Hazard spotting warm-up | Likelihood vs impact mini-task | Team risk ranking check | Build audit teams and choose focus areas |
+| 3 | Safe movement and manual handling cue | Tool-specific hazard reminder | Evidence note and photo plan | Run first full hazard audit draft |
+| 4 | Germination/seedling task risk check | Hygiene and contamination control | End-of-week control check | Start poster template with chosen hazard |
+| 5 | Animal area dynamic risk check | Safe feed/water handling prompt | Weekly log update | Refine controls and add evidence text |
+| 6 | Garden and tool handling reminder | Slips/trips and surface scan | PPE compliance mini-audit | Mid-project peer feedback workshop |
+| 7 | Environmental observation hazard cue | Weather-triggered risk discussion | Review near-miss examples | Update risk scores using new evidence |
+| 8 | Project fieldwork pre-check | Control hierarchy quick review | Monitoring log quality check | Poster and presentation build session |
+| 9 | Data collection safety focus | Communicating risk clearly | Team action check-in | Draft presentation + speaking notes |
+| 10 | Practice sign-off checklist | Final control validation | Pre-presentation safety brief | Full rehearsal and peer review |
+| 11 | Final hazard summary prompt | Reflection on behavior change | Close-down and next steps | Final presentations and project sign-off |
+
+## Suggested Weekly Rhythm
+
+- Tuesday: quick hazard identification and planning cue
+- Thursday: controls, PPE, and safe-practice check
+- Friday: monitoring log + reflection + actions for next week
+
+## Project Workflow
+
+### Phase 1: Induction and Setup
+
+- Read project instructions and complete safety induction.
+- Sign the student safety contract.
+- Review model posters and unit examples.
+
+### Phase 2: Field Audit and Evidence
+
+- Choose a farm area or tool focus.
+- Record hazards, tasks, tools, and people affected.
+- Gather evidence with notes, photos, and observation logs.
+
+### Phase 3: Controls and Resource Design
+
+- Build control actions and safe-work steps.
+- Draft a safety poster from the template.
+- Prepare speaking notes and presentation slides.
+
+### Phase 4: Presentation and Sign-Off
+
+- Present findings to class.
+- Give and receive peer feedback.
+- Submit final poster, log, and monitoring actions.
+
+## Unit Resource Pack
+
+### Core Unit Files
+
+- [Master Unit Plan: Farm Safety and Management](hazards/Master%20Unit%20Plan_%20Farm%20Safety%20%26%20Management%20V1.docx)
+- [Student Project Instructions: Farm Safety Audit](hazards/Student%20Project%20Instructions_%20Farm%20Safety%20Audit%20V1.docx)
+- [Student Presentation Template: Farm Safety](hazards/Student%20Presentation%20Template_%20Farm%20Safety%20V1.docx)
+- [Classroom Support: Peer Feedback and Poster Guides](hazards/Classroom%20Support_%20Peer%20Feedback%20%26%20Poster%20Guides%20V1.docx)
+- [Weekly Farm Monitoring Log](hazards/Weekly%20Farm%20Monitoring%20Log%20V1.docx)
+- [Farm Hazards Poster Template](hazards/Farm%20hazards%20template.pptx)
+
+### Health and Safety Documents
+
+- [Health and Safety Induction (PDF)](hazards/Health%20and%20Safety/Health%20and%20Safety%20Induction.pdf)
+- [Health and Safety Induction (PPT)](hazards/Health%20and%20Safety/Health%20and%20Safety%20Induction.ppt)
+- [Student Farm Safety Contract](hazards/Health%20and%20Safety/Student%20Farm%20Safety%20Contract%20V1.docx)
+- [PPE Reference: Gear up for Ag PPE Kit](hazards/2025-US-Gear-up-for-Ag-PPE-Kit.pdf)
+
+### Visual Examples
+
+- [Feed Storage Hazard Example Image](hazards/chicken_feed_example.png)
+- [Manual Wire Snips Hazard Example Image](hazards/snips_tool_example.png)
+
+## Suggested Assessment Evidence
+
+- Completed hazard audit table for one chosen context
+- Draft and final safety poster
+- Presentation and peer feedback notes
+- Weekly monitoring entry and improvement actions
+
+## Teacher Note
+
+The folders [hazards/posters](hazards/posters) and [hazards/Tools](hazards/Tools) are available for adding student poster exports and tool-specific reference files over time.

@@ -11,7 +11,7 @@ Your mission is to maintain an organized, safe, and efficient farm workspace. A 
 
 ## The Great Tidy-Up
 
-![Farm Barn](../../images/farm_barn.jpg){width=60%}
+![Farm Barn](../resources/farm-photos/farm_barn.jpg){width=60%}
 
 ### Barn & Shed Organisation:
 
@@ -49,7 +49,7 @@ Your mission is to maintain an organized, safe, and efficient farm workspace. A 
 
 ---
 
-![Farm Shed](../../images/farm_shed.jpg){width=60%}
+![Farm Shed](../resources/farm-photos/farm_shed.jpg){width=60%}
 
 ### Pot Sort & Storage:
 

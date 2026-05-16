@@ -11,7 +11,7 @@ Your mission is to ensure the health and wellbeing of our farm animals. Complete
 
 ## The Chicken Visit
 
-![Chicken Area](../../images/chickens_water_food.jpg){width=60%}
+![Chicken Area](../resources/farm-photos/chickens_water_food.jpg){width=60%}
 
 Follow these steps carefully when visiting the hen house:
 
@@ -31,7 +31,7 @@ Follow these steps carefully when visiting the hen house:
 
 ## Paddock Animal Check
 
-![Paddock Animals](../../images/sheep_water.jpg){width=60%}
+![Paddock Animals](../resources/farm-photos/sheep_water.jpg){width=60%}
 
 Ensure paddock animals have clean water, fresh bedding, and food:
 

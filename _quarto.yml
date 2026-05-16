@@ -12,6 +12,7 @@ project:
     - refractometer-unit.qmd
     - autumn-planting-seedlings.qmd
     - weather-dunedin-kaikorai.qmd
+    - hazards-unit.qmd
     - sector-and-safety.qmd
     - missions/**/*.qmd
     - textbook/**/*.qmd
@@ -47,6 +48,8 @@ website:
         href: weather-dunedin-kaikorai.qmd
       - text: "Unit 8: Autumn Planting"
         href: autumn-planting-seedlings.qmd
+      - text: "Unit 9: Hazards Project"
+        href: hazards-unit.qmd
       - text: "Friday Close-Down"
         href: friday-closedown.qmd
       - text: "Textbook"

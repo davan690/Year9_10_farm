@@ -14,6 +14,57 @@ knitr::opts_chunk$set(echo = FALSE)
 
 This section contains the course sequence for the school farm programme. The opening unit introduces primary sectors, sustainability, location factors, and rural safety before students move into the practical farm units.
 
+## Two-Term Unit Plan Calendar (Tue, Thu, Fri)
+
+This class runs across two terms with three lessons each week:
+
+- Term 1: 10 weeks (30 lessons)
+- Term 2: 11 weeks (33 lessons)
+- Class days: Tuesday, Thursday, Friday
+
+### Term 1 Calendar (10 Weeks)
+
+| Week | Tuesday | Thursday | Friday |
+|---|---|---|---|
+| 1 | Unit 1: Primary sectors in NZ | Unit 1: Sustainability and biodiversity | Unit 1: Rural safety and vocabulary |
+| 2 | Unit 1: Location factors | Unit 1: Sector case studies | Unit 1: Quiz and safety practical |
+| 3 | Unit 2: Intro to farm mapping | Unit 2: Base map and layers setup | Unit 2: Mapping field walk |
+| 4 | Unit 2: Measuring paddock areas | Unit 2: Distance and scale calculations | Unit 2: Data entry and map updates |
+| 5 | Unit 2: Proposed farm improvements | Unit 2: Final map formatting | Unit 2: Export and submit final map |
+| 6 | Unit 3: Hazard identification | Unit 3: Tool safety and procedures | Unit 3: Potato patch prep practical |
+| 7 | Unit 4: Working dogs and welfare | Unit 4: Sheep movement observation | Mission rotation and reflection |
+| 8 | Unit 5: Apple harvest and handling | Unit 5: Weighing, bagging, and money maths | Farm mission + Friday close-down routine |
+| 9 | Unit 6: Refractometer theory and setup | Unit 6: Calibration and safe use | Unit 6: Brix testing practical |
+| 10 | Unit 6: Data analysis and recommendations | Term 1 review and catch-up | End-of-term practical checkpoint |
+
+### Term 2 Calendar (11 Weeks)
+
+| Week | Tuesday | Thursday | Friday |
+|---|---|---|---|
+| 1 | Unit 7: Forecast tools and maps + hazards mini-check | Unit 7: Reading Dunedin and Kaikorai forecasts + PPE reminder | Weather log setup + hazards monitoring entry |
+| 2 | Unit 7: Forecast vs observed conditions + hazard spotting | Unit 7: Wind/rain impacts + control options | Farm weather reflection + risk ranking |
+| 3 | Unit 7: Native vs invasive impacts + safe movement | Unit 7: Welfare planning + tool hazard cue | Air quality monitoring + evidence logging |
+| 4 | Unit 8: Autumn crop selection + setup risk check | Unit 8: Germination planning + hygiene control | Seed sowing practical + safe workflow review |
+| 5 | Unit 8: Tray management + manual handling cue | Mission 1 + animal area hazard focus | Friday close-down + weekly hazard log |
+| 6 | Mission 2 + slips/trips and tool handling | Mission 3 + restoration safety controls | Mission evidence collection + hazard update |
+| 7 | Mission 4 + environmental hazard cue | Mission 5 + organisation and safe storage | Mission catch-up + near-miss discussion |
+| 8 | Integrated maths project + pre-task risk check | Data collection + control hierarchy review | Project work + monitoring log quality check |
+| 9 | Project analysis + communication risk prompt | Recommendations + practical control planning | Farm operations practical + audit evidence |
+| 10 | Report drafting + sign-off checklist | Presentation prep + peer safety feedback | Rehearsals + final hazard poster edits |
+| 11 | Final presentations + hazard summary | Course reflection + behavior change review | End-of-term close-down + project sign-off |
+
+### Farm Photo Highlights
+
+Use these real farm snapshots as lesson starters, discussion prompts, and writing tasks.
+
+![](resources/farm-photos/farm_barn.jpg){width=48%}
+![](resources/farm-photos/farm_shed.jpg){width=48%}
+
+![](resources/farm-photos/chickens_water_food.jpg){width=48%}
+![](resources/farm-photos/chicken_door.jpg){width=48%}
+
+![](resources/farm-photos/sheep_water.jpg){width=65%}
+
 ---
 
 ## Unit 1: Sector and Safety
@@ -65,6 +116,8 @@ Focus on hazards, tool safety, and practical preparation of the potato patch.
 
 Focus on the role of working dogs in livestock movement, animal welfare, and farm safety.
 
+![](resources/farm-photos/sheep_water.jpg){width=60%}
+
 **What you'll do**
 
 - Learn how farm dogs support sheep and paddock operations.
@@ -78,6 +131,8 @@ Focus on the role of working dogs in livestock movement, animal welfare, and far
 ## Unit 5: Apple Unit (2 lessons)
 
 Focus on harvesting, cleaning, weighing, and bagging apples for sale while applying measurement and money maths.
+
+![](resources/farm-photos/farm_shed.jpg){width=60%}
 
 **What you'll do**
 
@@ -135,11 +190,45 @@ Focus on choosing hardy autumn crops, sowing seeds accurately, and caring for se
 
 ---
 
+## Unit 9: Farm Hazards and Safety Project (4-6 lessons)
+
+Focus on completing a real farm hazard audit, developing controls, and presenting a student-designed safety communication poster.
+
+![](hazards/chicken_feed_example.png){width=48%}
+![](hazards/snips_tool_example.png){width=48%}
+
+**What you'll do**
+
+- Complete hazard identification and risk scoring in a selected farm area.
+- Build practical controls and safer work routines.
+- Use templates to design a hazard communication poster.
+- Present findings and recommendations to peers.
+
+- Go to: [Unit 9: Farm Hazards and Safety Project](hazards-unit.qmd)
+
+---
+
 ## Farm Operations
+
+### Farm Hazards and Safety
+
+Student project resources and templates for the end-of-term hazard audit and safety poster task.
+
+- Go to: [Unit 9 Hazards Project Hub](hazards-unit.qmd)
+
+### Farm Tools and Equipment
+
+Tool-related examples and resources are included inside the hazards project unit for classroom use.
+
+- Go to: [Hazards Unit Resources](hazards-unit.qmd)
+
 
 ### Farm Missions
 
 Regular maintenance and care tasks that anyone can undertake. Each mission focuses on a specific area of farm management with detailed instructions and ticklists.
+
+![](resources/farm-photos/chickens_water_food.jpg){width=48%}
+![](resources/farm-photos/chicken_door.jpg){width=48%}
 
 **Available Missions:**
 
