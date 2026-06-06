@@ -1,0 +1,87 @@
+\usepackage{xcolor}
+\usepackage{tcolorbox}
+\usepackage{fancyhdr}
+
+\definecolor{FarmGreen}{HTML}{244B3B}
+\definecolor{FarmLeaf}{HTML}{4E7A57}
+\definecolor{FarmSky}{HTML}{E8F3EE}
+\definecolor{FarmCream}{HTML}{FCF8EE}
+\definecolor{FarmSoil}{HTML}{8A5A3B}
+\definecolor{FarmGold}{HTML}{C58B39}
+\definecolor{FarmText}{HTML}{1E1E1E}
+
+\color{FarmText}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.45em}
+
+\tcbset{
+  before skip=7pt,
+  after skip=8pt,
+  boxsep=1.5mm
+}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\textbf{Farm Mapping Homework Sheet}}
+\fancyhead[R]{\textcolor{FarmSoil}{Urban Farm 2026}}
+\fancyfoot[L]{\textcolor{FarmSoil}{KVC urban farm}}
+\fancyfoot[R]{\textcolor{FarmGreen}{Page \thepage}}
+\renewcommand{\headrulewidth}{0.7pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{FarmLeaf}\leaders\hrule height \headrulewidth\hfill}}
+\renewcommand{\footrule}{\hbox to\headwidth{\color{FarmGold}\leaders\hrule height \footrulewidth\hfill}}
+
+\newtcolorbox{heroheader}{
+  colback=FarmSky,
+  colframe=FarmGreen,
+  boxrule=1.1pt,
+  arc=2mm,
+  left=3mm,
+  right=3mm,
+  top=2.8mm,
+  bottom=2.8mm
+}
+
+\newtcolorbox{objectivebox}{
+  colback=FarmCream,
+  colframe=FarmGold,
+  title=Objective,
+  fonttitle=\bfseries\color{FarmGreen},
+  coltitle=FarmGreen,
+  boxrule=0.95pt,
+  arc=1.5mm
+}
+
+\newtcolorbox{checklistbox}{
+  colback=white,
+  colframe=FarmSoil,
+  title=Success Checklist,
+  coltitle=FarmSoil,
+  fonttitle=\bfseries,
+  boxrule=0.9pt,
+  arc=1.2mm
+}
+
+\newtcolorbox{answerbox}[1][]{
+  colback=FarmCream,
+  colframe=FarmLeaf,
+  coltitle=FarmGreen,
+  fonttitle=\bfseries,
+  title=#1,
+  boxrule=0.95pt,
+  arc=1.2mm,
+  left=2mm,
+  right=2mm,
+  top=1.8mm,
+  bottom=1.8mm
+}
+
+\newtcolorbox{notebox}{
+  colback=FarmSky,
+  colframe=FarmSoil,
+  title=Teacher Note,
+  coltitle=FarmSoil,
+  fonttitle=\bfseries,
+  boxrule=0.9pt,
+  arc=1.2mm
+}

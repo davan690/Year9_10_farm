@@ -1,35 +1,77 @@
 ---
 title: "Farm Mapping Homework"
 author: "Urban Farm 2026"
-date: "`r Sys.Date()`"
-output: pdf_document
+date: today
+format: 
+  pdf:
+    pdf-engine: lualatex
+    include-in-header: homework-style.tex
+    fontsize: 11pt
+    geometry:
+      - top=25mm
+      - left=20mm
+      - right=20mm
+      - bottom=25mm
+    colorlinks: true
+    papersize: a4
+jupyter: python3
 ---
 
-## Homework Assignment: Mapping the School Farm
+![](../images/farm_barn.jpg){fig-align="center" width="100%"}
 
-### Objective
+\begin{heroheader}
+  	extbf{Homework Assignment: Mapping the School Farm} \\
+Create a clean, readable farm map that includes map conventions used in real-world geography.
+\end{heroheader}
 
-In this homework assignment, you will create a PDF map of the school farm using Google My Maps. You will learn how to add important features to your map, including an arrow, scale, and legend.
+\begin{objectivebox}
+Design a map of the school farm using Google My Maps and present it as a professional PDF. Your final map must include an arrow, a scale, and a clear legend.
+\end{objectivebox}
+
+\begin{checklistbox}
+- [ ] I used clear labels for each part of the farm.
+- [ ] I included a direction arrow.
+- [ ] I added a scale that helps estimate distance.
+- [ ] I built a legend that explains all symbols and colours.
+- [ ] My final PDF is easy to read at first glance.
+\end{checklistbox}
 
 ### Instructions
 
-1. **Create Your Map:**
-   - Follow the instructions provided in the `index.Rmd` file to create your farm map using Google My Maps.
+1. **Create Your Map**
+  Follow the instructions provided in the `index.qmd` file to build your school farm map in Google My Maps.
 
-2. **Add Features:**
-   - Once your map is created, you need to add the following features:
-     - **Arrow:** Indicate a specific direction on your map.
-     - **Scale:** Show the scale of your map to help viewers understand distances.
-     - **Legend:** Create a legend that explains the symbols and colors used on your map.
+2. **Add Required Features**
+  Include all of the following:
+  - **Arrow:** Show map direction clearly.
+  - **Scale:** Help viewers estimate real-world distances.
+  - **Legend:** Explain symbols, colours, and map labels.
 
-3. **Export Your Map:**
-   - After adding the features, export your map as a PDF. Make sure the arrow, scale, and legend are clearly visible in the exported document.
+3. **Export and Check**
+  Export your map as a PDF and check that the arrow, scale, and legend are all clear and readable.
+
+4. **Submit**
+  Hand in your map PDF and this completed homework sheet by the due date.
+
+---
 
 ### Questions
 
-1. Explain why it is important to include a scale on your map. How does it help the viewer?
-   
-2. Describe the purpose of a legend in a map. What information should be included in your legend for the school farm map?
+Please write your answers in the space provided below.
+
+\begin{answerbox}[1. Explain why it is important to include a scale on your map. How does it help the viewer?]
+\vspace{4.2cm}
+\end{answerbox}
+
+\vspace{0.4cm}
+
+\begin{answerbox}[2. Describe the purpose of a legend in a map. What information should be included in your legend for the school farm map?]
+\vspace{4.2cm}
+\end{answerbox}
+
+\vspace{0.4cm}
+
+---
 
 ### Curriculum Links
 
@@ -38,8 +80,8 @@ This homework aligns with the following areas of the New Zealand Curriculum:
 - **Geography:** Understand how to represent geographical information using maps.
 - **Mathematics:** Apply measurement concepts in real-world contexts.
 
-For more information, visit the New Zealand Curriculum website: [New Zealand Curriculum](https://curriculum.govt.nz/)
+For more information, visit the [New Zealand Curriculum website](https://curriculum.govt.nz/).
 
---- 
-
-**Note:** Ensure you follow the guidelines and submit your homework by the due date. Happy mapping!
+\begin{notebox}
+Ensure you follow the guidelines and submit your homework by the due date.
+\end{notebox}
