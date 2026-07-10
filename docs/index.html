@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -168,6 +188,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#units" id="toc-units" class="nav-link" data-scroll-target="#units">Units</a></li>
   <li><a href="#regular-farm-operations" id="toc-regular-farm-operations" class="nav-link" data-scroll-target="#regular-farm-operations">Regular Farm Operations</a></li>
   </ul></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul>
 </nav>
     </div>
@@ -199,9 +220,10 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="course-overview" class="level2">
 <h2 class="anchored" data-anchor-id="course-overview">Course Overview</h2>
+<p>This course aligns with Te Mataiaho, the Refreshed New Zealand Curriculum <span class="citation" data-cites="moe-refreshed-nzc">(<a href="#ref-moe-refreshed-nzc" role="doc-biblioref">Ministry of Education 2026b</a>)</span>, and supports learners as they connect mathematical thinking with practical farm contexts.</p>
 <section id="units" class="level3">
 <h3 class="anchored" data-anchor-id="units">Units</h3>
-<p>This course aligns with the Refreshed New Zealand Curriculum (2026) and is designed to provide students with practical applications of agriculture and horticulture in the context of our school farm. Each unit focuses on a specific aspect of farm operations, allowing students to real and develop new skills at the same time as they explore mathematical concepts through real-world scenarios.</p>
+<p>Each unit is designed to provide students with practical applications of agriculture and horticulture in the context of our school farm. The sequence supports the direction of current curriculum and assessment changes in Aotearoa New Zealand <span class="citation" data-cites="moe-ncea-change">(<a href="#ref-moe-ncea-change" role="doc-biblioref">Ministry of Education 2026a</a>)</span>. Each unit focuses on a specific aspect of farm operations, allowing students to experience real maintenance tasks and develop new skills at the same time as they explore pathways to agriculture and horticulture in New Zealand. As an added benefit, students will also engage with mathematical concepts through real-world scenarios.</p>
 <ul>
 <li><a href="./units-overview.html">Farm Units overview</a></li>
 <li><a href="./sector-and-safety.html">Unit 1: Sector and Safety</a></li>
@@ -222,9 +244,20 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="weekly-tasks.qmd">Weekly Farm Tasks</a> - Routine weekly activities</li>
 <li><a href="./friday-closedown.html">Friday Close-Down Checklist</a> - Procedures for end-of-week farm maintenance</li>
 </ul>
-
-
 </section>
+</section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-moe-ncea-change" class="csl-entry" role="listitem">
+Ministry of Education. 2026a. <span>“NCEA Change Programme.”</span> 2026. <a href="https://ncea.education.govt.nz/">https://ncea.education.govt.nz/</a>.
+</div>
+<div id="ref-moe-refreshed-nzc" class="csl-entry" role="listitem">
+———. 2026b. <span>“Te Mataiaho: The Refreshed New Zealand Curriculum.”</span> 2026. <a href="https://nzcurriculum.tahurangi.education.govt.nz/">https://nzcurriculum.tahurangi.education.govt.nz/</a>.
+</div>
+</div>
+
+
 </section>
 
 </main> <!-- /main -->

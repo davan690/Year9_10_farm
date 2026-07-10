@@ -22,6 +22,9 @@ project:
     - '!farm-homework/**'
     - '!temp-render/**'
 
+bibliography: textbook/references.bib
+link-citations: true
+
 website:
   title: "Urban Farm Applied Mathematics"
   navbar:
