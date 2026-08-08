@@ -8,7 +8,11 @@ This standalone site contains the Kaikoria Valley College Urban Farm units 2026.
 
 ## Course Overview
 
-This course aligns with Te Mataiaho, the Refreshed New Zealand Curriculum [@moe-refreshed-nzc], and supports learners as they connect mathematical thinking with practical farm contexts.
+This course aligns with Te Mataiaho, the Refreshed New Zealand Curriculum [@moe-refreshed-nzc], and supports learners as they connect mathematical thinking with practical farm contexts. None of the content here is intended to be used as a standalone mathematics course, but rather as a way to explore mathematics in the context of agriculture and horticulture. The units are designed to be flexible and adaptable to different learning environments, allowing teachers to tailor the content to their students' needs.
+
+No connection to the school farm is required to use the units, but teachers are encouraged to explore ways to connect the content to their own local contexts. The units are designed to be flexible and adaptable, allowing teachers to tailor the content to their students' needs.
+
+Not endorsed by the Ministry of Education, but designed to support teachers and students in exploring mathematics in the context of agriculture and horticulture.
 
 ### Units
 
@@ -24,10 +28,11 @@ Each unit is designed to provide students with practical applications of agricul
 - [Unit 7: Weather, Forecasting, and Environmental Impacts](weather-dunedin-kaikorai.qmd)
 - [Unit 8: Autumn Planting (Project 2)](autumn-planting-seedlings.qmd)
 - [Unit 9: Farm Hazards and Safety Project (Project 3)](hazards-unit.qmd)
+- [Unit 10: Kaitiakitanga and Kōura](koura-unit.qmd)
 
 ### Regular Farm Operations
 
-- [Farm Missions](missions/index.qmd) - Regular maintenance tasks
+- [Farm Missions](unit-missions-index.qmd) - Regular maintenance tasks
 - [Weekly Farm Tasks](weekly-tasks.qmd) - Routine weekly activities
 - [Friday Close-Down Checklist](friday-closedown.qmd) - Procedures for end-of-week farm maintenance
 

@@ -1,0 +1,123 @@
+---
+title: "Unit 5: Organisation and Inventory"
+subtitle: "Keeping the farm workspace safe, tidy, and efficient"
+author: "Urban Farm 2026"
+date: today
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    theme: zephyr
+---
+
+## Overview
+
+This unit focuses on the importance of organisation and good housekeeping on the farm. A tidy and well-managed workspace improves safety, saves time, and makes tools and equipment easier to find when they are needed.
+
+## Why this matters
+
+A farm is a busy workplace. If tools are left lying around, materials are poorly stored, or tasks are not logged, it becomes harder to work safely and efficiently. Good organisation protects people, equipment, and the wider farm environment.
+
+## Learning goals
+
+By the end of this unit, students will be able to:
+
+- explain why tidy storage matters for safety;
+- organise tools, pots, and materials in a practical way;
+- maintain a safe and accessible workspace;
+- complete a basic equipment check;
+- record issues or missing items clearly.
+
+## Equipment
+
+- broom or brush
+- gloves
+- notebook or checklist
+- labels or marker if available
+
+## Before you start
+
+- Walk through the area first and identify hazards.
+- Keep walkways clear.
+- Handle heavy items carefully.
+- Report broken equipment or obvious safety risks.
+
+## Task 1: Great tidy-up
+
+![](images/farm-photos/farm_barn.jpg){width:60%}
+
+### Barn and shed organisation
+
+- [ ] Sweep the floors and clear any debris.
+- [ ] Return tools to their proper hooks or racks.
+- [ ] Check that all tools are accounted for.
+- [ ] Wipe down work surfaces.
+- [ ] Organise shelves and storage areas.
+- [ ] Stack bags and containers neatly.
+- [ ] Remove rubbish to the correct bin.
+
+### Organisation principles
+
+- A place for everything and everything in its place.
+- Most-used items should be easiest to reach.
+- Heavy items should be stored lower down.
+- Label storage areas clearly.
+- Keep walkways and exits clear.
+
+## Task 2: Wood pile and pot storage
+
+![](images/farm-photos/farm_shed.jpg){width:60%}
+
+### Wood pile management
+
+- [ ] Re-stack the wood pile so it is stable and safe.
+- [ ] Keep wood stacked in rows and away from buildings where possible.
+- [ ] Remove rotten or unsafe pieces.
+- [ ] Leave air gaps for drying and ventilation.
+
+### Pot sorting and storage
+
+- [ ] Sort pots by size.
+- [ ] Stack pots of the same size inside each other.
+- [ ] Remove broken pots or damaged items.
+- [ ] Store pots neatly so they do not block access.
+
+## Task 3: Tool audit and maintenance
+
+Proper tool maintenance extends tool life and improves safety:
+
+- [ ] Clean dirt, mud, and plant material from tools.
+- [ ] Wipe metal tools if they are rusty or damp.
+- [ ] Check wooden handles for splinters or damage.
+- [ ] Hang tools on their designated hooks or racks.
+- [ ] Coil hoses neatly and store them safely.
+- [ ] Place sharp tools where they cannot be knocked over or reached by accident.
+
+## Task 4: Security and final sweep
+
+Before leaving the area:
+
+- [ ] Lock shed doors and secure gates if required.
+- [ ] Close windows and doors.
+- [ ] Check for trip hazards.
+- [ ] Turn off water taps or other equipment if needed.
+- [ ] Conduct a final visual sweep of the area.
+
+## Inventory note
+
+Record any concerns such as:
+
+- missing tools
+- broken equipment
+- items that need replacing
+- storage areas that need improvement
+
+## Reflection
+
+1. Why does good organisation make a farm safer?
+2. What happens when tools are left out and not returned to storage?
+3. How could a tidy workspace improve productivity and care of equipment?
+
+## Extension
+
+Create a simple inventory checklist for the farm that could be used at the start of each term.

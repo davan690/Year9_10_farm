@@ -1,0 +1,103 @@
+---
+title: "Unit 1: Animal Care and Observation"
+subtitle: "Daily welfare checks, safe handling, and recording animal wellbeing"
+author: "Urban Farm 2026"
+date: today
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    theme: zephyr
+---
+
+## Overview
+
+This unit introduces students to the daily care of farm animals. It combines practical animal husbandry with observation, responsibility, and safe practice. Good animal care is not only about feeding and watering; it is also about noticing the small signs that suggest an animal is stressed, unwell, or behaving normally.
+
+## Why this matters
+
+Animals on the farm depend on people to provide safe water, appropriate feed, clean conditions, and careful monitoring. Regular observation helps identify health issues early and makes the farm a safer, calmer, and more productive place for everyone.
+
+## Learning goals
+
+By the end of this unit, students will be able to:
+
+- explain why regular feeding and watering matter;
+- carry out safe and calm animal handling;
+- observe signs of health, comfort, or concern;
+- record simple welfare observations clearly;
+- report issues to the farm supervisor appropriately.
+
+## Equipment
+
+- gloves if needed
+- clean water container or hose
+- feed scoop or bucket
+- bedding material
+- notebook or observation log
+
+## Before you start
+
+- Approach animals calmly and quietly.
+- Wash hands before and after handling animals or equipment.
+- Never chase, corner, or frighten animals.
+- If an animal appears injured or very distressed, inform the supervisor immediately.
+
+## Task 1: Visit the chicken area
+
+![Chicken area](images/farm-photos/chickens_water_food.jpg){width=60%}
+
+Follow these steps carefully when visiting the hen house:
+
+- [ ] Move quietly and slowly into the hen house.
+- [ ] Top up the water container with fresh water if needed.
+- [ ] Fill the feeder using the grain from the outside bin.
+- [ ] Check the birds for unusual behavior, feather loss, limping, or lethargy.
+- [ ] Note whether the hens are alert, active, and calm.
+- [ ] Optional: gently pat a chicken only if the bird is comfortable and the supervisor agrees.
+
+### What to look for
+
+- bright eyes and alert posture
+- steady movement and normal feeding
+- no obvious injuries or discharge
+- no repeated loud distress calls
+
+## Task 2: Check paddock animals
+
+![Paddock animals](images/farm-photos/sheep_water.jpg){width=60%}
+
+Ensure paddock animals have clean water, fresh bedding, and food:
+
+- [ ] Scrub out the water trough and refill it with clean water.
+- [ ] Spread fresh wood shavings in the shelter bedding area.
+- [ ] Place a scoop of nuts or feed in the wooden trough.
+- [ ] Check fencing, gates, and shelter areas for safety.
+- [ ] Observe animal movement and behaviour from a calm distance.
+- [ ] Report any injury, escape, or unusual behavior.
+
+### Good practice
+
+- Keep your voice low.
+- Avoid standing between an animal and its escape route.
+- Give animals space and respect their body language.
+
+## Observation log
+
+Record your findings below after each visit:
+
+- Date and time:
+- Animals observed:
+- Water and feed checked:
+- Any signs of illness or injury:
+- Overall wellbeing summary:
+
+## Reflection
+
+1. Why is regular observation more useful than only feeding animals once in a while?
+2. What would you do if you noticed an animal behaving strangely?
+3. How does careful animal care connect to farm safety and sustainability?
+
+## Extension
+
+Create a simple welfare checklist for the farm that could be used by a class each week.

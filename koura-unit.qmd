@@ -1,0 +1,124 @@
+---
+title: "Unit 10: Kaitiakitanga and Kōura"
+subtitle: "Freshwater crayfish, stream ecology, and data investigation"
+author: "Urban Farm 2026"
+date: today
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    theme: zephyr
+execute:
+  echo: false
+  warning: false
+---
+
+## Overview
+
+This 7-week unit introduces Year 9/10 students to the freshwater crayfish or kōura (*Paranephrops zealandicus*) as a taonga species and a practical case study in stream ecology, agriculture, and data investigation. Students explore how land use, riparian shade, water temperature, and habitat complexity affect kōura survival and growth.
+
+The unit links field science with mathematics by asking students to collect, organise, compare, and interpret data. It also builds cultural understanding through kaitiakitanga, mātauranga Māori, and the idea of mahinga kai.
+
+## Why this unit matters
+
+- Kōura are an important native species in Aotearoa New Zealand waterways.
+- Their survival is strongly affected by stream temperature, water quality, and habitat condition.
+- Field observations help students understand how farming, stream margins, and riparian planting influence freshwater health.
+- The unit provides a strong foundation for later statistical work such as bivariate investigations and evidence-based recommendations.
+
+## Learning goals
+
+By the end of this unit, students will be able to:
+
+- explain why kōura are culturally and ecologically important;
+- describe key anatomy and why orbit-carapace length is used as a measurement;
+- identify how shade, water temperature, and habitat structure affect kōura;
+- plan and carry out a safe stream investigation;
+- collect and present simple data using tables, graphs, and written explanations;
+- suggest practical actions that support stream health and kaitiakitanga.
+
+## Suggested resources
+
+- [Department of Conservation: Freshwater crayfish (kōura)](https://www.doc.govt.nz/nature/native-animals/invertebrates/freshwater-crayfish-koura/)
+- [NIWA freshwater information](https://niwa.co.nz/)
+- [Student worksheet](koura-worksheet.qmd)
+- [Homework task](koura-homework.qmd)
+
+## Weekly plan
+
+### Week 1: Meet the kōura
+
+Focus: biology, cultural significance, and measuring body size.
+
+- Lesson 1: Taonga species and mahinga kai.
+- Lesson 2: Kōura anatomy and orbit-carapace length (OCL).
+- Lesson 3: Growth versus survival trade-offs in warmer water.
+
+### Week 2: The farm stream habitat
+
+Focus: stream conditions, riparian zones, and habitat complexity.
+
+- Lesson 1: Shade, temperature, and land use.
+- Lesson 2: The role of riparian planting and fencing.
+- Lesson 3: Habitat complexity and predator avoidance.
+
+### Week 3: Planning the stream survey
+
+Focus: question, variables, and safe fieldwork.
+
+- Lesson 1: Develop a class investigation question.
+- Lesson 2: Define variables and data collection methods.
+- Lesson 3: Risk assessment and ethical handling.
+
+### Week 4: Fieldwork execution
+
+Focus: collecting primary data at a local stream site.
+
+- Lesson 1: Survey an open reach or pasture-edge site.
+- Lesson 2: Survey a shaded or planted reach.
+- Lesson 3: Check data entry and confirm measurements.
+
+### Week 5: Data display and interpretation
+
+Focus: turning raw data into a clear story.
+
+- Lesson 1: Create summary tables and compare site results.
+- Lesson 2: Build bar graphs for abundance or catch count.
+- Lesson 3: Plot temperature against OCL and discuss patterns.
+
+### Week 6: Evidence and recommendations
+
+Focus: evaluating findings and planning stewardship actions.
+
+- Lesson 1: Compare the two sites and describe evidence.
+- Lesson 2: Discuss limitations and confounding factors.
+- Lesson 3: Write a management recommendation for the stream.
+
+### Week 7: Presentation and reflection
+
+Focus: sharing findings and connecting science to kaitiakitanga.
+
+- Lesson 1: Present results to the class.
+- Lesson 2: Reflect on what the data tells us about stream health.
+- Lesson 3: Review the role of people in caring for waterways.
+
+## Suggested investigation question
+
+Is there a measurable difference in kōura abundance and size between a shaded riparian section and an open pasture section of a local stream?
+
+## Student tasks
+
+- Complete the [student worksheet](koura-worksheet.qmd) during the unit.
+- Finish the [homework task](koura-homework.qmd) at the end of the week.
+- Use the investigation to write a short evidence-based recommendation for improving stream health.
+
+## Assessment ideas
+
+- Observation of participation in fieldwork and safe practice.
+- Completion of the worksheet with accurate data recording.
+- Short written explanation linking environmental conditions to kōura ecology.
+- One-page stewardship recommendation or poster.
+
+## Teacher note
+
+This unit is designed to support practical science learning while also preparing students for later statistical work. The focus is not only on finding a result, but on building careful observation, field ethics, and thoughtful interpretation.

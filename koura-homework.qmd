@@ -1,0 +1,42 @@
+---
+title: "Kōura Homework Task"
+author: "Urban Farm 2026"
+date: today
+format:
+  html:
+    toc: true
+    theme: zephyr
+---
+
+## Kōura homework task
+
+### Task 1: Read and respond
+
+Read the short information below and answer the questions.
+
+Kōura are freshwater crayfish found in many New Zealand streams. They are important because they form part of the food web and are culturally significant as taonga. Kōura need clean water, shelter, and stable conditions. Streams with shade, native plants, and complex habitat tend to support healthier kōura communities.
+
+1. Why are kōura considered important to both people and ecosystems?
+2. Name two environmental features that help support kōura.
+3. Explain why stream shade might be important for kōura survival.
+
+### Task 2: Data interpretation
+
+A class collected this simple data.
+
+| Site | Water temperature (°C) | Number of kōura found |
+|---|---:|---:|
+| Open reach | 18.2 | 4 |
+| Shaded reach | 12.6 | 10 |
+
+1. Which site had the higher water temperature?
+2. Which site had more kōura?
+3. Write one sentence explaining the pattern in the data.
+
+### Task 3: Action plan
+
+Write a short paragraph suggesting one practical action a school or community group could take to improve kōura habitat. Explain how that action would help the stream.
+
+### Optional extension
+
+Research one local freshwater issue such as sediment, pollution, or loss of riparian cover. Describe how it could affect kōura.

@@ -7,7 +7,7 @@ format: html
 
 Welcome to the Friday close-down routine! Before leaving for the weekend, complete this final checklist to ensure the farm is secure, clean, and ready for Monday.
 
-**Note:** If you haven't already completed the regular farm missions this week, visit the [Farm Missions](missions/index.qmd) page to see what needs to be done. The Friday close-down assumes all regular maintenance has been completed.
+**Note:** If you haven't already completed the regular farm missions this week, visit the [Farm Missions](unit-missions-index.qmd) page to see what needs to be done. The Friday close-down assumes all regular maintenance has been completed.
 
 **📄 Download:** [Friday Ticklist PDF](../resources/Friday_tickList.pdf) - Print this checklist for easy reference on the farm!
 
@@ -65,11 +65,11 @@ Before you leave for the weekend:
 
 If you notice something needs attention before the weekend:
 
-- **Animals need care?** → [Mission 1: Animal Care](missions/mission1-animal-care.qmd)
-- **Garden needs watering/weeding?** → [Mission 2: Garden Maintenance](missions/mission2-garden-maintenance.qmd)
-- **Trees need checking?** → [Mission 3: Restoration](missions/mission3-restoration.qmd)
-- **Want to make observations?** → [Mission 4: Environmental Observation](missions/mission4-environmental-observation.qmd)
-- **Areas need tidying?** → [Mission 5: Organisation](missions/mission5-organisation.qmd)
+- **Animals need care?** → [Unit 1: Animal Care](unit-1-animal-care.qmd)
+- **Garden needs watering/weeding?** → [Unit 2: Garden Maintenance](unit-2-garden-maintenance.qmd)
+- **Trees need checking?** → [Unit 3: Restoration](unit-3-restoration.qmd)
+- **Want to make observations?** → [Unit 4: Environmental Observation](unit-4-environmental-observation.qmd)
+- **Areas need tidying?** → [Unit 5: Organisation](unit-5-organisation.qmd)
 
 ---
 

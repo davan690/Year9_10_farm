@@ -1,0 +1,54 @@
+---
+title: "Kōura Investigation Worksheet"
+author: "Urban Farm 2026"
+date: today
+format:
+  html:
+    toc: true
+    theme: zephyr
+---
+
+## Kōura investigation worksheet
+
+### Part A: Know the species
+
+1. What does the word "taonga" mean in this context?
+2. Why are kōura important to Aotearoa New Zealand ecosystems?
+3. What is orbit-carapace length (OCL)? Why might scientists use OCL rather than total body length?
+4. Name two features of a kōura that help it survive in freshwater habitats.
+
+### Part B: Habitat and environment
+
+1. Describe the difference between a shaded stream section and an open pasture stream section.
+2. How might lack of riparian shade affect water temperature?
+3. Why might kōura prefer habitats with rocks, roots, undercut banks, or woody debris?
+4. What is one way riparian planting could help kōura?
+
+### Part C: Field investigation planning
+
+1. Write a class investigation question.
+2. Identify the independent variable.
+3. Identify the dependent variable.
+4. List two variables you should keep as constant as possible.
+5. Write one safety rule for fieldwork near a stream.
+
+### Part D: Data recording
+
+Record your group’s observations below.
+
+| Site | Water temperature (°C) | Canopy cover (%) | Number of kōura found | OCL measurements (mm) |
+|---|---:|---:|---:|---|
+| Open reach |  |  |  |  |
+| Shaded reach |  |  |  |  |
+
+### Part E: Data analysis
+
+1. Which site had the greater number of kōura?
+2. Which site had the warmer water temperature?
+3. Did the larger kōura appear more often in one site than the other? Explain.
+4. Draw a simple bar graph showing the number of kōura found at each site.
+5. Draw a scatterplot with water temperature on the x-axis and OCL on the y-axis.
+
+### Part F: Conclusion
+
+Write a short paragraph explaining what your data suggests about kōura and stream conditions. Include one recommendation for improving stream health.

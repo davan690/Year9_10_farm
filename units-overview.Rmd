@@ -208,6 +208,24 @@ Focus on completing a real farm hazard audit, developing controls, and presentin
 
 ---
 
+## Unit 10: Kaitiakitanga and Kōura (7 weeks)
+
+Focus on freshwater crayfish, stream ecology, field observation, and practical stewardship through a local waterway investigation.
+
+**What you'll do**
+
+- Learn why kōura are culturally and ecologically important.
+- Measure orbit-carapace length and record field observations.
+- Compare shaded and open stream habitats.
+- Use simple data tables and graphs to explain findings.
+- Develop a recommendation for improving stream health and kaitiakitanga.
+
+- Go to: [Unit 10: Kaitiakitanga and Kōura](koura-unit.qmd)
+- Student worksheet: [Kōura Investigation Worksheet](koura-worksheet.qmd)
+- Homework: [Kōura Homework Task](koura-homework.qmd)
+
+---
+
 ## Farm Operations
 
 ### Farm Hazards and Safety
@@ -238,7 +256,7 @@ Regular maintenance and care tasks that anyone can undertake. Each mission focus
 - Mission 4: Environmental Observation
 - Mission 5: Organisation & Inventory
 
-- Go to: [Farm Missions Overview](missions/index.qmd)
+- Go to: [Farm Missions Overview](unit-missions-index.qmd)
 
 ---
 

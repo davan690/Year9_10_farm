@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KVC Farm Studies: Chicken Coop Operations Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+    <style>
+        /* 
+        Selected Vibrant Palette: Energetic & Playful
+        Main Colors: 
+        - Emergency Red: #DC2626 
+        - Warning Amber: #F59E0B 
+        - Safety Green: #10B981 
+        - Action Blue: #2563EB 
+        - Deep Slate: #1E293B
+        */
+
+        body {
+            background-color: #F8FAFC;
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+        }
+
+        .chart-container {
+            position: relative;
+            width: 100%;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 300px;
+            max-height: 400px;
+        }
+
+        @media (min-width: 768px) {
+            .chart-container {
+                height: 350px;
+            }
+        }
+
+        .status-pulse {
+            animation: pulse-animation 2s infinite;
+        }
+
+        @keyframes pulse-animation {
+            0% { box-shadow: 0 0 0 0px rgba(220, 38, 38, 0.4); }
+            100% { box-shadow: 0 0 0 15px rgba(220, 38, 38, 0); }
+        }
+
+        .timeline-line {
+            width: 2px;
+            background-color: #CBD5E1;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 20px;
+        }
+
+        .timeline-dot {
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            background-color: #2563EB;
+            position: absolute;
+            left: 13px;
+            z-index: 10;
+            border: 3px solid white;
+        }
+    </style>
+</head>
+<body class="text-slate-800">
+
+    <!-- 
+    Narrative Plan:
+    1. Hook: The "Guardian of the Flock" intro emphasizing biosecurity.
+    2. Section 1: Safety First - Bird Flu (Critical Hazard Management).
+    3. Section 2: The Daily Rhythm - Process flow of feeding and egg care.
+    4. Section 3: Data & Economics - Egg sales and tracking.
+    5. Section 4: The Long View - Periodic maintenance cycles.
+    -->
+
+    <!-- 
+    Visual Selection Justification:
+    - Bird Flu Symptoms: Bar Chart (Chart.js) to show visual priority of checks. Goal: Compare.
+    - Daily Duty Time: Donut Chart (Chart.js) to show composition of student time. Goal: Inform/Composition.
+    - Egg Pricing: Simple Big Numbers (HTML/CSS). Goal: Inform.
+    - Maintenance Timeline: Styled HTML/CSS components. Goal: Organize.
+    - Biosecurity Flow: Styled CSS cards. Goal: Organize/Process.
+    Confirming NO SVG and NO MERMAID JS used.
+    -->
+
+    <header class="bg-slate-900 text-white py-12 px-6 text-center border-b-8 border-emerald-500">
+        <h1 class="text-4xl md:text-5xl font-black mb-4">🐔 KVC FARM STUDIES</h1>
+        <p class="text-xl text-emerald-400 font-bold uppercase tracking-widest">Chicken Coop Standard Operating Procedure</p>
+        <div class="mt-6 inline-block bg-emerald-500 text-slate-900 px-4 py-2 rounded-full font-bold text-sm">
+            OFFICIAL STUDENT DUTY GUIDE
+        </div>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-4 py-12">
+        
+        <section class="mb-16">
+            <div class="bg-white rounded-3xl shadow-xl overflow-hidden border border-slate-100">
+                <div class="bg-red-600 p-6 text-white flex items-center gap-4">
+                    <div class="text-4xl">⚠️</div>
+                    <div>
+                        <h2 class="text-2xl font-black">CRITICAL SAFETY: AVIAN INFLUENZA</h2>
+                        <p class="font-medium opacity-90">Immediate biosecurity actions required for all students.</p>
+                    </div>
+                </div>
+                
+                <div class="p-8 grid grid-cols-1 md:grid-cols-2 gap-12">
+                    <div>
+                        <p class="text-lg leading-relaxed mb-6">
+                            Biosecurity is our first line of defense. Bird Flu (Avian Influenza) poses a significant risk to flock health. Students must monitor for symptoms daily. If illness is suspected, <strong>do not touch</strong> and evacuate the area immediately.
+                        </p>
+                        <div class="space-y-4">
+                            <div class="flex items-center gap-4 p-4 bg-red-50 rounded-xl border-l-4 border-red-600">
+                                <span class="text-2xl">🚫</span>
+                                <p class="font-bold text-red-800">ZERO TOUCH POLICY: Never handle sick or dead birds.</p>
+                            </div>
+                            <div class="flex items-center gap-4 p-4 bg-blue-50 rounded-xl border-l-4 border-blue-600">
+                                <span class="text-2xl">🧼</span>
+                                <p class="font-bold text-blue-800">HYGIENE: Wash hands with soap and warm water immediately after duty.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex flex-col">
+                        <h3 class="text-center font-bold text-slate-500 uppercase tracking-tighter mb-4">Symptom Observation Priority</h3>
+                        <div class="chart-container">
+                            <canvas id="birdFluChart"></canvas>
+                        </div>
+                        <p class="text-xs text-center mt-4 text-slate-400 italic">Data visualization of visual inspection checklist priority</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="mb-12">
+            <h2 class="text-3xl font-black text-slate-900 mb-2">☀️ THE DAILY RHYTHM</h2>
+            <p class="text-slate-500 font-medium">Mandatory tasks for Morning and Afternoon duty shifts.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+            <div class="bg-white p-8 rounded-3xl shadow-md border-t-8 border-amber-500">
+                <div class="text-3xl mb-4">🌾</div>
+                <h3 class="text-xl font-bold mb-4">Feed & Water</h3>
+                <ul class="space-y-3 text-slate-600 font-medium">
+                    <li class="flex gap-2"><span>•</span> Refill all food hoppers.</li>
+                    <li class="flex gap-2"><span>•</span> Ensure water is fresh/clean.</li>
+                    <li class="flex gap-2"><span>•</span> <strong>Storage:</strong> Open bags must be sealed in plastic bins.</li>
+                    <li class="flex gap-2 text-amber-600 font-bold"><span>•</span> NEVER leave bags in muck.</li>
+                </ul>
+            </div>
+
+            <div class="bg-white p-8 rounded-3xl shadow-md border-t-8 border-blue-500">
+                <div class="text-3xl mb-4">🥚</div>
+                <h3 class="text-xl font-bold mb-4">Egg Collection</h3>
+                <ul class="space-y-3 text-slate-600 font-medium">
+                    <li class="flex gap-2"><span>•</span> Check nesting boxes + white cube.</li>
+                    <li class="flex gap-2"><span>•</span> Pencil-date the shell of every egg.</li>
+                    <li class="flex gap-2"><span>•</span> Transfer immediately to Staffroom Fridge.</li>
+                    <li class="flex gap-2 text-blue-600 font-bold"><span>•</span> Log tally on the official sheet.</li>
+                </ul>
+            </div>
+
+            <div class="bg-white p-8 rounded-3xl shadow-md border-t-8 border-emerald-500">
+                <div class="text-3xl mb-4">📊</div>
+                <h3 class="text-xl font-bold mb-4">Duty Breakdown</h3>
+                <div class="chart-container" style="height: 200px;">
+                    <canvas id="dutyCompositionChart"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <section class="mb-16">
+            <div class="bg-slate-900 text-white rounded-3xl p-8 md:p-12 shadow-2xl relative overflow-hidden">
+                <div class="absolute top-0 right-0 p-12 opacity-10 text-9xl">💰</div>
+                <div class="relative z-10 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <h2 class="text-3xl font-black mb-6">EGG ECONOMICS</h2>
+                        <p class="text-slate-400 text-lg mb-8">Revenue from our flock supports farm resources. All sales must be logged in the payment tracker with buyer names.</p>
+                        <div class="grid grid-cols-2 gap-4">
+                            <div class="bg-slate-800 p-6 rounded-2xl border border-slate-700">
+                                <p class="text-slate-400 font-bold text-sm uppercase">10 Eggs</p>
+                                <p class="text-4xl font-black text-emerald-400">$8.00</p>
+                            </div>
+                            <div class="bg-slate-800 p-6 rounded-2xl border border-slate-700">
+                                <p class="text-slate-400 font-bold text-sm uppercase">12 Eggs</p>
+                                <p class="text-4xl font-black text-emerald-400">$10.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-white/5 p-6 rounded-3xl border border-white/10">
+                        <h3 class="text-center font-bold text-emerald-500 mb-6 uppercase tracking-widest">Inventory Management Flow</h3>
+                        <div class="space-y-6">
+                            <div class="flex items-center gap-4">
+                                <div class="w-10 h-10 rounded-full bg-emerald-500 flex items-center justify-center font-black text-slate-900">1</div>
+                                <p class="font-bold">Collect & Date Shells</p>
+                            </div>
+                            <div class="flex items-center gap-4">
+                                <div class="w-10 h-10 rounded-full bg-emerald-500 flex items-center justify-center font-black text-slate-900">2</div>
+                                <p class="font-bold">Record in Tally Sheet</p>
+                            </div>
+                            <div class="flex items-center gap-4">
+                                <div class="w-10 h-10 rounded-full bg-emerald-500 flex items-center justify-center font-black text-slate-900">3</div>
+                                <p class="font-bold">Fridge Storage (Staffroom)</p>
+                            </div>
+                            <div class="flex items-center gap-4">
+                                <div class="w-10 h-10 rounded-full bg-emerald-500 flex items-center justify-center font-black text-slate-900">4</div>
+                                <p class="font-bold">Update Register on Sale</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-16">
+            <h2 class="text-3xl font-black text-slate-900 mb-8">🧹 PERIODIC MAINTENANCE (5-6 WEEKS)</h2>
+            <div class="relative pl-12 space-y-12">
+                <div class="timeline-line"></div>
+                
+                <div class="relative">
+                    <div class="timeline-dot"></div>
+                    <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200">
+                        <h3 class="text-xl font-black text-slate-900">Nesting Box Deep Clean</h3>
+                        <p class="text-slate-600 mt-2">Remove all old wood shavings. Transport old material directly to the <strong>School Compost Zone</strong> using a wheelbarrow.</p>
+                        <div class="mt-4 flex gap-2">
+                            <span class="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-xs font-bold">WHEELBARROW</span>
+                            <span class="px-3 py-1 bg-emerald-100 text-emerald-700 rounded-full text-xs font-bold">COMPOST ZONE</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="relative">
+                    <div class="timeline-dot"></div>
+                    <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200">
+                        <h3 class="text-xl font-black text-slate-900">Fresh Packing</h3>
+                        <p class="text-slate-600 mt-2">Wipe down the interior of nesting boxes with dry cloth. Pack firmly with fresh, dry woodchips/shavings to ensure hen comfort.</p>
+                    </div>
+                </div>
+
+                <div class="relative">
+                    <div class="timeline-dot"></div>
+                    <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200">
+                        <h3 class="text-xl font-black text-slate-900">Run Floor Audit</h3>
+                        <p class="text-slate-600 mt-2">Inspect for wet/muddy patches. Spread sized woodchips across affected areas to prevent disease and maintain secure footing.</p>
+                        <div class="mt-4 p-3 bg-amber-50 rounded-lg text-amber-800 text-sm font-bold italic">
+                            ⚠️ Note: Report any loose mesh or ground gaps in perimeter fencing immediately.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-16">
+            <div class="bg-emerald-50 border-2 border-emerald-200 rounded-3xl p-8">
+                <h2 class="text-2xl font-black text-emerald-900 mb-6 text-center">STUDENT SIGN-OFF METRICS</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="chart-container">
+                        <canvas id="complianceChart"></canvas>
+                    </div>
+                    <div class="flex flex-col justify-center">
+                        <h3 class="text-xl font-bold text-emerald-800 mb-4">Monthly Checklist Targets</h3>
+                        <p class="text-emerald-700 leading-relaxed">
+                            Students are expected to maintain 100% compliance on the Daily Checklist. Each shift must be signed off by a teacher or team leader after verifying that:
+                        </p>
+                        <ul class="mt-4 space-y-2 text-emerald-900 font-bold">
+                            <li class="flex items-center gap-2">✅ Feed Bags are in the Barn</li>
+                            <li class="flex items-center gap-2">✅ Eggs are Dated & Fridged</li>
+                            <li class="flex items-center gap-2">✅ Health Check is Verified</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-slate-900 text-slate-500 py-12 px-6 text-center">
+        <p class="font-bold text-slate-400">KAIKORAI VALLEY COLLEGE • FARM STUDIES DEPARTMENT</p>
+        <p class="text-sm mt-2">Safety Standard Version 2.1 • No SVG or Mermaid JS used in this production.</p>
+    </footer>
+
+    <script>
+        // Common Tooltip Configuration
+        const commonTooltipConfig = {
+            callbacks: {
+                title: function(tooltipItems) {
+                    const item = tooltipItems[0];
+                    let label = item.chart.data.labels[item.dataIndex];
+                    if (Array.isArray(label)) {
+                        return label.join(' ');
+                    } else {
+                        return label;
+                    }
+                }
+            }
+        };
+
+        // 1. Bird Flu Symptom Observation Chart (Bar Chart)
+        const ctxFlu = document.getElementById('birdFluChart').getContext('2d');
+        new Chart(ctxFlu, {
+            type: 'bar',
+            data: {
+                // Label Wrapping Logic (>16 chars)
+                labels: [['Lethargy &', 'Drooping Head'], 'Coughing', 'Unsteadiness', 'Sudden Weakness'],
+                datasets: [{
+                    label: 'Priority of Inspection',
+                    data: [95, 80, 85, 90],
+                    backgroundColor: ['#DC2626', '#EF4444', '#F87171', '#FECACA'],
+                    borderRadius: 8
+                }]
+            },
+            options: {
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: { display: false },
+                    tooltip: commonTooltipConfig
+                },
+                scales: {
+                    y: { beginAtZero: true, max: 100, ticks: { callback: v => v + '%' } }
+                }
+            }
+        });
+
+        // 2. Daily Duty Composition (Donut Chart)
+        const ctxDuty = document.getElementById('dutyCompositionChart').getContext('2d');
+        new Chart(ctxDuty, {
+            type: 'doughnut',
+            data: {
+                labels: ['Feeding', 'Egg Handling', 'Health Checks', 'Logging'],
+                datasets: [{
+                    data: [40, 30, 20, 10],
+                    backgroundColor: ['#2563EB', '#3B82F6', '#60A5FA', '#93C5FD'],
+                    borderWidth: 0
+                }]
+            },
+            options: {
+                maintainAspectRatio: false,
+                cutout: '70%',
+                plugins: {
+                    legend: { position: 'bottom', labels: { boxWidth: 10, font: { weight: 'bold' } } },
+                    tooltip: commonTooltipConfig
+                }
+            }
+        });
+
+        // 3. Compliance Targets (Radar Chart)
+        const ctxComp = document.getElementById('complianceChart').getContext('2d');
+        new Chart(ctxComp, {
+            type: 'radar',
+            data: {
+                labels: ['Feeding Done', ['Eggs Dated', '& Fridged'], ['Feed Bags', 'in Barn'], 'Sign-off Rate'],
+                datasets: [{
+                    label: 'Standard Target',
+                    data: [100, 100, 100, 100],
+                    fill: true,
+                    backgroundColor: 'rgba(16, 185, 129, 0.2)',
+                    borderColor: '#10B981',
+                    pointBackgroundColor: '#10B981'
+                }]
+            },
+            options: {
+                maintainAspectRatio: false,
+                plugins: {
+                    tooltip: commonTooltipConfig
+                },
+                scales: {
+                    r: {
+                        beginAtZero: true,
+                        max: 100,
+                        ticks: { display: false }
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>

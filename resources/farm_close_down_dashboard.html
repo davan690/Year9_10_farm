@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friday Farm Close-Down Dashboard</title>
+    
+    <!-- Tailwind CSS for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- React & ReactDOM -->
+    <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
+    
+    <!-- Babel for JSX compilation in browser -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Google Fonts: Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0fdf4; /* Light green background */
+        }
+        
+        .checkbox-custom {
+            transition: all 0.2s ease-in-out;
+        }
+        
+        .task-row:hover .checkbox-custom {
+            border-color: #10b981; /* emerald-500 */
+        }
+
+        .task-completed .task-text {
+            text-decoration: line-through;
+            color: #9ca3af; /* gray-400 */
+        }
+        
+        .progress-bar-fill {
+            transition: width 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+    </style>
+</head>
+<body class="min-h-screen text-gray-800">
+
+    <div id="root"></div>
+
+    <script type="text/babel">
+        const initialData = {
+            considerations: [
+                { id: 'c1', text: 'Weather forecast checked (wind/rain)?', completed: false, icon: 'cloud-sun' },
+                { id: 'c2', text: 'Weekend feed/water supply adequate?', completed: false, icon: 'wheat' },
+                { id: 'c3', text: 'Immediate issues reported?', completed: false, icon: 'alert-triangle' },
+                { id: 'c4', text: 'Special tasks/events prepped for next week?', completed: false, icon: 'calendar' }
+            ],
+            categories: [
+                {
+                    id: 'animal-welfare',
+                    title: 'Animal Welfare',
+                    icon: 'bird',
+                    color: 'text-orange-600',
+                    bgColor: 'bg-orange-100',
+                    tasks: [
+                        { id: 'a1', text: 'All animals have food and water for the weekend', completed: false },
+                        { id: 'a2', text: 'Chicken door is secure', completed: false },
+                        { id: 'a3', text: 'Paddock animals are safe and healthy', completed: false },
+                        { id: 'a4', text: 'All shelter areas are accessible', completed: false }
+                    ]
+                },
+                {
+                    id: 'water-utilities',
+                    title: 'Water & Utilities',
+                    icon: 'droplet',
+                    color: 'text-blue-600',
+                    bgColor: 'bg-blue-100',
+                    tasks: [
+                        { id: 'w1', text: 'No hoses or watering equipment left running', completed: false },
+                        { id: 'w2', text: 'All taps turned off completely', completed: false },
+                        { id: 'w3', text: 'Check for leaks or running water', completed: false }
+                    ]
+                },
+                {
+                    id: 'tools-equipment',
+                    title: 'Tools & Equipment',
+                    icon: 'wrench',
+                    color: 'text-amber-600',
+                    bgColor: 'bg-amber-100',
+                    tasks: [
+                        { id: 't1', text: 'Work areas are tidy', completed: false },
+                        { id: 't2', text: 'No trip hazards left in pathways', completed: false },
+                        { id: 't3', text: 'Fire hazards cleared (wood chips, dry materials)', completed: false },
+                        { id: 't4', text: 'All tools are cleaned and stored properly', completed: false },
+                        { id: 't5', text: 'Watering cans and buckets stored upside down (prevent mosquitoes)', completed: false },
+                        { id: 't6', text: 'No equipment left outside that should be stored', completed: false },
+                        { id: 't7', text: 'All sharp tools safely stored', completed: false }
+                    ]
+                },
+                {
+                    id: 'security-safety',
+                    title: 'Security & Safety',
+                    icon: 'lock',
+                    color: 'text-indigo-600',
+                    bgColor: 'bg-indigo-100',
+                    tasks: [
+                        { id: 's1', text: 'All gates and doors are secured', completed: false },
+                        { id: 's2', text: 'Shed and barn locked', completed: false },
+                        { id: 's3', text: 'Gutters and drains clear', completed: false }
+                    ]
+                },
+                {
+                    id: 'final-check',
+                    title: 'Final Check',
+                    icon: 'check-circle',
+                    color: 'text-emerald-600',
+                    bgColor: 'bg-emerald-100',
+                    tasks: [
+                        { id: 'f1', text: 'Rubbish removed to appropriate bins', completed: false },
+                        { id: 'f2', text: 'Farm log completed with any observations or issues', completed: false },
+                        { id: 'f3', text: 'Any urgent issues reported to farm supervisor', completed: false }
+                    ]
+                }
+            ],
+            missions: [
+                { id: 'm1', trigger: 'Animals need care?', mission: 'Mission 1: Animal Care', icon: 'paw-print' },
+                { id: 'm2', trigger: 'Garden needs watering/weeding?', mission: 'Mission 2: Garden Maintenance', icon: 'leaf' },
+                { id: 'm3', trigger: 'Trees need checking?', mission: 'Mission 3: Restoration', icon: 'tree-pine' },
+                { id: 'm4', trigger: 'Want to make observations?', mission: 'Mission 4: Environmental Observation', icon: 'binoculars' },
+                { id: 'm5', trigger: 'Areas need tidying?', mission: 'Mission 5: Organisation', icon: 'layout-grid' }
+            ]
+        };
+
+        const Icon = ({ name, className }) => {
+            const iconRef = React.useRef(null);
+            
+            React.useEffect(() => {
+                if (iconRef.current) {
+                    // Empty the container before rendering the icon
+                    iconRef.current.innerHTML = '';
+                    lucide.createIcons({
+                        icons: { [name]: lucide.icons[name] },
+                        nameAttr: 'data-lucide',
+                        attrs: {
+                            class: className,
+                            'stroke-width': 2
+                        }
+                    });
+                    
+                    // Manually append the created SVG elements
+                    const tempDiv = document.createElement('div');
+                    tempDiv.innerHTML = `<i data-lucide="${name}" class="${className}"></i>`;
+                    lucide.createIcons({ root: tempDiv });
+                    if(tempDiv.firstChild) {
+                        iconRef.current.appendChild(tempDiv.firstChild);
+                    }
+                }
+            }, [name, className]);
+
+            return <span ref={iconRef} className="inline-flex items-center justify-center"></span>;
+        };
+
+        const App = () => {
+            const [data, setData] = React.useState(initialData);
+
+            // Calculate total progress
+            const totalTasks = data.categories.reduce((acc, cat) => acc + cat.tasks.length, 0);
+            const completedTasks = data.categories.reduce((acc, cat) => 
+                acc + cat.tasks.filter(t => t.completed).length, 0
+            );
+            const progressPercentage = totalTasks === 0 ? 0 : Math.round((completedTasks / totalTasks) * 100);
+
+            const toggleConsideration = (id) => {
+                setData(prev => ({
+                    ...prev,
+                    considerations: prev.considerations.map(c => 
+                        c.id === id ? { ...c, completed: !c.completed } : c
+                    )
+                }));
+            };
+
+            const toggleTask = (categoryId, taskId) => {
+                setData(prev => ({
+                    ...prev,
+                    categories: prev.categories.map(cat => {
+                        if (cat.id === categoryId) {
+                            return {
+                                ...cat,
+                                tasks: cat.tasks.map(t => 
+                                    t.id === taskId ? { ...t, completed: !t.completed } : t
+                                )
+                            };
+                        }
+                        return cat;
+                    })
+                }));
+            };
+
+            return (
+                <div className="max-w-6xl mx-auto p-4 md:p-8 pb-24">
+                    {/* Header Section */}
+                    <header className="mb-8 text-center bg-white rounded-2xl shadow-sm p-8 border border-green-100">
+                        <div className="inline-flex items-center justify-center p-3 bg-green-100 rounded-full mb-4">
+                            <Icon name="tractor" className="w-8 h-8 text-green-700" />
+                        </div>
+                        <h1 className="text-3xl md:text-4xl font-bold text-green-900 mb-2">Friday Farm Close-Down</h1>
+                        <p className="text-gray-600 max-w-2xl mx-auto">
+                            Welcome to the Friday close-down routine! Before leaving for the weekend, complete this final checklist to ensure the farm is secure, clean, and ready for Monday.
+                        </p>
+                    </header>
+
+                    {/* Sticky Progress Bar */}
+                    <div className="sticky top-4 z-50 bg-white/90 backdrop-blur-md rounded-2xl shadow-lg border border-green-100 p-4 mb-8">
+                        <div className="flex justify-between items-center mb-2">
+                            <span className="font-semibold text-green-900 flex items-center gap-2">
+                                <Icon name="check-square" className="w-5 h-5 text-green-600" />
+                                Close-Down Progress
+                            </span>
+                            <span className="font-bold text-green-700">{progressPercentage}%</span>
+                        </div>
+                        <div className="w-full bg-gray-200 rounded-full h-3">
+                            <div 
+                                className="bg-gradient-to-r from-green-400 to-emerald-600 h-3 rounded-full progress-bar-fill shadow-inner"
+                                style={{ width: `${progressPercentage}%` }}
+                            ></div>
+                        </div>
+                        {progressPercentage === 100 && (
+                            <div className="mt-3 text-center text-sm font-semibold text-emerald-600 animate-pulse">
+                                🎉 All tasks complete! The farm is ready for Monday!
+                            </div>
+                        )}
+                    </div>
+
+                    <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                        
+                        {/* Left Column: Considerations & Missions */}
+                        <div className="lg:col-span-1 space-y-8">
+                            
+                            {/* Weekend Considerations */}
+                            <section className="bg-white rounded-2xl shadow-sm border border-orange-100 overflow-hidden">
+                                <div className="bg-orange-50 p-4 border-b border-orange-100 flex items-center gap-3">
+                                    <Icon name="sun-dim" className="w-6 h-6 text-orange-600" />
+                                    <h2 className="font-bold text-orange-900 text-lg">Weekend Considerations</h2>
+                                </div>
+                                <div className="p-4 space-y-3">
+                                    <p className="text-sm text-gray-500 mb-4 italic">Evaluate these before you leave:</p>
+                                    {data.considerations.map(cons => (
+                                        <button 
+                                            key={cons.id}
+                                            onClick={() => toggleConsideration(cons.id)}
+                                            className={`w-full text-left flex items-start gap-3 p-3 rounded-xl border transition-all ${
+                                                cons.completed 
+                                                ? 'bg-orange-50/50 border-orange-200' 
+                                                : 'bg-white border-gray-100 hover:border-orange-300 shadow-sm'
+                                            }`}
+                                        >
+                                            <div className={`mt-0.5 flex-shrink-0 w-5 h-5 rounded-md border flex items-center justify-center transition-colors ${
+                                                cons.completed ? 'bg-orange-500 border-orange-500' : 'bg-white border-gray-300'
+                                            }`}>
+                                                {cons.completed && <Icon name="check" className="w-3.5 h-3.5 text-white" />}
+                                            </div>
+                                            <span className={`text-sm ${cons.completed ? 'text-gray-400 line-through' : 'text-gray-700 font-medium'}`}>
+                                                {cons.text}
+                                            </span>
+                                        </button>
+                                    ))}
+                                </div>
+                            </section>
+
+                            {}
+                            <section className="bg-white rounded-2xl shadow-sm border border-purple-100 overflow-hidden">
+                                <div className="bg-purple-50 p-4 border-b border-purple-100 flex items-center gap-3">
+                                    <Icon name="map" className="w-6 h-6 text-purple-600" />
+                                    <h2 className="font-bold text-purple-900 text-lg">Quick Missions</h2>
+                                </div>
+                                <div className="p-4">
+                                    <p className="text-xs text-gray-500 mb-4">
+                                        Note: Friday close-down assumes regular missions are done. If you notice issues, route them here:
+                                    </p>
+                                    <div className="space-y-2">
+                                        {data.missions.map(mission => (
+                                            <div key={mission.id} className="flex flex-col p-3 bg-gray-50 rounded-lg border border-gray-100">
+                                                <span className="text-xs text-gray-500 font-medium mb-1">If {mission.trigger.toLowerCase()}</span>
+                                                <div className="flex items-center gap-2 text-purple-700 font-semibold text-sm">
+                                                    <Icon name="arrow-right" className="w-4 h-4" />
+                                                    {mission.mission}
+                                                </div>
+                                            </div>
+                                        ))}
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+
+                        {}
+                        {/* Right Column: Main Checklist */}
+                        <div className="lg:col-span-2 space-y-6">
+                            {data.categories.map(category => {
+                                const categoryCompletedTasks = category.tasks.filter(t => t.completed).length;
+                                const isAllComplete = categoryCompletedTasks === category.tasks.length;
+
+                                return (
+                                    <section key={category.id} className={`bg-white rounded-2xl shadow-sm border overflow-hidden transition-all duration-300 ${isAllComplete ? 'border-green-200 shadow-md ring-1 ring-green-100' : 'border-gray-200'}`}>
+                                        {/* Category Header */}
+                                        <div className={`${category.bgColor} p-4 border-b border-gray-100 flex items-center justify-between`}>
+                                            <div className="flex items-center gap-3">
+                                                <div className={`p-2 bg-white rounded-lg shadow-sm ${category.color}`}>
+                                                    <Icon name={category.icon} className="w-5 h-5" />
+                                                </div>
+                                                <h2 className="font-bold text-gray-800 text-lg">{category.title}</h2>
+                                            </div>
+                                            <div className="text-sm font-semibold text-gray-600 bg-white/60 px-3 py-1 rounded-full">
+                                                {categoryCompletedTasks} / {category.tasks.length}
+                                            </div>
+                                        </div>
+
+                                        {/* Task List */}
+                                        <div className="p-2">
+                                            {category.tasks.map((task, index) => (
+                                                <button 
+                                                    key={task.id}
+                                                    onClick={() => toggleTask(category.id, task.id)}
+                                                    className={`task-row w-full flex items-start gap-4 p-4 rounded-xl text-left transition-all hover:bg-gray-50 ${task.completed ? 'task-completed' : ''}`}
+                                                >
+                                                    <div className={`checkbox-custom mt-1 flex-shrink-0 w-6 h-6 rounded-full border-2 flex items-center justify-center ${
+                                                        task.completed 
+                                                        ? 'bg-emerald-500 border-emerald-500' 
+                                                        : 'bg-white border-gray-300'
+                                                    }`}>
+                                                        {task.completed && <Icon name="check" className="w-4 h-4 text-white" />}
+                                                    </div>
+                                                    <span className="task-text text-gray-700 font-medium leading-relaxed flex-1">
+                                                        {task.text}
+                                                    </span>
+                                                </button>
+                                            ))}
+                                        </div>
+                                    </section>
+                                );
+                            })}
+                        </div>
+                    </div>
+                </div>
+            );
+        };
+
+        const root = ReactDOM.createRoot(document.getElementById('root'));
+        root.render(<App />);
+    </script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+---
+title: "Unit 3: Restoration and Tree Health"
+subtitle: "Protecting native plantings, managing weeds, and supporting young trees"
+author: "Urban Farm 2026"
+date: today
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    theme: zephyr
+---
+
+## Overview
+
+This unit focuses on restoration work and long-term care of young trees. Students learn that healthy ecosystems are built through ongoing care, especially in places where invasive weeds and grazing pressure can slow recovery.
+
+## Why this matters
+
+Restoration planting is a long-term commitment. A young tree can fail if it is crowded by weeds, damaged by grazing, or left without support. Regular monitoring helps ensure the farm becomes a more resilient and biodiverse place over time.
+
+## Learning goals
+
+By the end of this unit, students will be able to:
+
+- describe why restoration work matters;
+- identify common invasive weeds such as gorse;
+- care for young trees and tree guards;
+- record changes in plant health over time;
+- explain how restoration supports biodiversity.
+
+## Equipment
+
+- heavy-duty gloves
+- loppers or secateurs
+- notebook or clip board
+- boots suitable for rough ground
+
+## Before you start
+
+- Wear thick gloves and sturdy footwear.
+- Watch your footing on slopes and uneven ground.
+- Work carefully around young plants so you do not damage them.
+- Never work alone in a remote or steep area.
+
+## Task 1: Remove invasive gorse
+
+![](images/farm-photos/farm_barn.jpg){width=60%}
+
+Control invasive gorse to protect native plantings:
+
+- [ ] Put on heavy-duty gloves and collect the loppers.
+- [ ] Work around the hillside or restoration area carefully.
+- [ ] Cut gorse back to the base and pile it neatly for disposal.
+- [ ] Focus first on gorse close to young trees.
+- [ ] Keep the cut material away from tree guards.
+
+### Why this helps
+
+Gorse competes strongly with native plants for light, space, and water. Removing it gives young natives a better chance to establish.
+
+## Task 2: Conduct a young tree audit
+
+Check on newly planted trees to ensure their survival:
+
+- [ ] Walk the farm perimeter and inspect each planted tree.
+- [ ] Check whether the tree is alive and whether the guard is secure.
+- [ ] Remove grass and weeds inside the tree guard.
+- [ ] Straighten leaning stakes and tighten loose ties.
+- [ ] Note any trees that need replacement.
+
+### Signs of a healthy tree
+
+- green leaves or buds
+- flexible stems
+- healthy bark
+- upright growth
+
+### Signs of stress or failure
+
+- brown or drooping leaves
+- brittle stems
+- damaged bark or broken ties
+- guard leaning or rubbing the stem
+
+## Recording observations
+
+Help track restoration progress:
+
+- [ ] Count the number of trees checked.
+- [ ] Record how many trees are thriving, struggling, or dead.
+- [ ] Note any problem areas or repeated damage.
+- [ ] Take photos if there are clear changes.
+
+## Reflection
+
+1. Why is restoration more than just planting trees?
+2. How do invasive weeds affect native plant survival?
+3. What does a healthy restoration area look like?
+
+## Extension
+
+Create a simple restoration monitoring sheet for the class to use each month.

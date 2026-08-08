@@ -1,0 +1,58 @@
+---
+title: "Weekly Farm Tasks"
+subtitle: "Routine responsibilities for a healthy and safe farm week"
+author: "Urban Farm 2026"
+date: today
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    theme: zephyr
+---
+
+## Overview
+
+These weekly tasks help keep the farm running smoothly. They support animal welfare, garden care, tool organisation, and general site safety. Regular routines make the farm easier to manage and help students build responsibility.
+
+## Weekly routine checklist
+
+### Animal care
+
+- check water and feed
+- inspect shelter and bedding
+- note any signs of stress or injury
+- report concerns to the supervisor
+
+### Garden care
+
+- water beds as needed
+- remove weeds and dead plant material
+- check seedlings and young plants
+- tidy pathways and planting areas
+
+### Site care
+
+- sweep and clear debris
+- check tools and storage areas
+- secure gates and sheds
+- remove rubbish and dispose of it properly
+
+### Observation and reflection
+
+- record one environmental observation
+- note any changes in plant growth or animal behaviour
+- add any maintenance issues to the farm log
+
+## Suggested weekly plan
+
+| Day | Focus |
+|---|---|
+| Monday | Animal care and water checks |
+| Tuesday | Garden maintenance and weeding |
+| Wednesday | Tool tidy-up and storage check |
+| Thursday | Observation and environmental notes |
+| Friday | Close-down, security, and final checklist |
+
+## Why this matters
+
+A consistent routine helps the farm stay healthy, safe, and productive. It also gives students a clear structure for responsibility and teamwork.

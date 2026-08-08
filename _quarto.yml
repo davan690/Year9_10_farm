@@ -13,7 +13,16 @@ project:
     - autumn-planting-seedlings.qmd
     - weather-dunedin-kaikorai.qmd
     - hazards-unit.qmd
+    - koura-unit.qmd
+    - koura-worksheet.qmd
+    - koura-homework.qmd
     - sector-and-safety.qmd
+    - unit-1-animal-care.qmd
+    - unit-2-garden-maintenance.qmd
+    - unit-3-restoration.qmd
+    - unit-4-environmental-observation.qmd
+    - unit-5-organisation.qmd
+    - unit-missions-index.qmd
     - missions/**/*.qmd
     - textbook/**/*.qmd
     - textbook/**/*.Rmd
@@ -35,8 +44,18 @@ website:
         href: units-overview.Rmd
       - text: "Unit 1: Sector and Safety"
         href: sector-and-safety.qmd
+      - text: "Unit 1: Animal Care"
+        href: unit-1-animal-care.qmd
+      - text: "Unit 2: Garden Maintenance"
+        href: unit-2-garden-maintenance.qmd
+      - text: "Unit 3: Restoration"
+        href: unit-3-restoration.qmd
+      - text: "Unit 4: Environmental Observation"
+        href: unit-4-environmental-observation.qmd
+      - text: "Unit 5: Organisation"
+        href: unit-5-organisation.qmd
       - text: "Farm Missions"
-        href: missions/index.qmd
+        href: unit-missions-index.qmd
       - text: "Unit 2: Mapping"
         href: mapping.qmd
       - text: "Unit 3: Potato Patch"
@@ -53,6 +72,8 @@ website:
         href: autumn-planting-seedlings.qmd
       - text: "Unit 9: Hazards Project"
         href: hazards-unit.qmd
+      - text: "Unit 10: Kōura"
+        href: koura-unit.qmd
       - text: "Friday Close-Down"
         href: friday-closedown.qmd
       - text: "Textbook"

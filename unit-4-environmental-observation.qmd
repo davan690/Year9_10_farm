@@ -1,0 +1,107 @@
+---
+title: "Unit 4: Environmental Observation"
+subtitle: "Monitoring streams, pollinators, and biodiversity on the farm"
+author: "Urban Farm 2026"
+date: today
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    theme: zephyr
+---
+
+## Overview
+
+This unit builds skills in careful observation of the living environment. Students monitor waterways, pollinators, weather, and visible signs of biodiversity. The aim is to notice patterns over time and better understand the health of the school farm ecosystem.
+
+## Why this matters
+
+Environmental observation helps us collect evidence about what is happening in a place. A stream, a patch of grass, or a bee hive can tell us a lot if we look carefully and record what we notice. These observations support environmental learning, stewardship, and practical decision-making.
+
+## Learning goals
+
+By the end of this unit, students will be able to:
+
+- observe stream conditions and describe visible signs of health;
+- notice different wildlife and plant changes across seasons;
+- collect basic data about bee activity safely;
+- compare observations over time;
+- explain why monitoring matters for land and water care.
+
+## Equipment
+
+- notebook or observation sheet
+- binoculars if available
+- camera or phone for photos
+- timer
+- suitable footwear
+
+## Before you start
+
+- Observe quietly and respectfully.
+- Do not disturb wildlife or enter unsafe areas.
+- Stay clear of bee hives and move calmly.
+- Record the date, time, and weather conditions each time.
+
+## Task 1: Stream study
+
+![](images/farm-photos/sheep_water.jpg){width=60%}
+
+Water quality and flow are useful indicators of ecosystem health:
+
+- [ ] Note whether the water looks clear or murky.
+- [ ] Describe whether the flow is fast, slow, or still.
+- [ ] Look for signs of erosion, pollution, or debris.
+- [ ] Notice whether aquatic life or insects are visible.
+- [ ] Record bird calls, plant growth, or changes along the bank.
+
+### Helpful observation prompts
+
+- Is the water level high, normal, or low?
+- Is the area cooler or warmer than nearby open ground?
+- What signs of life can you see?
+
+## Task 2: Bee watch
+
+Monitor bee activity to understand colony health:
+
+- [ ] Stand to the side of the hive and stay clear of the flight path.
+- [ ] Maintain at least two metres distance.
+- [ ] Set a timer for 60 seconds.
+- [ ] Count how many bees leave the hive.
+- [ ] Count how many return in the same period.
+- [ ] Note weather conditions and whether bees are carrying pollen.
+
+### What the numbers can suggest
+
+- high activity may suggest a healthy active colony
+- low activity may relate to weather or possible stress
+- more returning than leaving may indicate a productive foraging period
+
+## Task 3: Wider biodiversity notes
+
+Observe the bigger picture:
+
+- [ ] Note weather conditions such as wind, cloud cover, and temperature.
+- [ ] Record any birds, insects, or mammals seen.
+- [ ] Note which plants are flowering or fruiting.
+- [ ] Describe any seasonal change you notice.
+- [ ] Write an overall impression of ecosystem health.
+
+## Observation record
+
+Use a simple table like this:
+
+| Date | Location | Weather | Stream notes | Wildlife notes | Overall impression |
+|---|---|---|---|---|---|
+|  |  |  |  |  |  |
+
+## Reflection
+
+1. Why do repeated observations give better information than a single visit?
+2. What signs might suggest a stream is healthy or under stress?
+3. How can environmental observation help us make better farm decisions?
+
+## Extension
+
+Create a class biodiversity log for the term and compare observations from different seasons.

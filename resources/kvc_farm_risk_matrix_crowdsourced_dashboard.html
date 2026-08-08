@@ -1,0 +1,927 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KVC Farm Risk Matrix & Crowdsourced Dashboard</title>
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Chart.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+    .custom-scrollbar::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+    }
+    .custom-scrollbar::-webkit-scrollbar-track {
+      background: #f1f5f9;
+    }
+    .custom-scrollbar::-webkit-scrollbar-thumb {
+      background: #cbd5e1;
+      border-radius: 3px;
+    }
+    .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+      background: #94a3b8;
+    }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800 min-h-screen flex flex-col">
+
+  <!-- TOP HEADER NAV -->
+  <header class="bg-emerald-900 text-white shadow-md sticky top-0 z-50 px-6 py-4 flex flex-col sm:flex-row justify-between items-center gap-4">
+    <div class="flex items-center gap-3">
+      <div class="p-2 bg-emerald-800 rounded-lg text-emerald-300">
+        <i data-lucide="shield-alert" class="w-8 h-8"></i>
+      </div>
+      <div>
+        <h1 class="text-xl font-bold tracking-tight">Kaikorai Valley College</h1>
+        <p class="text-xs text-emerald-200">Year 9/10 Farm Studies • Risk & Safety Dashboard</p>
+      </div>
+    </div>
+    
+    <!-- NAVIGATION TABS -->
+    <nav class="flex bg-emerald-950/50 p-1 rounded-xl">
+      <button onclick="switchTab('calculator')" id="tab-calculator" class="px-4 py-2 rounded-lg text-sm font-semibold transition-all duration-200 bg-emerald-600 text-white shadow">
+        Job Calculator
+      </button>
+      <button onclick="switchTab('compare')" id="tab-compare" class="px-4 py-2 rounded-lg text-sm font-semibold transition-all duration-200 text-emerald-100 hover:text-white">
+        Compare Profiles
+      </button>
+      <button onclick="switchTab('submit')" id="tab-submit" class="px-4 py-2 rounded-lg text-sm font-semibold transition-all duration-200 text-emerald-100 hover:text-white flex items-center gap-1">
+        Log Assessment <span class="bg-amber-500 text-emerald-950 px-1.5 py-0.5 rounded-full text-[10px] font-bold animate-pulse">LIVE</span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- MAIN CANVAS CONTAINER -->
+  <main class="flex-grow p-4 lg:p-8 max-w-7xl w-full mx-auto grid grid-cols-1 gap-6">
+    
+    <!-- SYSTEM ALERTS / NOTIFICATION TOAST (Custom designed instead of alerts) -->
+    <div id="toast-notification" class="hidden fixed bottom-6 right-6 bg-slate-900 text-white px-5 py-4 rounded-2xl shadow-2xl flex items-center gap-3 border border-emerald-500/30 transition-all duration-300 transform translate-y-10 opacity-0 z-50">
+      <div class="p-1.5 bg-emerald-500/20 text-emerald-400 rounded-lg">
+        <i data-lucide="check-circle" class="w-5 h-5"></i>
+      </div>
+      <div>
+        <p class="text-sm font-bold" id="toast-title">Entry Saved</p>
+        <p class="text-xs text-slate-400" id="toast-desc">Your vote was successfully added to the database.</p>
+      </div>
+    </div>
+
+    <!-- TAB 1: JOB RISK CALCULATOR -->
+    <section id="pane-calculator" class="grid grid-cols-1 lg:grid-cols-12 gap-6 transition-opacity duration-300">
+      
+      <!-- LEFT CONFIGURATION SIDEBAR -->
+      <div class="lg:col-span-4 bg-white p-6 rounded-2xl shadow-sm border border-slate-100 flex flex-col gap-6">
+        <div>
+          <h2 class="text-lg font-bold text-slate-950 flex items-center gap-2">
+            <i data-lucide="map-pin" class="text-emerald-600 w-5 h-5"></i> Step 1: Select Farm Area
+          </h2>
+          <p class="text-xs text-slate-500 mt-1">Pick a zone coordinates from your last term maps.</p>
+          <select id="select-area" onchange="calculateRisk()" class="w-full mt-3 p-3 bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-emerald-500 font-medium">
+            <!-- Dynamically populated -->
+          </select>
+        </div>
+
+        <div>
+          <h2 class="text-lg font-bold text-slate-950 flex items-center gap-2">
+            <i data-lucide="wrench" class="text-emerald-600 w-5 h-5"></i> Step 2: Assign Tools
+          </h2>
+          <p class="text-xs text-slate-500 mt-1">Select all tools needed to complete the scheduled job.</p>
+          <div class="mt-3 bg-slate-50 border border-slate-200 rounded-xl p-3 max-h-60 overflow-y-auto custom-scrollbar flex flex-col gap-2" id="tool-checklist">
+            <!-- Dynamically populated -->
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT RISK PROFILE CALCULATOR VISUALS -->
+      <div class="lg:col-span-8 flex flex-col gap-6">
+        
+        <!-- RISK ASSESSMENT STATUS CARDS -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <!-- CARD 1: BASELINE AREA RISK -->
+          <div class="bg-white p-5 rounded-2xl border border-slate-100 shadow-sm flex items-center gap-4">
+            <div id="area-badge-icon" class="p-3 bg-emerald-50 text-emerald-600 rounded-xl">
+              <i data-lucide="map" class="w-8 h-8"></i>
+            </div>
+            <div>
+              <p class="text-xs text-slate-500 font-medium uppercase tracking-wider">Area Baseline Max</p>
+              <h3 id="area-risk-score" class="text-2xl font-black text-slate-900 mt-0.5">--</h3>
+              <p id="area-risk-status" class="text-xs font-semibold text-emerald-600 mt-0.5">Healthy Zone</p>
+            </div>
+          </div>
+
+          <!-- CARD 2: TOOL PEAK RATING -->
+          <div class="bg-white p-5 rounded-2xl border border-slate-100 shadow-sm flex items-center gap-4">
+            <div id="tool-badge-icon" class="p-3 bg-emerald-50 text-emerald-600 rounded-xl">
+              <i data-lucide="hammer" class="w-8 h-8"></i>
+            </div>
+            <div>
+              <p class="text-xs text-slate-500 font-medium uppercase tracking-wider">Highest Tool Class</p>
+              <h3 id="tool-risk-score" class="text-2xl font-black text-slate-900 mt-0.5">--</h3>
+              <p id="tool-risk-status" class="text-xs font-semibold text-emerald-600 mt-0.5">No Tool Selected</p>
+            </div>
+          </div>
+
+          <!-- CARD 3: AGGREGATED JOB OPERATION STATUS -->
+          <div class="bg-white p-5 rounded-2xl border border-slate-100 shadow-sm flex items-center gap-4">
+            <div id="job-badge-icon" class="p-3 bg-emerald-50 text-emerald-600 rounded-xl">
+              <i data-lucide="activity" class="w-8 h-8"></i>
+            </div>
+            <div>
+              <p class="text-xs text-slate-500 font-medium uppercase tracking-wider">Operational Status</p>
+              <h3 id="job-risk-level" class="text-lg font-black text-slate-900 mt-0.5">Calculating...</h3>
+              <p id="job-risk-desc" class="text-xs text-slate-500 mt-0.5">Adjust options on sidebar</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- ZONE HAZARDS EXPANDED VIEW -->
+        <div class="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm">
+          <div class="flex items-center justify-between mb-4">
+            <h3 class="text-md font-bold text-slate-900 flex items-center gap-2">
+              <i data-lucide="info" class="text-emerald-600 w-5 h-5"></i> Active Environmental Hazards (Spatial Overlay)
+            </h3>
+            <span class="bg-emerald-50 text-emerald-700 text-xs font-bold px-2.5 py-1 rounded-full border border-emerald-100" id="zone-badge">General Zone</span>
+          </div>
+          <div class="overflow-x-auto">
+            <table class="w-full text-left border-collapse">
+              <thead>
+                <tr class="border-b border-slate-100 text-xs font-bold text-slate-500 uppercase">
+                  <th class="py-3 px-4">Hazard Specifics</th>
+                  <th class="py-3 px-2 text-center">Likelihood (1-5)</th>
+                  <th class="py-3 px-2 text-center">Impact (1-5)</th>
+                  <th class="py-3 px-2 text-center">Score</th>
+                  <th class="py-3 px-4">Elimination Action</th>
+                  <th class="py-3 px-4">Mitigation Action</th>
+                </tr>
+              </thead>
+              <tbody id="hazards-table-body" class="text-sm divide-y divide-slate-100">
+                <!-- Dynamically populated -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- ASSIGNED TOOL SPECIFIC SAFETY & COMPETENCY RULES -->
+        <div class="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm">
+          <h3 class="text-md font-bold text-slate-900 flex items-center gap-2 mb-4">
+            <i data-lucide="clipboard-check" class="text-emerald-600 w-5 h-5"></i> Selected Tool Operational Controls & Competency Rules
+          </h3>
+          <div id="active-tools-container" class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <!-- Dynamically populated -->
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- TAB 2: COMPARE PROFILES & MATRIX -->
+    <section id="pane-compare" class="hidden grid grid-cols-1 lg:grid-cols-12 gap-6 transition-opacity duration-300">
+      
+      <!-- TOOL SELECT CONTROL -->
+      <div class="lg:col-span-4 bg-white p-6 rounded-2xl border border-slate-100 shadow-sm flex flex-col gap-4">
+        <div>
+          <h2 class="text-lg font-bold text-slate-950 flex items-center gap-2">
+            <i data-lucide="sliders" class="text-emerald-600 w-5 h-5"></i> Tool Diagnostic Pane
+          </h2>
+          <p class="text-xs text-slate-500 mt-1">Compare risk valuations across four unique dataset models.</p>
+        </div>
+        <div>
+          <label class="text-xs font-bold text-slate-600">Select Tool to Compare:</label>
+          <select id="select-compare-tool" onchange="updateComparison()" class="w-full mt-2 p-3 bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-emerald-500 font-medium">
+            <!-- Dynamically populated -->
+          </select>
+        </div>
+        
+        <div class="bg-emerald-50/50 p-4 rounded-xl border border-emerald-100/50 mt-2">
+          <h4 class="text-xs font-bold text-emerald-950 uppercase tracking-wider mb-2">Key Metric Explainer</h4>
+          <ul class="text-xs text-emerald-800 space-y-2">
+            <li class="flex items-start gap-1.5"><i data-lucide="user-check" class="w-4 h-4 shrink-0 text-emerald-600"></i> <span><strong>Teacher Baseline:</strong> Statutory benchmark derived from health standards.</span></li>
+            <li class="flex items-start gap-1.5"><i data-lucide="cpu" class="w-4 h-4 shrink-0 text-emerald-600"></i> <span><strong>AI Engine:</strong> Risk calculations based on industry models.</span></li>
+            <li class="flex items-start gap-1.5"><i data-lucide="users" class="w-4 h-4 shrink-0 text-emerald-600"></i> <span><strong>Last Semester:</strong> Historical student average across 42 entries.</span></li>
+            <li class="flex items-start gap-1.5"><i data-lucide="megaphone" class="w-4 h-4 shrink-0 text-emerald-600"></i> <span><strong>Class Crowdsourced:</strong> Active inputs submitted live in this chat.</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- VISUALIZATIONS & VARIANCE GRAPH -->
+      <div class="lg:col-span-8 flex flex-col gap-6">
+        
+        <!-- THE BAR CHART -->
+        <div class="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm">
+          <h3 class="text-md font-bold text-slate-900 flex items-center gap-2 mb-4">
+            <i data-lucide="bar-chart-3" class="text-emerald-600 w-5 h-5"></i> Multi-Profile Risk Alignment Strategy
+          </h3>
+          <div class="relative w-full h-80">
+            <canvas id="comparisonChart"></canvas>
+          </div>
+        </div>
+
+        <!-- NUMERICAL MATRIX DETAILS -->
+        <div class="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm">
+          <h3 class="text-md font-bold text-slate-900 flex items-center gap-2 mb-4">
+            <i data-lucide="table" class="text-emerald-600 w-5 h-5"></i> Statistical Variance Details
+          </h3>
+          <div class="overflow-x-auto">
+            <table class="w-full text-left border-collapse">
+              <thead>
+                <tr class="border-b border-slate-100 text-xs font-bold text-slate-500 uppercase">
+                  <th class="py-3 px-4">Profile</th>
+                  <th class="py-3 px-4 text-center">Calculated Rating</th>
+                  <th class="py-3 px-4">Standard Deviation / Evaluation Remarks</th>
+                </tr>
+              </thead>
+              <tbody id="variance-table-body" class="text-sm divide-y divide-slate-100">
+                <!-- Dynamically populated -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- TAB 3: LIVE CROWDSOURCED ENTRY FORM -->
+    <section id="pane-submit" class="hidden grid grid-cols-1 lg:grid-cols-12 gap-6 transition-opacity duration-300">
+      
+      <!-- SUBMISSION FORM PANEL -->
+      <div class="lg:col-span-5 bg-white p-6 rounded-2xl border border-slate-100 shadow-sm flex flex-col gap-5">
+        <div>
+          <h2 class="text-lg font-bold text-slate-950 flex items-center gap-2">
+            <i data-lucide="edit-3" class="text-amber-500 w-5 h-5"></i> File Your Field Assessment
+          </h2>
+          <p class="text-xs text-slate-500 mt-1">Act as a Safety Consultant. Review your maps, assess the tool, and upload your findings.</p>
+        </div>
+
+        <form id="submission-form" onsubmit="submitForm(event)" class="flex flex-col gap-4">
+          <div>
+            <label class="text-xs font-bold text-slate-600 uppercase tracking-wider block mb-1">Tool Assessed</label>
+            <select id="input-tool" class="w-full p-3 bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-amber-500 font-medium">
+              <!-- Dynamically populated -->
+            </select>
+          </div>
+
+          <div>
+            <label class="text-xs font-bold text-slate-600 uppercase tracking-wider block mb-1">Evaluated Risk Level: <span id="val-indicator" class="text-amber-600 font-extrabold text-sm ml-1">3 / 5</span></label>
+            <p class="text-[10px] text-slate-400 mb-2">Based on spatial hazards (1 = Low Risk, 5 = Critical Risk)</p>
+            <input type="range" id="input-risk" min="1" max="5" value="3" oninput="updateRangeIndicator()" class="w-full h-2 bg-slate-100 rounded-lg appearance-none cursor-pointer accent-amber-500">
+            <div class="flex justify-between text-[10px] text-slate-400 mt-1 px-1 font-semibold">
+              <span>1 (Easy Spade)</span>
+              <span>2</span>
+              <span>3 (Moderate)</span>
+              <span>4</span>
+              <span>5 (Chainsaw)</span>
+            </div>
+          </div>
+
+          <div>
+            <label class="text-xs font-bold text-slate-600 uppercase tracking-wider block mb-1">Spatial Landmark Coordinate Context</label>
+            <input type="text" id="input-coord" placeholder="e.g., KVC-Paddock-3, Stream Bend A" class="w-full p-3 bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-amber-500 font-medium text-sm" required>
+          </div>
+
+          <div>
+            <label class="text-xs font-bold text-slate-600 uppercase tracking-wider block mb-1">Justification & Analysis Remarks</label>
+            <textarea id="input-comment" rows="3" placeholder="Explain your risk rating based on elimination/mitigation criteria..." class="w-full p-3 bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-amber-500 font-medium text-sm" required></textarea>
+          </div>
+
+          <button type="submit" class="w-full bg-amber-500 hover:bg-amber-600 text-amber-950 font-bold py-3 px-4 rounded-xl shadow-lg shadow-amber-500/20 transition-all duration-200 flex items-center justify-center gap-2">
+            <i data-lucide="upload-cloud" class="w-5 h-5"></i> Submit To Master Registry
+          </button>
+        </form>
+      </div>
+
+      <!-- LIVE DATASTREAM FEED -->
+      <div class="lg:col-span-7 bg-white p-6 rounded-2xl border border-slate-100 shadow-sm flex flex-col gap-4">
+        <div class="flex justify-between items-center">
+          <div>
+            <h3 class="text-md font-bold text-slate-900 flex items-center gap-2">
+              <i data-lucide="rss" class="text-emerald-600 w-5 h-5 animate-pulse"></i> Live Crowdsourced Datastream
+            </h3>
+            <p class="text-xs text-slate-500 mt-0.5">Real-time uploads logged by Year 9/10 students during field assessments.</p>
+          </div>
+          <span id="vote-count-badge" class="bg-emerald-50 text-emerald-800 text-xs font-black px-3 py-1 rounded-full">-- Entries</span>
+        </div>
+        
+        <!-- FEED WRAPPER -->
+        <div class="flex-grow overflow-y-auto max-h-[420px] custom-scrollbar pr-2 flex flex-col gap-3" id="live-feed-container">
+          <!-- Dynamically populated -->
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- BOTTOM METRICS BANNER FOOTER -->
+  <footer class="bg-slate-900 text-slate-400 py-6 px-8 border-t border-slate-800 text-center text-xs mt-auto">
+    <p>© 2026 Kaikorai Valley College Farm Studies Department. Developed with real-time risk modeling standards.</p>
+  </footer>
+
+  <!-- DATA & LOGIC SCRIPTS -->
+  <script>
+    // -------------------------------------------------------------------------
+    // 1. DATASETS DEFINITION
+    // -------------------------------------------------------------------------
+    
+    // Hazards associated with KVC Farm Areas
+    const areaHazards = [
+      {
+        Area: "General Farm",
+        Hazard: "UV / Sun Exposure",
+        Likelihood: 4, Impact: 2,
+        Elimination: "Schedule outdoor work for early morning/late afternoon.",
+        Mitigation: "Mandatory wide-brimmed hats; provide SPF 50+ sunscreen."
+      },
+      {
+        Area: "General Farm",
+        Hazard: "Extreme Weather",
+        Likelihood: 3, Impact: 3,
+        Elimination: "Move all students to indoor classrooms during storms.",
+        Mitigation: "Provide high-quality thermal and waterproof gear."
+      },
+      {
+        Area: "General Farm",
+        Hazard: "Slips, Trips & Falls",
+        Likelihood: 4, Impact: 2,
+        Elimination: "Remove loose debris from tracks; level entrances.",
+        Mitigation: "Wear high-grip, steel-toe gumboots; flag hidden holes."
+      },
+      {
+        Area: "Sheep Yards",
+        Hazard: "Crush Zones",
+        Likelihood: 3, Impact: 4,
+        Elimination: "Never enter a race/pen with more than 3-4 sheep.",
+        Mitigation: "Use 'One-person, one-gate' rule; identify exit paths first."
+      },
+      {
+        Area: "Sheep Yards",
+        Hazard: "Animal Impact",
+        Likelihood: 3, Impact: 4,
+        Elimination: "Draft off aggressive/stressed animals before class.",
+        Mitigation: "Use low-stress handling; avoid standing in blind spots."
+      },
+      {
+        Area: "Sheep Yards",
+        Hazard: "Needle/Sharp Sticks",
+        Likelihood: 2, Impact: 3,
+        Elimination: "Use needle-less injection systems for vaccinations.",
+        Mitigation: "Secure animal in head-bail/race first; cap needles."
+      },
+      {
+        Area: "Chicken Coop",
+        Hazard: "Zoonoses (Salmonella)",
+        Likelihood: 3, Impact: 3,
+        Elimination: "Do not handle birds that appear lethargic or ill.",
+        Mitigation: "Mandatory hand washing; use disposable gloves."
+      },
+      {
+        Area: "Chicken Coop",
+        Hazard: "Respiratory (Dust)",
+        Likelihood: 4, Impact: 2,
+        Elimination: "Install automated ventilation to extract coop dust.",
+        Mitigation: "Dampen bedding before cleaning; wear P2 dust masks."
+      },
+      {
+        Area: "Orchard",
+        Hazard: "Falls from Height",
+        Likelihood: 3, Impact: 4,
+        Elimination: "Use long-reach pole pruners to stay on the ground.",
+        Mitigation: "Use 3-point contact on ladders; ground-spotter mandatory."
+      },
+      {
+        Area: "Orchard",
+        Hazard: "Stinging Insects",
+        Likelihood: 3, Impact: 2,
+        Elimination: "Remove fallen/rotten fruit daily to avoid wasps.",
+        Mitigation: "Check trees for nests; carry first-aid sting kits."
+      },
+      {
+        Area: "Garden Beds",
+        Hazard: "Sharp Hand Tools",
+        Likelihood: 3, Impact: 2,
+        Elimination: "Do not use damaged or blunt hand tools.",
+        Mitigation: "Cut away from body; wear protective leather gloves."
+      },
+      {
+        Area: "Garden Beds",
+        Hazard: "Soil-borne Pathogens",
+        Likelihood: 3, Impact: 3,
+        Elimination: "Use pre-sterilized commercial potting mixes.",
+        Mitigation: "Wear gloves; ensure Tetanus vaccinations are current."
+      },
+      {
+        Area: "Stream Work",
+        Hazard: "Drowning/Deep Water",
+        Likelihood: 2, Impact: 5,
+        Elimination: "No stream access allowed within 48 hours of heavy rain.",
+        Mitigation: "Use 'buddy' system; wear wader belts to prevent water entry."
+      },
+      {
+        Area: "Stream Work",
+        Hazard: "Leptospirosis",
+        Likelihood: 2, Impact: 5,
+        Elimination: "Fence off stream to prevent livestock access.",
+        Mitigation: "Cover cuts with waterproof bandages; wash hands."
+      },
+      {
+        Area: "Stream Work",
+        Hazard: "Bank Instability",
+        Likelihood: 3, Impact: 4,
+        Elimination: "Stabilize banks with retaining structures or planting.",
+        Mitigation: "Check depth with a staff before stepping down."
+      },
+      {
+        Area: "Forest",
+        Hazard: "Power Tools (Chainsaw)",
+        Likelihood: 2, Impact: 5,
+        Elimination: "Strictly prohibit student operation of motorized cutting tools.",
+        Mitigation: "Maintain 15m Safety Circle; full PPE for teachers."
+      },
+      {
+        Area: "Forest",
+        Hazard: "Possum Traps",
+        Likelihood: 2, Impact: 4,
+        Elimination: "Use walk-in cage traps instead of mechanical kill-traps.",
+        Mitigation: "Use specialized setting tools; keep hands clear of jaws."
+      },
+      {
+        Area: "Bees",
+        Hazard: "Anaphylaxis",
+        Likelihood: 1, Impact: 5,
+        Elimination: "Check student allergy registers and eliminate yard access for hyper-sensitive individuals.",
+        Mitigation: "Wear full protective bee suits; keep EpiPens on scene."
+      }
+    ];
+
+    // Master Tool Registry with baseline profiles
+    const toolRegistry = [
+      { Tool: "Chainsaw", BaseRisk: 5, Teacher_Risk: 5, AI_Risk: 5, Hist_Risk: 5, ToolControls: "STRICT: Full teacher PPE. Student observation only." },
+      { Tool: "Scrub Bar", BaseRisk: 5, Teacher_Risk: 5, AI_Risk: 5, Hist_Risk: 4, ToolControls: "STRICT: Full harness mandatory. 15m safety circle." },
+      { Tool: "Angle Grinder", BaseRisk: 5, Teacher_Risk: 5, AI_Risk: 4, Hist_Risk: 5, ToolControls: "STRICT: Face shield required. Direct sparks away from hay." },
+      { Tool: "Possum Kill-Traps", BaseRisk: 4, Teacher_Risk: 4, AI_Risk: 4, Hist_Risk: 3, ToolControls: "STRICT: Safety setting tools only. Hands out of jaw zone." },
+      { Tool: "Shearing Hand-Piece", BaseRisk: 4, Teacher_Risk: 4, AI_Risk: 3, Hist_Risk: 4, ToolControls: "Official training sign-off required. Manage cord clear of stock." },
+      { Tool: "Ladders", BaseRisk: 4, Teacher_Risk: 4, AI_Risk: 4, Hist_Risk: 3, ToolControls: "3-point contact rule. Level, stable ground placement." },
+      { Tool: "Power Drill", BaseRisk: 3, Teacher_Risk: 3, AI_Risk: 3, Hist_Risk: 3, ToolControls: "Select correct bits. Keep fingers clear of exit point." },
+      { Tool: "Drafting Gates", BaseRisk: 3, Teacher_Risk: 3, AI_Risk: 2, Hist_Risk: 3, ToolControls: "One-person, one-gate rule. Watch hinge pinch points." },
+      { Tool: "Loppers & Saws", BaseRisk: 3, Teacher_Risk: 3, AI_Risk: 3, Hist_Risk: 2, ToolControls: "Maintain 2m safety circle. Watch for overhead falling debris." },
+      { Tool: "Gas Smoker", BaseRisk: 3, Teacher_Risk: 3, AI_Risk: 2, Hist_Risk: 3, ToolControls: "Extinguish completely before storage. Keep away from dry grass." },
+      { Tool: "Egg Wash Station", BaseRisk: 3, Teacher_Risk: 3, AI_Risk: 2, Hist_Risk: 3, ToolControls: "Electrical safety check in wet zone. Dilution PPE rules." },
+      { Tool: "Drenching Gun", BaseRisk: 2, Teacher_Risk: 2, AI_Risk: 2, Hist_Risk: 1, ToolControls: "Low-stress positioning. Clean/lubricate seals after use." },
+      { Tool: "Spade & Shovel", BaseRisk: 2, Teacher_Risk: 2, AI_Risk: 2, Hist_Risk: 2, ToolControls: "Use legs for lifting. Wear safety boots for foot protection." },
+      { Tool: "Garden Fork", BaseRisk: 2, Teacher_Risk: 2, AI_Risk: 2, Hist_Risk: 2, ToolControls: "Maintain tine awareness to avoid feet. Check for services." },
+      { Tool: "Wheelbarrow", BaseRisk: 2, Teacher_Risk: 2, AI_Risk: 2, Hist_Risk: 1, ToolControls: "Balance load centrally on slopes. Avoid overloading." },
+      { Tool: "Secateurs", BaseRisk: 2, Teacher_Risk: 2, AI_Risk: 2, Hist_Risk: 2, ToolControls: "Engage safety lock before passing. Sterilize blades." },
+      { Tool: "Electric Fence Tester", BaseRisk: 2, Teacher_Risk: 2, AI_Risk: 3, Hist_Risk: 2, ToolControls: "Use insulated handles. Do not touch wires directly." },
+      { Tool: "Water Sampling Kit", BaseRisk: 2, Teacher_Risk: 2, AI_Risk: 2, Hist_Risk: 2, ToolControls: "Handle glass components with care. Wear wader belt." },
+      { Tool: "Plate Meter", BaseRisk: 1, Teacher_Risk: 1, AI_Risk: 1, Hist_Risk: 1, ToolControls: "Secure plate during transport. Calibrate regularly." }
+    ];
+
+    // Seed/Initial Dataset for Crowdsourced Dynamic Entries
+    let studentSubmissions = [
+      { Tool: "Chainsaw", Vote: 5, Coord: "KVC-Forest-North", Comment: "Super heavy risk level. We must completely avoid using this tool without teacher's direct trigger handler." },
+      { Tool: "Plate Meter", Vote: 1, Coord: "KVC-Paddock-2", Comment: "Very safe. Only risks are walking trips but the tool itself poses near zero risk." },
+      { Tool: "Drenching Gun", Vote: 2, Coord: "KVC-SheepYards-1", Comment: "Needle puncture is possible but minimal if animal is secured properly." },
+      { Tool: "Secateurs", Vote: 3, Coord: "KVC-Orchard-East", Comment: "Can cut fingers easily if distracted. Important to keep safety lock locked when not pruning." },
+      { Tool: "Ladders", Vote: 4, Coord: "KVC-Orchard-West", Comment: "Steep slopes on KVC mean ladders can slip incredibly easily if spotter is absent." }
+    ];
+
+    // Chart.js global instance
+    let comparisonChartInstance = null;
+
+    // -------------------------------------------------------------------------
+    // 2. LIFECYCLE INITIALIZER & PAGE CONFIGURATION
+    // -------------------------------------------------------------------------
+    window.addEventListener('DOMContentLoaded', () => {
+      // Initialize Lucide Icons
+      lucide.createIcons();
+      
+      // Populate Option select lists across tabs
+      populateDropdowns();
+      
+      // Generate tool checkboxes dynamically
+      generateToolChecklist();
+      
+      // Trigger base calculations & loads
+      calculateRisk();
+      updateComparison();
+      renderLiveFeed();
+    });
+
+    // Handle switching navigation tabs smoothly
+    function switchTab(tabId) {
+      const tabs = ['calculator', 'compare', 'submit'];
+      tabs.forEach(t => {
+        const pane = document.getElementById(`pane-${t}`);
+        const button = document.getElementById(`tab-${t}`);
+        if (t === tabId) {
+          pane.classList.remove('hidden');
+          pane.classList.add('grid');
+          button.className = "px-4 py-2 rounded-lg text-sm font-semibold transition-all duration-200 bg-emerald-600 text-white shadow";
+        } else {
+          pane.classList.add('hidden');
+          pane.classList.remove('grid');
+          button.className = "px-4 py-2 rounded-lg text-sm font-semibold transition-all duration-200 text-emerald-100 hover:text-white";
+        }
+      });
+      
+      // Re-trigger chart layout fixes if comparing
+      if (tabId === 'compare') {
+        setTimeout(updateComparison, 100);
+      }
+    }
+
+    // Populate drop down menus dynamically
+    function populateDropdowns() {
+      const selectArea = document.getElementById('select-area');
+      const selectCompare = document.getElementById('select-compare-tool');
+      const inputTool = document.getElementById('input-tool');
+      
+      // Areas Options
+      const uniqueAreas = [...new Set(areaHazards.map(h => h.Area))];
+      uniqueAreas.forEach(area => {
+        const option = document.createElement('option');
+        option.value = area;
+        option.textContent = area;
+        selectArea.appendChild(option);
+      });
+
+      // Tool Options
+      toolRegistry.forEach(item => {
+        // Dropdown for comparison tab
+        const optComp = document.createElement('option');
+        optComp.value = item.Tool;
+        optComp.textContent = item.Tool;
+        selectCompare.appendChild(optComp);
+
+        // Dropdown for input submission tab
+        const optIn = document.createElement('option');
+        optIn.value = item.Tool;
+        optIn.textContent = item.Tool;
+        inputTool.appendChild(optIn);
+      });
+    }
+
+    // Generate Checkbox layout for Risk Calculator
+    function generateToolChecklist() {
+      const container = document.getElementById('tool-checklist');
+      toolRegistry.forEach((item, index) => {
+        const label = document.createElement('label');
+        label.className = "flex items-center gap-3 p-2 hover:bg-white rounded-lg cursor-pointer transition-colors";
+        label.innerHTML = `
+          <input type="checkbox" value="${item.Tool}" onchange="calculateRisk()" class="rounded text-emerald-600 focus:ring-emerald-500 w-4 h-4 border-slate-300">
+          <span class="text-sm font-medium text-slate-700">${item.Tool}</span>
+        `;
+        container.appendChild(label);
+      });
+    }
+
+    // -------------------------------------------------------------------------
+    // 3. TAB 1 LOGIC: CALCULATE DYNAMIC RISK VALUES
+    // -------------------------------------------------------------------------
+    function calculateRisk() {
+      const selectedArea = document.getElementById('select-area').value;
+      const checkedBoxes = document.querySelectorAll('#tool-checklist input[type="checkbox"]:checked');
+      
+      const selectedTools = Array.from(checkedBoxes).map(cb => cb.value);
+
+      // Part A: Calculate baseline hazard profiles for this area
+      const activeHazards = areaHazards.filter(h => h.Area === selectedArea);
+      let maxAreaRiskScore = 0;
+
+      const hazardsTableBody = document.getElementById('hazards-table-body');
+      hazardsTableBody.innerHTML = "";
+
+      if(activeHazards.length > 0) {
+        activeHazards.forEach(h => {
+          const score = h.Likelihood * h.Impact;
+          if (score > maxAreaRiskScore) maxAreaRiskScore = score;
+
+          // Color scale for table cells
+          let badgeClass = "bg-green-100 text-green-800";
+          if(score >= 12) badgeClass = "bg-red-100 text-red-800";
+          else if(score >= 6) badgeClass = "bg-amber-100 text-amber-800";
+
+          const tr = document.createElement('tr');
+          tr.className = "hover:bg-slate-50/50 transition-colors";
+          tr.innerHTML = `
+            <td class="py-3 px-4 font-semibold text-slate-900">${h.Hazard}</td>
+            <td class="py-3 px-2 text-center text-slate-600 font-bold">${h.Likelihood}</td>
+            <td class="py-3 px-2 text-center text-slate-600 font-bold">${h.Impact}</td>
+            <td class="py-3 px-2 text-center">
+              <span class="px-2 py-0.5 rounded text-xs font-black ${badgeClass}">${score}</span>
+            </td>
+            <td class="py-3 px-4 text-xs text-slate-600 max-w-xs">${h.Elimination}</td>
+            <td class="py-3 px-4 text-xs text-slate-600 max-w-xs">${h.Mitigation}</td>
+          `;
+          hazardsTableBody.appendChild(tr);
+        });
+        document.getElementById('zone-badge').textContent = selectedArea;
+      } else {
+        hazardsTableBody.innerHTML = `<tr><td colspan="6" class="text-center py-6 text-slate-400">No hazard parameters set for this coordinate yet.</td></tr>`;
+      }
+
+      // Update Card 1
+      const areaRiskScoreEl = document.getElementById('area-risk-score');
+      const areaRiskStatusEl = document.getElementById('area-risk-status');
+      areaRiskScoreEl.textContent = maxAreaRiskScore;
+      if (maxAreaRiskScore >= 12) {
+        areaRiskStatusEl.textContent = "High Environmental Risk";
+        areaRiskStatusEl.className = "text-xs font-semibold text-red-600";
+      } else if (maxAreaRiskScore >= 6) {
+        areaRiskStatusEl.textContent = "Moderate Hazard Matrix";
+        areaRiskStatusEl.className = "text-xs font-semibold text-amber-600";
+      } else {
+        areaRiskStatusEl.textContent = "Healthy Zone Baseline";
+        areaRiskStatusEl.className = "text-xs font-semibold text-emerald-600";
+      }
+
+      // Part B: Analyze selected tools
+      let maxToolLevel = 0;
+      const activeToolsContainer = document.getElementById('active-tools-container');
+      activeToolsContainer.innerHTML = "";
+
+      if(selectedTools.length > 0) {
+        selectedTools.forEach(toolName => {
+          const toolObj = toolRegistry.find(t => t.Tool === toolName);
+          if (toolObj) {
+            if (toolObj.BaseRisk > maxToolLevel) maxToolLevel = toolObj.BaseRisk;
+
+            // Generate card for active tool requirements
+            let levelColor = "text-emerald-600 bg-emerald-50";
+            if (toolObj.BaseRisk === 5) levelColor = "text-red-600 bg-red-50";
+            else if (toolObj.BaseRisk >= 3) levelColor = "text-amber-600 bg-amber-50";
+
+            const div = document.createElement('div');
+            div.className = "p-4 bg-slate-50 rounded-xl border border-slate-100 flex flex-col gap-1.5";
+            div.innerHTML = `
+              <div class="flex justify-between items-center">
+                <span class="font-bold text-slate-900 text-sm">${toolObj.Tool}</span>
+                <span class="text-[10px] font-black px-2 py-0.5 rounded ${levelColor}">Class ${toolObj.BaseRisk}</span>
+              </div>
+              <p class="text-xs text-slate-600 font-medium">${toolObj.ToolControls}</p>
+            `;
+            activeToolsContainer.appendChild(div);
+          }
+        });
+      } else {
+        activeToolsContainer.innerHTML = `<div class="col-span-2 text-center py-6 text-slate-400 text-xs font-medium">No tools assigned to this work schedule yet. Use the sidebar checkboxes.</div>`;
+      }
+
+      // Update Card 2
+      const toolRiskScoreEl = document.getElementById('tool-risk-score');
+      const toolRiskStatusEl = document.getElementById('tool-risk-status');
+      toolRiskScoreEl.textContent = maxToolLevel === 0 ? "None" : `Class ${maxToolLevel}`;
+      
+      if (maxToolLevel === 5) {
+        toolRiskStatusEl.textContent = "Teacher-Only Operation";
+        toolRiskStatusEl.className = "text-xs font-semibold text-red-600";
+      } else if (maxToolLevel >= 3) {
+        toolRiskStatusEl.textContent = "Requires Competency Sign-off";
+        toolRiskStatusEl.className = "text-xs font-semibold text-amber-600";
+      } else {
+        toolRiskStatusEl.textContent = "Standard User Controls";
+        toolRiskStatusEl.className = "text-xs font-semibold text-emerald-600";
+      }
+
+      // Part C: Combined Job Operational Level
+      const jobLevelEl = document.getElementById('job-risk-level');
+      const jobDescEl = document.getElementById('job-risk-desc');
+      const jobIconBox = document.getElementById('job-badge-icon');
+
+      // Math integration combining terrain hazards with maximum equipment modifiers
+      const aggregatedFactor = maxAreaRiskScore + (maxToolLevel * 2);
+
+      if (maxToolLevel === 5 || aggregatedFactor >= 20) {
+        jobLevelEl.textContent = "CRITICAL (Teacher Only)";
+        jobDescEl.textContent = "Highly restricted machinery or heavy terrain. Students observe only.";
+        jobIconBox.className = "p-3 bg-red-100 text-red-600 rounded-xl animate-pulse";
+      } else if (maxToolLevel >= 3 || aggregatedFactor >= 12) {
+        jobLevelEl.textContent = "HIGH (Strict Supervision)";
+        jobDescEl.textContent = "Requires student safety contract validation and dual buddy check.";
+        jobIconBox.className = "p-3 bg-amber-100 text-amber-600 rounded-xl";
+      } else {
+        jobLevelEl.textContent = "STANDARD (Student User)";
+        jobDescEl.textContent = "All clear. Proceed with basic PPE and tool protocols.";
+        jobIconBox.className = "p-3 bg-emerald-100 text-emerald-600 rounded-xl";
+      }
+
+      // Reinitialize Lucide Icons on dynamically inserted panels
+      lucide.createIcons();
+    }
+
+    // -------------------------------------------------------------------------
+    // 4. TAB 2 LOGIC: CROSS-DATA COMPARISON SYSTEM
+    // -------------------------------------------------------------------------
+    function calculateStudentAverage(toolName) {
+      const submissions = studentSubmissions.filter(s => s.Tool === toolName);
+      if(submissions.length === 0) return 3.0; // Dynamic baseline default
+      const total = submissions.reduce((sum, item) => sum + item.Vote, 0);
+      return parseFloat((total / submissions.length).toFixed(1));
+    }
+
+    function updateComparison() {
+      const selectedTool = document.getElementById('select-compare-tool').value;
+      const toolDef = toolRegistry.find(t => t.Tool === selectedTool);
+      if(!toolDef) return;
+
+      const studentAvg = calculateStudentAverage(selectedTool);
+      const totalVotes = studentSubmissions.filter(s => s.Tool === selectedTool).length;
+
+      // Update Chart.js Graphic
+      renderComparisonChart(toolDef, studentAvg, totalVotes);
+
+      // Update Variance Table Data
+      const tableBody = document.getElementById('variance-table-body');
+      tableBody.innerHTML = `
+        <tr class="hover:bg-slate-50/50 transition-colors">
+          <td class="py-3 px-4 font-bold text-slate-900 flex items-center gap-2">
+            <span class="w-2 h-2 rounded-full bg-emerald-600"></span> Teacher Baseline
+          </td>
+          <td class="py-3 px-4 text-center font-extrabold text-slate-800 text-lg">${toolDef.Teacher_Risk}</td>
+          <td class="py-3 px-4 text-xs text-slate-500 font-semibold">Official statutory hazard control benchmark.</td>
+        </tr>
+        <tr class="hover:bg-slate-50/50 transition-colors">
+          <td class="py-3 px-4 font-bold text-slate-900 flex items-center gap-2">
+            <span class="w-2 h-2 rounded-full bg-blue-600"></span> AI Engine Prediction
+          </td>
+          <td class="py-3 px-4 text-center font-extrabold text-slate-800 text-lg">${toolDef.AI_Risk}</td>
+          <td class="py-3 px-4 text-xs text-slate-500 font-semibold">Calculated from similar agricultural machinery patterns.</td>
+        </tr>
+        <tr class="hover:bg-slate-50/50 transition-colors">
+          <td class="py-3 px-4 font-bold text-slate-900 flex items-center gap-2">
+            <span class="w-2 h-2 rounded-full bg-yellow-500"></span> Last Semester's Students
+          </td>
+          <td class="py-3 px-4 text-center font-extrabold text-slate-800 text-lg">${toolDef.Hist_Risk}</td>
+          <td class="py-3 px-4 text-xs text-slate-500 font-semibold">Average historical consensus across 42 class portfolios.</td>
+        </tr>
+        <tr class="hover:bg-slate-50/50 transition-colors bg-amber-50/30">
+          <td class="py-3 px-4 font-bold text-amber-900 flex items-center gap-2">
+            <span class="w-2 h-2 rounded-full bg-amber-500 animate-ping"></span> Live Class Average
+          </td>
+          <td class="py-3 px-4 text-center font-extrabold text-amber-600 text-lg">${studentAvg}</td>
+          <td class="py-3 px-4 text-xs text-amber-800 font-semibold">Dynamic score compiled from ${totalVotes} live inputs during this chat.</td>
+        </tr>
+      `;
+    }
+
+    function renderComparisonChart(toolDef, studentAvg, totalVotes) {
+      const ctx = document.getElementById('comparisonChart').getContext('2d');
+      
+      // Destroy previous chart structure if exists to avoid rendering memory leaks
+      if (comparisonChartInstance) {
+        comparisonChartInstance.destroy();
+      }
+
+      comparisonChartInstance = new Chart(ctx, {
+        type: 'bar',
+        data: {
+          labels: ['Teacher Base', 'AI Forecast', 'Last Semester', `Current Class (N=${totalVotes})`],
+          datasets: [{
+            label: 'Risk Valuation',
+            data: [toolDef.Teacher_Risk, toolDef.AI_Risk, toolDef.Hist_Risk, studentAvg],
+            backgroundColor: [
+              'rgba(5, 150, 105, 0.85)', // Emerald-600
+              'rgba(37, 99, 235, 0.85)',  // Blue-600
+              'rgba(234, 179, 8, 0.85)',  // Yellow-500
+              'rgba(245, 158, 11, 0.85)'   // Amber-500
+            ],
+            borderColor: [
+              '#047857', '#1d4ed8', '#ca8a04', '#d97706'
+            ],
+            borderWidth: 2,
+            borderRadius: 8
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          scales: {
+            y: {
+              beginAtZero: true,
+              max: 5,
+              grid: {
+                color: 'rgba(241, 245, 249, 1)'
+              },
+              ticks: {
+                stepSize: 1,
+                font: {
+                  weight: '600'
+                }
+              }
+            },
+            x: {
+              grid: {
+                display: false
+              },
+              ticks: {
+                font: {
+                  weight: '600'
+                }
+              }
+            }
+          },
+          plugins: {
+            legend: {
+              display: false
+            },
+            tooltip: {
+              backgroundColor: '#1e293b',
+              padding: 12,
+              titleFont: { size: 14, weight: 'bold' },
+              bodyFont: { size: 12 },
+              cornerRadius: 8
+            }
+          }
+        }
+      });
+    }
+
+    // -------------------------------------------------------------------------
+    // 5. TAB 3 LOGIC: LIVE CROWDSOURCING & LOG LOGIC
+    // -------------------------------------------------------------------------
+    function updateRangeIndicator() {
+      const val = document.getElementById('input-risk').value;
+      document.getElementById('val-indicator').textContent = `${val} / 5`;
+    }
+
+    function submitForm(event) {
+      event.preventDefault();
+
+      const tool = document.getElementById('input-tool').value;
+      const vote = parseInt(document.getElementById('input-risk').value);
+      const coord = document.getElementById('input-coord').value;
+      const comment = document.getElementById('input-comment').value;
+
+      // Add fresh evaluation record to dynamic local database
+      studentSubmissions.unshift({ Tool: tool, Vote: vote, Coord: coord, Comment: comment });
+
+      // Trigger user feedback notification
+      showToastNotification(`Entry Added for ${tool}`, "Successfully saved your mapping audit to the database.");
+
+      // Reset form variables
+      document.getElementById('input-coord').value = "";
+      document.getElementById('input-comment').value = "";
+      document.getElementById('input-risk').value = 3;
+      updateRangeIndicator();
+
+      // Instantly refresh other visualization blocks
+      updateComparison();
+      renderLiveFeed();
+    }
+
+    function renderLiveFeed() {
+      const container = document.getElementById('live-feed-container');
+      container.innerHTML = "";
+
+      document.getElementById('vote-count-badge').textContent = `${studentSubmissions.length} Entries`;
+
+      studentSubmissions.forEach(sub => {
+        let badgeColor = "bg-green-50 text-green-700 border-green-100";
+        if (sub.Vote === 5) badgeColor = "bg-red-50 text-red-700 border-red-100";
+        else if (sub.Vote >= 3) badgeColor = "bg-amber-50 text-amber-700 border-amber-100";
+
+        const div = document.createElement('div');
+        div.className = "p-4 bg-slate-50 rounded-2xl border border-slate-100 flex flex-col gap-2 transition-all hover:border-slate-200";
+        div.innerHTML = `
+          <div class="flex justify-between items-start">
+            <div>
+              <span class="font-extrabold text-slate-900">${sub.Tool}</span>
+              <span class="text-[10px] bg-slate-100 text-slate-600 font-bold px-2 py-0.5 rounded-full ml-1.5">${sub.Coord}</span>
+            </div>
+            <span class="text-xs font-black px-2.5 py-1 rounded-full border ${badgeColor}">Rating: ${sub.Vote}/5</span>
+          </div>
+          <p class="text-xs text-slate-500 font-medium italic">"${sub.Comment}"</p>
+        `;
+        container.appendChild(div);
+      });
+    }
+
+    // Displays dynamic toast confirmation modal safely
+    function showToastNotification(title, message) {
+      const toast = document.getElementById('toast-notification');
+      document.getElementById('toast-title').textContent = title;
+      document.getElementById('toast-desc').textContent = message;
+
+      toast.classList.remove('hidden');
+      setTimeout(() => {
+        toast.classList.remove('opacity-0', 'translate-y-10');
+      }, 10);
+
+      // Disappear block
+      setTimeout(() => {
+        toast.classList.add('opacity-0', 'translate-y-10');
+        setTimeout(() => {
+          toast.classList.add('hidden');
+        }, 300);
+      }, 4000);
+    }
+  </script>
+</body>
+</html>
