@@ -12,14 +12,23 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Overview
 
-This section contains the course sequence for the school farm programme. The opening unit introduces primary sectors, sustainability, location factors, and rural safety before students move into the practical farm units.
+This section contains the course sequence for the school farm programme. The structure is designed to run over three lessons per week across two terms, with a clear order: health and safety first, then school farm mapping, then the farm mission sequence, followed by independent practical units and projects.
+
+This sequence supports both routine farm operations and longer specialist learning tasks, while keeping the course manageable for a 10-week term structure with a regular three-lesson rhythm.
+
+## Course order
+
+1. Health and safety induction and routines
+2. School farm mapping and spatial planning
+3. Core farm missions
+4. Independent practical units and longer investigations
 
 ## Two-Term Unit Plan Calendar (Tue, Thu, Fri)
 
 This class runs across two terms with three lessons each week:
 
 - Term 1: 10 weeks (30 lessons)
-- Term 2: 11 weeks (33 lessons)
+- Term 2: 10 weeks (30 lessons)
 - Class days: Tuesday, Thursday, Friday
 
 ### Term 1 Calendar (10 Weeks)

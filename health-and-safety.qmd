@@ -1,0 +1,165 @@
+---
+title: "School Farm Health and Safety Policy"
+---
+
+## Purpose
+
+This policy sets out the minimum health and safety expectations for all school farm activities. It brings together the guidance already used in this repository, the farm task checklist, and the safety information in the shared resources folder.
+
+The purpose is to protect students, staff, volunteers, visitors, and animals while maintaining a safe, productive, and respectful farm environment.
+
+## Scope
+
+This policy applies to all farm visits, practical tasks, maintenance activities, animal care, environmental observations, tool use, and project work connected to the school farm.
+
+## Safety induction and briefing
+
+All students must complete an induction before beginning farm work. This induction should include:
+
+- the purpose and expectations of the task
+- known hazards in the working area
+- required PPE and behaviour expectations
+- emergency and reporting procedures
+- safe movement and animal handling expectations
+
+Supervising adults should confirm that students understand the briefing and that any questions are answered before work begins.
+
+## Responsibilities
+
+### Teachers and supervisors
+
+- Ensure that students receive a safety induction before working on the farm.
+- Confirm that tasks match students' age, capability, and supervision level.
+- Review hazards before the activity begins.
+- Check that PPE is available and used correctly.
+- Monitor behaviour, tool use, and animal handling throughout the task.
+- Stop work immediately if conditions become unsafe.
+
+### Students
+
+- Follow all instructions given by the teacher or supervisor.
+- Wear the required PPE for the activity.
+- Report hazards, damaged equipment, or unsafe conditions immediately.
+- Work safely and respectfully with other people and animals.
+- Keep pathways, work areas, and equipment tidy and hazard-free.
+- Ask for clarification before starting work that is unfamiliar or uncertain.
+
+## Core safety principles
+
+- Safety is critical in primary industries and rural work settings.
+- Common hazards include vehicles, machinery, chemicals, livestock, sharp tools, and trip or slip hazards.
+- Farm safety is managed through training, risk awareness, Personal Protective Equipment (PPE), and clear safety rules.
+- A safety-first culture is essential for the long-term wellbeing of students, staff, animals, and the wider farm community.
+
+## Personal protective equipment
+
+PPE stands for Personal Protective Equipment. Students must wear the appropriate equipment for the task being completed.
+
+Examples include:
+
+- gloves for heavy work or plant handling
+- hearing protection for loud machinery
+- closed footwear and suitable outdoor clothing
+- task-specific gear for chemicals, cutting, or manual handling
+
+All PPE must be checked before use and worn as instructed.
+
+## Safe work rules
+
+- Lift heavy loads by bending the knees and using the leg muscles rather than the back.
+- Wear ear protection when using loud machinery such as chainsaws or tractors for long periods.
+- Keep a planned escape route when working around large or unpredictable animals.
+- Move quietly and slowly around animals and working areas.
+- Keep pathways clear to reduce trip and slip hazards.
+- Clean and return tools to their proper storage after use.
+- Never work in an area that is cluttered, wet, or otherwise unsafe.
+
+## Animal and livestock safety
+
+- Approach animals calmly and from a safe position.
+- Keep a clear escape path during checks and handling.
+- Follow welfare routines such as checking water, bedding, and feed areas.
+- Give bees space and avoid standing in the flight path near a hive.
+- Report any injured or distressed animal to the supervising adult immediately.
+
+## Chemical and equipment safety
+
+The source materials in this repository reinforce the following chemical safety expectations:
+
+- Store chemicals in a locked cabinet or shed.
+- Keep them in original containers with labels.
+- Use appropriate PPE when handling chemicals.
+- Keep a spill kit nearby.
+- Keep chemicals away from animal feed and water sources.
+
+Tools and equipment must also be checked before use. Damaged or unsafe equipment must be removed from use and reported to the supervisor.
+
+## Daily farm checks
+
+The farm task checklist highlights practical routines that reduce risk:
+
+- wear heavy-duty gloves when handling gorse or sharp tools
+- check troughs and refill with clean water
+- replace bedding and keep shelters clean
+- stack wood neatly to reduce trip and fire hazards
+- check tree guards and protect new planting
+- clear weeds and unwanted material from work zones
+- clean and return tools to storage after use
+
+## Incident and near-miss reporting
+
+Any accident, injury, near miss, or unsafe situation must be reported immediately. Staff must record what happened, who was involved, and what actions were taken. This supports safer future practice and helps identify recurring hazards.
+
+The reporting process should include:
+
+- identifying the location and task involved
+- noting the people affected or who witnessed the event
+- describing the hazard or unsafe condition
+- recording the immediate actions taken
+- reviewing whether any further controls are needed
+
+## Task approval and supervision
+
+No task should begin without appropriate supervision and a risk check. Activities involving chemicals, machinery, heavy lifting, livestock, or tools should be supervised closely and reviewed for risk before use.
+
+Supervisors may decide to alter, postpone, or cancel a task if conditions, weather, equipment, or student readiness make the activity unsafe.
+
+## Review and sign-off
+
+This policy should be reviewed regularly and updated when farm operations, activities, or equipment change. The relevant teacher or supervisor should keep a record of safety briefings, contract acknowledgements, and any corrective actions.
+
+### Sign-off record
+
+Student name: _______________________________
+
+Class / group: _______________________________
+
+Activity: _______________________________
+
+Date: _______________________________
+
+Student signature: _______________________________
+
+Teacher / supervisor signature: _______________________________
+
+## Documents in this repository
+
+### Current safety documents
+
+- [Health and Safety Induction (PDF)](hazards/Health%20and%20Safety/Health%20and%20Safety%20Induction.pdf)
+- [Health and Safety Induction (PPT)](hazards/Health%20and%20Safety/Health%20and%20Safety%20Induction.ppt)
+- [Student Farm Safety Contract](hazards/Health%20and%20Safety/Student%20Farm%20Safety%20Contract%20V1.docx)
+- [Student Safety Contract and Golden Rules](hazards/Health%20and%20Safety/Student%20Safety%20Contract%20AND%20Golden%20Rules%20(1).pdf)
+- [PPE Reference: Gear up for Ag PPE Kit](hazards/2025-US-Gear-up-for-Ag-PPE-Kit.pdf)
+
+### Resource files reviewed
+
+- [Combined Health and Safety Summary](resources/Health_and_safety_docs/combined-health-and-safety-summary.md)
+- [Farm Booklet 1 (Sector and Safety)](resources/Farm%20Booklet%201%20%28Sector%20and%20Safety%29.ocr.txt)
+- [Farm Tasks 2026](resources/Farm%20Tasks%202026%20.txt)
+- [Unit 9: Farm Hazards and Safety Project](hazards-unit.qmd)
+- [Sector and Safety](sector-and-safety.qmd)
+
+## Safety expectation
+
+Students and staff are expected to work responsibly, follow induction and contract rules, complete hazard checks, and protect themselves, other people, and the farm environment. Safety is not a single rule; it is an ongoing routine of observation, preparation, and careful action.

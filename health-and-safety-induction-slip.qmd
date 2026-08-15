@@ -1,0 +1,51 @@
+---
+title: "Farm Safety Induction Slip"
+---
+
+## School Farm Safety Induction
+
+Before starting any farm task, students must complete this induction check.
+
+### I understand the following
+
+- [ ] I know the safe way to enter and leave the farm area.
+- [ ] I know the rules for wearing PPE.
+- [ ] I understand the main hazards in this area.
+- [ ] I know how to report a hazard, injury, or near miss.
+- [ ] I know where the first aid kit and supervisor are located.
+- [ ] I know how to work safely with animals, tools, and equipment.
+- [ ] I know to stop work if I feel unsafe or unsure.
+
+### Safety expectations
+
+- Follow all instructions from the teacher or supervisor.
+- Wear the correct PPE for the task.
+- Keep pathways and work areas clear.
+- Use tools safely and return them to storage.
+- Keep a safe distance from animals.
+- Keep chemicals stored and handled safely.
+
+### Student declaration
+
+Student name: _______________________________
+
+Class / group: _______________________________
+
+Date: _______________________________
+
+Signature: _______________________________
+
+### Teacher confirmation
+
+I have explained the farm safety rules and checked that the student understands them.
+
+Teacher name: _______________________________
+
+Signature: _______________________________
+
+## Quick links
+
+- [School Farm Health and Safety Policy](health-and-safety.qmd)
+- [Student Safety Handout](health-and-safety-handout.qmd)
+- [Teacher Safety Checklist](health-and-safety-teacher-checklist.qmd)
+- [Farm Hazards and Safety Project](hazards-unit.qmd)

@@ -1,0 +1,126 @@
+---
+title: "Student Farm Safety Handout"
+format:
+  html:
+    toc: false
+---
+
+## Farm Safety First
+
+Before you work on the farm, remember: safety comes first. The farm is a real workplace, and the rules are there to keep you, other people, and the animals safe.
+
+## Safety checklist
+
+### Before you start
+
+- [ ] I have listened to the safety briefing.
+- [ ] I am wearing the correct PPE for the task.
+- [ ] I know what job I am doing and what could go wrong.
+- [ ] I know where the first aid kit and supervisor are.
+- [ ] I have checked the area for trip hazards, tools, or unsafe conditions.
+
+### During the task
+
+- [ ] I am working calmly and following instructions.
+- [ ] I am keeping a safe distance from animals.
+- [ ] I am using tools correctly and only for their intended purpose.
+- [ ] I am lifting with my legs, not my back.
+- [ ] I am keeping walkways clear and reporting hazards immediately.
+- [ ] I am not rushing or distracting others.
+
+### After the task
+
+- [ ] I have cleaned and stored tools correctly.
+- [ ] I have put materials away and left the area tidy.
+- [ ] I have checked that water, bedding, and equipment are safe for the next person.
+- [ ] I have reported any damaged equipment or unsafe conditions.
+
+## Essential rules
+
+### 1. PPE
+
+PPE means Personal Protective Equipment.
+
+Use the correct PPE for the job:
+
+- gloves for heavy work, cutting, or plant handling
+- closed footwear for all farm work
+- hearing protection for loud machinery
+- any other protective gear required by the teacher
+
+### 2. Safe movement
+
+- walk carefully and keep to marked or safe paths
+- keep clear of machinery and livestock
+- do not run in work areas
+- keep an escape route when working near animals
+
+### 3. Tool and equipment safety
+
+- use tools only for their intended purpose
+- check tools before use
+- do not leave tools lying in walkways
+- clean and return them to storage after use
+
+### 4. Animal safety
+
+- approach animals calmly and from a safe position
+- never surprise or corner an animal
+- do not stand in the flight path of bees
+- report injured or distressed animals to the teacher immediately
+
+### 5. Chemical safety
+
+If you are handling chemicals:
+
+- use the correct PPE
+- work in a supervised area
+- store chemicals in labelled, locked containers or sheds
+- keep a spill kit nearby
+- keep chemicals away from feed and water
+
+## Common hazards to look out for
+
+- quad bikes and vehicles losing control
+- machinery noise and vibration
+- chemicals and spills
+- livestock handling accidents
+- sharp tools and cutting equipment
+- slips, trips, and uneven ground
+- lifting injuries and heavy loads
+
+## Daily farm routine
+
+Before and after each activity, check that:
+
+- tools are clean and stored correctly
+- walkways are clear
+- water troughs are clean and full
+- shelters and bedding are maintained
+- wood piles are tidy and safe
+- plants and tree guards are checked
+
+## Safety expectation
+
+You are expected to behave responsibly and follow the farm safety rules at all times. If you are unsure about a task, stop, ask, and wait for instructions.
+
+Safety is everyone’s responsibility.
+
+## Sign-off
+
+Student name: _________________________
+
+Class: _________________________
+
+Date: _________________________
+
+Student signature: _________________________
+
+Teacher signature: _________________________
+
+## Quick reference links
+
+- [School Farm Health and Safety Policy](health-and-safety.qmd)
+- [Farm Hazards and Safety Project](hazards-unit.qmd)
+- [Farm Booklet 1 (Sector and Safety)](resources/Farm%20Booklet%201%20%28Sector%20and%20Safety%29.ocr.txt)
+- [Farm Tasks 2026](resources/Farm%20Tasks%202026%20.txt)

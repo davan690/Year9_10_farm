@@ -31,7 +31,7 @@ These units help students connect practical farm work with responsibility, susta
 
 Students learn how to care for animals safely, observe changes in behaviour, and record welfare information.
 
-[Open Unit 1](unit-1-animal-care.qmd)
+[Open Unit 1](../unit-1-animal-care.qmd)
 
 ---
 
@@ -43,7 +43,7 @@ Students learn how to care for animals safely, observe changes in behaviour, and
 
 Students maintain garden beds, berry plants, and young seedlings while learning practical horticultural care.
 
-[Open Unit 2](unit-2-garden-maintenance.qmd)
+[Open Unit 2](../unit-2-garden-maintenance.qmd)
 
 ---
 
@@ -55,7 +55,7 @@ Students maintain garden beds, berry plants, and young seedlings while learning 
 
 Students investigate how restoration work supports biodiversity and long-term environmental health.
 
-[Open Unit 3](unit-3-restoration.qmd)
+[Open Unit 3](../unit-3-restoration.qmd)
 
 ---
 
@@ -67,7 +67,7 @@ Students investigate how restoration work supports biodiversity and long-term en
 
 Students make observations about the natural environment and build skills in careful recording and analysis.
 
-[Open Unit 4](unit-4-environmental-observation.qmd)
+[Open Unit 4](../unit-4-environmental-observation.qmd)
 
 ---
 
@@ -79,7 +79,7 @@ Students make observations about the natural environment and build skills in car
 
 Students learn how good organisation improves safety, tool care, and the effectiveness of farm work.
 
-[Open Unit 5](unit-5-organisation.qmd)
+[Open Unit 5](../unit-5-organisation.qmd)
 
 ---
 

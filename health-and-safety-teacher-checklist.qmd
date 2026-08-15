@@ -1,0 +1,77 @@
+---
+title: "Teacher Safety Checklist"
+---
+
+## Pre-visit checklist
+
+Before students enter the farm or work area, confirm that:
+
+- [ ] the activity is appropriate for the age and capability of the students
+- [ ] a safety briefing has been completed
+- [ ] PPE is available and in good condition
+- [ ] the work area has been checked for hazards
+- [ ] the task has an identified supervisor
+- [ ] emergency procedures and reporting steps are understood
+- [ ] livestock, chemicals, or machinery are managed safely
+
+## Daily farm risk checks
+
+Use this during the lesson or work session:
+
+- [ ] check the area for trips, uneven ground, or clutter
+- [ ] confirm tools are safe and stored correctly
+- [ ] check that students are wearing the correct PPE
+- [ ] review the task procedure and work boundaries
+- [ ] ensure students know the escape route around animals
+- [ ] confirm chemicals are labelled, stored, and secured
+- [ ] monitor student behaviour and communication throughout the task
+
+## Activity-specific checks
+
+### Animals
+
+- [ ] animals have been approached calmly
+- [ ] students know how to move around the animals safely
+- [ ] there is a clear safe route away from the animal
+- [ ] any injured or distressed animal is reported immediately
+
+### Tools and equipment
+
+- [ ] tools are suitable for the task
+- [ ] sharp or damaged tools are removed from use
+- [ ] tools are cleaned and stored correctly after use
+- [ ] the area is left tidy and safe for the next group
+
+### Chemicals
+
+- [ ] chemical storage is secure and labelled
+- [ ] PPE is available and used correctly
+- [ ] spill kit is available and accessible
+- [ ] chemicals are kept away from feed and water sources
+
+## Incident response checklist
+
+If an accident, injury, or near miss occurs:
+
+- [ ] stop the task immediately
+- [ ] ensure the area is safe
+- [ ] provide first aid or contact the appropriate responder
+- [ ] report the incident as required
+- [ ] record what happened, who was involved, and what action was taken
+- [ ] review the task and make changes to prevent recurrence
+
+## Sign-off
+
+Teacher / supervisor name: _________________________
+
+Date: _________________________
+
+Lesson / task: _________________________
+
+Signature: _________________________
+
+## Quick links
+
+- [School Farm Health and Safety Policy](health-and-safety.qmd)
+- [Student Safety Handout](health-and-safety-handout.qmd)
+- [Farm Hazards and Safety Project](hazards-unit.qmd)

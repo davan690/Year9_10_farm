@@ -1,6 +1,6 @@
 ---
-title: "Farm Missions as Units"
-subtitle: "Five practical farm learning units for animal care, gardening, restoration, observation, and organisation"
+title: "Farm Missions as the Core Course Sequence"
+subtitle: "The practical farm routine running through the course" 
 author: "Urban Farm 2026"
 date: today
 format:
@@ -10,87 +10,95 @@ format:
     theme: zephyr
 ---
 
-## About these units
+## About the mission sequence
 
-The farm missions have been expanded into full practical units so they can be used as stand-alone learning activities. Each unit includes background information, safety guidance, clear steps, reflection prompts, and a simple way to record observations.
+The farm mission units form the core practical learning sequence of the course. They are designed to be used across the three lessons per week for the two-term programme and can also be run as stand-alone practical units when required.
 
-These units help students connect practical farm work with responsibility, sustainability, and scientific observation.
+This structure keeps the course aligned to the farm routine: safety first, mapping next, then regular farm care and observation, with the other project-based units remaining as independent learning experiences.
 
 ![](images/farm-photos/farm_barn.jpg){width=48%}
 ![](images/farm-photos/farm_shed.jpg){width=48%}
 
 ---
 
-## Available units
+## Core mission flow
 
-### Unit 1: Animal Care and Observation
+### Mission 1: Animal Care and Observation
 
 **Focus:** chickens, paddock animals, and welfare checks
 
-![](images/farm-photos/chickens_water_food.jpg){width=55%}
-
 Students learn how to care for animals safely, observe changes in behaviour, and record welfare information.
 
-[Open Unit 1](unit-1-animal-care.qmd)
+[Open Mission 1](unit-1-animal-care.qmd)
 
 ---
 
-### Unit 2: Garden and Berry House Maintenance
+### Mission 2: Garden and Berry House Maintenance
 
 **Focus:** watering, weeding, mulching, and seedlings
 
-![](images/farm-photos/chicken_door.jpg){width=55%}
-
 Students maintain garden beds, berry plants, and young seedlings while learning practical horticultural care.
 
-[Open Unit 2](unit-2-garden-maintenance.qmd)
+[Open Mission 2](unit-2-garden-maintenance.qmd)
 
 ---
 
-### Unit 3: Restoration and Tree Health
+### Mission 3: Restoration and Tree Health
 
 **Focus:** invasive weed control and native tree care
 
-![](images/farm-photos/farm_shed.jpg){width=55%}
-
 Students investigate how restoration work supports biodiversity and long-term environmental health.
 
-[Open Unit 3](unit-3-restoration.qmd)
+[Open Mission 3](unit-3-restoration.qmd)
 
 ---
 
-### Unit 4: Environmental Observation
+### Mission 4: Environmental Observation
 
 **Focus:** streams, pollinators, and biodiversity monitoring
 
-![](images/farm-photos/sheep_water.jpg){width=55%}
-
 Students make observations about the natural environment and build skills in careful recording and analysis.
 
-[Open Unit 4](unit-4-environmental-observation.qmd)
+[Open Mission 4](unit-4-environmental-observation.qmd)
 
 ---
 
-### Unit 5: Organisation and Inventory
+### Mission 5: Organisation and Inventory
 
 **Focus:** tools, storage, safety, and workspace management
 
-![](images/farm-photos/farm_barn.jpg){width=55%}
-
 Students learn how good organisation improves safety, tool care, and the effectiveness of farm work.
 
-[Open Unit 5](unit-5-organisation.qmd)
+[Open Mission 5](unit-5-organisation.qmd)
 
 ---
 
-## How to use these units
+## How these missions fit the whole course
 
-1. Read the overview and learning goals before starting.
-2. Gather the equipment listed in the unit.
-3. Follow the safety notes carefully.
-4. Complete the tasks in order.
-5. Record observations and reflect on what you learned.
-6. Report concerns or unusual findings to the supervisor.
+The course sequence is structured as follows:
+
+1. Health and safety briefing and induction
+2. School farm mapping and field planning
+3. Core farm missions across the school term
+4. Independent practical units and projects
+
+This keeps the practical, routine work at the centre of the course while leaving space for the more specialised learning tasks.
+
+---
+
+## Independent practical units
+
+These units remain available as separate lessons or project-based investigations, but they are not the primary daily mission sequence.
+
+- [Sector and Safety](sector-and-safety.qmd)
+- [Potato Patch Prep](potato-patch.qmd)
+- [Farm Dogs and Working with Sheep](farm-dogs.qmd)
+- [Apples and the Orchard](apple-unit.qmd)
+- [Refractometer Testing](refractometer-unit.qmd)
+- [Weather, Forecasting, and Environmental Impacts](weather-dunedin-kaikorai.qmd)
+- [Autumn Planting](autumn-planting-seedlings.qmd)
+- [Farm Hazards and Safety Project](hazards-unit.qmd)
+- [Kaitiakitanga and Kōura](koura-unit.qmd)
 
 ---
 
@@ -110,4 +118,4 @@ These units are designed to be:
 
 ## Ready to begin?
 
-Choose a unit above and start contributing to the farm community with care and attention.
+Use the mission flow above for the routine farm sequence, then select an independent practical unit when your class moves into a focused project or lesson theme.

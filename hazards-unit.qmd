@@ -111,10 +111,28 @@ Use wet days for deeper hazards project work (30-60 minutes):
 
 ### Health and Safety Documents
 
+- [School Farm Health and Safety Policy](health-and-safety.qmd)
+- [Student Safety Handout](health-and-safety-handout.qmd)
+- [Teacher Safety Checklist](health-and-safety-teacher-checklist.qmd)
+- [Farm Safety Induction Slip](health-and-safety-induction-slip.qmd)
 - [Health and Safety Induction (PDF)](hazards/Health%20and%20Safety/Health%20and%20Safety%20Induction.pdf)
 - [Health and Safety Induction (PPT)](hazards/Health%20and%20Safety/Health%20and%20Safety%20Induction.ppt)
 - [Student Farm Safety Contract](hazards/Health%20and%20Safety/Student%20Farm%20Safety%20Contract%20V1.docx)
+- [Student Safety Contract and Golden Rules](hazards/Health%20and%20Safety/Student%20Safety%20Contract%20AND%20Golden%20Rules%20(1).pdf)
 - [PPE Reference: Gear up for Ag PPE Kit](hazards/2025-US-Gear-up-for-Ag-PPE-Kit.pdf)
+- [Combined Health and Safety Summary](resources/Health_and_safety_docs/combined-health-and-safety-summary.md)
+
+### Combined Safety Guidance
+
+The following points combine the wording from the school farm resources and the existing safety documents already in this repo:
+
+- Safety is critical in primary industries, and common hazards include vehicles, machinery, chemicals, and livestock.
+- PPE stands for Personal Protective Equipment, and appropriate gear must be used for the task.
+- Heavy lifting should use the legs, not the back, and ear protection is required when using loud machinery.
+- Animals should be approached calmly, with a planned escape route and a clear understanding of animal welfare checks.
+- Agricultural chemicals must be stored in labelled, secure containers; use PPE, keep a spill kit nearby, and keep chemicals away from feed and water.
+- Tool maintenance, tidy work areas, and correct storage help reduce trips, cuts, and other farm hazards.
+- A safety-first culture protects staff, students, animals, and the wider rural community, and it is essential for long-term farm success.
 
 ### Visual Examples
 

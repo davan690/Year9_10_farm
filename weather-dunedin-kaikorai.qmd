@@ -56,10 +56,15 @@ Dunedin weather can change quickly due to coastal influence, wind shifts, and te
 Before starting practical work, check:
 
 1. Next 24-hour rainfall forecast.
-2. Wind forecast (speed and gusts).
-3. Temperature range (min and max).
-4. Any weather warnings (heavy rain, strong winds, cold snaps).
-5. Air quality trend if available for the day.
+
+[https://www.metservice.com/towns-cities/regions/dunedin/locations/dunedin](https://www.metservice.com/towns-cities/regions/dunedin/locations/dunedin)
+
+[https://metvuw.com/forecast/forecast.php?type=rain&region=nzsi&noofdays=5](https://metvuw.com/forecast/forecast.php?type=rain&region=nzsi&noofdays=5)
+
+1. Wind forecast (speed and gusts).
+2. Temperature range (min and max).
+3. Any weather warnings (heavy rain, strong winds, cold snaps).
+4. Air quality trend if available for the day.
 
 ### Practical forecast actions
 

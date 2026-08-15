@@ -14,21 +14,31 @@ No connection to the school farm is required to use the units, but teachers are 
 
 Not endorsed by the Ministry of Education, but designed to support teachers and students in exploring mathematics in the context of agriculture and horticulture.
 
-### Units
+### Course sequence
 
-Each unit is designed to provide students with practical applications of agriculture and horticulture in the context of our school farm. The sequence supports the direction of current curriculum and assessment changes in Aotearoa New Zealand [@moe-ncea-change]. Each unit focuses on a specific aspect of farm operations, allowing students to experience real maintenance tasks and develop new skills at the same time as they explore pathways to agriculture and horticulture in New Zealand. As an added benefit, students will also engage with mathematical concepts through real-world scenarios.
+Each unit is designed to provide students with practical applications of agriculture and horticulture in the context of our school farm. The course runs over three lessons per week across two terms, with a clear flow from safety, to mapping, to the farm mission sequence, then a small set of independent practical units and projects.
 
-- [Farm Units overview](units-overview.Rmd)
+- [Course plan and unit overview](units-overview.Rmd)
+- [School Farm Health and Safety Policy](health-and-safety.qmd)
+- [Student Safety Handout](health-and-safety-handout.qmd)
+- [Teacher Safety Checklist](health-and-safety-teacher-checklist.qmd)
+- [Farm Safety Induction Slip](health-and-safety-induction-slip.qmd)
+- [School Farm Mapping](mapping.qmd)
+- [Farm Missions Overview](unit-missions-index.qmd)
+- [Mission 1: Animal Care and Observation](unit-1-animal-care.qmd)
+- [Mission 2: Garden and Berry House Maintenance](unit-2-garden-maintenance.qmd)
+- [Mission 3: Restoration and Tree Health](unit-3-restoration.qmd)
+- [Mission 4: Environmental Observation](unit-4-environmental-observation.qmd)
+- [Mission 5: Organisation and Inventory](unit-5-organisation.qmd)
 - [Unit 1: Sector and Safety](sector-and-safety.qmd)
-- [Unit 2: Mapping the School Farm (Project 1)](mapping.qmd)
-- [Unit 3: Potato Patch Prep](potato-patch.qmd)
-- [Unit 4: Farm Dogs and Working with Sheep](farm-dogs.qmd)
-- [Unit 5: Apples and the Orchard](apple-unit.qmd)
-- [Unit 6: Refractometer Testing](refractometer-unit.qmd)
-- [Unit 7: Weather, Forecasting, and Environmental Impacts](weather-dunedin-kaikorai.qmd)
-- [Unit 8: Autumn Planting (Project 2)](autumn-planting-seedlings.qmd)
-- [Unit 9: Farm Hazards and Safety Project (Project 3)](hazards-unit.qmd)
-- [Unit 10: Kaitiakitanga and Kōura](koura-unit.qmd)
+- [Unit 2: Potato Patch Prep](potato-patch.qmd)
+- [Unit 3: Farm Dogs and Working with Sheep](farm-dogs.qmd)
+- [Unit 4: Apples and the Orchard](apple-unit.qmd)
+- [Unit 5: Refractometer Testing](refractometer-unit.qmd)
+- [Unit 6: Weather, Forecasting, and Environmental Impacts](weather-dunedin-kaikorai.qmd)
+- [Unit 7: Autumn Planting (Project 2)](autumn-planting-seedlings.qmd)
+- [Unit 8: Farm Hazards and Safety Project](hazards-unit.qmd)
+- [Unit 9: Kaitiakitanga and Kōura](koura-unit.qmd)
 
 ### Regular Farm Operations
 

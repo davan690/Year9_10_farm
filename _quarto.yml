@@ -13,6 +13,10 @@ project:
     - autumn-planting-seedlings.qmd
     - weather-dunedin-kaikorai.qmd
     - hazards-unit.qmd
+    - health-and-safety.qmd
+    - health-and-safety-handout.qmd
+    - health-and-safety-teacher-checklist.qmd
+    - health-and-safety-induction-slip.qmd
     - koura-unit.qmd
     - koura-worksheet.qmd
     - koura-homework.qmd
@@ -40,39 +44,45 @@ website:
     left:
       - text: "Home"
         href: index.qmd
-      - text: "Farm Units"
+      - text: "Course Plan"
         href: units-overview.Rmd
-      - text: "Unit 1: Sector and Safety"
-        href: sector-and-safety.qmd
-      - text: "Unit 1: Animal Care"
-        href: unit-1-animal-care.qmd
-      - text: "Unit 2: Garden Maintenance"
-        href: unit-2-garden-maintenance.qmd
-      - text: "Unit 3: Restoration"
-        href: unit-3-restoration.qmd
-      - text: "Unit 4: Environmental Observation"
-        href: unit-4-environmental-observation.qmd
-      - text: "Unit 5: Organisation"
-        href: unit-5-organisation.qmd
+      - text: "Health and Safety Policy"
+        href: health-and-safety.qmd
+      - text: "Student Safety Handout"
+        href: health-and-safety-handout.qmd
+      - text: "Teacher Safety Checklist"
+        href: health-and-safety-teacher-checklist.qmd
+      - text: "Safety Induction Slip"
+        href: health-and-safety-induction-slip.qmd
+      - text: "School Farm Mapping"
+        href: mapping.qmd
       - text: "Farm Missions"
         href: unit-missions-index.qmd
-      - text: "Unit 2: Mapping"
-        href: mapping.qmd
-      - text: "Unit 3: Potato Patch"
-        href: potato-patch.qmd
-      - text: "Unit 4: Farm Dogs"
+      - text: "Mission 1: Animal Care"
+        href: unit-1-animal-care.qmd
+      - text: "Mission 2: Garden Maintenance"
+        href: unit-2-garden-maintenance.qmd
+      - text: "Mission 3: Restoration"
+        href: unit-3-restoration.qmd
+      - text: "Mission 4: Environmental Observation"
+        href: unit-4-environmental-observation.qmd
+      - text: "Mission 5: Organisation"
+        href: unit-5-organisation.qmd
+      - text: "Sector and Safety"
+        href: sector-and-safety.qmd
+      - text: "Farm Dogs"
         href: farm-dogs.qmd
-      - text: "Unit 5: Apple Unit"
+      - text: "Apple Unit"
         href: apple-unit.qmd
-      - text: "Unit 6: Refractometer"
+      - text: "Refractometer"
         href: refractometer-unit.qmd
-      - text: "Unit 7: Weather"
+      - text: "Weather"
         href: weather-dunedin-kaikorai.qmd
-      - text: "Unit 8: Autumn Planting"
+      - text: "Autumn Planting"
         href: autumn-planting-seedlings.qmd
-      - text: "Unit 9: Hazards Project"
+      - text: "Hazards Project"
         href: hazards-unit.qmd
-      - text: "Unit 10: Kōura"
+      - text: "Kōura"
         href: koura-unit.qmd
       - text: "Friday Close-Down"
         href: friday-closedown.qmd
