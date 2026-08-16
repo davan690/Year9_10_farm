@@ -8,6 +8,8 @@ format:
     theme: zephyr
 ---
 
+![Streamside habitat and freshwater care](https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1200&q=80){width=75%}
+
 ## Kōura homework task
 
 ### Task 1: Read and respond

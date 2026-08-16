@@ -5,6 +5,8 @@ format:
     toc: false
 ---
 
+![Student farm safety briefing](https://images.unsplash.com/photo-1471193945509-9ad0617afabf?auto=format&fit=crop&w=1200&q=80){width=75%}
+
 ## Farm Safety First
 
 Before you work on the farm, remember: safety comes first. The farm is a real workplace, and the rules are there to keep you, other people, and the animals safe.

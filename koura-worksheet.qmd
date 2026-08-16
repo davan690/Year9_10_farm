@@ -8,6 +8,8 @@ format:
     theme: zephyr
 ---
 
+![Freshwater stream habitat for kōura](https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80){width=75%}
+
 ## Kōura investigation worksheet
 
 ### Part A: Know the species

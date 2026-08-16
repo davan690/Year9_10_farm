@@ -7,6 +7,8 @@ output: html_document
 
 ## Unit overview
 
+![Using a refractometer to test fruit sweetness](https://images.unsplash.com/photo-1464226184884-faecb6ac7b5a?auto=format&fit=crop&w=1200&q=80){width=70%}
+
 This unit uses practical farm produce testing to connect physics, biology, and measurement.
 Students use a handheld refractometer to measure sugar concentration (Brix) in fruit and vegetables collected from around the school farm.
 

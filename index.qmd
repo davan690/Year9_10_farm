@@ -4,6 +4,8 @@ title: "Urban Farm Applied Mathematics"
 
 ## Welcome
 
+![Farm learning environment](images/farm-photos/farm_barn.jpg){width=80%}
+
 This standalone site contains the Kaikoria Valley College Urban Farm units 2026. The units are designed to be used in the context of the school farm, providing students with practical applications of agriculture and horticulture while exploring mathematical concepts through real-world scenarios.
 
 ## Course Overview

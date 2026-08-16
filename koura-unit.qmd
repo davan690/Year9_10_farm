@@ -15,6 +15,8 @@ execute:
 
 ## Overview
 
+![Freshwater stream habitat for kōura](https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80){width=70%}
+
 This 7-week unit introduces Year 9/10 students to the freshwater crayfish or kōura (*Paranephrops zealandicus*) as a taonga species and a practical case study in stream ecology, agriculture, and data investigation. Students explore how land use, riparian shade, water temperature, and habitat complexity affect kōura survival and growth.
 
 The unit links field science with mathematics by asking students to collect, organise, compare, and interpret data. It also builds cultural understanding through kaitiakitanga, mātauranga Māori, and the idea of mahinga kai.

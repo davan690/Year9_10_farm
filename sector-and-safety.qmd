@@ -5,6 +5,8 @@ date: "`r Sys.Date()`"
 output: html_document
 ---
 
+![Primary industries and farm work](https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=1200&q=80){width=75%}
+
 ## Overview
 
 This opening unit is built directly from the booklet in [resources/Farm Booklet 1 (Sector and Safety).pdf](resources/Farm%20Booklet%201%20%28Sector%20and%20Safety%29.pdf).
